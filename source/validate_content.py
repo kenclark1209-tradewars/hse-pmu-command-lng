@@ -70,3 +70,14 @@ for item in O['legalGates']+O['decisions']:
 for stage in O['roadmap']:
     assert len(stage['steps'])==5 and len(stage['outputs'])==3
 print('PASS owner focus:',len(O['practiceDrills']),'executive mock interviews,',len(O['priorityQuestions']),'priority questions,',len(O['decisions']),'authority scenarios,',len(O['legalGates']),'legal gates')
+
+# v4: indexed clause references and practical interview examples
+assert len(D["legalClauses"]) == 36
+clause_ids = {x["id"] for x in D["legalClauses"]}
+assert len(clause_ids) == 36
+assert all(x["sourceId"] in source_ids and x["clause"] and x["scope"] and x["url"].startswith("https://") for x in D["legalClauses"])
+assert all(len(task.get("legalPins",[])) >= 2 and all(p["clauseId"] in clause_ids for p in task["legalPins"]) for task in D["tasks"])
+assert all(len(q.get("caseExample","")) >= 90 for q in D["interview"])
+assert all(len(drill.get("caseExample","")) >= 90 for drill in O["practiceDrills"])
+assert len(O.get("trungNamPractice", [])) == 4
+print("PASS v4:",len(clause_ids),"clauses,",len(D["interview"]),"interview examples, owner drills and Trung Nam reference cards")
