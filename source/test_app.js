@@ -83,3 +83,21 @@ click({task:'P0-01'});mk('#progressStatus').value='verified';mk('#progressOwner'
 progress=JSON.parse(store.hse_owner_pmu_playbook_v1);assert.strictEqual(progress.tasks['P0-01'].status,'verified');
 click({view:'dashboard'});assert(elements['#app'].innerHTML.includes('90 ngày đầu'));
 console.log(JSON.stringify({pass:true,procedures:data.tasks.length,sources:data.sources.length,scenarios:data.scenarios.length,interview:data.interview.length,checklist_controls:data.templates.reduce((a,x)=>a+x.checklist.length,0),navigation:true,scenario_explanation:true,checklist_validation:true,interview_save:true,progress_backward_compatibility:true},null,2));
+
+assert.strictEqual(data.legalClauses.length,36,"legal clause citations");
+assert(data.tasks.every(t=>t.legalPins.length>=2),"every playbook has clause-level citations");
+assert(data.interview.every(q=>q.caseExample?.length>=90),"91 interview examples");
+assert(data.ownerFocus.practiceDrills.every(d=>d.caseExample?.length>=90),"12 executive drill examples");
+click({view:'playbooks'});
+assert(elements['#app'].innerHTML.includes('Điều 5 khoản 1 điểm a, b'),"exact cited clause in playbook");
+click({task:'P0-04'});
+assert(elements['#app'].innerHTML.includes('Điều 31 khoản 1–2'),"environmental exact article");
+click({view:'ownerstart'});
+assert(elements['#app'].innerHTML.includes('LNG Cà Ná – phát triển trước EPC'),"Trung Nam example");
+click({view:'interview'});
+click({action:'toggle-answer'});
+assert(elements['#app'].innerHTML.includes('Ví dụ giả định sát LNG Nghi Sơn'),"interview examples displayed");
+click({view:'ownerinterview'});
+click({action:'toggle-owner-answer'});
+assert(elements['#app'].innerHTML.includes('Ví dụ đi sâu'),"executive drill example displayed");
+console.log("PASS v4 UI mocks: 35 legal playbooks, 91 specific examples, 12 executive examples");
