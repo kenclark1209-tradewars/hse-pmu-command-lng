@@ -1,0 +1,14 @@
+# Local data and credentials
+.env
+.env.*
+*.local.json
+*.backup.json
+*.db
+*.sqlite
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
