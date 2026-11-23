@@ -1,57 +1,85 @@
+// Static + interactive smoke test for standalone application (no external packages).
 const vm=require('vm'),fs=require('fs'),assert=require('assert');
 const html=fs.readFileSync(__dirname+'/../index.html','utf8');
 const m=html.match(/<script id="app-data" type="application\/json">([\s\S]*?)<\/script>/);
-assert(m,'data not found');const data=JSON.parse(m[1]);assert.strictEqual(data.scenarios.length,50);assert.strictEqual(data.interview.length,91);assert.strictEqual(data.templates.reduce((sum,t)=>sum+t.checklist.length,0),100);
-const script=html.match(/<script>\n([\s\S]*?)<\/script>\n<\/body>/)[1];
-const elements={};
-function mk(id){return elements[id]||(elements[id]={innerHTML:'',textContent:'',value:'',dataset:{},addEventListener:(name,fn)=>{elements[id][name]=fn},focus(){},setSelectionRange(){},scrollIntoView(){},click(){},style:{}})};
-const handlers={};let store={};
-const document={
- getElementById(id){if(id==='app-data')return {textContent:m[1]};return mk('#'+id)},
- querySelector(q){return mk(q)},
- addEventListener(k,fn){handlers[k]=fn},
- documentElement:{setAttribute(){},getAttribute(){return 'dark'}},
- createElement(tag){return {href:'',download:'',style:{},click(){},remove(){}}},
- body:{appendChild(){}}
-};
-const context={document,window:{scrollTo(){},print(){}},localStorage:{getItem(k){return store[k]||null},setItem(k,v){store[k]=v}},alert(x){throw Error('Unexpected alert: '+x)},confirm(){return true},console,Date,Math,JSON,Object,Array,String,Number,Blob,URL:{createObjectURL(){return 'blob:dummy'},revokeObjectURL(){}},setTimeout(){}};
-vm.createContext(context);vm.runInContext(script,context,{timeout:10000});
-assert(elements['#app'].innerHTML.includes('Từ chuẩn bị dự án LNG'));
-assert(elements['#app'].innerHTML.includes('35 quy trình'));
-function click(d){handlers.click({target:{closest(){return {dataset:d}}}})}
-click({view:'playbooks'});assert(elements['#app'].innerHTML.includes('Playbook HSE BQLDA'));
-assert(elements['#app'].innerHTML.includes('P0-01'));
+assert(m,'Embedded source JSON missing');const data=JSON.parse(m[1]);
+assert.strictEqual(data.tasks.length,35);assert.strictEqual(data.sources.length,28);
+assert.strictEqual(data.scenarios.length,50);assert.strictEqual(data.interview.length,91);
+assert.strictEqual(data.templates.length,10);
+assert.strictEqual(data.ownerFocus.practiceDrills.length,12);
+assert.strictEqual(data.ownerFocus.priorityQuestions.length,24);
+assert.strictEqual(data.templates.reduce((a,t)=>a+t.checklist.length,0),100);
+assert(data.scenarios.every(x=>x.actions?.length>=3&&x.evidence?.length>=2));
+assert(data.interview.every(x=>x.model&&x.followup&&x.pitfall&&x.category));
+assert(data.templates.every(x=>x.checklist.every(c=>c.how&&c.evidence&&c.question)));
+assert(data.tasks.every(x=>Array.isArray(x.steps)&&x.steps.length>0));
+const sourceIds=new Set(data.sources.map(x=>x.id));
+for(let g of [data.scenarios,data.interview,data.templates,data.tasks]) for(let r of g) for(let id of r.refs||[])assert(sourceIds.has(id),`Invalid source ID ${id}`);
+const scripts=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];assert(scripts.length);
+scripts.forEach(s=>new vm.Script(s[1]));
+const elements={};function mk(id){return elements[id]||(elements[id]={innerHTML:'',textContent:'',value:'',dataset:{},checked:false,addEventListener:(name,fn)=>{elements[id][name]=fn},focus(){},setSelectionRange(){},scrollIntoView(){},click(){},style:{}})}
+const handlers={};let store={};const alerts=[];
+const document={getElementById(id){if(id==='app-data')return{textContent:m[1]};return mk('#'+id)},querySelector(q){return mk(q)},addEventListener(k,fn){handlers[k]=fn},documentElement:{setAttribute(){},getAttribute(){return'dark'}},createElement(){return{href:'',download:'',style:{},click(){},remove(){}}},body:{appendChild(){}}};
+const context={document,window:{scrollTo(){},print(){}},localStorage:{getItem(k){return store[k]||null},setItem(k,v){store[k]=v}},alert(s){alerts.push(s)},confirm(){return true},console,Date,Math,JSON,Object,Array,String,Number,Blob,URL:{createObjectURL(){return 'blob:dummy'},revokeObjectURL(){}},setTimeout(){}};
+vm.createContext(context);vm.runInContext(scripts.map(x=>x[1]).join('\n'),context,{timeout:10000});
+assert(elements['#app'].innerHTML.includes('HSE Manager phía chủ đầu tư'));
+function click(dataset){handlers.click({target:{closest(){return{dataset}}}})}
+function change(id,value){handlers.change({target:{id,value}})}
+click({view:'ownerstart'});assert(elements['#app'].innerHTML.includes('11 quyết định trọng yếu'));
+click({ownerDecision:'4'});assert(elements['#app'].innerHTML.includes('Đưa HSE vào đấu thầu EPC'));
+click({view:'ownerinterview'});assert(elements['#app'].innerHTML.includes('24 câu ưu tiên'));
+click({ownerDay:'2'});assert(elements['#app'].innerHTML.includes('Thiết kế – đấu thầu EPC'));
+click({ownerDrill:'1'});assert(elements['#app'].innerHTML.includes('chưa làm HSE chủ đầu tư từ FEED'));
+mk('#ownerAnswer').value='Tôi sẽ nhận diện khoảng trống và điều phối chuyên gia kỹ thuật đúng chuyên môn.';
+mk('#ownerScore').value='4';mk('#ownerEvidence').value='Bằng chứng đã từng thực hiện tại công trường';
+click({action:'save-owner-drill'});
+let own=JSON.parse(store.hse_owner_pmu_playbook_v1);assert.strictEqual(own.ownerPractice.OD02.score,4);
+click({action:'toggle-owner-answer'});assert(elements['#app'].innerHTML.includes('ĐÁP ÁN THAM KHẢO'));
+click({ownerOpenQ:'Q018'});assert(elements['#app'].innerHTML.includes('Legal/Permit Register'));
+click({view:'ownerplan'});assert(elements['#app'].innerHTML.includes('5 ngày đầu'));
+click({ownerStage:'1'});assert(elements['#app'].innerHTML.includes('Tuần 2: pháp lý'));
+mk('#ownerPlanStatus').value='verified';mk('#ownerPlanEvidence').value='TRIGGER-MATRIX-V1';
+click({action:'save-owner-stage'});
+own=JSON.parse(store.hse_owner_pmu_playbook_v1);assert.strictEqual(own.ownerMilestones['D6–D15'].status,'verified');
+click({view:'ownerlegal'});assert(elements['#app'].innerHTML.includes('Pháp lý'));
+click({ownerLegal:'2'});assert(elements['#app'].innerHTML.includes('PCCC &amp; CNCH'));
+click({view:'playbooks'});assert(elements['#app'].innerHTML.includes('P0-01'));
 click({task:'P3-03'});assert(elements['#app'].innerHTML.includes('Điều phối PSSR'));
 click({view:'legal'});assert(elements['#app'].innerHTML.includes('NĐ 207/2026/NĐ-CP'));
-click({view:'templates'});assert(elements['#app'].innerHTML.includes('Legal / Permit Register'));
-click({view:'scenarios'});assert(elements['#app'].innerHTML.includes('ĐTM chưa hoàn tất'));
+click({view:'scenarios'});assert(elements['#app'].innerHTML.includes('50 tình huống'));
+assert(elements['#app'].innerHTML.includes('ĐTM chưa hoàn tất'));
 click({choice:'S1:1'});assert(elements['#app'].innerHTML.includes('Đúng hướng quản trị'));
-click({view:'interview'});assert(elements['#app'].innerHTML.includes('91 câu hỏi'));
-// v2 feature checks
+assert(elements['#app'].innerHTML.includes('Việc anh phải tổ chức thực hiện'));
+click({case:'S40'});assert(elements['#app'].innerHTML.includes('Gói')||elements['#app'].innerHTML.includes('báo'));
+change('casePhase','P3');assert(elements['#app'].innerHTML.includes('Còn')||elements['#app'].innerHTML.includes('First gas')||elements['#app'].innerHTML.includes('ESD'));
+change('casePhase','all');click({action:'retry-case'});
 click({view:'templates'});assert(elements['#app'].innerHTML.includes('100 tiêu chí'));
-const checklistItem=data.templates[0].checklist[0].id;
-mk('#check-status-'+checklistItem).value='pass';
-mk('#check-evidence-'+checklistItem).value='TEST-EVIDENCE-0001';
+assert(elements['#app'].innerHTML.includes('Cách kiểm:'));
+click({template:'pssr'});assert(elements['#app'].innerHTML.includes('PSSR'));
+const first=data.templates.find(x=>x.id==='pssr').checklist[0].id;
+mk('#check-status-'+first).value='pass';
 click({action:'save-template-review'});
-let v2=JSON.parse(store.hse_owner_pmu_playbook_v1);
-assert(v2.templateChecks.legal[checklistItem].status==='pass');
-click({view:'interview'});assert(!elements['#app'].innerHTML.includes('GÓC NHÌN HỘI ĐỒNG'));
-mk('#interviewAnswer').value='Kiểm soát nghĩa vụ, bằng chứng và thẩm quyền dự án';
-mk('#interviewRating').value='4';
-click({action:'save-interview'});
-v2=JSON.parse(store.hse_owner_pmu_playbook_v1);
-assert(v2.interviews.Q001.score===4);
-click({action:'toggle-answer'});assert(elements['#app'].innerHTML.includes('Câu hỏi xoáy'));
-click({view:'glossary'});assert(elements['#app'].innerHTML.includes('HAZOP'));
-console.log(JSON.stringify({pass:true,tasks:data.tasks.length,sources:data.sources.length,scenarios:data.scenarios.length,templates:data.templates.length,interview:data.interview.length,glossary:data.glossary.length,renderedUI:true},null,2));
-// Test update task status and persistence (mock inputs)
-click({task:'P0-01'});
-mk('#progressStatus').value='verified';mk('#progressOwner').value='HSE BQLDA';mk('#progressEvidence').value='DOC-PMU-001';mk('#progressNote').value='Đã đối chiếu và ghi nhận evidence';mk('#progressDue').value='2026-12-01';
-click({action:'save-progress'});
-assert(store.hse_owner_pmu_playbook_v1,'progress not persisted');
+assert(alerts.some(s=>String(s).includes('bằng chứng')),'Must reject pass without evidence');
+mk('#check-evidence-'+first).value='PSSR-EV-01';
+click({action:'save-template-review'});
 let progress=JSON.parse(store.hse_owner_pmu_playbook_v1);
-assert(progress.tasks['P0-01'].status==='verified');
-assert(progress.tasks['P0-01'].evidence==='DOC-PMU-001');
-click({view:'dashboard'});
-assert(elements['#app'].innerHTML.includes('90 ngày đầu'));
-console.log('progress-save test pass');
+assert.strictEqual(progress.templateChecks.pssr[first].status,'pass');
+assert.strictEqual(progress.templateChecks.pssr[first].evidence,'PSSR-EV-01');
+click({downloadChecklist:'pssr'});
+click({ownerOpenQ:'Q001'});assert(elements['#app'].innerHTML.includes('91 câu hỏi'));
+assert(!elements['#app'].innerHTML.includes('GÓC NHÌN HỘI ĐỒNG'));
+mk('#interviewAnswer').value='Tôi xác định đúng scope và phân công, yêu cầu evidence và báo cáo PM.';
+mk('#interviewRating').value='4';mk('#interviewCheck0').checked=true;
+click({action:'save-interview'});
+progress=JSON.parse(store.hse_owner_pmu_playbook_v1);
+assert.strictEqual(progress.interviews.Q001.score,4);assert(progress.interviews.Q001.answer.includes('evidence'));
+click({action:'toggle-answer'});assert(elements['#app'].innerHTML.includes('GÓC NHÌN HỘI ĐỒNG'));
+assert(elements['#app'].innerHTML.includes('Câu hỏi xoáy'));
+click({nextInterview:'0'});assert(!elements['#app'].innerHTML.includes('GÓC NHÌN HỘI ĐỒNG'));
+change('interviewCategory','LNG & process safety');assert(elements['#app'].innerHTML.includes('LNG'));
+change('interviewCategory','all');click({action:'random-interview'});
+click({view:'glossary'});assert(elements['#app'].innerHTML.includes('HAZOP'));
+click({task:'P0-01'});mk('#progressStatus').value='verified';mk('#progressOwner').value='HSE BQLDA';mk('#progressEvidence').value='DOC-PMU-001';mk('#progressNote').value='Đã đối chiếu';mk('#progressDue').value='2026-12-01';click({action:'save-progress'});
+progress=JSON.parse(store.hse_owner_pmu_playbook_v1);assert.strictEqual(progress.tasks['P0-01'].status,'verified');
+click({view:'dashboard'});assert(elements['#app'].innerHTML.includes('90 ngày đầu'));
+console.log(JSON.stringify({pass:true,procedures:data.tasks.length,sources:data.sources.length,scenarios:data.scenarios.length,interview:data.interview.length,checklist_controls:data.templates.reduce((a,x)=>a+x.checklist.length,0),navigation:true,scenario_explanation:true,checklist_validation:true,interview_save:true,progress_backward_compatibility:true},null,2));

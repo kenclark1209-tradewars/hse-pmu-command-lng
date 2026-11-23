@@ -1,5 +1,18 @@
 # Changelog
 
+## v3.0.0 — 2026-11-23
+
+- Ưu tiên hoàn toàn **HSE phía chủ đầu tư** theo xác nhận ứng viên từ nhân sự. Chưa suy đoán pháp nhân dự án, JD, quyền ký và tình trạng lựa chọn nhà đầu tư.
+- Mở 4 màn hình: Vai trò chủ đầu tư, Phỏng vấn 27/11, Nhận việc 30–60–90 và Pháp lý theo mốc.
+- Bổ sung 11 mô phỏng phân quyền, 7 legal trigger gates, 7 câu cần làm rõ với Project Director, 5 mốc triển khai sau nhận việc và 5 nhịp quản trị.
+- Lộ trình phỏng vấn ngày 23–27/11, 24 câu trọng điểm chọn từ 91 câu và 12 mock interviews mức quản lý với câu hỏi xoáy và bằng chứng.
+- Cập nhật câu Q090 để **không hỏi lại** điều nhân sự đã xác nhận (owner-side).
+- Nâng thư viện lên **28** nguồn, thêm văn bản hợp nhất PCCC 2026 để định hướng đối chiếu.
+- Bổ sung lưu bài mock, tiến độ nhận việc và JSON export/import v3 giữ tương thích dữ liệu localStorage v1/v2.
+- Thêm brief một trang [`OWNER_HSE_BRIEF_27-11.md`](OWNER_HSE_BRIEF_27-11.md).
+- Kiểm thử Node và kiểm tra toàn vẹn dữ liệu; việc render browser Chromium vẫn cần kiểm tra thủ công trên máy người dùng.
+
+
 ## v2.0.0 — 2026-11-23
 
 - Mở rộng tình huống giả định HSE BQLDA từ 8 lên **50**, có lọc theo giai đoạn/độ khó, hướng xử lý, bằng chứng, escalation, bẫy phỏng vấn, nguồn tra cứu và làm lại ca đã thử.

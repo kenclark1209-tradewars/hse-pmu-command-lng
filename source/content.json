@@ -134,7 +134,7 @@
       "date": "29/01/2026",
       "url": "https://vanban.chinhphu.vn/?classid=1&docid=216867&pageid=27160&typegroupid=4",
       "use": "Rà soát thủ tục môi trường theo quy định cập nhật tại thời điểm dự án chuẩn bị đầu tư.",
-      "note": "Không tự xác định nghĩa vụ ĐTM/giấy phép cho LNG Nghi Sơn khi chưa có hồ sơ phân loại và phạm vi thiết kế."
+      "note": "Không tự xác định nghĩa vụ ĐTM/giấy phép cho LNG Nghi Sơn khi chưa có hồ sơ phân loại và phạm vi thiết kế. Đối chiếu thủ tục/biểu mẫu hiện hành theo hạng mục, không suy luận chỉ từ tên dự án LNG."
     },
     {
       "id": "PCCC",
@@ -145,7 +145,7 @@
       "date": "01/07/2025",
       "url": "https://vanban.chinhphu.vn/?classid=1&docid=212483&pageid=27160&typegroupid=3",
       "use": "Trách nhiệm PCCC/CNCH, thẩm định thiết kế và các nghĩa vụ theo từng cơ sở/công trình.",
-      "note": "Có sửa đổi bởi Luật 118/2025 và Luật Xây dựng 135/2025 từ 01/07/2026; sử dụng văn bản hợp nhất mới nhất khi xác định thủ tục."
+      "note": "Có sửa đổi bởi Luật 118/2025 và Luật Xây dựng 135/2025 từ 01/07/2026; sử dụng văn bản hợp nhất mới nhất khi xác định thủ tục. Tra cứu bổ sung văn bản hợp nhất/sửa đổi năm 2026 và NĐ 105/2025."
     },
     {
       "id": "ND105",
@@ -333,6 +333,17 @@
       "url": "https://vbpl.moj.gov.vn/botainguyen/Pages/vbpq-toanvan.aspx?ItemID=186269",
       "use": "Có sửa đổi Luật Bảo vệ môi trường; cần đối chiếu nghĩa vụ ĐTM/giấy phép khi áp dụng luật hiện hành.",
       "note": "Đọc cùng Luật BVMT 72/2020 và các nghị định sửa đổi, không viện dẫn bản luật gốc riêng rẽ."
+    },
+    {
+      "id": "PCCCVBHN26",
+      "code": "VBHN 58/2026 Luật PCCC & CNCH",
+      "title": "Văn bản hợp nhất Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ sau sửa đổi năm 2026",
+      "domain": "PCCC & CNCH",
+      "kind": "Pháp luật VN",
+      "date": "2026",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/58-vbhn-vpqh.pdf",
+      "use": "Theo dõi thẩm định thiết kế, trách nhiệm của các chủ thể và sửa đổi của Luật 118/2025 và Luật Xây dựng 135/2025.",
+      "note": "Bản hợp nhất để tra cứu; kiểm tra văn bản gốc và văn bản sửa đổi có hiệu lực khi kết luận."
     }
   ],
   "gates": [
@@ -4923,7 +4934,8 @@
         "IOGP"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp."
+      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
+      "ownerPriority": "core"
     },
     {
       "q": "Anh sẽ làm gì trong 30 ngày đầu khi chưa có EPC?",
@@ -4947,7 +4959,8 @@
         "Q19"
       ],
       "related": "P0-03",
-      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp."
+      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
+      "ownerPriority": "core"
     },
     {
       "q": "Vì sao chủ đầu tư cần HSE trong khi EPC có 30 HSE?",
@@ -4969,7 +4982,8 @@
         "IOGP"
       ],
       "related": "P2-03",
-      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp."
+      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
+      "ownerPriority": "extended"
     },
     {
       "q": "Anh có thể tự ký phê duyệt HAZOP hoặc QRA?",
@@ -4992,7 +5006,8 @@
         "NFPA59A"
       ],
       "related": "P1-05",
-      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp."
+      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
+      "ownerPriority": "extended"
     },
     {
       "q": "Khi tiến độ xung đột với an toàn?",
@@ -5015,7 +5030,8 @@
         "IOGP"
       ],
       "related": "P2-03",
-      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp."
+      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
+      "ownerPriority": "extended"
     },
     {
       "q": "Bộ KPI nào dùng để báo cáo lãnh đạo?",
@@ -5037,7 +5053,8 @@
         "ND207"
       ],
       "related": "P2-06",
-      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp."
+      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
+      "ownerPriority": "extended"
     },
     {
       "q": "Từ kinh nghiệm SHEQ ở NORTALIC, anh chuyển giao gì?",
@@ -5060,7 +5077,8 @@
         "IOGP"
       ],
       "related": "P0-03",
-      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp."
+      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
+      "ownerPriority": "extended"
     },
     {
       "q": "Đã 7 triệu giờ an toàn là đóng góp của riêng anh?",
@@ -5081,7 +5099,8 @@
         "IOGP"
       ],
       "related": "P2-06",
-      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp."
+      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
+      "ownerPriority": "extended"
     },
     {
       "q": "LNG có rủi ro nào khác lọc hóa dầu?",
@@ -5105,7 +5124,8 @@
         "TC8613"
       ],
       "related": "P3-03",
-      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp."
+      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
+      "ownerPriority": "extended"
     },
     {
       "q": "Nếu Trung Nam chưa rõ đơn vị chủ đầu tư pháp lý?",
@@ -5128,7 +5148,8 @@
         "ND210"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp."
+      "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q011",
@@ -5151,7 +5172,8 @@
         "IOGP"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q012",
@@ -5171,7 +5193,8 @@
       "pitfall": "Nói chuyển việc vì không thích đi hiện trường hoặc vì “quản lý nhàn hơn”.",
       "refs": [],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q013",
@@ -5194,7 +5217,8 @@
         "ND207"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q014",
@@ -5218,7 +5242,8 @@
         "Q19"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q015",
@@ -5241,7 +5266,8 @@
         "ND207"
       ],
       "related": "P1-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q016",
@@ -5264,7 +5290,8 @@
         "IOGP"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q017",
@@ -5289,7 +5316,8 @@
         "Q19"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q018",
@@ -5314,7 +5342,8 @@
         "PCCC"
       ],
       "related": "P0-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q019",
@@ -5338,7 +5367,8 @@
         "IFCGEN"
       ],
       "related": "P0-06",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q020",
@@ -5363,7 +5393,8 @@
         "ND207"
       ],
       "related": "P0-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q021",
@@ -5387,7 +5418,8 @@
         "IFCGEN"
       ],
       "related": "P0-07",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q022",
@@ -5410,7 +5442,8 @@
         "ND207"
       ],
       "related": "P0-02",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q023",
@@ -5433,7 +5466,8 @@
         "XD"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q024",
@@ -5456,7 +5490,8 @@
         "IOGP"
       ],
       "related": "P0-08",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q025",
@@ -5480,7 +5515,8 @@
         "MT"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q026",
@@ -5503,7 +5539,8 @@
         "ND207"
       ],
       "related": "P0-09",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q027",
@@ -5527,7 +5564,8 @@
         "ND48"
       ],
       "related": "P0-04",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q028",
@@ -5551,7 +5589,8 @@
         "IOGP"
       ],
       "related": "P0-04",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q029",
@@ -5575,7 +5614,8 @@
         "Q06"
       ],
       "related": "P0-05",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q030",
@@ -5599,7 +5639,8 @@
         "MT"
       ],
       "related": "P0-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q031",
@@ -5622,7 +5663,8 @@
         "TC8611"
       ],
       "related": "P0-10",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q032",
@@ -5646,7 +5688,8 @@
         "ND48"
       ],
       "related": "P2-08",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q033",
@@ -5670,7 +5713,8 @@
         "PCCC"
       ],
       "related": "P0-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q034",
@@ -5694,7 +5738,8 @@
         "IOGP"
       ],
       "related": "P2-08",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q035",
@@ -5718,7 +5763,8 @@
         "PCCC"
       ],
       "related": "P0-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q036",
@@ -5742,7 +5788,8 @@
         "ND210"
       ],
       "related": "P1-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q037",
@@ -5766,7 +5813,8 @@
         "NFPA59A"
       ],
       "related": "P1-04",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q038",
@@ -5790,7 +5838,8 @@
         "NFPA59A"
       ],
       "related": "P1-05",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q039",
@@ -5813,7 +5862,8 @@
         "ND210"
       ],
       "related": "P1-02",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q040",
@@ -5836,7 +5886,8 @@
         "Q18"
       ],
       "related": "P2-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q041",
@@ -5860,7 +5911,8 @@
         "IOGP"
       ],
       "related": "P1-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q042",
@@ -5884,7 +5936,8 @@
         "ND210"
       ],
       "related": "P1-04",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q043",
@@ -5908,7 +5961,8 @@
         "IOGP"
       ],
       "related": "P1-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q044",
@@ -5932,7 +5986,8 @@
         "IOGP"
       ],
       "related": "P1-05",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q045",
@@ -5956,7 +6011,8 @@
         "ND210"
       ],
       "related": "P1-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q046",
@@ -5979,7 +6035,8 @@
         "IOGP"
       ],
       "related": "P2-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q047",
@@ -6003,7 +6060,8 @@
         "IOGP"
       ],
       "related": "P2-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q048",
@@ -6026,7 +6084,8 @@
         "IOGP"
       ],
       "related": "P2-07",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q049",
@@ -6049,7 +6108,8 @@
         "ND207"
       ],
       "related": "P2-04",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q050",
@@ -6073,7 +6133,8 @@
         "IOGP"
       ],
       "related": "P2-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q051",
@@ -6096,7 +6157,8 @@
         "ND207"
       ],
       "related": "P2-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q052",
@@ -6119,7 +6181,8 @@
         "ND207"
       ],
       "related": "P2-06",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q053",
@@ -6142,7 +6205,8 @@
         "IOGP"
       ],
       "related": "P2-02",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q054",
@@ -6165,7 +6229,8 @@
         "AT"
       ],
       "related": "P2-06",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q055",
@@ -6188,7 +6253,8 @@
         "ND207"
       ],
       "related": "P2-06",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q056",
@@ -6213,7 +6279,8 @@
         "TC8613"
       ],
       "related": "P0-10",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q057",
@@ -6237,7 +6304,8 @@
         "NFPA59A"
       ],
       "related": "P3-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q058",
@@ -6261,7 +6329,8 @@
         "IOGP"
       ],
       "related": "P3-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q059",
@@ -6285,7 +6354,8 @@
         "IFCGEN"
       ],
       "related": "P3-02",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q060",
@@ -6309,7 +6379,8 @@
         "IFCGEN"
       ],
       "related": "P1-05",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q061",
@@ -6332,7 +6403,8 @@
         "NFPA59A"
       ],
       "related": "P3-02",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q062",
@@ -6356,7 +6428,8 @@
         "IOGP"
       ],
       "related": "P1-05",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q063",
@@ -6380,7 +6453,8 @@
         "Q19"
       ],
       "related": "P3-04",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q064",
@@ -6404,7 +6478,8 @@
         "IFCGEN"
       ],
       "related": "P2-07",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q065",
@@ -6427,7 +6502,8 @@
         "Q19"
       ],
       "related": "P3-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q066",
@@ -6451,7 +6527,8 @@
         "Q18"
       ],
       "related": "P2-09",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q067",
@@ -6475,7 +6552,8 @@
         "IOGP"
       ],
       "related": "P2-09",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q068",
@@ -6499,7 +6577,8 @@
         "IOGP"
       ],
       "related": "P2-09",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q069",
@@ -6523,7 +6602,8 @@
         "IFCGEN"
       ],
       "related": "P3-02",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q070",
@@ -6546,7 +6626,8 @@
         "IFCGEN"
       ],
       "related": "P2-08",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q071",
@@ -6570,7 +6651,8 @@
         "IFCGEN"
       ],
       "related": "P2-09",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q072",
@@ -6594,7 +6676,8 @@
         "MT"
       ],
       "related": "P2-10",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q073",
@@ -6618,7 +6701,8 @@
         "IFCGEN"
       ],
       "related": "P2-08",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q074",
@@ -6642,7 +6726,8 @@
         "Q19"
       ],
       "related": "P2-06",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q075",
@@ -6665,7 +6750,8 @@
         "ND207"
       ],
       "related": "P0-08",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q076",
@@ -6688,7 +6774,8 @@
         "Q18"
       ],
       "related": "P2-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q077",
@@ -6711,7 +6798,8 @@
         "ND207"
       ],
       "related": "P2-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q078",
@@ -6734,7 +6822,8 @@
         "XD"
       ],
       "related": "P1-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q079",
@@ -6757,7 +6846,8 @@
         "IFCGEN"
       ],
       "related": "P2-06",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q080",
@@ -6780,7 +6870,8 @@
         "ND207"
       ],
       "related": "P2-06",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q081",
@@ -6803,7 +6894,8 @@
         "Q19"
       ],
       "related": "P2-06",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q082",
@@ -6823,7 +6915,8 @@
       "pitfall": "Nói “tôi từng quản lý ngân sách rất lớn” mà không có số và phạm vi.",
       "refs": [],
       "related": "P0-08",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q083",
@@ -6843,7 +6936,8 @@
       "pitfall": "Nghĩ BQLDA là chức danh chỉ họp văn phòng.",
       "refs": [],
       "related": "P3-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q084",
@@ -6863,7 +6957,8 @@
       "pitfall": "Nói bất kỳ số nào do người phỏng vấn gây áp lực.",
       "refs": [],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q085",
@@ -6886,7 +6981,8 @@
         "IOGP"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q086",
@@ -6908,7 +7004,8 @@
         "IOGP"
       ],
       "related": "P2-07",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q087",
@@ -6931,7 +7028,8 @@
         "TC8611"
       ],
       "related": "P0-10",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q088",
@@ -6951,7 +7049,8 @@
       "pitfall": "Từ chối chỉ vì tên chức danh, không xem job scope.",
       "refs": [],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q089",
@@ -6973,27 +7072,29 @@
         "IOGP"
       ],
       "related": "P2-03",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "extended"
     },
     {
       "id": "Q090",
-      "q": "Ba câu hỏi cuối buổi anh nên hỏi Giám đốc dự án là gì?",
+      "q": "Đã biết tôi ứng tuyển phía chủ đầu tư. Anh sẽ hỏi Giám đốc dự án ba câu gì để chuẩn bị làm việc hiệu quả?",
       "key": [
-        "Nêu kết luận và ưu tiên quản trị ngay trong 15–20 giây đầu.",
-        "Đưa ra tối thiểu ba hành động cụ thể có owner, mốc và evidence.",
-        "Phân định chủ đầu tư – EPC – pháp lý – kỹ thuật; không nhận chữ ký vượt quyền.",
-        "Chỉ rõ gate/điều kiện mở lại và escalation khi critical control không đạt."
+        "Hỏi rõ pháp nhân và reporting line mà không lặp lại câu HSE owner/EPC đã được HR xác nhận.",
+        "Làm rõ milestone dự án và 3 ưu tiên HSE trong 3–6 tháng.",
+        "Làm rõ quyền review / approve, stop-work và mô hình kỹ thuật/pháp lý.",
+        "Chốt kết quả 30–90 ngày đầu và năng lực/nguồn lực hỗ trợ."
       ],
       "hint": "Trả lời theo: mục tiêu → hành động cụ thể → bằng chứng → quyền quyết định → mốc theo dõi.",
       "category": "Hành vi & HR",
       "difficulty": "Trung bình",
-      "intent": "Thành thật kinh nghiệm, thái độ quản lý và mục tiêu phù hợp",
-      "model": "Tôi hỏi: (1) Vị trí HSE Manager thuộc pháp nhân và bộ máy nào, có trách nhiệm HSE BQLDA/owner hay EPC? (2) Các ưu tiên HSE trong 3–6 tháng tới là khung pháp lý, design assurance, đấu thầu hay mobilization? (3) Quyền hạn ra quyết định/stop-work, đội HSE, reporting line và cơ chế huy động chuyên gia như thế nào? Đây là ba đầu vào để cam kết deliverables có thể đo.",
+      "intent": "Đặt câu hỏi cấp quản lý đúng trọng tâm, không hỏi lại điều HR đã xác nhận.",
+      "model": "Tôi xin làm rõ ba nhóm thông tin: (1) Pháp nhân ký hợp đồng, reporting line và cơ chế phân quyền, đặc biệt ranh giới các nội dung HSE có thể review, những nội dung cần kỹ thuật/pháp lý phê duyệt; (2) Dự án hiện ở mốc nào của lựa chọn nhà đầu tư, thiết kế, thủ tục, EPC và ba ưu tiên HSE trong 3–6 tháng tới; (3) Bộ phận HSE hiện có nhân sự/nguồn lực gì và Project Director kỳ vọng đầu ra cụ thể nào trong 30–90 ngày đầu. Tôi hỏi để cam kết đúng công việc có thể đo được, không phải để yêu cầu thông tin nội bộ chưa được phép công khai.",
       "followup": "Nếu hội đồng chưa được phép cung cấp sơ đồ tổ chức thì hỏi tiếp gì?",
-      "pitfall": "Hỏi ngay thông tin dự án mật mà công ty chưa được phép công khai.",
+      "pitfall": "Lặp câu “chủ đầu tư hay EPC” mà HR đã trả lời; hỏi thông tin mật hoặc lương trước khi hiểu trách nhiệm.",
       "refs": [],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     },
     {
       "id": "Q091",
@@ -7016,7 +7117,8 @@
         "XD"
       ],
       "related": "P0-01",
-      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến."
+      "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
+      "ownerPriority": "core"
     }
   ],
   "glossary": [
@@ -7170,5 +7272,842 @@
       "Quyết định cho phép / chưa cho phép",
       "Quyết định quản trị tại các mốc sẵn sàng, không thay thế giấy phép pháp lý."
     ]
-  ]
+  ],
+  "ownerFocus": {
+    "version": "3.0",
+    "asOf": "23/11/2026",
+    "confirmed": [
+      "Theo cuộc gọi của ứng viên ngày 23/11/2026, bộ phận nhân sự Trung Nam xác nhận vị trí tuyển dụng nằm phía chủ đầu tư, không phải EPC.",
+      "Ứng viên được mời phỏng vấn 16:00, thứ Sáu 27/11/2026.",
+      "Kinh nghiệm đã khai: HSE/HSSE tại LILAMA trên công trường Lọc hóa dầu Nghi Sơn (gia nhập khi công trường đã thi công); hiện quản lý SHEQ ở môi trường công nghiệp."
+    ],
+    "unknown": [
+      "Tên pháp nhân ký hợp đồng lao động, cấp quản lý trực tiếp và quyết định thành lập/phân cấp của BQLDA.",
+      "Tình trạng lựa chọn nhà đầu tư chính thức, quy mô cuối cùng, hợp đồng EPC và phạm vi LNG–cảng–đường ống–nhà máy điện tại thời điểm nhận việc.",
+      "Dự án đã có FEED/FS/ĐTM/PCCC/HAZID/HAZOP đến đâu; hồ sơ nào đã được phê duyệt, hồ sơ nào chỉ là dự thảo.",
+      "Quyền tạm dừng, quyền review/accept/approve từng loại hồ sơ; HSE team và ngân sách được giao."
+    ],
+    "role": "HSE Manager BQLDA / phía chủ đầu tư: người tổ chức khung HSE dự án, quản trị các rủi ro trọng yếu, tích hợp yêu cầu HSE trong thiết kế–hợp đồng–giám sát; kiểm chứng việc thực hiện và tham mưu quyết định cho Project Director. Không thay Legal, kỹ sư thiết kế, tư vấn chuyên ngành hoặc HSE EPC.",
+    "priority": [
+      "Xác định pháp nhân–phân quyền–phạm vi, trước khi kết luận bất kỳ nghĩa vụ hoặc người được ký.",
+      "Lập legal / permit / condition register theo hạng mục và thời điểm kích hoạt.",
+      "Lập project major hazard register và assurance plan theo risk-based controls.",
+      "Thiết lập Employer HSE Requirements có bằng chứng đo được đưa vào EPC tender/contract.",
+      "Quản lý giao diện (interface), sẵn sàng mobilization và giai đoạn PSSR/first gas qua đúng technical authority."
+    ],
+    "interviewDays": [
+      {
+        "date": "23/11",
+        "title": "Định vị vai trò + câu chuyện bản thân",
+        "focus": "Nói trôi chảy 90 giây về giá trị phía chủ đầu tư; hiểu không làm thay EPC và không nhận công trạng cá nhân của tập thể.",
+        "qids": [
+          "Q001",
+          "Q007",
+          "Q008",
+          "Q011",
+          "Q013",
+          "Q014",
+          "Q015",
+          "Q091"
+        ],
+        "output": "Một bài giới thiệu 90 giây + 3 dẫn chứng thật theo STAR; ghi rõ điều nào chưa trực tiếp làm."
+      },
+      {
+        "date": "24/11",
+        "title": "Tiền dự án, pháp lý và mốc triển khai",
+        "focus": "Biết yêu cầu bộ hồ sơ đầu vào; lập legal trigger matrix; hiểu khác biệt ĐTM, GPMT, PCCC và quy định xây dựng 2026.",
+        "qids": [
+          "Q002",
+          "Q017",
+          "Q018",
+          "Q020",
+          "Q021",
+          "Q025",
+          "Q027",
+          "Q029",
+          "Q031"
+        ],
+        "output": "Một trang báo cáo HSE 5 ngày đầu: 5 đỏ / 5 khoảng trống / 5 quyết định cần PM."
+      },
+      {
+        "date": "25/11",
+        "title": "Thiết kế – đấu thầu EPC – assurance",
+        "focus": "Trình bày Employer HSE Requirements, HAZID–HAZOP–QRA, contractor prequalification, bridging, 3 HSE giám sát 30 HSE EPC.",
+        "qids": [
+          "Q003",
+          "Q036",
+          "Q037",
+          "Q038",
+          "Q039",
+          "Q041",
+          "Q045",
+          "Q046",
+          "Q047"
+        ],
+        "output": "Nói thử 3 phút: điều khoản HSE cho EPC có 5 yêu cầu, bằng chứng và holder chịu trách nhiệm."
+      },
+      {
+        "date": "26/11",
+        "title": "Mock interview và câu hỏi khó của giám đốc",
+        "focus": "Luyện quyết định khi tiến độ–pháp lý–an toàn xung đột; sự cố; first gas/PSSR; KPI và lương.",
+        "qids": [
+          "Q005",
+          "Q058",
+          "Q066",
+          "Q074",
+          "Q078",
+          "Q084",
+          "Q085",
+          "Q087",
+          "Q090"
+        ],
+        "output": "Mock 30 phút, tự chấm 1–5; viết lại các câu dưới 4/5 theo cấu trúc Kết luận → Cách làm → Bằng chứng → Escalation."
+      },
+      {
+        "date": "27/11",
+        "title": "Phỏng vấn 16:00",
+        "focus": "Ôn 12 câu ưu tiên; chuẩn bị 3 câu hỏi ngược và không nhầm ứng tuyển BQLDA với EPC.",
+        "qids": [
+          "Q001",
+          "Q002",
+          "Q003",
+          "Q017",
+          "Q018",
+          "Q036",
+          "Q046",
+          "Q058",
+          "Q078",
+          "Q090",
+          "Q091"
+        ],
+        "output": "Xem giấy tờ, địa điểm, tới đúng giờ. Xác nhận reporting line, giai đoạn dự án, 90 ngày kỳ vọng."
+      }
+    ],
+    "priorityQuestions": [
+      {
+        "id": "Q001",
+        "why": "Điểm bị hỏi xoáy: LILAMA vào giữa dự án, nhưng nay tuyển từ tiền dự án."
+      },
+      {
+        "id": "Q013",
+        "why": "Chứng minh năng lực chuyển vai từ nhà thầu/nhà máy sang chủ đầu tư mà không phóng đại."
+      },
+      {
+        "id": "Q002",
+        "why": "Hội đồng muốn biết nhận việc là triển khai gì ngay, khi chưa có EPC."
+      },
+      {
+        "id": "Q010",
+        "why": "Không nhầm đơn vị phát triển dự án với pháp nhân chủ đầu tư, đơn vị ký hợp đồng."
+      },
+      {
+        "id": "Q017",
+        "why": "Ứng viên có biết yêu cầu hồ sơ gốc thay vì viết HSE Plan từ giả định? "
+      },
+      {
+        "id": "Q018",
+        "why": "Một HSE Manager owner-side phải biến điều luật thành công việc và bằng chứng."
+      },
+      {
+        "id": "Q020",
+        "why": "Dự án áp lực tiến độ: quản lý rủi ro lịch chứ không chỉ nói dừng."
+      },
+      {
+        "id": "Q021",
+        "why": "Project hazard register khác JSA của nhà thầu."
+      },
+      {
+        "id": "Q025",
+        "why": "Phân biệt nhà đầu tư quan tâm, chủ đầu tư pháp lý và quyền triển khai."
+      },
+      {
+        "id": "Q027",
+        "why": "ĐTM và GPMT khác nhau về trigger/timing: không áp một mẫu cho mọi hạng mục."
+      },
+      {
+        "id": "Q029",
+        "why": "Thẩm quyền PCCC là điểm dễ trả lời lỗi thời trong năm 2026."
+      },
+      {
+        "id": "Q031",
+        "why": "Nhắc đúng QCVN 19:2022/BCT cho kho LNG trên bờ, không áp cho mọi hạng mục."
+      },
+      {
+        "id": "Q036",
+        "why": "Biết đưa yêu cầu HSE vào EPC tender trước khi ký hợp đồng."
+      },
+      {
+        "id": "Q038",
+        "why": "Nắm logic HAZID / HAZOP / QRA nhưng không tự nhận là process safety engineer."
+      },
+      {
+        "id": "Q041",
+        "why": "Bảo vệ cơ chế can thiệp, phân quyền và hold point từ hợp đồng."
+      },
+      {
+        "id": "Q046",
+        "why": "Tư duy assurance khác việc bố trí nhiều supervisor."
+      },
+      {
+        "id": "Q047",
+        "why": "Pre-mobilization gate: năng lực, HSE Plan, emergency, permit và kiểm chứng."
+      },
+      {
+        "id": "Q058",
+        "why": "First gas/PSSR là rủi ro high consequence; HSE không mặc nhiên một mình ký."
+      },
+      {
+        "id": "Q066",
+        "why": "Incident command: 15 phút đầu xử lý đúng ưu tiên con người và thông tin."
+      },
+      {
+        "id": "Q074",
+        "why": "Báo cáo cho lãnh đạo bằng lead indicators, barrier và blocker thay vì chỉ số PPE."
+      },
+      {
+        "id": "Q078",
+        "why": "Chứng minh HSE giúp giữ tiến độ thông qua phòng ngừa rủi ro và thủ tục."
+      },
+      {
+        "id": "Q087",
+        "why": "Nêu khoảng trống LNG thực tế và cách bù bằng technical authority."
+      },
+      {
+        "id": "Q090",
+        "why": "Ba câu hỏi cuối buổi phải xác định được vai trò, kỳ vọng, quyền hạn."
+      },
+      {
+        "id": "Q091",
+        "why": "Closing 60 giây nhất quán, không hứa quá thẩm quyền."
+      }
+    ],
+    "clarify": [
+      {
+        "ask": "Pháp nhân nào tuyển dụng và ký EPC/giấy tờ dự án?",
+        "why": "Xác định đối tượng có nghĩa vụ pháp lý, approval authority và cấu trúc interface.",
+        "next": "Xin sơ đồ pháp nhân và giấy ủy quyền/phân cấp, không suy ra từ tên tập đoàn."
+      },
+      {
+        "ask": "Dự án đang ở bước đề xuất nhà đầu tư, lựa chọn chủ đầu tư, FS/FEED, ĐTM hay mời thầu EPC?",
+        "why": "Mỗi giai đoạn cần những HSE deliverables khác nhau.",
+        "next": "Xin baseline schedule, approved documents register và missing approvals."
+      },
+      {
+        "ask": "Hạng mục nào thuộc dự án và ai quản lý interface: nhà máy, kho LNG, cảng, tuyến ống, lưới đấu nối?",
+        "why": "Tránh bỏ sót vùng giao diện và áp sai quy chuẩn.",
+        "next": "Xin battery-limits drawing, package list, interface register."
+      },
+      {
+        "ask": "HSE báo cáo ai, được ký review gì, cấp nào phê duyệt, quy trình stop-work/escalation?",
+        "why": "Không ký nhầm HAZOP, QRA, PSSR, JSA, ĐTM/PCCC ngoài thẩm quyền.",
+        "next": "Xin authority matrix / RACI và chữ ký mẫu có hiệu lực."
+      },
+      {
+        "ask": "Đội HSE hiện tại, tư vấn EHS/process safety và nguồn lực dự kiến?",
+        "why": "Xác định năng lực có thể tự thực hiện và khi cần mời chuyên gia.",
+        "next": "Đề xuất staffing by phase, scope of services, assurance coverage."
+      },
+      {
+        "ask": "Kỳ vọng 30/60/90 ngày đầu và 3 điểm đau dự án ngay lúc này là gì?",
+        "why": "Cam kết kết quả theo nhu cầu thật của Giám đốc dự án.",
+        "next": "Chốt deliverables có owner, hạn, nguồn lực và acceptance criteria."
+      },
+      {
+        "ask": "Có dự kiến các gói EPC độc lập không, và ai là interface authority?",
+        "why": "Rủi ro SIMOPS và khoảng trống hợp đồng thường nằm giữa các gói.",
+        "next": "Thiết kế interface HSE rules và công việc assurance từ giai đoạn đấu thầu."
+      }
+    ],
+    "decisions": [
+      {
+        "title": "Phân định công việc / chữ ký",
+        "actual": "Không biết ai có thẩm quyền phê duyệt Project HSE Plan hoặc hồ sơ HAZOP.",
+        "hse": "Soạn ma trận RACI và approval workflow; gửi PM xác nhận, ghi rõ review/accept/approve.",
+        "others": "PM/Legal/Engineering/Technical Authority chịu trách nhiệm theo pháp luật, hợp đồng và phân cấp.",
+        "proof": "Quyết định phân quyền, danh sách ký duyệt, revision register.",
+        "stop": "Không đóng dấu “approved by HSE” nếu chỉ có quyền review.",
+        "refs": [
+          "ND207",
+          "XD"
+        ]
+      },
+      {
+        "title": "Phạm vi ĐTM, giấy phép môi trường",
+        "actual": "Tư vấn nói đã hoàn thành 80% ĐTM, PM muốn báo đủ thủ tục.",
+        "hse": "Yêu cầu trigger và scope; rà package/battery limits; gap log, mốc critical path; phối hợp pháp lý và tư vấn.",
+        "others": "Chủ thể dự án và cơ quan thẩm quyền theo pháp luật môi trường; tư vấn chịu chuyên môn hồ sơ.",
+        "proof": "Hồ sơ đã nộp, biên nhận, kết quả thẩm định/phê duyệt, điều kiện phải thực hiện.",
+        "stop": "Không kết luận “đã có phép” chỉ bằng phần trăm hoàn thành.",
+        "refs": [
+          "MT",
+          "ND08",
+          "ND05",
+          "ND48"
+        ]
+      },
+      {
+        "title": "Hồ sơ PCCC và thiết kế",
+        "actual": "Chưa rõ hạng mục nào phải thẩm định ở giai đoạn nào.",
+        "hse": "Yêu cầu Design/Legal lập design-stage/fire-safety matrix theo công năng, quy mô, quy chuẩn và văn bản hiện hành.",
+        "others": "Tư vấn thiết kế/technical reviewer và đúng chủ thể/cơ quan được luật phân công.",
+        "proof": "Design basis, scope matrix, kết quả thẩm định/kiểm tra, issue tracker.",
+        "stop": "Không nói mặc định Công an thẩm duyệt tất cả hay HSE tự ký xác nhận an toàn thiết kế.",
+        "refs": [
+          "PCCC",
+          "ND105",
+          "XD"
+        ]
+      },
+      {
+        "title": "HAZID/HAZOP/QRA",
+        "actual": "Chủ đầu tư cần ra quyết định với các đề xuất từ chuyên gia công nghệ.",
+        "hse": "Lập TOR/participant matrix, đảm bảo input đủ, quản lý action owner/due/evidence; báo blocker cho PM.",
+        "others": "Process safety lead, kỹ sư công nghệ, chủ trì study, technical authority kết luận.",
+        "proof": "Study report, action tracker, thiết kế cập nhật, sign-off kỹ thuật.",
+        "stop": "Không tự chứng nhận QRA đạt hoặc đóng safety-critical action bằng email không rõ căn cứ.",
+        "refs": [
+          "Q19",
+          "IFCLNG"
+        ]
+      },
+      {
+        "title": "Đưa HSE vào đấu thầu EPC",
+        "actual": "EPC chào giá thấp nhưng chứng minh năng lực HSE yếu.",
+        "hse": "Phối hợp Procurement lập yêu cầu có thể đo: nguồn lực, competency, controls, interfaces, reporting, hold points, audit rights.",
+        "others": "Procurement/Legal/PM phê duyệt HSMT và kết quả thầu theo phân cấp.",
+        "proof": "Employer HSE Requirements, prequal scorecard, clarification minutes, contract clauses.",
+        "stop": "Không chọn thầu chỉ dựa trên số nhân viên HSE hay ISO certificate.",
+        "refs": [
+          "IOGP",
+          "ND210",
+          "ND207"
+        ]
+      },
+      {
+        "title": "Review kế hoạch HSE của EPC",
+        "actual": "EPC gửi 150 trang kế hoạch trước mobilization.",
+        "hse": "Review gap theo contract, evidence về nhân sự, đào tạo, emergency, subcontractors, critical controls; ghi comment từng mục.",
+        "others": "EPC lập và chịu trách nhiệm triển khai; PM/QA/QC/Construction approval route theo contract.",
+        "proof": "Comment matrix, accepted HSE Plan revision, mobilization readiness register.",
+        "stop": "Không để chữ ký review biến thành đảm bảo tuyệt đối không có tai nạn.",
+        "refs": [
+          "IOGP",
+          "ND207",
+          "Q18"
+        ]
+      },
+      {
+        "title": "JSA và method statement",
+        "actual": "EPC hỏi HSE BQLDA ký hết JSA cho 500 công nhân.",
+        "hse": "Chỉ xác lập review hold points/risk sample và kiểm chứng hệ thống PTW/JSAs theo phân quyền.",
+        "others": "EPC chịu trách nhiệm biện pháp thi công và giám sát công việc thuộc hợp đồng.",
+        "proof": "Contract submittal matrix, signed Method Statement, sampled JSA and site walk records.",
+        "stop": "Không ký thay vai trò người lập/duyệt biện pháp thi công của nhà thầu.",
+        "refs": [
+          "ND207",
+          "Q18",
+          "IOGP"
+        ]
+      },
+      {
+        "title": "Dừng công việc khi nguy hiểm",
+        "actual": "Giám sát BQLDA phát hiện công việc nâng hạ thiếu kiểm soát nền/cẩu.",
+        "hse": "Can thiệp ngay theo trách nhiệm quản lý an toàn chủ đầu tư, yêu cầu EPC khống chế nguy cơ, lập issue và báo PM.",
+        "others": "EPC tổ chức khắc phục và chứng minh đạt; người cho resume theo permit/authority matrix.",
+        "proof": "Stop-work record, findings, engineering verification, clearance/resume authorization.",
+        "stop": "Không đổi an toàn lấy tiến độ, không tự ký giải pháp nền nếu thiếu chuyên môn.",
+        "refs": [
+          "ND207",
+          "Q18"
+        ]
+      },
+      {
+        "title": "SIMOPS hai nhà thầu",
+        "actual": "Hai EPC có PTW hợp lệ nhưng giao cắt tuyến vận tải/nâng hạ.",
+        "hse": "Gọi interface meeting, phối hợp lập SIMOPS matrix và phân vùng thời gian; chỉ một cơ chế work coordination cho interface.",
+        "others": "Construction / Planning / EPC leads điều phối thực thi; PM giải quyết tranh chấp hợp đồng.",
+        "proof": "SIMOPS plan, look-ahead schedule, permit interface, meeting minutes.",
+        "stop": "PTW độc lập không chứng minh được an toàn giao diện.",
+        "refs": [
+          "IOGP",
+          "ND207"
+        ]
+      },
+      {
+        "title": "Tai nạn nghiêm trọng",
+        "actual": "Nhà thầu phụ có tai nạn nặng, EPC muốn gửi báo cáo sau.",
+        "hse": "Kích hoạt luồng incident owner; ưu tiên cứu nạn, kiểm soát hiện trường, thông tin quản lý và nghĩa vụ thông báo phối hợp đúng chủ thể.",
+        "others": "Đội ứng cứu tại hiện trường, EPC, HR/Legal và cơ quan có thẩm quyền theo luật.",
+        "proof": "Incident timeline, evidence log, notification tracker, investigation/CAPA assurance.",
+        "stop": "Không tự nhận thay thẩm quyền điều tra nhà nước hoặc cung cấp báo chí không được phép.",
+        "refs": [
+          "AT",
+          "ND207"
+        ]
+      },
+      {
+        "title": "PSSR / first gas",
+        "actual": "EPC muốn nạp khí khi còn các punch item safety critical.",
+        "hse": "Yêu cầu PSSR gate: barrier tests, MOC, training, SOP, emergency, LOTO/PTW interfaces, closure tracker.",
+        "others": "Commissioning manager, operator/O&M, Engineering Technical Authority quyết định go/no-go theo phân quyền.",
+        "proof": "PSSR dossier, system completion certificates, critical punch list, start-up authorization.",
+        "stop": "Không coi ký của HSE là giấy phép tự động để first gas.",
+        "refs": [
+          "IFCLNG",
+          "Q19",
+          "IOGP"
+        ]
+      }
+    ],
+    "roadmap": [
+      {
+        "code": "D1–D5",
+        "name": "5 ngày đầu: hiểu đúng bối cảnh",
+        "why": "Chưa biết pháp nhân, scope, dự án đã đi tới đâu → không thể hứa phê duyệt hay tuân thủ.",
+        "steps": [
+          "Họp 1-1 với Project Director: mục tiêu 90 ngày, cách báo cáo, quyền hạn và ranh giới công việc.",
+          "Nhận project charter, legal structure, battery limits, package list, baseline schedule, design docs register, danh mục hồ sơ ĐTM/PCCC.",
+          "Làm việc lần lượt với Legal, Environment, Design, Procurement, Planning, Construction/PMU để lập stakeholder map.",
+          "Lập Gap Log: điều đã xác minh, điều giả định, hồ sơ thiếu và chủ thể phải trả lời.",
+          "Đưa ra Top-10 HSE blockers, mức ưu tiên theo ảnh hưởng đến an toàn, pháp lý và tiến độ."
+        ],
+        "outputs": [
+          "Project HSE Baseline v0 (facts/assumptions/issues)",
+          "Authority & Stakeholder Map v0",
+          "One-page Project Director Decision Brief"
+        ],
+        "people": "Project Director, Legal, Engineering, Planning, Environment, Procurement",
+        "decision": "Xin PM xác nhận danh sách 3 ưu tiên và nguồn lực rà chuyên sâu.",
+        "check": "Mỗi blocker có issue ID, evidence/source, accountable owner và next review; không được chỉ ghi “đang xử lý”."
+      },
+      {
+        "code": "D6–D15",
+        "name": "Tuần 2: pháp lý – rủi ro – giao diện",
+        "why": "Đưa rủi ro ra khỏi email/tài liệu rời rạc thành register quản trị.",
+        "steps": [
+          "Phân loại từng hạng mục, trigger pháp lý và mốc phải có; để “chưa xác minh” nếu thiếu design basis.",
+          "Phối hợp technical specialist tổ chức hoặc rà HAZID sơ bộ và Major Accident Hazard inventory.",
+          "Vẽ interfaces giữa cảng LNG, bồn chứa, tái hóa khí, đường ống, nhà máy điện, giao thông và các bên ký hợp đồng.",
+          "Xây draft Employer HSE Requirements theo nguy cơ trọng yếu và contractor assurance plan.",
+          "Tổ chức risk workshop ngắn với PM để quyết định chủ sở hữu hành động và action close-out evidence."
+        ],
+        "outputs": [
+          "Legal / Permit / Condition Register v1",
+          "Major Hazard & Interface Register v1",
+          "EPC HSE Requirements outline"
+        ],
+        "people": "Legal, EIA/Env Consultant, Design, Process Safety, Procurement",
+        "decision": "Trình các permit critical-path gaps và đề xuất chuyên gia cần thuê.",
+        "check": "Không gọi HAZOP là tài liệu do HSE tự chấp thuận; phân định study owner và technical authority."
+      },
+      {
+        "code": "D16–D30",
+        "name": "Hết tháng 1: quản trị vận hành được",
+        "why": "Từ danh sách đầu việc chuyển thành cơ chế quản lý có cuộc họp, báo cáo, thẩm quyền.",
+        "steps": [
+          "Đề xuất HSE Policy/Project HSE Governance & approval workflow theo phân cấp thực.",
+          "Dự thảo 90-day assurance calendar; xây risk review, document submittal và escalation thresholds.",
+          "Tích hợp HSE trong tender package / technical evaluation nếu đúng giai đoạn.",
+          "Xây staffing by phase và budget nguyên tắc trên scenario, không tự invent headcount.",
+          "Báo cáo Project Director: 5 gaps đã đóng, 5 gaps mở, required decisions và nguồn lực."
+        ],
+        "outputs": [
+          "Owner HSE Framework v1",
+          "Monthly assurance/committee schedule",
+          "30-day review / 60-day action priorities"
+        ],
+        "people": "Project Director, PMO, Procurement, Finance, Construction",
+        "decision": "Đề nghị phê duyệt framework, RACI, resources và KPI.",
+        "check": "Có template document control, phiên bản, approver, đường dẫn evidence, owner từng action."
+      },
+      {
+        "code": "D31–D60",
+        "name": "Tháng 2: đưa HSE vào hợp đồng và thiết kế",
+        "why": "Yêu cầu tốt trong hợp đồng mới có lực thực thi sau award.",
+        "steps": [
+          "Hoàn thiện Employer HSE Requirements/HSSE schedule trong HSMT và EPC contract.",
+          "Review contractor HSE prequalification, HSE Plan, critical-control assurance và bridging requirements theo phân quyền.",
+          "Lập design safety review plan: HAZID/HAZOP/QRA/ESD/layout, hành động và interface checks.",
+          "Định nghĩa mobilization gate: people competency, site conditions, PTW/emergency/medevac, subcontractor controls.",
+          "Diễn tập tình huống cross-contractor; kiểm tra hệ thống báo cáo và NCR/CAPA."
+        ],
+        "outputs": [
+          "EPC HSE Requirements v1",
+          "Contractor HSE Assessment Matrix",
+          "Design Safety Action Tracker / Mobilization Gate checklist"
+        ],
+        "people": "Procurement, Contracts, Engineering, Process Safety, EPC/consultants (nếu đã có)",
+        "decision": "Trình PM/Procurement các điều khoản và điều kiện cần đưa vào hợp đồng.",
+        "check": "Mỗi deliverable có contractual reference, revision, accountable owner và gate."
+      },
+      {
+        "code": "D61–D90",
+        "name": "Tháng 3: assurance theo trạng thái thật",
+        "why": "Bảo đảm sẵn sàng thi công hoặc hoàn thiện chuẩn bị nếu EPC chưa được award.",
+        "steps": [
+          "Nếu còn tiền dự án: cập nhật legal/design/contract blockers và tổ chức stage-gate review.",
+          "Nếu EPC đã huy động: vận hành risk-based assurance, kiểm tra critical controls, SIMOPS, stop-work và CAPA.",
+          "Xác lập owner-side weekly report 1 trang: Top-5 risks, critical actions, overdue, decisions.",
+          "Tổ chức audit thử đối với 1–2 gói; kiểm tra năng lực tự giám sát của EPC.",
+          "Đề xuất roadmap tiếp theo cho construction → commissioning → O&M handover theo thiết kế và schedule cập nhật."
+        ],
+        "outputs": [
+          "90-day Project HSE Assurance Report",
+          "Stage-gate / audit / CAPA register",
+          "Kế hoạch 6 tháng tiếp theo theo phase thực tế"
+        ],
+        "people": "Project Director, Construction/Engineering, EPC, O&M representative",
+        "decision": "Xin quyết định xử lý blocker và ngân sách kiểm chứng chuyên gia.",
+        "check": "Không mặc định đã thi công: nhánh công việc phải điều kiện theo tình trạng EPC thực."
+      }
+    ],
+    "rhythms": [
+      {
+        "when": "Hằng ngày (nếu đang thi công)",
+        "question": "Hôm nay hoạt động critical nào có barrier chưa đạt?",
+        "input": "3-week lookahead, permits rủi ro cao, incident alert, NCR overdue",
+        "output": "Risk exceptions, decision/action log ngắn",
+        "owner": "EPC thực thi; HSE BQLDA xác minh chọn mẫu và báo PM."
+      },
+      {
+        "when": "Hằng tuần (mọi giai đoạn)",
+        "question": "Permit/legal/design blockers nào cản milestone?",
+        "input": "Register có owner/due, 3 gói thầu quan trọng, số action quá hạn",
+        "output": "1-page owner HSE report và quyết định cần PM",
+        "owner": "HSE BQLDA chuẩn bị; Legal/Design/EPC xác nhận dữ liệu."
+      },
+      {
+        "when": "Hai tuần / theo design gate",
+        "question": "Có thay đổi nào ảnh hưởng major accident hazards hoặc điều kiện thẩm định?",
+        "input": "MOC, design changes, HAZOP actions, PCCC/Environmental comments",
+        "output": "Design Safety Interface / MOC review log",
+        "owner": "Engineering Process Safety lead chủ chuyên môn; HSE theo dõi rủi ro hệ thống."
+      },
+      {
+        "when": "Hằng tháng",
+        "question": "Barrier effectiveness, nhà thầu và nguồn lực có đủ cho tháng tới?",
+        "input": "Assurance findings, CAPA, contractor HSE performance, budget/resource plan",
+        "output": "Monthly Steering Committee HSE pack (≤5 trang)",
+        "owner": "Project Director quyết định theo authority matrix."
+      },
+      {
+        "when": "Trước một gate quan trọng",
+        "question": "Đã đủ điều kiện theo luật, hợp đồng, thiết kế và O&M để tiến lên bước mới?",
+        "input": "Approved dossiers, testing/inspection certs, PSSR/MOC, critical punch list",
+        "output": "Gate review minutes + Go/No-Go recommendation",
+        "owner": "Decision owner theo phân quyền, HSE không đơn phương phê duyệt kỹ thuật."
+      }
+    ],
+    "legalGates": [
+      {
+        "name": "Xác định pháp nhân và công trình",
+        "phase": "Tiền dự án",
+        "trigger": "Tên nhà đầu tư, chủ đầu tư, pháp nhân ký hợp đồng và phạm vi mỗi gói được xác nhận.",
+        "question": "Ai là người có nghĩa vụ, công trình nào thuộc các luật/quy chuẩn khác nhau?",
+        "how": "Yêu cầu Legal + Engineering đối chiếu quyết định, sơ đồ pháp nhân, FS/FEED, drawing battery limits, danh mục gói.",
+        "proof": "Project charter, legal entity list, battery limits, register “đã kiểm/chưa xác minh”.",
+        "red": "Không áp toàn bộ pháp luật LNG cho hạng mục không thuộc phạm vi.",
+        "refs": [
+          "XD",
+          "ND207"
+        ]
+      },
+      {
+        "name": "ĐTM, giấy phép môi trường, nghĩa vụ sau phê duyệt",
+        "phase": "Tiền dự án → thi công → vận hành",
+        "trigger": "Dự án/hạng mục được phân loại theo tiêu chí Luật BVMT và văn bản sửa đổi có hiệu lực.",
+        "question": "Đối tượng ĐTM/GPMT? Thời điểm? Điều kiện phát sinh hoạt động nào?",
+        "how": "Legal/Env tư vấn chuẩn bị classification memo, trigger matrix, hồ sơ, ý kiến thẩm định; HSE theo dõi điều kiện triển khai, cam kết và bằng chứng.",
+        "proof": "Classification opinion, ĐTM hồ sơ/kết quả, permit status, monitoring obligations, closure log.",
+        "red": "Tỷ lệ “xong 80%” không phải quyết định phê duyệt; tránh cam kết giờ được san lấp khi chưa đối chiếu.",
+        "refs": [
+          "MT",
+          "ND08",
+          "ND05",
+          "ND48",
+          "L146"
+        ]
+      },
+      {
+        "name": "PCCC & CNCH trong từng bước thiết kế",
+        "phase": "Thiết kế → thi công → nghiệm thu",
+        "trigger": "Phụ thuộc công năng, loại công trình, phạm vi, giai đoạn thiết kế, thay đổi và văn bản PCCC hiện hành.",
+        "question": "Ai thẩm định nội dung nào; hồ sơ nào phải có trước bước nào?",
+        "how": "Engineering lập matrix kỹ thuật/thiết kế; Legal kiểm điều khoản và cơ quan; HSE theo dõi checklist high-hazard và outstanding issues.",
+        "proof": "PCCC design basis, review log, kết quả thủ tục theo thẩm quyền, nghiệm thu/điều kiện tương ứng.",
+        "red": "Không mặc định mọi công trình đều do Công an thẩm duyệt hoặc HSE Manager tự chấp thuận thiết kế.",
+        "refs": [
+          "PCCC",
+          "PCCCVBHN26",
+          "ND105",
+          "XD"
+        ]
+      },
+      {
+        "name": "Thi công và công tác chủ đầu tư",
+        "phase": "Hợp đồng → thi công",
+        "trigger": "Khi hoạt động xây dựng, thi công thực tế được triển khai theo hợp đồng/gói thầu.",
+        "question": "Nhiệm vụ owner-side trong an toàn thi công và quyền can thiệp là gì?",
+        "how": "Đối chiếu khoản 20 Điều 16 NĐ 207/2026; hệ thống giám sát, phối hợp liên nhà thầu, stop-work/escalation procedure.",
+        "proof": "HSE Plan/approval route, observation/stop record, EPC CAPA, SIMOPS plan, project director brief.",
+        "red": "Không để EPC tự kiểm tra thay toàn bộ trách nhiệm của chủ đầu tư.",
+        "refs": [
+          "ND207",
+          "Q18",
+          "XD"
+        ]
+      },
+      {
+        "name": "Kho LNG trên bờ & design safety",
+        "phase": "FEED → thiết kế → chạy thử",
+        "trigger": "Có kho chứa LNG trên bờ trong phạm vi và dự án thuộc đối tượng áp dụng QCVN 19:2022/BCT.",
+        "question": "Các yêu cầu phân vùng, khoảng cách, thiết bị an toàn, thiết kế và vận hành phù hợp?",
+        "how": "Owner HSE quản lý requirement traceability, mời chuyên gia process/loss prevention kiểm tra compliance basis, HAZOP/QRA actions.",
+        "proof": "Design basis, compliance matrix, hazard-study action closure, technical sign-off.",
+        "red": "QCVN 19 không tự biến thành giấy phép cho cảng hoặc toàn nhà máy điện.",
+        "refs": [
+          "Q19",
+          "TC8611",
+          "TC8612",
+          "TC8613",
+          "IFCLNG"
+        ]
+      },
+      {
+        "name": "Hợp đồng EPC, capability và bridging",
+        "phase": "Đấu thầu → EPC mobilization",
+        "trigger": "Lập HSMT/HSDT hoặc ký hợp đồng nhà thầu tư vấn/thi công.",
+        "question": "Các HSE deliverables, review authority, hold points và KPI có ràng buộc hợp đồng không?",
+        "how": "HSE tham gia xây HSE schedule/contract annex, scoring rubrics, interface matrix và cơ chế audit.",
+        "proof": "Employer HSE Requirements, capability scorecard, contractor HSE Plan, bridging document.",
+        "red": "Không bổ sung “nghĩa vụ” sau award mà thiếu cơ sở hợp đồng/luật.",
+        "refs": [
+          "IOGP",
+          "ND210",
+          "ND207"
+        ]
+      },
+      {
+        "name": "PSSR / nạp khí lần đầu",
+        "phase": "Commissioning",
+        "trigger": "Khi dự án có system completion và chuẩn bị đưa năng lượng/hóa chất nguy hiểm vào hệ thống.",
+        "question": "Các hệ thống an toàn trọng yếu, đào tạo, SOP, commissioning permits, barrier tests có đạt chưa?",
+        "how": "HSE tham gia PSSR stage-gate, bảo đảm action closure và báo risk exceptions; technical owner/operator quyết định.",
+        "proof": "PSSR dossier, test certificates, safety-critical punch list, authorization.",
+        "red": "Không tự ký quyết định first gas nếu chưa được giao thẩm quyền và thiếu đánh giá kỹ thuật.",
+        "refs": [
+          "IFCLNG",
+          "Q19",
+          "IOGP"
+        ]
+      }
+    ],
+    "practiceDrills": [
+      {
+        "id": "OD01",
+        "role": "Giám đốc dự án",
+        "level": "Rất cao",
+        "prompt": "Anh không được triển khai HSE Plan theo kiểu EPC. Ngày đầu nhận việc phía chủ đầu tư anh làm gì?",
+        "approach": "Kết luận 1 câu → hồ sơ cần nhận → gap/risks → output 5 ngày → điều kiện chưa chắc.",
+        "model": "Ngày đầu, tôi chưa vội viết một Project HSE Plan chung chung. Tôi sẽ gặp Project Director để xác định phạm vi trách nhiệm, pháp nhân dự án, giai đoạn hiện tại và quyền hạn. Tiếp theo, tôi nhận bản đồ hạng mục – kho LNG, cảng, đường ống, nhà máy, đấu nối – cùng tiến độ, hồ sơ pháp lý, thiết kế và danh mục gói thầu. Tôi sẽ cùng Legal, Engineering, Procurement lập ba register: legal/permit, major hazards và interfaces. Trong 5 ngày, tôi trình một báo cáo một trang: các vấn đề đã xác minh, Top-5 rủi ro, 5 hồ sơ còn thiếu, chủ thể chịu trách nhiệm và các quyết định cần Giám đốc chốt. Từ đó mới chốt HSE Roadmap 30–90 ngày phù hợp đúng giai đoạn.",
+        "followup": "Nếu tài liệu còn thiếu, anh có dám cam kết 5 ngày hoàn thành legal compliance register không?",
+        "answerFollow": "Tôi cam kết hoàn thành danh mục theo mức độ đã xác minh, có trạng thái pending và người chịu trách nhiệm; không hứa giấy phép hoàn thành khi chưa có dữ kiện.",
+        "proof": "Project Charter, Document Register, Legal Trigger Matrix, HSE Baseline, Project Director Decision Brief.",
+        "pitfall": "Liệt kê toolbox talk, PPE, permit như ưu tiên số 1 dù EPC chưa có.",
+        "q": "Q017",
+        "refs": [
+          "ND207",
+          "XD"
+        ]
+      },
+      {
+        "id": "OD02",
+        "role": "HR + Giám đốc dự án",
+        "level": "Rất cao",
+        "prompt": "Anh chưa làm HSE chủ đầu tư từ FEED ở dự án LNG. Chúng tôi tuyển anh để làm gì?",
+        "approach": "Thừa nhận khoảng trống đúng mức → 2 thế mạnh chứng minh → cách bù → deliverable sớm.",
+        "model": "Tôi không nhận mình từng chủ trì FEED hoặc HAZOP LNG; đó là chuyên môn cần người đủ năng lực. Kinh nghiệm của tôi có hai phần: tham gia quản lý HSE tại công trường công nghiệp lớn khi thi công, và vận hành quản trị SHEQ, môi trường, PCCC trong doanh nghiệp hiện nay. Nhờ hiểu nhà thầu ngoài hiện trường, tôi có thể phát hiện những yêu cầu hợp đồng thiếu khả thi; nhờ quản trị hệ thống, tôi biết xây register, action owner và cơ chế kiểm chứng thay vì chỉ kiểm tra PPE. Tôi sẽ phối hợp chuyên gia thiết kế/process safety cho phần kỹ thuật, đồng thời chịu trách nhiệm tổ chức luồng HSE, risk register, compliance tracking, EPC assurance và báo cáo cho PM. Giá trị của tôi là làm cho trách nhiệm rõ, vấn đề được phát hiện sớm và hành động có bằng chứng.",
+        "followup": "Anh có ví dụ một hành động do chính anh thực hiện ở LILAMA hay công ty hiện nay?",
+        "answerFollow": "Nêu đúng một việc anh đã làm, vai trò của mình, bằng chứng có thể xác minh và kết quả thực tế; không tự gán 7 triệu giờ an toàn của tập thể là thành tích cá nhân.",
+        "proof": "Ví dụ STAR từ LILAMA + NORTALIC đã được anh kiểm chứng (không tự sáng tác).",
+        "pitfall": "Nói đã tổ chức HAZOP LNG hoặc đầu tư dự án từ đầu khi chưa làm.",
+        "q": "Q013",
+        "refs": [
+          "IOGP"
+        ]
+      },
+      {
+        "id": "OD03",
+        "role": "Giám đốc dự án",
+        "level": "Rất cao",
+        "prompt": "Tôi có ba HSE owner, EPC có ba mươi HSE. Làm thế nào kiểm soát được 2.000 người?",
+        "approach": "Cách kiểm soát qua hệ thống EPC, risk-based sampling, critical barriers, data và escalation.",
+        "model": "Tôi không bố trí ba người của BQLDA đi giám sát thay ba mươi HSE của EPC. Tôi yêu cầu EPC chứng minh cơ cấu chỉ huy, năng lực HSE, PTW, quản lý nhà thầu phụ và kiểm soát rủi ro trọng yếu. Từng tuần tôi nhận lookahead để chọn 3–5 hoạt động critical như lifting, energized work, pressure testing, SIMOPS; đội BQLDA xác minh tại hiện trường những barrier quyết định. Mỗi NCR có owner, deadline, evidence và hiệu lực khắc phục. Tôi báo PM các blocker ở cấp dự án hoặc giao diện giữa các gói, kiểm tra xu hướng của near-miss và lỗ hổng lặp lại. Ba người sẽ hiệu quả nếu cơ chế EPC thực thi tốt và BQLDA kiểm tra đúng rủi ro, không phải kiểm số buổi toolbox.",
+        "followup": "Nếu EPC chấp hành tốt về giấy tờ nhưng hiện trường sai liên tục?",
+        "answerFollow": "Coi đó là failure của assurance, tăng targeted audit và trigger escalation, yêu cầu executive action plan từ EPC, không chỉ viết thêm một biểu mẫu.",
+        "proof": "Contractor HSE Assurance Plan, Weekly Lookahead, Critical Control Verification, NCR/CAPA tracker.",
+        "pitfall": "Đòi tăng nhân sự BQLDA lên hàng chục người trước khi thử cơ chế kiểm soát rủi ro.",
+        "q": "Q046",
+        "refs": [
+          "IOGP",
+          "ND207"
+        ]
+      },
+      {
+        "id": "OD04",
+        "role": "Giám đốc kỹ thuật / Design Manager",
+        "level": "Rất cao",
+        "prompt": "HAZID, HAZOP và QRA khác gì? Anh sẽ phê duyệt nghiên cứu nào?",
+        "approach": "Phân biệt từng nghiên cứu; process expert chịu chuyên môn; Owner HSE quản trị hành động và traceability.",
+        "model": "HAZID giúp nhận diện các nguy cơ tại giai đoạn phù hợp; HAZOP phân tích hệ thống các sai lệch của quá trình theo thiết kế/P&ID; QRA đánh giá định lượng rủi ro dựa trên mô hình và giả định. Tôi không tự mình phê duyệt kỹ thuật ba nghiên cứu này chỉ vì là HSE Manager. Tôi sẽ cùng Engineering đặt TOR, đầu vào, đội chuyên gia đủ năng lực, lập action tracker có người chịu trách nhiệm và thời hạn; chỉ đề nghị đóng hành động sau khi technical authority đánh giá bằng chứng, cập nhật thiết kế và lưu hồ sơ. Các vấn đề safety critical chưa giải quyết phải được đưa vào design gate và báo lãnh đạo, không bị “đóng để kịp tiến độ”.",
+        "followup": "HAZOP đề xuất đổi một thiết bị nhưng EPC nói tốn chi phí, ai quyết định?",
+        "answerFollow": "Tổ chức technical review / MOC có bằng chứng, risk acceptance theo quy trình được phê duyệt; PM quyết định thương mại trên cơ sở chấp thuận chuyên môn, không chỉ lấy ý kiến HSE.",
+        "proof": "HAZOP TOR, Process Safety Action Register, Design Change/MOC records.",
+        "pitfall": "Nói HAZOP, QRA là hai giấy phép hoặc HSE có quyền ký technical close-out độc lập.",
+        "q": "Q038",
+        "refs": [
+          "IFCLNG",
+          "Q19"
+        ]
+      },
+      {
+        "id": "OD05",
+        "role": "Giám đốc dự án + Legal",
+        "level": "Rất cao",
+        "prompt": "ĐTM đang chờ, tiến độ thúc đẩy san lấp; anh cho làm hay dừng?",
+        "approach": "Không suy đoán blanket ban; xác định chính xác hoạt động, trigger pháp lý và quyền quyết định.",
+        "model": "Trước hết tôi yêu cầu Planning và Legal xác định gói san lấp cụ thể, phạm vi và điều kiện áp dụng theo hồ sơ dự án cũng như pháp luật hiện hành. Tôi chưa thể trả lời chỉ từ chữ “san lấp” rằng chắc chắn được hay không được. Những hoạt động có điều kiện chưa đáp ứng phải giữ lại; đồng thời tôi làm việc với Project Director để tìm đường găng phù hợp, như đẩy nhanh hồ sơ thiết kế, đấu thầu hoặc chuẩn bị bên ngoài hiện trường nếu hợp pháp. Tôi đưa ra decision paper có ba cột: điều đã xác minh, điểm chưa rõ cần cơ quan/chuyên gia làm rõ, và đề xuất cho tiến độ. Tôi không dùng cam kết HSE của EPC thay cho nghĩa vụ pháp lý của dự án.",
+        "followup": "Nếu PM nói cứ làm rồi chịu trách nhiệm, anh phản hồi sao?",
+        "answerFollow": "Tôi nêu rủi ro theo căn cứ và yêu cầu quyết định bằng văn bản đúng thẩm quyền; không ký xác nhận khi thiếu điều kiện pháp lý bắt buộc.",
+        "proof": "Legal trigger matrix, schedule constraints, authority record, change/action log.",
+        "pitfall": "Trả lời ĐTM luôn là giấy phép cho mọi hoạt động hoặc cả dự án đều phải dừng không phân loại.",
+        "q": "Q020",
+        "refs": [
+          "MT",
+          "ND08",
+          "ND05",
+          "ND48"
+        ]
+      },
+      {
+        "id": "OD06",
+        "role": "Procurement Director",
+        "level": "Rất cao",
+        "prompt": "Tại sao chúng tôi cần anh tham gia HSMT EPC nếu đã có bộ phận đấu thầu?",
+        "approach": "Biến risk thành yêu cầu kiểm chứng được, không thay chức năng mua sắm.",
+        "model": "Procurement tổ chức thủ tục đấu thầu và thương mại; HSE cần biến các rủi ro major accident, thi công, môi trường và công việc đồng thời thành các điều kiện hợp đồng đo được. Tôi đề xuất annex về nguồn lực/năng lực HSE, subcontractor management, emergency, critical controls, SIMOPS, incident reporting, rights of audit và cơ chế dừng/corrective action. Tôi cần đồng hành với Design, Legal để tiêu chí thầu không mâu thuẫn hợp đồng. Khi đánh giá, tôi muốn xem bằng chứng từ dự án tương tự, biện pháp kiểm soát và khả năng huy động thật, không chọn người chỉ có hồ sơ ISO đẹp. Như vậy tránh tranh cãi trách nhiệm khi công trường đã triển khai.",
+        "followup": "Nếu EPC có giá thấp hơn nhưng điểm HSE kém?",
+        "answerFollow": "Chấm theo tiêu chí đã công bố và hợp đồng dự kiến, nêu deficiency và materiality; trình hội đồng có thẩm quyền chứ không tự chọn thầu.",
+        "proof": "Employer HSE Requirement Annex, Bidder HSE Prequal Matrix, Clarification Log, Contract Submittal Matrix.",
+        "pitfall": "Đòi tự quyết nhà thầu trúng thầu hoặc thêm điều kiện sau thời điểm đóng thầu mà không theo quy trình.",
+        "q": "Q036",
+        "refs": [
+          "IOGP",
+          "ND210"
+        ]
+      },
+      {
+        "id": "OD07",
+        "role": "Giám đốc dự án / Construction Manager",
+        "level": "Cao",
+        "prompt": "Một EPC xin huy động 500 người trong tuần tới. Anh kiểm gì trước?",
+        "approach": "Mobilization readiness theo phạm vi công việc; không ký blanket clearance.",
+        "model": "Tôi chia theo gói và công việc sắp thực hiện thay vì “duyệt 500 người”. Tôi yêu cầu EPC trình HSE Plan được review đúng luồng, tổ chức site supervision, chứng minh năng lực nhân sự chủ chốt, đào tạo/induction, thiết bị kiểm định, điều kiện vào công trường, đường cứu nạn/y tế, emergency plan, quản lý nhà thầu phụ, PTW và critical method statements cần thiết. Đội BQLDA chọn mẫu verification tại hiện trường và ghi mọi blocker. EPC đóng gap với evidence; Project Director hoặc người được phân cấp quyết định việc cho phép huy động/khởi công tương ứng. Nếu thiếu điều kiện safety critical thì công việc liên quan chưa được phép triển khai.",
+        "followup": "Nếu chỉ thiếu một chữ ký HSE Supervisor nhưng các kiểm soát khác đạt?",
+        "answerFollow": "Xác định chữ ký đó có phải kiểm soát bắt buộc theo luật/hợp đồng/permit hay chỉ là thủ tục nội bộ; không tự bỏ qua và cũng không biến thành cản trở hình thức.",
+        "proof": "Mobilization Readiness Gate, HSE Plan Submittal Log, personnel matrix, emergency readiness checklist.",
+        "pitfall": "Chỉ đếm số giấy khám sức khỏe, áo phản quang và mũ bảo hộ.",
+        "q": "Q047",
+        "refs": [
+          "ND207",
+          "Q18",
+          "IOGP"
+        ]
+      },
+      {
+        "id": "OD08",
+        "role": "Giám đốc dự án / QA",
+        "level": "Rất cao",
+        "prompt": "Ai được quyền dừng thi công và ai có quyền cho thi công lại?",
+        "approach": "Phân định quyền can thiệp an toàn với quyền technical release, work permit và contractual approval.",
+        "model": "Người quản lý an toàn thi công của chủ đầu tư có trách nhiệm tổ chức giám sát, phối hợp các nhà thầu và tạm dừng hoặc đình chỉ thi công khi phát hiện dấu hiệu vi phạm an toàn theo khoản 20 Điều 16 Nghị định 207/2026/NĐ-CP. Tôi sẽ xây stop-work process rõ tín hiệu dừng, phạm vi ảnh hưởng, báo cáo và ghi nhận. EPC chịu trách nhiệm khắc phục, technical experts xác minh phần kỹ thuật; ai ký cho phép tiếp tục sẽ theo permit system, authority matrix và điều kiện luật/hợp đồng. Tôi không coi người phát lệnh dừng đương nhiên là người có thể tự quyết định giải phóng công việc.",
+        "followup": "Nếu chỉ huy trưởng EPC phản đối lệnh dừng?",
+        "answerFollow": "Trình bày control failure và bằng chứng, yêu cầu duy trì điều kiện an toàn, thông tin PM theo luồng khẩn; không tranh cãi cảm tính.",
+        "proof": "Stop-work log, evidence photos, corrective plan, technical verification, resume approval log.",
+        "pitfall": "Nói HSE được quyết mọi thay đổi thiết kế và khởi động lại không cần Engineering.",
+        "q": "Q041",
+        "refs": [
+          "ND207",
+          "Q18"
+        ]
+      },
+      {
+        "id": "OD09",
+        "role": "Project Director / HSE steering committee",
+        "level": "Cao",
+        "prompt": "Anh sẽ báo cáo gì hàng tuần để tôi quyết nhanh, không phải 200 trang?",
+        "approach": "Board-ready one-pager, Top 5 risks, critical path blockers, action owner/deadline, ask for decision.",
+        "model": "Tôi sẽ gửi một trang ưu tiên quyết định: Top-5 major HSE risks, compliance/permit gates chưa đạt, safety-critical actions quá hạn, các vấn đề giao diện và quyết định cần Project Director. Mỗi dòng có consequence, evidence, owner, ngày phải xử lý, đề xuất. Bên dưới tôi thêm 3 leading indicators: tỷ lệ critical controls được xác minh, closure đúng hạn của action có rủi ro cao và độ sẵn sàng của các gate; kèm incident/near-miss trends để hiểu hệ thống. Không bỏ qua LTI nhưng không lấy mỗi LTI bằng 0 làm bằng chứng an toàn. Báo cáo này gắn với progress weekly meeting, không tạo một nhánh họp rời.",
+        "followup": "Dự án chưa có công nhân, KPI anh lấy từ đâu?",
+        "answerFollow": "Dùng design/legal/procurement leading indicators: action closure, study readiness, contract compliance, gate evidence; chưa dùng TRIR/LTI khi chưa có hours worked.",
+        "proof": "One-page Weekly HSE Decision Dashboard, Risk Register, Permit/Design Action Status.",
+        "pitfall": "Chỉ báo số PPE, số training và tai nạn bằng 0 khi dự án còn trước thi công.",
+        "q": "Q074",
+        "refs": [
+          "ND207",
+          "IOGP"
+        ]
+      },
+      {
+        "id": "OD10",
+        "role": "Giám đốc dự án / Commissioning Lead",
+        "level": "Rất cao",
+        "prompt": "EPC bảo mọi thứ gần xong và đề nghị nạp LNG lần đầu, anh phản ứng thế nào?",
+        "approach": "Stage-gate PSSR, no technical authority overclaim, no missing safety-critical barrier.",
+        "model": "Tôi yêu cầu tổ chức PSSR theo phân quyền trước khi đưa năng lượng/nguyên liệu nguy hiểm vào hệ thống. Chúng ta cần evidence về system completion, chức năng ESD/gas detection/fire protection, test/inspection, approved SOP, đào tạo đội vận hành, MOC, SIMOPS, emergency drill và danh mục punch item còn mở. Những vấn đề safety critical phải có technical disposition và gate rõ ràng; không đổi tiêu chí kỹ thuật bằng một lời hứa “sẽ xử lý sau”. Tôi báo PM tình trạng ready/not-ready và điều kiện; quyền go/no-go thuộc technical/operations/commissioning authority được phân cấp, không mặc nhiên một chữ ký HSE.",
+        "followup": "Nếu nhà cung cấp chấp nhận bypass tạm một chức năng ESD?",
+        "answerFollow": "Chỉ xem xét qua quy trình kỹ thuật/permit/MOC và risk assessment do người có thẩm quyền phê duyệt; không được chấp nhận bằng email hoặc quyết định một mình HSE.",
+        "proof": "PSSR dossier, system certificates, ESD test evidence, open punch list and authorization.",
+        "pitfall": "Chỉ hỏi đã có bình chữa cháy và giấy phép PCCC hay chưa.",
+        "q": "Q058",
+        "refs": [
+          "IFCLNG",
+          "Q19"
+        ]
+      },
+      {
+        "id": "OD11",
+        "role": "Giám đốc dự án / HR",
+        "level": "Cao",
+        "prompt": "Anh có thể lấy việc đã tham gia dự án 7 triệu giờ an toàn làm thành tích của cá nhân không?",
+        "approach": "Kể thành quả tập thể, chỉ xác nhận đóng góp thực chứng, tránh nhận vào từ FEED.",
+        "model": "Đó là một cột mốc an toàn của tập thể dự án, không phải thành tích do riêng tôi tạo ra. Tôi tham gia LILAMA khi dự án đã trong giai đoạn thi công. Trong phần trách nhiệm được giao, tôi đóng góp vào công tác quản lý HSE công trường và phối hợp các bên theo phạm vi thực tế. Nếu hội đồng muốn đánh giá năng lực cá nhân của tôi, tôi xin trình bày một trường hợp cụ thể theo cấu trúc tình huống, việc tôi trực tiếp làm, bằng chứng và kết quả. Tôi không muốn dùng cột mốc tập thể thay cho năng lực thực hành của chính mình.",
+        "followup": "Hãy kể một biện pháp cải thiện HSE do chính anh chủ trì, có chứng cứ?",
+        "answerFollow": "Dùng trường hợp thật của anh; nếu chưa chuẩn bị bằng chứng, không tự tạo số liệu tai nạn hoặc phần trăm cải thiện.",
+        "proof": "Biên bản họp/audit/training/corrective action trong phạm vi được phép chia sẻ (không tiết lộ dữ liệu mật).",
+        "pitfall": "Đem 7 triệu giờ làm bằng chứng mình đã tổ chức toàn hệ thống an toàn từ đầu.",
+        "q": "Q008",
+        "refs": [
+          "IOGP"
+        ]
+      },
+      {
+        "id": "OD12",
+        "role": "Giám đốc dự án / HR",
+        "level": "Cao",
+        "prompt": "Nếu tôi yêu cầu anh ký hồ sơ vượt chuyên môn hoặc trái quy trình để kịp tiến độ?",
+        "approach": "Bình tĩnh phân loại quyền ký, đề xuất đường giải quyết thay vì phản kháng cảm tính.",
+        "model": "Tôi sẽ trình bày rõ phần nào mình có trách nhiệm review HSE, phần nào thuộc thẩm quyền kỹ thuật/pháp lý, và căn cứ nào chưa đáp ứng. Tôi không ký thay technical authority hoặc xác nhận điều chưa được kiểm chứng. Nhưng tôi sẽ không chỉ nói “không”: tôi tập hợp hồ sơ thiếu, đề xuất người có thẩm quyền rà soát, mốc đóng từng việc và phương án sắp xếp tiến độ không vi phạm. Nếu liên quan nguy cơ an toàn tức thời, tôi thực hiện cơ chế can thiệp phù hợp. Mục tiêu của tôi là giúp Giám đốc ra quyết định nhanh và có thể bảo vệ được bằng bằng chứng.",
+        "followup": "Nếu Giám đốc nói anh thiếu tinh thần hỗ trợ dự án?",
+        "answerFollow": "Đưa một phương án hợp lệ thay thế, nêu rủi ro của ký sai và cam kết thời hạn điều phối với chuyên gia; không tranh luận cá nhân.",
+        "proof": "Approval matrix, comment log, escalation/decision note, technical sign-off.",
+        "pitfall": "Thách thức lãnh đạo, hoặc ký vội rồi ghi “HSE không chịu trách nhiệm”.",
+        "q": "Q085",
+        "refs": [
+          "ND207",
+          "XD"
+        ]
+      }
+    ]
+  }
 }
