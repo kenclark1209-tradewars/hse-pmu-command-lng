@@ -448,7 +448,22 @@
       ],
       "partners": "PM, Pháp lý, Kỹ thuật, Hợp đồng",
       "example": "Ví dụ: Tuyến cấp khí nằm trong hợp đồng khác nhà máy điện. Ai quản lý interface PTW và ứng cứu tại điểm giao đấu nối?",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND5_1",
+          "expectedProof": "Quyết định thành lập BQLDA, văn bản phân quyền, sơ đồ tổ chức"
+        },
+        {
+          "clauseId": "ND5_2",
+          "expectedProof": "Hợp đồng PMC/EPC, responsibility matrix, interface matrix"
+        },
+        {
+          "clauseId": "ND16_3",
+          "expectedProof": "Organization chart, quyết định giao việc, assurance plan"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P0-02",
@@ -493,7 +508,22 @@
       ],
       "partners": "PM, Legal, Procurement, Engineering",
       "example": "Ví dụ: Quy trình HSE chủ đầu tư quy định mức độ báo cáo trong 1 giờ theo yêu cầu nội bộ; đây là SLA hợp đồng, không phải thời hạn luật định.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND16_3",
+          "expectedProof": "Organization chart, quyết định giao việc, assurance plan"
+        },
+        {
+          "clauseId": "ND5_1",
+          "expectedProof": "Quyết định thành lập BQLDA, văn bản phân quyền, sơ đồ tổ chức"
+        },
+        {
+          "clauseId": "XD50",
+          "expectedProof": "Risk register và design/constructability review"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P0-03",
@@ -550,7 +580,26 @@
       ],
       "partners": "Legal, Environment, PCCC consultant, Engineering, PM",
       "example": "Ví dụ: Không kết luận LNG bắt buộc có một giấy phép nhất định chỉ vì có chữ LNG; phải tra trigger theo cấu phần/hoạt động.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "MT30",
+          "expectedProof": "Phân loại môi trường, quyết định dự án, scope register"
+        },
+        {
+          "clauseId": "MT39",
+          "expectedProof": "Permit applicability matrix, dự báo nguồn thải"
+        },
+        {
+          "clauseId": "ND105_8",
+          "expectedProof": "Phụ lục phân loại công trình, danh mục hồ sơ thẩm định"
+        },
+        {
+          "clauseId": "ND5_1",
+          "expectedProof": "Quyết định thành lập BQLDA, văn bản phân quyền, sơ đồ tổ chức"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P0-04",
@@ -597,7 +646,26 @@
       ],
       "partners": "Environment consultant, Legal, Process, Marine, Community affairs",
       "example": "Ví dụ: ĐTM nói thi công trên bờ nhưng kế hoạch dự án có mở rộng bến tiếp nhận; anh yêu cầu xác minh tính bao phủ thay vì coi như đã đủ.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "MT30",
+          "expectedProof": "Phân loại môi trường, quyết định dự án, scope register"
+        },
+        {
+          "clauseId": "MT31",
+          "expectedProof": "Tiến độ ĐTM, TOR tư vấn, feasibility schedule"
+        },
+        {
+          "clauseId": "MT32",
+          "expectedProof": "ĐTM và danh mục đầu vào/phạm vi công trình"
+        },
+        {
+          "clauseId": "MT37",
+          "expectedProof": "EIA decision, commitment tracker, change log"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P0-05",
@@ -644,7 +712,26 @@
       ],
       "partners": "Fire engineer, Legal, Design manager, PM",
       "example": "Ví dụ: Nhà điều khiển và kho LNG có các yêu cầu an toàn cháy khác nhau; cần xác định chuẩn áp dụng riêng.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "PCCC16",
+          "expectedProof": "Fire design compliance review, thẩm định/đánh giá phù hợp"
+        },
+        {
+          "clauseId": "ND105_8",
+          "expectedProof": "Phụ lục phân loại công trình, danh mục hồ sơ thẩm định"
+        },
+        {
+          "clauseId": "ND105_12",
+          "expectedProof": "Bản đối chiếu ND105/2025 + ND347/2026, nghiệm thu theo phân cấp"
+        },
+        {
+          "clauseId": "ND347",
+          "expectedProof": "Mốc tuân thủ PCCC phiên bản sau 15/09/2026"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P0-06",
@@ -689,7 +776,22 @@
       ],
       "partners": "Land, Survey, Community relations, Legal, Environment",
       "example": "Ví dụ: Xe khảo sát đi qua đường dân sinh hẹp; yêu cầu đánh giá tuyến đường, giờ lưu thông và thông tin cộng đồng.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_21",
+          "expectedProof": "Hazard studies, site screening, khảo sát và wind rose"
+        },
+        {
+          "clauseId": "MT32",
+          "expectedProof": "ĐTM và danh mục đầu vào/phạm vi công trình"
+        },
+        {
+          "clauseId": "XD50",
+          "expectedProof": "Risk register và design/constructability review"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P0-07",
@@ -734,7 +836,22 @@
       ],
       "partners": "Process safety specialist, Engineering, Operations future team",
       "example": "Ví dụ: Một đường xả áp đến vị trí có người thường xuyên làm việc: đánh giá trong thiết kế, không chờ khi công trường đã dựng xong.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_21",
+          "expectedProof": "Hazard studies, site screening, khảo sát và wind rose"
+        },
+        {
+          "clauseId": "Q19_23",
+          "expectedProof": "Plot plan, QRA, layout design review, spacing calculations"
+        },
+        {
+          "clauseId": "Q19_1",
+          "expectedProof": "Battery limits, design scope, tank storage capacity"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P0-08",
@@ -780,7 +897,22 @@
       ],
       "partners": "Design manager, Process, Independent facilitator, PM",
       "example": "Ví dụ: HAZID yêu cầu bổ sung điểm tiếp cận xe chữa cháy; anh theo dõi bản vẽ sửa và kết quả review, không tự thiết kế bán kính quay xe.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_21",
+          "expectedProof": "Hazard studies, site screening, khảo sát và wind rose"
+        },
+        {
+          "clauseId": "Q19_23",
+          "expectedProof": "Plot plan, QRA, layout design review, spacing calculations"
+        },
+        {
+          "clauseId": "ND5_1",
+          "expectedProof": "Quyết định thành lập BQLDA, văn bản phân quyền, sơ đồ tổ chức"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P0-09",
@@ -825,7 +957,22 @@
       ],
       "partners": "HR, Planning, Construction, Cost control, PM",
       "example": "Ví dụ: Chỉ cần một đầu mối PSM phối hợp tư vấn trong FEED, nhưng cần tăng năng lực Commissioning HSE trước first gas.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND16_3",
+          "expectedProof": "Organization chart, quyết định giao việc, assurance plan"
+        },
+        {
+          "clauseId": "ND5_1",
+          "expectedProof": "Quyết định thành lập BQLDA, văn bản phân quyền, sơ đồ tổ chức"
+        },
+        {
+          "clauseId": "AT18",
+          "expectedProof": "Risk assessment / JSA / toolbox evidence"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P0-10",
@@ -869,7 +1016,22 @@
       ],
       "partners": "Engineering, Process, Legal, Design consultant, PSM specialist",
       "example": "Ví dụ: Dự án chọn FSRU thay vì bồn chứa LNG trên bờ. BQLDA phải đánh giá lại chuẩn áp dụng; không thể copy ma trận QCVN 19 của kho trên bờ sang công trình nổi.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_1",
+          "expectedProof": "Battery limits, design scope, tank storage capacity"
+        },
+        {
+          "clauseId": "Q19_21",
+          "expectedProof": "Hazard studies, site screening, khảo sát và wind rose"
+        },
+        {
+          "clauseId": "Q19_23",
+          "expectedProof": "Plot plan, QRA, layout design review, spacing calculations"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P1-01",
@@ -915,7 +1077,26 @@
       ],
       "partners": "Procurement, Contract, Legal, Engineering, PM",
       "example": "Ví dụ: Yêu cầu EPC trình kế hoạch critical lifts và bằng chứng năng lực được xem xét trước khi huy động.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND5_2",
+          "expectedProof": "Hợp đồng PMC/EPC, responsibility matrix, interface matrix"
+        },
+        {
+          "clauseId": "ND15",
+          "expectedProof": "HSE Plan, biện pháp thi công, bổ nhiệm chỉ huy/đầu mối an toàn"
+        },
+        {
+          "clauseId": "ND16_3",
+          "expectedProof": "Organization chart, quyết định giao việc, assurance plan"
+        },
+        {
+          "clauseId": "Q19_121",
+          "expectedProof": "ITP, FAT/SAT, NCR, certification dossier"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P1-02",
@@ -958,7 +1139,22 @@
       ],
       "partners": "Contract, Construction, Operations, EPC nominees",
       "example": "Ví dụ: Điểm đấu nối đường ống do EPC B thi công sang EPC A phải có HSE interface plan được các bên thống nhất.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND5_2",
+          "expectedProof": "Hợp đồng PMC/EPC, responsibility matrix, interface matrix"
+        },
+        {
+          "clauseId": "ND5_1",
+          "expectedProof": "Quyết định thành lập BQLDA, văn bản phân quyền, sơ đồ tổ chức"
+        },
+        {
+          "clauseId": "ND16_20",
+          "expectedProof": "Delegation/Stop Work Authority, nhật ký giám sát, biên bản xử lý giao diện"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P1-03",
@@ -1001,7 +1197,22 @@
       ],
       "partners": "Procurement, Contract, Construction, Technical evaluators",
       "example": "Ví dụ: Nhà thầu có tỷ lệ tai nạn thấp nhưng không có phương pháp đánh giá rủi ro cryogenic; yêu cầu giải trình năng lực chuyên môn.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND20",
+          "expectedProof": "Biên bản giám sát, kế hoạch audit, tài liệu chứng nhận và witness"
+        },
+        {
+          "clauseId": "ND15",
+          "expectedProof": "HSE Plan, biện pháp thi công, bổ nhiệm chỉ huy/đầu mối an toàn"
+        },
+        {
+          "clauseId": "AT18",
+          "expectedProof": "Risk assessment / JSA / toolbox evidence"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P1-04",
@@ -1046,7 +1257,22 @@
       ],
       "partners": "Process safety lead, Engineering, Fire engineer, Consultant",
       "example": "Ví dụ: QRA cho thấy một khu vực chịu ảnh hưởng vượt giả định; engineering phải đề xuất biện pháp và tái đánh giá, HSE theo dõi bằng chứng.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_23",
+          "expectedProof": "Plot plan, QRA, layout design review, spacing calculations"
+        },
+        {
+          "clauseId": "Q19_116",
+          "expectedProof": "ESD/ERS FDS, SAT, cause-effect, marine interface test"
+        },
+        {
+          "clauseId": "Q19_122",
+          "expectedProof": "PSSR / safety readiness report, action closure, acceptance dossiers"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P1-05",
@@ -1094,7 +1320,26 @@
       ],
       "partners": "Environment, Fire, Legal, Procurement, Engineering",
       "example": "Ví dụ: ĐTM yêu cầu quan trắc trong thi công nhưng hợp đồng EPC không ghi ai thực hiện và ai trả chi phí.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "MT37",
+          "expectedProof": "EIA decision, commitment tracker, change log"
+        },
+        {
+          "clauseId": "PCCC16",
+          "expectedProof": "Fire design compliance review, thẩm định/đánh giá phù hợp"
+        },
+        {
+          "clauseId": "ND105_12",
+          "expectedProof": "Bản đối chiếu ND105/2025 + ND347/2026, nghiệm thu theo phân cấp"
+        },
+        {
+          "clauseId": "Q19_121",
+          "expectedProof": "ITP, FAT/SAT, NCR, certification dossier"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P1-06",
@@ -1136,7 +1381,22 @@
       ],
       "partners": "PM, Planning, EPC bidder, HSE Team",
       "example": "Ví dụ: 100% PTW được phát hành không có nghĩa là an toàn; chỉ số cần kiểm chứng đúng điều kiện hiện trường.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND16_3",
+          "expectedProof": "Organization chart, quyết định giao việc, assurance plan"
+        },
+        {
+          "clauseId": "ND16_20",
+          "expectedProof": "Delegation/Stop Work Authority, nhật ký giám sát, biên bản xử lý giao diện"
+        },
+        {
+          "clauseId": "ND20",
+          "expectedProof": "Biên bản giám sát, kế hoạch audit, tài liệu chứng nhận và witness"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P1-07",
@@ -1181,7 +1441,26 @@
       ],
       "partners": "Marine engineer, Port operator, Process, E&I, Fire, Legal",
       "example": "Ví dụ: Cầu LNG có cần xuất nhập nhưng hợp đồng không quy định bên nào thực hiện kiểm thử ESD ship-to-shore; phát hiện sớm trước award.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_1",
+          "expectedProof": "Battery limits, design scope, tank storage capacity"
+        },
+        {
+          "clauseId": "Q19_23",
+          "expectedProof": "Plot plan, QRA, layout design review, spacing calculations"
+        },
+        {
+          "clauseId": "Q19_115",
+          "expectedProof": "Unloading procedure, cooldown checklist, interface agreement"
+        },
+        {
+          "clauseId": "Q19_116",
+          "expectedProof": "ESD/ERS FDS, SAT, cause-effect, marine interface test"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P2-01",
@@ -1228,7 +1507,26 @@
       ],
       "partners": "Construction, Contract, EPC HSE, Medical, Fire, PM",
       "example": "Ví dụ: EPC đủ PPE nhưng chưa có phương án cứu hộ làm việc trên cao; không cho triển khai hạng mục có rủi ro tương ứng.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND12",
+          "expectedProof": "Hồ sơ đủ điều kiện khởi công và văn bản/thông báo có liên quan"
+        },
+        {
+          "clauseId": "ND15",
+          "expectedProof": "HSE Plan, biện pháp thi công, bổ nhiệm chỉ huy/đầu mối an toàn"
+        },
+        {
+          "clauseId": "ND16_3",
+          "expectedProof": "Organization chart, quyết định giao việc, assurance plan"
+        },
+        {
+          "clauseId": "ND20",
+          "expectedProof": "Biên bản giám sát, kế hoạch audit, tài liệu chứng nhận và witness"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P2-02",
@@ -1272,7 +1570,22 @@
       ],
       "partners": "EPC Construction, EPC HSE, Contract, PM",
       "example": "Ví dụ: HSE Plan ghi EPC cấp PTW nhưng khu vực do O&M kiểm soát: phải làm rõ trước khi cấp permit.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND15",
+          "expectedProof": "HSE Plan, biện pháp thi công, bổ nhiệm chỉ huy/đầu mối an toàn"
+        },
+        {
+          "clauseId": "ND16_3",
+          "expectedProof": "Organization chart, quyết định giao việc, assurance plan"
+        },
+        {
+          "clauseId": "AT18",
+          "expectedProof": "Risk assessment / JSA / toolbox evidence"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P2-03",
@@ -1316,7 +1629,22 @@
       ],
       "partners": "Construction, EPC HSE, Engineering, Supervisors",
       "example": "Ví dụ: Kế hoạch nâng hạ đã ký nhưng nền kê cẩu sau mưa bị biến dạng; anh yêu cầu kiểm chứng trạng thái thực tế.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND16_20",
+          "expectedProof": "Delegation/Stop Work Authority, nhật ký giám sát, biên bản xử lý giao diện"
+        },
+        {
+          "clauseId": "ND20",
+          "expectedProof": "Biên bản giám sát, kế hoạch audit, tài liệu chứng nhận và witness"
+        },
+        {
+          "clauseId": "Q18_2417",
+          "expectedProof": "Ground bearing check, lifting plan, crane setup inspection"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P2-04",
@@ -1360,7 +1688,22 @@
       ],
       "partners": "Construction, Operations, EPC A/B, Permit authority",
       "example": "Ví dụ: Một EPC nâng turbine, EPC khác thử áp bên cạnh. Anh điều phối vùng cấm và lịch, không tự viết JSA cho cả hai EPC.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND16_20",
+          "expectedProof": "Delegation/Stop Work Authority, nhật ký giám sát, biên bản xử lý giao diện"
+        },
+        {
+          "clauseId": "ND5_2",
+          "expectedProof": "Hợp đồng PMC/EPC, responsibility matrix, interface matrix"
+        },
+        {
+          "clauseId": "ND15",
+          "expectedProof": "HSE Plan, biện pháp thi công, bổ nhiệm chỉ huy/đầu mối an toàn"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P2-05",
@@ -1403,7 +1746,22 @@
       ],
       "partners": "EPC lifting engineer, Construction, Geotechnical, HSE",
       "example": "Ví dụ: Cẩu 300 tấn chỉ là ví dụ; trọng lượng thiết bị LNG Nghi Sơn phải xác nhận từ hồ sơ thực tế.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q18_2417",
+          "expectedProof": "Ground bearing check, lifting plan, crane setup inspection"
+        },
+        {
+          "clauseId": "Q18_2419",
+          "expectedProof": "Inspection certificates, rigging register, equipment log"
+        },
+        {
+          "clauseId": "ND16_20",
+          "expectedProof": "Delegation/Stop Work Authority, nhật ký giám sát, biên bản xử lý giao diện"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P2-06",
@@ -1449,7 +1807,26 @@
       ],
       "partners": "Environment, EPC, Consultant, Legal",
       "example": "Ví dụ: Mưa lớn làm nước bùn tràn ra đường dân sinh; chủ đầu tư yêu cầu EPC khắc phục và xem lại thiết kế thoát nước tạm.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "MT37",
+          "expectedProof": "EIA decision, commitment tracker, change log"
+        },
+        {
+          "clauseId": "MT39",
+          "expectedProof": "Permit applicability matrix, dự báo nguồn thải"
+        },
+        {
+          "clauseId": "MT47",
+          "expectedProof": "Environmental permit, điều kiện, monitoring and reporting handover"
+        },
+        {
+          "clauseId": "ND16_3",
+          "expectedProof": "Organization chart, quyết định giao việc, assurance plan"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P2-07",
@@ -1493,7 +1870,26 @@
       ],
       "partners": "EPC HR/HSE, Mechanical, Construction, Subcontractors",
       "example": "Ví dụ: Chứng chỉ đào tạo còn hiệu lực nhưng công nhân không biết quy trình cô lập điện tại vị trí làm việc; cần đánh giá năng lực thực tế.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "AT18",
+          "expectedProof": "Risk assessment / JSA / toolbox evidence"
+        },
+        {
+          "clauseId": "ND15",
+          "expectedProof": "HSE Plan, biện pháp thi công, bổ nhiệm chỉ huy/đầu mối an toàn"
+        },
+        {
+          "clauseId": "ND20",
+          "expectedProof": "Biên bản giám sát, kế hoạch audit, tài liệu chứng nhận và witness"
+        },
+        {
+          "clauseId": "Q18_2419",
+          "expectedProof": "Inspection certificates, rigging register, equipment log"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P2-08",
@@ -1537,7 +1933,22 @@
       ],
       "partners": "EPC management, PM, Contract, Construction",
       "example": "Ví dụ: Có 5 lỗi rào chắn trong 1 tháng; phải xem nguyên nhân năng lực quản lý, vật tư và giám sát, không chỉ phạt 5 công nhân.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND20",
+          "expectedProof": "Biên bản giám sát, kế hoạch audit, tài liệu chứng nhận và witness"
+        },
+        {
+          "clauseId": "ND16_20",
+          "expectedProof": "Delegation/Stop Work Authority, nhật ký giám sát, biên bản xử lý giao diện"
+        },
+        {
+          "clauseId": "ND15",
+          "expectedProof": "HSE Plan, biện pháp thi công, bổ nhiệm chỉ huy/đầu mối an toàn"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P2-09",
@@ -1581,7 +1992,22 @@
       ],
       "partners": "EPC Incident Commander, Legal, PM, Emergency services",
       "example": "Ví dụ: Tai nạn làm việc trên cao: EPC ứng cứu tại chỗ; chủ đầu tư điều phối nghĩa vụ, giám sát điều tra, xem nguy cơ tương tự ở các EPC khác.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND16_20",
+          "expectedProof": "Delegation/Stop Work Authority, nhật ký giám sát, biên bản xử lý giao diện"
+        },
+        {
+          "clauseId": "ND15",
+          "expectedProof": "HSE Plan, biện pháp thi công, bổ nhiệm chỉ huy/đầu mối an toàn"
+        },
+        {
+          "clauseId": "AT18",
+          "expectedProof": "Risk assessment / JSA / toolbox evidence"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P2-10",
@@ -1624,7 +2050,22 @@
       ],
       "partners": "PM, EPC Managers, Construction, Planning",
       "example": "Ví dụ: 3 tuần liên tiếp PTW audit thấp ở gói điện, đề xuất tăng engineering supervision hoặc điều chỉnh sequencing.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND16_3",
+          "expectedProof": "Organization chart, quyết định giao việc, assurance plan"
+        },
+        {
+          "clauseId": "ND16_20",
+          "expectedProof": "Delegation/Stop Work Authority, nhật ký giám sát, biên bản xử lý giao diện"
+        },
+        {
+          "clauseId": "ND5_1",
+          "expectedProof": "Quyết định thành lập BQLDA, văn bản phân quyền, sơ đồ tổ chức"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P3-01",
@@ -1669,7 +2110,22 @@
       ],
       "partners": "Process safety, EPC Commissioning, Engineering, O&M",
       "example": "Ví dụ: ESD valve chưa hoàn thành functional test; không thể suy ra hệ thống an toàn chỉ vì piping pressure test đạt.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_116",
+          "expectedProof": "ESD/ERS FDS, SAT, cause-effect, marine interface test"
+        },
+        {
+          "clauseId": "Q19_122",
+          "expectedProof": "PSSR / safety readiness report, action closure, acceptance dossiers"
+        },
+        {
+          "clauseId": "Q19_123",
+          "expectedProof": "Commissioning plan, test packs, drying, inerting and acceptance"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P3-02",
@@ -1712,7 +2168,22 @@
       ],
       "partners": "Commissioning, Process, E&I, O&M",
       "example": "Ví dụ: EPC đề nghị bypass alarm để thử thiết bị nhanh; phải qua MOC/temporary override control và quyết định đúng thẩm quyền.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_123",
+          "expectedProof": "Commissioning plan, test packs, drying, inerting and acceptance"
+        },
+        {
+          "clauseId": "Q19_131",
+          "expectedProof": "Operating manual, ERP, training matrix, as-built dossier"
+        },
+        {
+          "clauseId": "MT37",
+          "expectedProof": "EIA decision, commitment tracker, change log"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P3-03",
@@ -1759,7 +2230,26 @@
       ],
       "partners": "Commissioning Authority, EPC, Operations, Process, Fire",
       "example": "Ví dụ: 3 điểm punch list cấp độ an toàn vẫn mở; yêu cầu quyết định No-go hoặc xử lý theo quy trình chấp nhận rủi ro được phê duyệt.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_122",
+          "expectedProof": "PSSR / safety readiness report, action closure, acceptance dossiers"
+        },
+        {
+          "clauseId": "Q19_123",
+          "expectedProof": "Commissioning plan, test packs, drying, inerting and acceptance"
+        },
+        {
+          "clauseId": "ND105_12",
+          "expectedProof": "Bản đối chiếu ND105/2025 + ND347/2026, nghiệm thu theo phân cấp"
+        },
+        {
+          "clauseId": "ND347",
+          "expectedProof": "Mốc tuân thủ PCCC phiên bản sau 15/09/2026"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P3-04",
@@ -1806,7 +2296,22 @@
       ],
       "partners": "Emergency response, O&M, EPC, Fire, Authorities as applicable",
       "example": "Ví dụ: Diễn tập giả định rò rỉ LNG: anh đánh giá readiness và khả năng phối hợp, không tự chọn chiến thuật chữa cháy thay chuyên gia.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_122",
+          "expectedProof": "PSSR / safety readiness report, action closure, acceptance dossiers"
+        },
+        {
+          "clauseId": "Q19_131",
+          "expectedProof": "Operating manual, ERP, training matrix, as-built dossier"
+        },
+        {
+          "clauseId": "PCCC16",
+          "expectedProof": "Fire design compliance review, thẩm định/đánh giá phù hợp"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P3-05",
@@ -1851,7 +2356,22 @@
       ],
       "partners": "Construction, Commissioning, O&M, EPC A/B",
       "example": "Ví dụ: Hệ thống ống bắt đầu nạp khí, lân cận còn hot work; chủ đầu tư tổ chức khóa lịch và cập nhật vùng cấm.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND16_20",
+          "expectedProof": "Delegation/Stop Work Authority, nhật ký giám sát, biên bản xử lý giao diện"
+        },
+        {
+          "clauseId": "Q19_122",
+          "expectedProof": "PSSR / safety readiness report, action closure, acceptance dossiers"
+        },
+        {
+          "clauseId": "AT18",
+          "expectedProof": "Risk assessment / JSA / toolbox evidence"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P3-06",
@@ -1897,7 +2417,26 @@
       ],
       "partners": "Marine/Port operator, LNG terminal operator, EPC, O&M, Fire, Commissioning",
       "example": "Ví dụ: Hoàn tất cơ khí cần xuất nhập chưa đồng nghĩa sẵn sàng tiếp nhận LNGC; phải kiểm chứng functional test và phối hợp tàu–bờ.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "Q19_113",
+          "expectedProof": "Vapor return line test, marine unloading procedure"
+        },
+        {
+          "clauseId": "Q19_115",
+          "expectedProof": "Unloading procedure, cooldown checklist, interface agreement"
+        },
+        {
+          "clauseId": "Q19_116",
+          "expectedProof": "ESD/ERS FDS, SAT, cause-effect, marine interface test"
+        },
+        {
+          "clauseId": "Q19_123",
+          "expectedProof": "Commissioning plan, test packs, drying, inerting and acceptance"
+        }
+      ],
+      "legalScopeNote": "Pháp luật nêu nghĩa vụ của đúng chủ thể và điều kiện tương ứng; thủ tục quản trị trong playbook là CÁCH ĐỀ XUẤT THỰC HIỆN, không phải tên biểu mẫu được luật bắt buộc. Đặc biệt cần xác minh phạm vi kho LNG trên bờ (>200 tấn), pháp nhân và phân quyền."
     },
     {
       "id": "P4-01",
@@ -1944,7 +2483,26 @@
       ],
       "partners": "O&M, Engineering, EPC, Legal, PM",
       "example": "Ví dụ: Biên bản bàn giao ghi thiết bị phát hiện khí chưa hoàn thành test: phải xác định mức độ chấp nhận hoặc giữ gate phù hợp.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND30",
+          "expectedProof": "Handover index, dossier, punchlist, acceptance certificates"
+        },
+        {
+          "clauseId": "XD58",
+          "expectedProof": "Acceptance / handover / O&M readiness dossier"
+        },
+        {
+          "clauseId": "Q19_131",
+          "expectedProof": "Operating manual, ERP, training matrix, as-built dossier"
+        },
+        {
+          "clauseId": "MT47",
+          "expectedProof": "Environmental permit, điều kiện, monitoring and reporting handover"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     },
     {
       "id": "P4-02",
@@ -1989,7 +2547,26 @@
       ],
       "partners": "PM, Contract, O&M, Legal, Information management",
       "example": "Ví dụ: Lỗi SIMOPS lặp lại trong 2 EPC được chuyển thành yêu cầu HSE mới cho dự án tiếp theo.",
-      "tag": "Thực hành quản trị"
+      "tag": "Thực hành quản trị",
+      "legalPins": [
+        {
+          "clauseId": "ND30",
+          "expectedProof": "Handover index, dossier, punchlist, acceptance certificates"
+        },
+        {
+          "clauseId": "ND5_2",
+          "expectedProof": "Hợp đồng PMC/EPC, responsibility matrix, interface matrix"
+        },
+        {
+          "clauseId": "Q19_121",
+          "expectedProof": "ITP, FAT/SAT, NCR, certification dossier"
+        },
+        {
+          "clauseId": "MT37",
+          "expectedProof": "EIA decision, commitment tracker, change log"
+        }
+      ],
+      "legalScopeNote": "Phân biệt nghĩa vụ pháp lý của chủ đầu tư và nghĩa vụ của nhà thầu/EPC; biểu mẫu playbook là công cụ quản trị đề xuất."
     }
   ],
   "raci": [
@@ -4935,7 +5512,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Giả sử được nhận khi mới có tư vấn FS, anh không nhận mình đã chủ trì FEED. Anh xin tiến độ ĐTM, sơ đồ ranh giới kho/cảng/nhà máy, lập gap register 15 đầu việc, trình Project Director chọn ba điểm nghẽn phải xử lý trước hồ sơ thầu.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "q": "Anh sẽ làm gì trong 30 ngày đầu khi chưa có EPC?",
@@ -4960,7 +5539,9 @@
       ],
       "related": "P0-03",
       "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Tuần thứ nhất gặp Investment, Engineering, Legal và Planner; tuần thứ hai lập scope/permit matrix; cuối ngày 30 bàn giao một dashboard: 12 nghĩa vụ, 4 nguy cơ thiết kế đỏ, 3 kiến nghị cần Giám đốc quyết định; chưa hứa hoàn thành mọi thủ tục.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "q": "Vì sao chủ đầu tư cần HSE trong khi EPC có 30 HSE?",
@@ -4983,7 +5564,9 @@
       ],
       "related": "P2-03",
       "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Giả sử EPC có 30 giám sát nhưng hai gói thi công cùng sử dụng một đường nội bộ. HSE chủ đầu tư đặt interface matrix, họp phân tuyến vận chuyển, theo dõi biên bản và kiểm chứng việc giải quyết tranh chấp; không điều hành từng người lái xe.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "q": "Anh có thể tự ký phê duyệt HAZOP hoặc QRA?",
@@ -5007,7 +5590,9 @@
       ],
       "related": "P1-05",
       "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Một tư vấn gửi QRA tính phân tán khí. Anh không tự xác nhận mô hình; yêu cầu Process Safety/Engineering độc lập kiểm tra giả định khí tượng, tần suất rò, receptor và đóng nhận xét, sau đó HSE theo dõi action register trình cấp có thẩm quyền.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "q": "Khi tiến độ xung đột với an toàn?",
@@ -5031,7 +5616,9 @@
       ],
       "related": "P2-03",
       "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "BQLDA muốn triển khai san lấp gần kho LNG nhưng biện pháp bảo vệ khu dân cư chưa rõ. Anh yêu cầu hold point, nêu thiếu bằng chứng và giải pháp chia gói khảo sát không xâm hại; trình Giám đốc phê duyệt tiến độ điều chỉnh trong điều kiện pháp lý cho phép.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "q": "Bộ KPI nào dùng để báo cáo lãnh đạo?",
@@ -5054,7 +5641,9 @@
       ],
       "related": "P2-06",
       "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Tuần báo cáo có 5 KPI: kiểm soát trọng yếu được kiểm chứng, NCR quá hạn, HAZOP actions chưa đóng, permit milestones chậm, readiness gate. Một tồn tại về đường thoát nạn được đánh dấu đỏ và gắn ngày/owner/decision thay vì đưa chỉ số 0 LTI làm kết luận đủ an toàn.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "q": "Từ kinh nghiệm SHEQ ở NORTALIC, anh chuyển giao gì?",
@@ -5078,7 +5667,9 @@
       ],
       "related": "P0-03",
       "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Giả sử ở NORTALIC anh đã quản lý lịch kiểm tra SHEQ, anh mô tả khả năng xây register và audit trail. Khi sang LNG, anh không tự kết luận luật ngành khí mà dùng tư vấn kỹ thuật + Legal cùng đánh giá applicability, rồi thiết lập người chịu trách nhiệm và bằng chứng.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "q": "Đã 7 triệu giờ an toàn là đóng góp của riêng anh?",
@@ -5100,7 +5691,9 @@
       ],
       "related": "P2-06",
       "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Khi kể mục tiêu 7 triệu giờ an toàn tại công trường lọc hóa dầu, nói rõ đó là thành tích tập thể. Ví dụ anh từng tham gia kiểm soát đào đất/lifting theo phạm vi công việc được giao; cung cấp ví dụ hành động và kết quả có thể kiểm chứng, không nhận toàn bộ KPI là của riêng mình.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "q": "LNG có rủi ro nào khác lọc hóa dầu?",
@@ -5125,7 +5718,9 @@
       ],
       "related": "P3-03",
       "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Phát hiện phương án bồn LNG tiếp giáp đường đông người: khác rủi ro ngã cao trong xây lắp, anh yêu cầu xét thất thoát LNG lạnh sâu, phát tán hơi, bức xạ nhiệt, khả năng sơ tán và giao diện cảng theo chuyên gia QRA/Design Safety.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "q": "Nếu Trung Nam chưa rõ đơn vị chủ đầu tư pháp lý?",
@@ -5149,7 +5744,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thật, nêu phạm vi công việc đã xác minh và bằng chứng phù hợp.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Hồ sơ HR ghi Trung Nam nhưng hợp đồng tư vấn đứng tên công ty dự án khác. Anh lập bảng pháp nhân: ai là nhà đầu tư, chủ dự án ĐTM, chủ đầu tư xây dựng, đơn vị vận hành; yêu cầu Legal xác nhận bằng văn bản trước đặt trách nhiệm ký hồ sơ.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q011",
@@ -5173,7 +5770,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Hai EPC cùng làm ngoài hiện trường: EPC quản lý JSA, nhân lực, huấn luyện và biện pháp từng ca; BQLDA giám sát hệ thống và phối hợp rủi ro giao diện. Khi một EPC nâng thiết bị vắt qua tuyến xe của EPC khác, BQLDA yêu cầu phương án phân tuyến chung và nghiệm chứng xử lý.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q012",
@@ -5194,7 +5793,9 @@
       "refs": [],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Tình huống chuyển từ nhà máy sang dự án: thay vì lập lịch PPE cho thợ, anh đưa risk & permit register, yêu cầu HSE trong ITB và cảnh báo sớm các mốc ảnh hưởng tiến độ; không xem đây là rời bỏ nghiệp vụ hiện trường mà mở rộng từ execution sang governance.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q013",
@@ -5218,7 +5819,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Trong phỏng vấn giả sử hỏi về LNG cold-box, anh nói chưa từng ký đánh giá thiết kế LNG, nhưng biết tìm Process Safety và Vendor, lập HAZID action register, kiểm tra nguyên tắc phân quyền, dẫn dụ ví dụ QCVN 19 kho chứa trên bờ có mục 12.2 về kiểm tra trước chạy thử.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q014",
@@ -5243,7 +5846,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Tư vấn đề nghị anh ký chứng nhận thiết kế bể LNG đạt an toàn. Anh không ký thay kỹ sư có năng lực; chỉ ký xác nhận HSE đã theo dõi đủ tài liệu theo phân công, yêu cầu người thiết kế/đơn vị thẩm tra chịu kết luận kỹ thuật.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q015",
@@ -5267,7 +5872,9 @@
       ],
       "related": "P1-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Ví dụ một lãnh đạo cần ba kết quả: bảng permit milestone có cảnh báo, tiêu chuẩn HSE cài trong EPC tender, và gói assurance không phụ thuộc việc EPC tự báo. Mỗi kết quả gắn ba đầu mối, kỳ hạn và minh chứng.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q016",
@@ -5291,7 +5898,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Nếu Engineering bỏ qua NCR liên quan gas detection, anh báo Project Director qua tuyến chuyên môn kèm evidence, mức độ ảnh hưởng và đề xuất hold point; chỉ dùng vượt tuyến khi kênh thông thường không giải quyết nguy cơ nghiêm trọng hay quy trình quy định.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q017",
@@ -5317,7 +5926,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Ngày đầu, xin bản vẽ plot plan, decision/permission về pháp nhân và đầu tư, FS/FEED hiện có, quy hoạch và EIA tracker, HSMT/hợp đồng tư vấn, tiến độ master; chốt danh mục thiếu ký xác nhận Document Control.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q018",
@@ -5343,7 +5954,9 @@
       ],
       "related": "P0-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Dòng Legal Register không ghi chung “Luật môi trường”: ghi “Luật BVMT Điều 31 – chủ dự án tổ chức ĐTM”, sự kiện kích hoạt, pháp nhân chịu trách nhiệm, tư vấn làm, hạn, chứng từ và link phiên bản luật; nếu chưa đủ dữ kiện đánh dấu “chờ phân loại”.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q019",
@@ -5368,7 +5981,9 @@
       ],
       "related": "P0-06",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Nếu có 20 hộ dân sát tuyến ra vào, HSE không tự thương lượng đền bù; phối hợp bộ phận đất đai/CSR kiểm tra rủi ro giao thông, bụi, tiếng ồn, an ninh và lối tiếp cận xe cấp cứu, lập danh mục biện pháp đưa vào phương án triển khai.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q020",
@@ -5394,7 +6009,9 @@
       ],
       "related": "P0-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Khi master schedule dự kiến khởi công trước mốc ĐTM/PCCC, anh làm dependency map, đưa căn cứ và mốc pháp lý cần xác minh, trình 2 phương án điều chỉnh logic công việc; không tự cấp phép cho hoạt động chưa đủ điều kiện.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q021",
@@ -5419,7 +6036,9 @@
       ],
       "related": "P0-07",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Rủi ro cấp dự án: kho chứa đặt gần trục giao thông và cảng có nguy cơ đồng thời cháy/sơ tán; owner risk register nêu hậu quả liên gói và quyết định thiết kế. JSA của nhà thầu chỉ xử lý việc đặt cẩu/ống hôm đó.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q022",
@@ -5443,7 +6062,9 @@
       ],
       "related": "P0-02",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Nếu chưa có quy chế BQLDA, trong 10 ngày anh đề xuất RACI: Engineering là technical authority, Legal là permit lead, HSE là risk assurance lead, Project Director là project decision owner; xin phê duyệt văn bản và truyền thông tới tư vấn.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q023",
@@ -5467,7 +6088,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Cuộc họp tuần 1 với Legal cập nhật pháp nhân, với Engineering xác định battery limits, với Planner rà mốc khởi công, với Procurement rà RFQ, với O&M xác lập yêu cầu first gas; xuất ra action log chứ không chỉ biên bản gặp mặt.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q024",
@@ -5491,7 +6114,9 @@
       ],
       "related": "P0-08",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Chưa biết số EPC, anh lập ba kịch bản staffing theo số front công trường/rủi ro, mô tả vị trí process safety, environmental compliance, assurance; xin duyệt mức ngân sách tạm và trigger tăng/giảm khi gói thầu được chốt.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q025",
@@ -5516,7 +6141,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Chưa có quyết định nhà đầu tư công khai, anh chỉ chuẩn bị risk screening, legal hypothesis, tiêu chí HSE tender và khảo sát hợp pháp; không tuyên bố dự án đã đủ quyền thực hiện hoạt động xây dựng hoặc đại diện chủ đầu tư có pháp nhân chính thức.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q026",
@@ -5540,7 +6167,9 @@
       ],
       "related": "P0-09",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Trong 5 ngày, anh không tuyên bố “mọi thứ đạt”. Gửi một trang board brief: phạm vi đang biết, 5 khoảng trống hồ sơ, 3 critical risks, 6 việc cần chủ sở hữu thực hiện, 2 quyết định cần chỉ đạo; đính kèm evidence tracker.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q027",
@@ -5565,7 +6194,9 @@
       ],
       "related": "P0-04",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "ĐTM đánh giá tác động và cam kết dự án ở giai đoạn chuẩn bị; giấy phép môi trường liên quan hoạt động phát thải khi thuộc đối tượng. Ví dụ nhà máy dự kiến có hệ thống nước thải: yêu cầu tư vấn phân loại và lập mốc cấp phép riêng, không cho rằng một quyết định ĐTM đã thay thế mọi giấy phép.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q028",
@@ -5590,7 +6221,9 @@
       ],
       "related": "P0-04",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Tư vấn ĐTM chậm 30 ngày vì dữ liệu cooling water thiếu: anh tổ chức cuộc họp với Engineering bàn giao dữ liệu, lấy recovery plan từ tư vấn, đánh dấu ảnh hưởng master schedule, xem điều khoản hợp đồng và báo cáo hai phương án lên Giám đốc.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q029",
@@ -5615,7 +6248,9 @@
       ],
       "related": "P0-05",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Một block nhà máy, kho LNG và cảng có phân loại khác nhau. Anh yêu cầu PCCC consultant lập bảng cấu phần, thủ tục cần thẩm định, cơ quan theo phân cấp và kiểm tra thay đổi NĐ 347/2026; không trả lời mặc định mọi việc do Cảnh sát PCCC thẩm duyệt.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q030",
@@ -5640,7 +6275,9 @@
       ],
       "related": "P0-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "NĐ 347/2026 sửa Điều 12 NĐ 105: anh cập nhật baseline register, đánh dấu trước/sau 15/9, xác nhận lại hồ sơ đang xử lý với tư vấn PCCC, phát hành legal change note kèm owner, deadline và hành động.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q031",
@@ -5664,7 +6301,9 @@
       ],
       "related": "P0-10",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Dựa vào battery limits, kho chứa trên bờ dung tích dự kiến trên 200 tấn cần đối chiếu QCVN 19. Với turbine và trạm biến áp ngoài ranh giới kho, anh yêu cầu xác định bộ quy chuẩn riêng thay vì gắn Q19 cho tất cả.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q032",
@@ -5689,7 +6328,9 @@
       ],
       "related": "P2-08",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "EPC vận chuyển bùn thải ra ngoài: anh yêu cầu phân loại chất thải, điểm thu gom, hồ sơ đơn vị vận chuyển tiếp nhận và chứng từ khi pháp luật yêu cầu, kiểm chứng spot-check thực địa, không chấp nhận chỉ một ảnh xe chở đi.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q033",
@@ -5714,7 +6355,9 @@
       ],
       "related": "P0-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Hạng mục cảng có giấy phép/đăng ký theo lĩnh vực hàng hải khác kho LNG. Anh lập authority matrix theo pháp nhân, thiết kế và phạm vi gói thầu, nhờ Legal/Marine consultant xác nhận người xin, người ký, mốc và điều kiện áp dụng.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q034",
@@ -5739,7 +6382,9 @@
       ],
       "related": "P2-08",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "EPC có ISO 14001 nhưng xe tải vẫn ra khỏi công trường không phủ bạt. Anh ghi NCR cho yêu cầu kiểm soát thực tế, buộc EPC chứng minh hành động phòng ngừa, xác nhận closure bằng quan sát hiện trường và log vận chuyển.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q035",
@@ -5764,7 +6409,9 @@
       ],
       "related": "P0-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Một dự án có thể chia thành nhà máy, kho bồn, cảng và đường dây với nghĩa vụ khác nhau; khi thiếu thông tin battery limits chưa thể khẳng định “đủ mọi giấy phép”. Anh báo cáo trạng thái “chưa phân loại/đang rà” chứ không xanh hóa.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q036",
@@ -5789,7 +6436,9 @@
       ],
       "related": "P1-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Trong HSMT EPC, anh đưa HSE Management Plan, minimum staffing, reporting/incident notification, stop-work, SIMOPS, critical-control evidence, audit rights, subcontractor obligations và handover criteria; với mỗi yêu cầu nêu đầu ra và thẩm quyền chấp thuận.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q037",
@@ -5814,7 +6463,9 @@
       ],
       "related": "P1-04",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "FEED đưa bồn LNG sát lối thoát nạn: HSE không tính lại mô hình nhưng đặt câu hỏi về receptor, bố trí và khả năng cứu hộ, yêu cầu Process Safety/QRA tham gia design review và lưu comment resolution.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q038",
@@ -5839,7 +6490,9 @@
       ],
       "related": "P1-05",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Khảo sát bồn–cảng giai đoạn FEED dùng HAZID để nhận diện mối nguy; giai đoạn P&ID dùng HAZOP để xét sai lệch dòng/áp; QRA mô hình hóa tần suất–hậu quả khi cần. Anh theo dõi các action của chuyên gia, không tự cấp chứng nhận ba nghiên cứu.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q039",
@@ -5863,7 +6516,9 @@
       ],
       "related": "P1-02",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Hai EPC nộp HSE Plan: một bên có ISO và tai nạn thấp nhưng thiếu ví dụ critical lift; bên kia có manning plan, competency records, case study và interface management. Anh đề nghị chấm evidence-based, yêu cầu làm rõ và để hội đồng thầu quyết định.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q040",
@@ -5887,7 +6542,9 @@
       ],
       "related": "P2-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "HSE Plan 150 trang ghi luật nước ngoài, địa hình giống dự án khác và không có phần đường biển. Anh yêu cầu EPC sửa specific risk register, organizational chart, permit/critical works và emergency links, không nhận chỉ vì số trang.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q041",
@@ -5912,7 +6569,9 @@
       ],
       "related": "P1-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Hợp đồng EPC cần điều khoản cho phép dừng công việc mất an toàn, yêu cầu khắc phục, thời hạn báo cáo, điều kiện khôi phục và không miễn trách nhiệm nhà thầu. Anh phối hợp Legal/Contract bảo đảm quy trình đúng thẩm quyền, không tự soạn điều kiện bồi thường pháp lý.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q042",
@@ -5937,7 +6596,9 @@
       ],
       "related": "P1-04",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "EPC đổi loại gas detector: anh yêu cầu MOC với Technical Authority, so sánh vùng phủ, logic ESD, chứng chỉ, SAT và hồ sơ revised as-built; HSE chỉ kiểm soát vòng phê duyệt và hành động tồn, không ký thay Instrument Engineer.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q043",
@@ -5962,7 +6623,9 @@
       ],
       "related": "P1-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Đặt tuabin trước EPC: anh yêu cầu vendor cung cấp hazardous-energy interfaces, fire protection philosophies, noise data, maintenance access và training; Procurement đưa vào PO, Engineering duyệt giải pháp, HSE kiểm chứng giao diện an toàn khi tích hợp.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q044",
@@ -5987,7 +6650,9 @@
       ],
       "related": "P1-05",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "HAZOP action 15 đóng bằng bản vẽ revision B, sau đó vendor đổi relief valve. Anh mở lại action/MOC, yêu cầu Process Safety xét ảnh hưởng và Engineering ký, HSE cập nhật closure evidence chứ không tuyên bố đã xong theo bản cũ.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q045",
@@ -6012,7 +6677,9 @@
       ],
       "related": "P1-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "EPC A lắp bồn, EPC B thi công pipe rack cùng tuyến ra vào. Chủ đầu tư lập interface matrix và các hold points, chỉ định người điều phối, quy định quyền stop-work, lập risk register giao diện, tránh để hai bên đổ lỗi khi có conflict.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q046",
@@ -6036,7 +6703,9 @@
       ],
       "related": "P2-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "BQLDA có 3 HSE, EPC có 30 HSE: anh chia 3 người theo risk cluster (civil/lifting, piping/MEP, environmental/process), kiểm chứng những critical control có chỉ số đỏ và audit hệ thống thay vì “đếm số lần đi tuần”.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q047",
@@ -6061,7 +6730,9 @@
       ],
       "related": "P2-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "EPC đề nghị huy động 500 người: anh tổ chức readiness review điều kiện khởi công, site layout, housing/medical/rescue, induction/competency, kiểm định máy, biện pháp high-risk và thẩm quyền ký. Chốt hold points rõ trước khi mở mặt bằng.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q048",
@@ -6085,7 +6756,9 @@
       ],
       "related": "P2-07",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Hai PTW hợp lệ: EPC A hàn trên cao, EPC B nạp áp thử đường ống bên dưới. Anh yêu cầu ngừng giao diện xung đột, tổ chức SIMOPS meeting, phân vùng thời gian, kiểm tra lại giấy phép hai bên và ghi điều kiện tái khởi động.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q049",
@@ -6109,7 +6782,9 @@
       ],
       "related": "P2-04",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Lifting study cho thiết bị 120 tấn, nền đặt cẩu chưa có báo cáo sức chịu tải. Anh yêu cầu EPC cung cấp khảo sát/tính toán do lifting engineer ký theo QCVN18 mục 2.4.1.7, tạm chưa witness cấp phép nâng; kiểm chứng bằng hồ sơ và hiện trường.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q050",
@@ -6134,7 +6809,9 @@
       ],
       "related": "P2-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "PTW ghi số phép và chữ ký đầy đủ, nhưng tại hiện trường người giám sát không biết isolation boundary. Anh đối chiếu PTW với LOTO, gas test, supervisor competence và giao diện EPC, đóng NCR kèm observation.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q051",
@@ -6158,7 +6835,9 @@
       ],
       "related": "P2-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "EPC muốn giảm owner audit từ 2 lần/tuần xuống tháng 1 lần khi đang có nhiều NCR overdue. Anh trình risk-based assurance: giảm nơi rủi ro thấp, tăng với lifting/energization, báo metrics và nêu yêu cầu hợp đồng; không áp dụng tần suất cứng chỉ vì áp lực.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q052",
@@ -6182,7 +6861,9 @@
       ],
       "related": "P2-06",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "NCR về cẩu không có ground bearing check: EPC gửi ảnh lót ván rồi xin đóng. Anh yêu cầu tính toán được thẩm tra, kiểm tra witness trên cẩu thực tế, bằng chứng competence và khắc phục nguyên nhân; chỉ đóng khi kiểm chứng hiệu lực.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q053",
@@ -6206,7 +6887,9 @@
       ],
       "related": "P2-02",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Nhà thầu phụ hàn áp lực có chứng chỉ hết hạn. Anh yêu cầu EPC tạm không bố trí người đó vào vị trí liên quan, xác minh năng lực và hệ thống kiểm soát subcontractor; hợp đồng EPC không miễn giám sát của chủ đầu tư.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q054",
@@ -6230,7 +6913,9 @@
       ],
       "related": "P2-06",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Cùng loại near miss lặp lại 5 lần ở vị trí nâng: EPC chỉ phạt công nhân. Anh yêu cầu điều tra nguyên nhân hệ thống như tiến độ ép, bố trí spotter, access, năng lực lifting supervisor và theo dõi effectiveness, không dừng ở behavioral blame.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q055",
@@ -6254,7 +6939,9 @@
       ],
       "related": "P2-06",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Dashboard EPC báo 0 LTI nhưng 8 high-potential near miss và 17 corrective actions trễ. Anh hỏi tỷ lệ critical controls verified, tuổi tồn tại, chủ sở hữu, bằng chứng closure và quyết định cần Giám đốc dự án đưa ra.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q056",
@@ -6280,7 +6967,9 @@
       ],
       "related": "P0-10",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Ví dụ 5 nhóm: thất thoát LNG lạnh sâu; vùng hơi dễ cháy; BOG/quá áp; giao diện tàu–cảng–kho; SIMOPS commissioning. Với mỗi nhóm anh lập owner hazard register, hỏi barrier, technical owner và evidence, không tự định lượng QRA.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q057",
@@ -6305,7 +6994,9 @@
       ],
       "related": "P3-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Vendor lắp gas detector, EPC báo SAT đạt nhưng O&M chưa tham gia test interface với ESD. Anh yêu cầu kỹ thuật xác nhận cause & effect, FAT/SAT, bypass management, test record và O&M acceptance qua các hold points của design–construction–commissioning.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q058",
@@ -6330,7 +7021,9 @@
       ],
       "related": "P3-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "First gas dự kiến thứ Sáu; PSSR tracker còn hai safety-critical actions đỏ. Anh khuyến nghị chưa đưa khí đến khi người có thẩm quyền xác nhận rào chắn theo QCVN19 mục 12.2 và quy trình dự án, lập biên bản quyết định, không tự ký thay Commissioning Manager.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q059",
@@ -6355,7 +7048,9 @@
       ],
       "related": "P3-02",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "LNG có thể gây bỏng lạnh sâu, làm giòn vật liệu, sinh hơi tạo đám mây dễ cháy khi rò rỉ. Anh minh họa bằng kịch bản đường ống chuyển lạnh: yêu cầu vật liệu phù hợp, phát hiện rò, vùng cách ly, diễn tập và team Process Safety xác nhận thiết kế.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q060",
@@ -6380,7 +7075,9 @@
       ],
       "related": "P1-05",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Một công nhân bị trượt ngã là occupational event; mất chức năng ESD khi xả LNG là process safety barrier failure dù chưa ai bị thương. Anh báo cáo cả hai nhưng ưu tiên dấu hiệu suy giảm barrier có hậu quả thảm họa tiềm ẩn.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q061",
@@ -6404,7 +7101,9 @@
       ],
       "related": "P3-02",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "EPC muốn bypass ESD để làm commissioning. Anh yêu cầu stop/hold đối với thử nghiệm chưa được phê duyệt, kỹ thuật lập MOC/override permit, phân tích rủi ro, alternate barriers, thời gian và thẩm quyền phê duyệt; HSE kiểm tra quy trình, không tự cấp phép bypass.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q062",
@@ -6429,7 +7128,9 @@
       ],
       "related": "P1-05",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "HAZOP có 30 action: 12 về P&ID, 10 về instrument, 8 về O&M. Anh lập owner/action/due/evidence register, đặt hold point cho 7 action an toàn cao trước startup, yêu cầu independent verification và escalating overdue.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q063",
@@ -6454,7 +7155,9 @@
       ],
       "related": "P3-04",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Tàu LNG đầu tiên dự kiến cập cảng: anh tập trung ship–shore coordination, thử ESD/ERS, kiểm tra vapor return, cooldown, cứu hộ liên cơ quan; Marine/O&M xác nhận vận hành và người có thẩm quyền ký thay vì HSE tự quyết lịch cầu cảng.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q064",
@@ -6479,7 +7182,9 @@
       ],
       "related": "P2-07",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Đường ống thử áp: HSE yêu cầu kỹ thuật xác định áp, môi chất, exclusion zone, relief, kiểm tra bolted joints và phương án khẩn cấp; sau thử áp, yêu cầu bằng chứng drying/inerting trước first gas theo phạm vi QCVN19.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q065",
@@ -6503,7 +7208,9 @@
       ],
       "related": "P3-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "EPC commissioning có PTW riêng còn O&M đã cấp energization permit: anh yêu cầu bridging matrix, một trung tâm phối hợp SIMOPS, isolation register chung, control of work và phân vai stop/restart cho cả hai.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q066",
@@ -6528,7 +7235,9 @@
       ],
       "related": "P2-09",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Tử vong ở nhà thầu phụ: 15 phút đầu ưu tiên cứu hộ/kiểm soát nguy cơ, bảo vệ hiện trường trong phạm vi phù hợp, kích hoạt báo cáo khẩn và chính sách bảo mật. Anh phối hợp EPC, lãnh đạo, cơ quan chức năng đúng quy định; không phát ngôn kết luận nguyên nhân trước điều tra.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q067",
@@ -6553,7 +7262,9 @@
       ],
       "related": "P2-09",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Thiết bị 3 tấn suýt rơi, không thương tích: anh xếp high-potential theo hậu quả có thể xảy ra, yêu cầu EPC giữ nguyên bằng chứng kỹ thuật, kiểm tra chain of command và các lift tương tự, báo leadership không dùng “không LTI” để bỏ qua.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q068",
@@ -6578,7 +7289,9 @@
       ],
       "related": "P2-09",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "EPC báo sự cố chậm 3 ngày nhưng nhật ký y tế cho thấy có xử lý: anh đối chiếu bằng chứng, yêu cầu báo cáo thực tế, xem điều khoản notification, phát hành NCR cho hệ thống báo cáo và theo dõi corrective action, không tự sửa số liệu thay EPC.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q069",
@@ -6603,7 +7316,9 @@
       ],
       "related": "P3-02",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Commissioning phát hiện rò khí tại manifold: trước hết kích hoạt kế hoạch ứng cứu, ESD, cô lập vùng nguy hiểm theo người điều hành; HSE BQLDA phối hợp thông tin, liên lạc cơ quan khi cần, ghi nhận tình trạng và hỗ trợ Project Director ra quyết định.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q070",
@@ -6627,7 +7342,9 @@
       ],
       "related": "P2-08",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Hộ dân báo tiếng ồn đêm: anh yêu cầu xác minh vị trí/giờ, kiểm tra điều kiện ĐTM/giấy phép khi có, yêu cầu EPC giảm nguồn ồn, ghi grievance log và phản hồi qua đầu mối community, không hứa mức đo chưa có.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q071",
@@ -6652,7 +7369,9 @@
       ],
       "related": "P2-09",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Nhà báo hỏi vì sao dự án dừng: anh không tiết lộ hồ sơ cá nhân/kỹ thuật đang điều tra; chuyển về spokesperson được ủy quyền, chuẩn bị bản factual status được Legal và leadership xác nhận, không tự suy đoán nguyên nhân.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q072",
@@ -6677,7 +7396,9 @@
       ],
       "related": "P2-10",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Đoàn kiểm tra yêu cầu dừng hàn ở khu nguy hiểm: anh hỗ trợ chấp hành yêu cầu đúng thẩm quyền, thông báo Project Director, EPC bảo vệ hiện trường và lập biên bản/plan khắc phục; xác nhận điều kiện và văn bản cho phép trước khi hoạt động trở lại.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q073",
@@ -6702,7 +7423,9 @@
       ],
       "related": "P2-08",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Một bảng quan trắc bị chỉnh số liệu: anh giữ bản gốc/log, báo cho Legal/Ethics và Project Director qua tuyến được bảo vệ, yêu cầu bên có năng lực xác minh độc lập, không sửa tiếp chứng cứ hoặc kết luận giả mạo ngay khi chưa kiểm tra.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q074",
@@ -6727,7 +7450,9 @@
       ],
       "related": "P2-06",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Chỉ có 5 KPI: % critical controls được kiểm chứng; số safety-critical actions quá hạn; % readiness gates đủ chứng cứ; permit milestones trễ; high-potential event closure. Trình mỗi tuần cùng lý do, người chịu trách nhiệm, ngày và quyết định.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q075",
@@ -6751,7 +7476,9 @@
       ],
       "related": "P0-08",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Chưa biết người lao động tối đa: dùng forecast nhân lực theo ba giai đoạn và risk exposure (design, civil, commissioning); dự trù HSE staff, audit, emergency drill, specialist LNG và contingency; cập nhật theo chính sách mua sắm được duyệt.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q076",
@@ -6775,7 +7502,9 @@
       ],
       "related": "P2-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "30 HSE EPC kiểm tra bao nhiêu việc không quan trọng bằng 5 nguy cơ trọng yếu được kiểm chứng thế nào. Anh audit staffing deployment, competency, sampling permit, independent site checks, NCR closure, không biến đội chủ đầu tư thành người chấm công nhà thầu.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q077",
@@ -6799,7 +7528,9 @@
       ],
       "related": "P2-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Một HSE mới thường bỏ qua kiểm chứng hệ thống LOTO: anh giao mentor kèm 2 tuần, dùng checklist theo rủi ro và yêu cầu anh ấy giải thích bằng chứng trước khi xác nhận “đạt”; đánh giá lại độ chính xác thay vì chỉ số lượng biên bản.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q078",
@@ -6823,7 +7554,9 @@
       ],
       "related": "P1-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Nếu đưa ĐTM, PCCC, QRA actions vào master schedule sớm, tiến độ không bị dừng vì bất ngờ khi chuẩn bị khởi công. Anh minh họa bảng legal gate cho biết 4 điều kiện sớm 60 ngày, chỉ rõ người phụ trách và recovery actions.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q079",
@@ -6847,7 +7580,9 @@
       ],
       "related": "P2-06",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Nhà thầu lo báo near miss bị phạt: anh thống nhất cơ chế công khai bài học, bảo mật người báo, phân loại high-potential theo hậu quả, kiểm tra hành động hệ thống và xử lý hành vi cố ý khác với báo cáo tự nguyện.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q080",
@@ -6871,7 +7606,9 @@
       ],
       "related": "P2-06",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Cuộc họp tuần dài 2 giờ nhưng không ai quyết việc: anh chỉ đưa 5 red risks, 3 overdue actions và 2 giao diện EPC phải xử lý, giao owner/due/evidence và issue log, kết thúc bằng biên bản quyết định 1 trang.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q081",
@@ -6895,7 +7632,9 @@
       ],
       "related": "P2-06",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Gửi tập đoàn một trang: mức độ readiness, top 5 risks, tình trạng các legal gates, 3 quyết định cần lãnh đạo, phạm vi ảnh hưởng tiến độ. Đính dashboard để tra chi tiết thay vì 200 trang scan audit.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q082",
@@ -6916,7 +7655,9 @@
       "refs": [],
       "related": "P0-08",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Nếu chưa quản ngân sách dự án nghìn tỷ, anh công khai khoảng trống và trình phương án bottom-up: cost per headcount, audit package, training specialist, emergency support, kiểm soát change và cùng Finance duyệt, không tự khẳng định đủ kinh nghiệm tài chính EPC.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q083",
@@ -6937,7 +7678,9 @@
       "refs": [],
       "related": "P3-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Giai đoạn first gas có trực khẩn và ca đêm, anh lên roster với Commissioning/O&M và Emergency Response trước một tháng; phân công người có quyền điều hành, hạn chế fatigue và cơ chế back-up, không hứa một cá nhân túc trực 24/7.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q084",
@@ -6958,7 +7701,9 @@
       "refs": [],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Khi hỏi lương, anh đề nghị căn theo trách nhiệm (hạng mục cảng/kho/nhà máy, số lượng EPC, đội HSE, trực chạy thử và địa điểm làm việc) và tổng gói thu nhập. Nêu khoảng thực tế dựa trên dữ liệu cá nhân, không tự nói một con số nếu chưa xác định phạm vi.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q085",
@@ -6982,7 +7727,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Lãnh đạo yêu cầu ký đã rà HAZOP cho kịp phát hành FEED, anh đề nghị ký phần HSE đã kiểm tra theo giao việc, yêu cầu Process Safety/Engineering ký kết luận chuyên môn, gửi escalation nếu vẫn bị ép ký vượt thẩm quyền.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q086",
@@ -7005,7 +7752,9 @@
       ],
       "related": "P2-07",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Khi hỏi STAR về bất đồng với chỉ huy trưởng, anh chỉ kể ca thực có bằng chứng: tình huống, nhiệm vụ, hành động dựa trên biện pháp/hiện trường, kết quả. Nếu không có sự kiện tương ứng, dùng ví dụ giả định riêng và nói rõ là giả định, tránh bịa thành tích.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q087",
@@ -7029,7 +7778,9 @@
       ],
       "related": "P0-10",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Ví dụ điểm yếu: chưa trực tiếp dẫn HAZOP/FEED của một LNG greenfield. Kế hoạch xử lý là học QCVN19, shadow chuyên gia Process Safety, cập nhật competency map và phát triển năng lực owner assurance; không giả vờ chứng chỉ không có.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q088",
@@ -7050,7 +7801,9 @@
       "refs": [],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "Công ty đề nghị HSE Lead: anh hỏi rõ vị trí thực chất quản trị bao nhiêu gói, có chịu trách nhiệm môi trường/PCCC và quyền escalation không; nếu chức danh khác nhưng phạm vi và lộ trình phù hợp thì đánh giá theo cơ hội thực tế.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q089",
@@ -7073,7 +7826,9 @@
       ],
       "related": "P2-03",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "extended"
+      "ownerPriority": "extended",
+      "caseExample": "English example: 'I would establish owner HSE requirements and verify EPC implementation through risk-based audits. If two contractors create a conflicting simultaneous operation, I would coordinate the interface review and escalate unresolved critical controls to the Project Director.'",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q090",
@@ -7094,7 +7849,9 @@
       "refs": [],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Anh hỏi Giám đốc: phạm vi pháp nhân và battery limits nào? Ba deliverables HSE cấp bách trong 90 ngày là gì? Ai là technical authority ký safety studies và stop/restart permissions? Ghi câu trả lời vào onboarding plan.",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     },
     {
       "id": "Q091",
@@ -7118,7 +7875,9 @@
       ],
       "related": "P0-01",
       "prep": "Chuẩn bị 01 ví dụ thực tế của anh có thể chứng minh; nếu chưa từng làm thì nói rõ cách tiếp cận dự kiến.",
-      "ownerPriority": "core"
+      "ownerPriority": "core",
+      "caseExample": "Kết thúc 60 giây: “Tôi mang theo năng lực quản trị SHEQ và hiểu thực tế công trường Nghi Sơn. Tôi sẽ tạo legal-risk register, đưa yêu cầu HSE vào FEED/EPC và kiểm chứng các rủi ro trọng yếu với chuyên gia, báo cáo đúng bằng chứng để không làm chậm tiến độ vì vấn đề đã có thể phát hiện sớm.”",
+      "answerStructure": "Nhận định điều kiện → bước triển khai trong 24 giờ/tuần đầu → ai chịu trách nhiệm kỹ thuật và ai phê duyệt → bằng chứng báo Giám đốc dự án."
     }
   ],
   "glossary": [
@@ -7918,7 +8677,8 @@
         "refs": [
           "ND207",
           "XD"
-        ]
+        ],
+        "caseExample": "Ngày 1 giả sử công ty mới có FS outline và 2 hợp đồng tư vấn: anh yêu cầu sơ đồ pháp nhân, bản vẽ battery limit, schedule và quyết định phân quyền. Trong 5 ngày gửi 1 trang gap report: ĐTM chưa phân loại cuối, QRA TOR chưa duyệt, PCCC matrix chưa chốt, ai chịu trách nhiệm và ngày quyết định."
       },
       {
         "id": "OD02",
@@ -7934,7 +8694,8 @@
         "q": "Q013",
         "refs": [
           "IOGP"
-        ]
+        ],
+        "caseExample": "Giả sử nhà đầu tư đang so sánh hai vị trí bồn LNG: anh biết dùng QCVN 19 phần II mục 2.1–2.3 yêu cầu chuyên gia thiết kế/QRA đánh giá gió, receptor, khoảng cách và lối cứu hộ. HSE của anh làm người buộc nghiên cứu rủi ro có chủ sở hữu và bằng chứng, không ký tính toán của chuyên gia."
       },
       {
         "id": "OD03",
@@ -7951,7 +8712,8 @@
         "refs": [
           "IOGP",
           "ND207"
-        ]
+        ],
+        "caseExample": "BQLDA có 3 người: 1 người assurance civil/lifting, 1 người environmental permits, 1 người process/commissioning interfaces. Khi EPC A nâng pipe rack trên đường EPC B đi lại, đội owner kiểm tra SIMOPS boundary, yêu cầu điều phối hai bên, nhật ký quyết định và witness closure."
       },
       {
         "id": "OD04",
@@ -7968,7 +8730,8 @@
         "refs": [
           "IFCLNG",
           "Q19"
-        ]
+        ],
+        "caseExample": "Ví dụ kho LNG dự kiến bể 180.000 m³: ở concept cần HAZID mối nguy rò khí; ở P&ID cần HAZOP phân tích overpressure/flow deviation; QRA mô hình hóa rủi ro theo giả định đã phê duyệt. HSE theo dõi action log, người ký technical conclusions là chuyên gia có thẩm quyền."
       },
       {
         "id": "OD05",
@@ -7987,7 +8750,8 @@
           "ND08",
           "ND05",
           "ND48"
-        ]
+        ],
+        "caseExample": "Hạng mục san lấp nằm trong phạm vi EIA chưa rõ, trong khi nhà thầu muốn vào máy: anh yêu cầu Legal/Environmental consultant xác định chính xác nghĩa vụ theo Điều 30–31 và mốc Điều 37 nếu có quyết định, chia việc khảo sát không xâm hại/không thuộc điều kiện cấm, trình lựa chọn tiến độ an toàn lên Giám đốc."
       },
       {
         "id": "OD06",
@@ -8004,7 +8768,8 @@
         "refs": [
           "IOGP",
           "ND210"
-        ]
+        ],
+        "caseExample": "Bộ HSMT EPC không chỉ yêu cầu đạt 0 LTI. Anh đề xuất KPI critical control, quyền audit/witness, báo sự cố, stop-work, interface management, contractor competence, HAZOP action transfer và PSSR. Khi hợp đồng ký xong, nhóm HSE có quyền yêu cầu chứng cứ theo điều khoản đó."
       },
       {
         "id": "OD07",
@@ -8022,7 +8787,8 @@
           "ND207",
           "Q18",
           "IOGP"
-        ]
+        ],
+        "caseExample": "Trước 500 người EPC vào: kiểm tra điều kiện khởi công (Điều 12 NĐ207 theo phạm vi), hệ thống tổ chức/biện pháp EPC (Điều 15), chính sách medical/ERP, ủy quyền, thiết bị nâng, competency. Tách huy động văn phòng/khảo sát hợp pháp với thi công khi chưa đủ điều kiện."
       },
       {
         "id": "OD08",
@@ -8039,7 +8805,8 @@
         "refs": [
           "ND207",
           "Q18"
-        ]
+        ],
+        "caseExample": "Đội EPC muốn tiếp tục nâng khi cẩu đặt trên nền chưa khảo sát: trách nhiệm kỹ thuật nằm ở lifting engineer theo QCVN18 mục 2.4.1.7, HSE BQLDA kiểm tra và tạm dừng công việc nguy hiểm theo Điều 16 khoản 20 NĐ207 khi đủ thẩm quyền, ghi rõ người có quyền xác nhận restart theo phân quyền và điều kiện khắc phục."
       },
       {
         "id": "OD09",
@@ -8056,7 +8823,8 @@
         "refs": [
           "ND207",
           "IOGP"
-        ]
+        ],
+        "caseExample": "Một trang báo cáo có 3 điểm đỏ: HAZOP action overdue, chưa đủ bằng chứng PCCC, rủi ro va chạm xe giữa EPC A/B. Với mỗi mục trình mức ảnh hưởng, tài liệu gốc, chủ sở hữu, ngày và đề xuất quyết định; không gửi bảng 1000 man-hours thay trọng tâm."
       },
       {
         "id": "OD10",
@@ -8073,7 +8841,8 @@
         "refs": [
           "IFCLNG",
           "Q19"
-        ]
+        ],
+        "caseExample": "EPC nói đã hoàn tất 98% và muốn nạp LNG lần đầu, nhưng SAT ESD/ERS và ERP drill chưa có. Anh viện dẫn QCVN19 mục 12.2–12.3 với kho LNG trên bờ, yêu cầu Commissioning Manager/O&M và Engineering trình readiness verification, giữ hold point theo phân quyền chứ không tự xác nhận chạy được."
       },
       {
         "id": "OD11",
@@ -8089,7 +8858,8 @@
         "q": "Q008",
         "refs": [
           "IOGP"
-        ]
+        ],
+        "caseExample": "Hội đồng hỏi “7 triệu giờ là thành tựu gì?”: anh nêu đây là kết quả tập thể của nhiều nhà thầu; kể việc anh trực tiếp làm ở LILAMA theo đúng giai đoạn tham gia và bằng chứng lưu được, tránh nhận giải thưởng công trường là do cá nhân một người."
       },
       {
         "id": "OD12",
@@ -8106,8 +8876,522 @@
         "refs": [
           "ND207",
           "XD"
-        ]
+        ],
+        "caseExample": "Giám đốc yêu cầu ký HAZOP closure chưa có xác nhận kỹ thuật: anh đề nghị phương án không chặn tiến độ hành chính bằng cách ký nhận đã tiếp nhận hồ sơ và tracking status, song song đặt hạn Engineering/Process Safety xác nhận; nếu nguy cơ nghiêm trọng thì escalate bằng văn bản và giữ điều kiện không chuyển gate."
+      }
+    ],
+    "trungNamPractice": [
+      {
+        "name": "LNG Cà Ná – phát triển trước EPC",
+        "type": "Thông tin công khai",
+        "date": "28/01 và 10/04/2026",
+        "fact": "Liên danh Trung Nam – Sideros River được lựa chọn làm nhà đầu tư và tiếp đó ký hợp đồng đầu tư kinh doanh với địa phương cho LNG Cà Ná.",
+        "link": "https://cms.baochinhphu.vn/lien-danh-trung-nam-sideros-river-trung-thau-du-an-nha-may-nhiet-dien-lng-ca-na-10226012815085901.htm",
+        "impact": "HSE owner nên kiểm tra sớm pháp nhân, legal milestones, scope và TOR tư vấn trước khi lập yêu cầu EPC."
+      },
+      {
+        "name": "LNG Cà Ná – hợp đồng thiết bị công nghệ",
+        "type": "Thông tin công khai",
+        "date": "20/11/2026",
+        "fact": "Trung Nam công bố ký hợp đồng tuabin khí GT36 với Ansaldo Energia và MOU với Shanghai Electric.",
+        "link": "https://trungnamgroup.com.vn/en-US/news-1/communication/trungnam-signs-gt36-gas-turbine-supply-contract-with-ansaldo-energia-and-mou-with-shanghai-electric-for-ca-na-lng-project",
+        "impact": "HSE owner phải đưa vendor safety data, FEED interfaces, design comments, FAT/SAT và tài liệu an toàn vào hợp đồng/điểm kiểm chứng."
+      },
+      {
+        "name": "Trung Nam Thuận Nam – tách chủ đầu tư và tổng thầu",
+        "type": "Thông tin công khai",
+        "date": "Dự án trước đây",
+        "fact": "Hồ sơ năng lực dự án điện mặt trời Thuận Nam nêu pháp nhân chủ đầu tư và Trungnam E&C ở vai trò nhà thầu mua sắm/thi công.",
+        "link": "https://trungnamec.com.vn/wp-content/uploads/2026/04/FULL-VN_T3-2.pdf",
+        "impact": "Cùng hệ sinh thái không làm mất yêu cầu hợp đồng, phân quyền và kiểm tra độc lập của HSE BQLDA."
+      },
+      {
+        "name": "LNG Nghi Sơn – tình trạng nhà đầu tư",
+        "type": "Chưa có xác nhận trao dự án",
+        "date": "Đối chiếu kế hoạch 10/2026",
+        "fact": "Các thông tin công khai tháng 10/2026 ghi nhận liên danh Xuân Cầu Holdings – Trung Nam quan tâm, mốc lựa chọn nhà đầu tư dự kiến tháng 12/2026; chưa có quyết định trao dự án xác minh ở đây.",
+        "link": "https://luatvietnam.vn/dien-luc/ke-hoach-408-kh-ubnd-thanh-hoa-2026-theo-doi-tien-do-du-an-nguon-dien-luoi-dien-451990-d2.html",
+        "impact": "Nhân sự đã xác nhận tuyển phía nhà đầu tư/chủ đầu tư; vẫn cần hỏi giai đoạn thực tế, pháp nhân ký hợp đồng và phạm vi quyền hạn HSE."
       }
     ]
+  },
+  "legalClauses": [
+    {
+      "id": "ND5_1",
+      "sourceId": "ND207",
+      "code": "NĐ 207/2026/NĐ-CP",
+      "clause": "Điều 5 khoản 1 điểm a, b",
+      "summary": "Chủ đầu tư giao BQLDA thực hiện nhiệm vụ bằng văn bản; chủ đầu tư chỉ đạo, kiểm tra và chịu trách nhiệm; BQLDA chịu trách nhiệm phần được giao.",
+      "application": "Yêu cầu quyết định thành lập/giao nhiệm vụ, sơ đồ tổ chức và ma trận thẩm quyền trước khi nhận trách nhiệm.",
+      "scope": "Chỉ khi chủ đầu tư thành lập BQLDA trực thuộc",
+      "status": "verified",
+      "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-207-2026-nd-cp-ve-quan-ly-chat-iuong-thi-cong-bao-tri-cong-trinh-xay-dung-119260616081951719.htm",
+      "proof": "Quyết định thành lập BQLDA, văn bản phân quyền, sơ đồ tổ chức",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "ND5_2",
+      "sourceId": "ND207",
+      "code": "NĐ 207/2026/NĐ-CP",
+      "clause": "Điều 5 khoản 2 điểm a, b và khoản 7",
+      "summary": "Khi thuê PMC/tư vấn giám sát, phân công qua hợp đồng; quyền, nghĩa vụ và trách nhiệm phải thể hiện trong hợp đồng.",
+      "application": "Xác nhận ai chịu trách nhiệm giám sát, kiểm tra, ký biên bản và khi nào HSE chủ đầu tư can thiệp.",
+      "scope": "Khi sử dụng tư vấn quản lý/giám sát hoặc nhiều hợp đồng",
+      "status": "verified",
+      "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-207-2026-nd-cp-ve-quan-ly-chat-iuong-thi-cong-bao-tri-cong-trinh-xay-dung-119260616081951719.htm",
+      "proof": "Hợp đồng PMC/EPC, responsibility matrix, interface matrix",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "ND12",
+      "sourceId": "ND207",
+      "code": "NĐ 207/2026/NĐ-CP",
+      "clause": "Điều 12 khoản 1–2",
+      "summary": "Quy định điều kiện khởi công và các nội dung có liên quan; việc đáp ứng điều kiện cần kiểm chứng theo loại công trình.",
+      "application": "Đưa điểm kiểm soát khởi công vào readiness review, không đánh đồng huy động nhân lực với đủ điều kiện thi công.",
+      "scope": "Áp dụng ở mốc khởi công thuộc phạm vi pháp luật xây dựng",
+      "status": "verified",
+      "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-207-2026-nd-cp-ve-quan-ly-chat-iuong-thi-cong-bao-tri-cong-trinh-xay-dung-119260616081951719.htm",
+      "proof": "Hồ sơ đủ điều kiện khởi công và văn bản/thông báo có liên quan",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "ND15",
+      "sourceId": "ND207",
+      "code": "NĐ 207/2026/NĐ-CP",
+      "clause": "Điều 15 khoản 2, khoản 3 và khoản 5",
+      "summary": "Nhà thầu thi công tổ chức hệ thống quản lý thi công, lập biện pháp an toàn và quản lý việc thực hiện theo nghĩa vụ pháp luật.",
+      "application": "BQLDA kiểm tra tính đầy đủ và thực thi của hệ thống nhà thầu, không lập hộ mọi JSA/biện pháp.",
+      "scope": "Giai đoạn thi công, đối với nhà thầu thi công",
+      "status": "verified",
+      "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-207-2026-nd-cp-ve-quan-ly-chat-iuong-thi-cong-bao-tri-cong-trinh-xay-dung-119260616081951719.htm",
+      "proof": "HSE Plan, biện pháp thi công, bổ nhiệm chỉ huy/đầu mối an toàn",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "ND16_3",
+      "sourceId": "ND207",
+      "code": "NĐ 207/2026/NĐ-CP",
+      "clause": "Điều 16 khoản 2–3",
+      "summary": "Chủ đầu tư tổ chức giám sát, thiết lập hệ thống quản lý thi công, thông báo nhiệm vụ quyền hạn và bố trí nhân lực giám sát/an toàn phù hợp.",
+      "application": "Xây tổ chức HSE chủ đầu tư, kế hoạch assurance và phân công phù hợp quy mô, rủi ro.",
+      "scope": "Khi tổ chức quản lý thi công",
+      "status": "verified",
+      "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-207-2026-nd-cp-ve-quan-ly-chat-iuong-thi-cong-bao-tri-cong-trinh-xay-dung-119260616081951719.htm",
+      "proof": "Organization chart, quyết định giao việc, assurance plan",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "ND16_20",
+      "sourceId": "ND207",
+      "code": "NĐ 207/2026/NĐ-CP",
+      "clause": "Điều 16 khoản 20 điểm a, b, c",
+      "summary": "Người quản lý an toàn trong thi công của chủ đầu tư giám sát quy định an toàn của các nhà thầu, phối hợp xử lý giao diện, tạm dừng/đình chỉ khi thấy dấu hiệu vi phạm.",
+      "application": "Thiết lập quyền dừng việc và đường escalation, điều phối nhiều EPC tại ranh giới công việc.",
+      "scope": "Trách nhiệm của người thực hiện công tác quản lý an toàn THI CÔNG phía chủ đầu tư, theo phân công",
+      "status": "verified",
+      "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-207-2026-nd-cp-ve-quan-ly-chat-iuong-thi-cong-bao-tri-cong-trinh-xay-dung-119260616081951719.htm",
+      "proof": "Delegation/Stop Work Authority, nhật ký giám sát, biên bản xử lý giao diện",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "ND20",
+      "sourceId": "ND207",
+      "code": "NĐ 207/2026/NĐ-CP",
+      "clause": "Điều 20 khoản 1 và khoản 4",
+      "summary": "Nội dung giám sát gồm kiểm tra điều kiện năng lực, phương pháp thi công và thực hiện; các mô hình giám sát tùy chủ thể, hợp đồng.",
+      "application": "Đặt lịch kiểm chứng dựa trên rủi ro, kiểm tra năng lực và bằng chứng thực hiện biện pháp.",
+      "scope": "Khi giám sát thi công; kiểm tra khoản/điểm cụ thể với hồ sơ và loại hình giám sát",
+      "status": "verified",
+      "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-207-2026-nd-cp-ve-quan-ly-chat-iuong-thi-cong-bao-tri-cong-trinh-xay-dung-119260616081951719.htm",
+      "proof": "Biên bản giám sát, kế hoạch audit, tài liệu chứng nhận và witness",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "ND30",
+      "sourceId": "ND207",
+      "code": "NĐ 207/2026/NĐ-CP",
+      "clause": "Điều 30 khoản 2–5",
+      "summary": "Hồ sơ bàn giao/hồ sơ hoàn thành và các nghĩa vụ bên bàn giao nhận cần được xác định theo loại công trình.",
+      "application": "Đối chiếu danh mục hồ sơ hoàn thành và an toàn trước khi bàn giao sang O&M.",
+      "scope": "Giai đoạn bàn giao công trình",
+      "status": "verified",
+      "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-207-2026-nd-cp-ve-quan-ly-chat-iuong-thi-cong-bao-tri-cong-trinh-xay-dung-119260616081951719.htm",
+      "proof": "Handover index, dossier, punchlist, acceptance certificates",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "XD50",
+      "sourceId": "XD",
+      "code": "Luật 135/2025/QH15",
+      "clause": "Điều 50 khoản 1–3",
+      "summary": "Nguyên tắc bảo đảm an toàn trong hoạt động xây dựng, phòng ngừa ảnh hưởng tới con người và công trình.",
+      "application": "Đưa kiểm soát an toàn thiết kế–thi công vào hệ thống quản trị dự án và phân kỳ.",
+      "scope": "Áp dụng theo luật xây dựng hiện hành và phạm vi dự án",
+      "status": "verified",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=216514&pageid=27160&typegroupid=3",
+      "proof": "Risk register và design/constructability review",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "XD51",
+      "sourceId": "XD",
+      "code": "Luật 135/2025/QH15",
+      "clause": "Điều 51 khoản 1–5",
+      "summary": "An toàn trong thi công xây dựng và phân định trách nhiệm của các chủ thể.",
+      "application": "Không để nghĩa vụ của nhà thầu chuyển thành việc HSE BQLDA tự điều hành ca làm việc.",
+      "scope": "Khi đã bước vào thi công theo Luật Xây dựng 135/2025",
+      "status": "verified",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=216514&pageid=27160&typegroupid=3",
+      "proof": "Bổ nhiệm an toàn nhà thầu, giám sát owner, method statement",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "XD58",
+      "sourceId": "XD",
+      "code": "Luật 135/2025/QH15",
+      "clause": "Điều 58 khoản 1–3",
+      "summary": "Nghiệm thu, bàn giao và đưa công trình vào khai thác phải đáp ứng điều kiện pháp luật có liên quan.",
+      "application": "Đưa các rào chắn kỹ thuật/pháp lý vào acceptance và handover gate.",
+      "scope": "Giai đoạn nghiệm thu, đưa công trình vào sử dụng",
+      "status": "verified",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=216514&pageid=27160&typegroupid=3",
+      "proof": "Acceptance / handover / O&M readiness dossier",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "MT30",
+      "sourceId": "MT",
+      "code": "Luật 72/2020/QH14",
+      "clause": "Điều 30 khoản 1 (Luật BVMT, bản hợp nhất 2026)",
+      "summary": "Xác định nhóm dự án thuộc đối tượng phải thực hiện ĐTM.",
+      "application": "Phối hợp pháp lý/tư vấn phân loại từng dự án thành phần, không tự khẳng định mọi hạng mục đều cùng loại hồ sơ.",
+      "scope": "Tùy phân loại dự án và ngoại lệ pháp luật 2026",
+      "status": "verified",
+      "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx?tab=3",
+      "proof": "Phân loại môi trường, quyết định dự án, scope register",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "MT31",
+      "sourceId": "MT",
+      "code": "Luật 72/2020/QH14",
+      "clause": "Điều 31 khoản 1–2 (bản sửa đổi áp dụng 2026)",
+      "summary": "Chủ dự án tổ chức thực hiện ĐTM; gắn quá trình này với lập báo cáo nghiên cứu khả thi/tài liệu tương đương; lưu ý trình tự chấp thuận chủ trương nếu thuộc diện.",
+      "application": "Kiểm soát hợp đồng tư vấn, đầu vào, thời gian và điểm quyết định thiết kế để ĐTM không trễ mốc.",
+      "scope": "Khi dự án thuộc diện phải ĐTM; thời điểm cụ thể phải đối chiếu loại dự án",
+      "status": "verified",
+      "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx?tab=3",
+      "proof": "Tiến độ ĐTM, TOR tư vấn, feasibility schedule",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "MT32",
+      "sourceId": "MT",
+      "code": "Luật 72/2020/QH14",
+      "clause": "Điều 32 khoản 1",
+      "summary": "Quy định nội dung của báo cáo ĐTM gồm công nghệ, tác động môi trường, biện pháp, giám sát và tham vấn.",
+      "application": "Kiểm tra tính đầy đủ của phạm vi và sự nhất quán giữa ĐTM với phương án LNG, cảng và công nghệ.",
+      "scope": "Khi lập ĐTM",
+      "status": "verified",
+      "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx?tab=3",
+      "proof": "ĐTM và danh mục đầu vào/phạm vi công trình",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "MT37",
+      "sourceId": "MT",
+      "code": "Luật 72/2020/QH14",
+      "clause": "Điều 37 khoản 1, 2 và 4",
+      "summary": "Chủ dự án phải thực hiện nội dung của quyết định phê duyệt kết quả thẩm định ĐTM; thay đổi dự án trước vận hành có thể kéo theo thủ tục bổ sung/điều chỉnh.",
+      "application": "Xây EIA Commitment Register, phát hiện thay đổi thiết kế làm lệch giả định của ĐTM.",
+      "scope": "Chỉ sau khi có quyết định phê duyệt kết quả thẩm định ĐTM; đối chiếu điều kiện thay đổi",
+      "status": "verified",
+      "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx?tab=3",
+      "proof": "EIA decision, commitment tracker, change log",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "MT39",
+      "sourceId": "MT",
+      "code": "Luật 72/2020/QH14",
+      "clause": "Điều 39 khoản 1",
+      "summary": "Xác định đối tượng phải có giấy phép môi trường dựa trên nhóm dự án và phát sinh nguồn thải.",
+      "application": "Không suy đoán giấy phép chỉ từ tên LNG; yêu cầu tư vấn chứng minh phân loại và thời điểm.",
+      "scope": "Áp dụng theo loại dự án và nguồn thải thực tế",
+      "status": "verified",
+      "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx?tab=3",
+      "proof": "Permit applicability matrix, dự báo nguồn thải",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "MT42",
+      "sourceId": "MT",
+      "code": "Luật 72/2020/QH14",
+      "clause": "Điều 42 khoản 2 (điều kiện thời điểm cấp phép)",
+      "summary": "Mốc xin giấy phép môi trường phụ thuộc loại dự án, đánh giá tác động, công trình xử lý và nghĩa vụ thử nghiệm.",
+      "application": "Lập permit gating gắn với hệ thống công trình xử lý ô nhiễm, không mặc định đồng nhất với first gas.",
+      "scope": "Cần đối chiếu trường hợp thuộc diện, mốc cấp phép và nguồn thải; quy định không tự động đồng nghĩa với ngày first gas",
+      "status": "verified",
+      "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx?tab=3",
+      "proof": "Permit schedule, acceptance, commissioning / treatment plans",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "MT46",
+      "sourceId": "MT",
+      "code": "Luật 72/2020/QH14",
+      "clause": "Điều 46 khoản 2–3",
+      "summary": "Quy định vận hành thử nghiệm công trình xử lý chất thải trong trường hợp thuộc diện.",
+      "application": "Yêu cầu O&M và môi trường cung cấp hồ sơ chạy thử hệ thống xử lý khi thuộc diện.",
+      "scope": "Chỉ khi có công trình xử lý cần vận hành thử theo luật",
+      "status": "verified",
+      "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx?tab=3",
+      "proof": "Thử nghiệm công trình xử lý, nhật ký vận hành và kết quả quan trắc",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "MT47",
+      "sourceId": "MT",
+      "code": "Luật 72/2020/QH14",
+      "clause": "Điều 47 khoản 2",
+      "summary": "Chủ giấy phép môi trường phải tuân thủ điều kiện giấy phép và nghĩa vụ báo cáo/quản lý liên quan.",
+      "application": "Thiết kế cơ chế bàn giao nghĩa vụ môi trường sang O&M theo giấy phép thực tế.",
+      "scope": "Chỉ khi đã được cấp giấy phép môi trường",
+      "status": "verified",
+      "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx?tab=3",
+      "proof": "Environmental permit, điều kiện, monitoring and reporting handover",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "PCCC16",
+      "sourceId": "PCCC",
+      "code": "Luật 55/2024/QH15",
+      "clause": "Điều 16 khoản 1 – Luật 55/2024/QH15",
+      "summary": "Nêu yêu cầu bảo đảm an toàn PCCC trong quy hoạch, đầu tư, thiết kế/xây dựng theo loại công trình.",
+      "application": "Chuyển thành PCCC compliance roadmap, phối hợp tư vấn kỹ thuật xác định phạm vi.",
+      "scope": "Theo diện công trình và giai đoạn theo Luật PCCC & CNCH",
+      "status": "verified",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=212483&pageid=27160&typegroupid=3",
+      "proof": "Fire design compliance review, thẩm định/đánh giá phù hợp",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "ND105_8",
+      "sourceId": "ND105",
+      "code": "NĐ 105/2025/NĐ-CP",
+      "clause": "Điều 8 khoản 1 (NĐ 105/2025/NĐ-CP)",
+      "summary": "Có nội dung về thẩm định thiết kế PCCC và trách nhiệm trong trường hợp tương ứng.",
+      "application": "Xác định ai thẩm định nội bộ, ai thẩm định chuyên ngành, tránh nói mọi công trình đều do Công an thẩm duyệt.",
+      "scope": "Phải đối chiếu phụ lục phân loại, phân cấp và sửa đổi 347/2026",
+      "status": "verified",
+      "url": "https://vanban.chinhphu.vn/?classid=0&docid=213702&pageid=27160",
+      "proof": "Phụ lục phân loại công trình, danh mục hồ sơ thẩm định",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "ND105_12",
+      "sourceId": "ND105",
+      "code": "NĐ 105/2025/NĐ-CP",
+      "clause": "Điều 12 khoản 1 điểm a–e, chú ý điểm đ đã sửa",
+      "summary": "Quy định trách nhiệm chủ đầu tư, chủ sở hữu trong tổ chức nghiệm thu PCCC và hồ sơ liên quan.",
+      "application": "Theo dõi nghiệm thu thiết kế PCCC đúng đối tượng; không mặc định mô hình kiểm tra cũ sau sửa đổi.",
+      "scope": "Điểm đ khoản 1 đã được NĐ 347/2026/NĐ-CP sửa đổi, hiệu lực 15/09/2026",
+      "status": "verified",
+      "url": "https://vanban.chinhphu.vn/?classid=0&docid=213702&pageid=27160",
+      "proof": "Bản đối chiếu ND105/2025 + ND347/2026, nghiệm thu theo phân cấp",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "ND347",
+      "sourceId": "ND347",
+      "code": "NĐ 347/2026/NĐ-CP",
+      "clause": "Điều 1 – phần sửa đổi điểm đ khoản 1 Điều 12 NĐ105",
+      "summary": "Sửa trách nhiệm chủ đầu tư về nghiệm thu PCCC, chuyển một số thủ tục kiểm tra sang kê khai/chia sẻ dữ liệu theo quy định mới.",
+      "application": "Yêu cầu pháp chế rà lại trình tự và cơ quan làm việc theo quy định 2026 trước lập mốc ký.",
+      "scope": "Chỉ áp dụng nội dung sửa đổi và thời hiệu tương ứng",
+      "status": "verified",
+      "url": "https://vanban.chinhphu.vn/?classid=0&docid=219411&pageid=27160",
+      "proof": "Mốc tuân thủ PCCC phiên bản sau 15/09/2026",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q19_1",
+      "sourceId": "Q19",
+      "code": "QCVN 19:2022/BCT",
+      "clause": "Phần I mục 1–2",
+      "summary": "Quy định phạm vi kho chứa LNG cố định trên bờ sức chứa trên 200 tấn, từ đầu vào LNG dạng lỏng đến đầu ra dạng lỏng/khí.",
+      "application": "Bắt đầu bằng sơ đồ ranh giới kho LNG; đánh dấu thiết bị/hạng mục chịu QCVN19.",
+      "scope": "Chỉ áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong ranh giới quy chuẩn; không mặc nhiên áp dụng toàn nhà máy điện/cảng ngoài ranh giới",
+      "status": "verified",
+      "url": "https://ninhbinh.dms.gov.vn/documents/20182/22561/_VB_1680744041423_VB_TT%2Bban%2Bhanh%2BQuy%2Bchuan%2BKTQG%2Bve%2BLNG.pdf/1d1b78f0-3b64-46cc-822a-cad8e86d3b2f?t=1680744041425&version=1.0",
+      "proof": "Battery limits, design scope, tank storage capacity",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q19_21",
+      "sourceId": "Q19",
+      "code": "QCVN 19:2022/BCT",
+      "clause": "Phần II mục 2.1 và 2.2",
+      "summary": "Yêu cầu đánh giá mối nguy và khảo sát địa kỹ thuật, khí tượng–thủy văn, tác động công trình lân cận, giao thông tiếp cận.",
+      "application": "Yêu cầu Design/EIA xây site hazard register và xác nhận hạng mục khảo sát bắt buộc.",
+      "scope": "Chỉ áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong ranh giới quy chuẩn; không mặc nhiên áp dụng toàn nhà máy điện/cảng ngoài ranh giới",
+      "status": "verified",
+      "url": "https://ninhbinh.dms.gov.vn/documents/20182/22561/_VB_1680744041423_VB_TT%2Bban%2Bhanh%2BQuy%2Bchuan%2BKTQG%2Bve%2BLNG.pdf/1d1b78f0-3b64-46cc-822a-cad8e86d3b2f?t=1680744041425&version=1.0",
+      "proof": "Hazard studies, site screening, khảo sát và wind rose",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q19_23",
+      "sourceId": "Q19",
+      "code": "QCVN 19:2022/BCT",
+      "clause": "Phần II mục 2.3.1–2.3.2",
+      "summary": "Bố trí kho chú ý nguy cơ an toàn, hướng gió, khoảng cách an toàn thiết bị/công trình, sử dụng kết quả đánh giá rủi ro theo quy định.",
+      "application": "Đề nghị kỹ thuật chứng minh lựa chọn bố trí tank, pipe rack, fire routes, emergency access.",
+      "scope": "Chỉ áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong ranh giới quy chuẩn; không mặc nhiên áp dụng toàn nhà máy điện/cảng ngoài ranh giới",
+      "status": "verified",
+      "url": "https://ninhbinh.dms.gov.vn/documents/20182/22561/_VB_1680744041423_VB_TT%2Bban%2Bhanh%2BQuy%2Bchuan%2BKTQG%2Bve%2BLNG.pdf/1d1b78f0-3b64-46cc-822a-cad8e86d3b2f?t=1680744041425&version=1.0",
+      "proof": "Plot plan, QRA, layout design review, spacing calculations",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q19_113",
+      "sourceId": "Q19",
+      "code": "QCVN 19:2022/BCT",
+      "clause": "Phần II mục 11.3",
+      "summary": "Đường hồi hơi phải kết nối và kiểm soát áp suất khi giao nhận theo yêu cầu tại mục này.",
+      "application": "Kiểm chứng liên động vận hành/hồi hơi trong ship–shore compatibility review.",
+      "scope": "Chỉ áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong ranh giới quy chuẩn; không mặc nhiên áp dụng toàn nhà máy điện/cảng ngoài ranh giới",
+      "status": "verified",
+      "url": "https://ninhbinh.dms.gov.vn/documents/20182/22561/_VB_1680744041423_VB_TT%2Bban%2Bhanh%2BQuy%2Bchuan%2BKTQG%2Bve%2BLNG.pdf/1d1b78f0-3b64-46cc-822a-cad8e86d3b2f?t=1680744041425&version=1.0",
+      "proof": "Vapor return line test, marine unloading procedure",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q19_115",
+      "sourceId": "Q19",
+      "code": "QCVN 19:2022/BCT",
+      "clause": "Phần II mục 11.4–11.5",
+      "summary": "Quy trình giao nhận phải được lập/phê duyệt; quy trình cần xuất nhập LNG phải có công việc làm lạnh và điều kiện giám sát/an toàn.",
+      "application": "HSE tham gia tổ chức kiểm tra quy trình giao nhận, drills và hồ sơ thử chức năng; nhà chuyên môn chịu phê duyệt đúng thẩm quyền.",
+      "scope": "Chỉ áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong ranh giới quy chuẩn; không mặc nhiên áp dụng toàn nhà máy điện/cảng ngoài ranh giới",
+      "status": "verified",
+      "url": "https://ninhbinh.dms.gov.vn/documents/20182/22561/_VB_1680744041423_VB_TT%2Bban%2Bhanh%2BQuy%2Bchuan%2BKTQG%2Bve%2BLNG.pdf/1d1b78f0-3b64-46cc-822a-cad8e86d3b2f?t=1680744041425&version=1.0",
+      "proof": "Unloading procedure, cooldown checklist, interface agreement",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q19_116",
+      "sourceId": "Q19",
+      "code": "QCVN 19:2022/BCT",
+      "clause": "Phần II mục 11.6",
+      "summary": "Hệ thống ESD/ERS cho giao nhận LNG phải đáp ứng các yêu cầu, kể cả bảo dưỡng/đào tạo.",
+      "application": "Đặt witness point cho thử ESD/ERS, kiểm tra vendor records và biên bản nghiệm thu.",
+      "scope": "Chỉ áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong ranh giới quy chuẩn; không mặc nhiên áp dụng toàn nhà máy điện/cảng ngoài ranh giới",
+      "status": "verified",
+      "url": "https://ninhbinh.dms.gov.vn/documents/20182/22561/_VB_1680744041423_VB_TT%2Bban%2Bhanh%2BQuy%2Bchuan%2BKTQG%2Bve%2BLNG.pdf/1d1b78f0-3b64-46cc-822a-cad8e86d3b2f?t=1680744041425&version=1.0",
+      "proof": "ESD/ERS FDS, SAT, cause-effect, marine interface test",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q19_121",
+      "sourceId": "Q19",
+      "code": "QCVN 19:2022/BCT",
+      "clause": "Phần II mục 12.1",
+      "summary": "Chủ đầu tư kho và nhà thầu xây dựng phải áp dụng kiểm soát chất lượng từ thiết kế, chế tạo đến chạy thử/nghiệm thu.",
+      "application": "Đưa hold point kiểm soát chất lượng và safety critical elements vào hợp đồng/ITP.",
+      "scope": "Chỉ áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong ranh giới quy chuẩn; không mặc nhiên áp dụng toàn nhà máy điện/cảng ngoài ranh giới",
+      "status": "verified",
+      "url": "https://ninhbinh.dms.gov.vn/documents/20182/22561/_VB_1680744041423_VB_TT%2Bban%2Bhanh%2BQuy%2Bchuan%2BKTQG%2Bve%2BLNG.pdf/1d1b78f0-3b64-46cc-822a-cad8e86d3b2f?t=1680744041425&version=1.0",
+      "proof": "ITP, FAT/SAT, NCR, certification dossier",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q19_122",
+      "sourceId": "Q19",
+      "code": "QCVN 19:2022/BCT",
+      "clause": "Phần II mục 12.2",
+      "summary": "Phải kiểm tra hồ sơ, phương án khẩn cấp, nghiệm thu từng phần và điều kiện an toàn thực tế trước chạy thử/nghiệm thu.",
+      "application": "Thiết lập PSSR/readiness gate; chưa có bằng chứng thì không xác nhận sẵn sàng.",
+      "scope": "Chỉ áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong ranh giới quy chuẩn; không mặc nhiên áp dụng toàn nhà máy điện/cảng ngoài ranh giới",
+      "status": "verified",
+      "url": "https://ninhbinh.dms.gov.vn/documents/20182/22561/_VB_1680744041423_VB_TT%2Bban%2Bhanh%2BQuy%2Bchuan%2BKTQG%2Bve%2BLNG.pdf/1d1b78f0-3b64-46cc-822a-cad8e86d3b2f?t=1680744041425&version=1.0",
+      "proof": "PSSR / safety readiness report, action closure, acceptance dossiers",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q19_123",
+      "sourceId": "Q19",
+      "code": "QCVN 19:2022/BCT",
+      "clause": "Phần II mục 12.3",
+      "summary": "Phải có kế hoạch chạy thử; thử thiết bị theo tiêu chuẩn thiết kế, đặc biệt thiết bị áp lực; quy trình xử lý thiết bị lạnh sâu/hydrocarbon.",
+      "application": "Yêu cầu Commissioning/O&M tổ chức đánh giá và kiểm chứng kết quả thử đúng kế hoạch.",
+      "scope": "Chỉ áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong ranh giới quy chuẩn; không mặc nhiên áp dụng toàn nhà máy điện/cảng ngoài ranh giới",
+      "status": "verified",
+      "url": "https://ninhbinh.dms.gov.vn/documents/20182/22561/_VB_1680744041423_VB_TT%2Bban%2Bhanh%2BQuy%2Bchuan%2BKTQG%2Bve%2BLNG.pdf/1d1b78f0-3b64-46cc-822a-cad8e86d3b2f?t=1680744041425&version=1.0",
+      "proof": "Commissioning plan, test packs, drying, inerting and acceptance",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q19_131",
+      "sourceId": "Q19",
+      "code": "QCVN 19:2022/BCT",
+      "clause": "Phần II mục 13.1",
+      "summary": "Đơn vị vận hành lập quy trình vận hành, bảo dưỡng, đào tạo, cập nhật tài liệu/thiết bị và phối hợp ứng cứu với địa phương.",
+      "application": "Bàn giao hồ sơ và cơ chế hoạt động PSM sang O&M đúng vai trò của đơn vị vận hành.",
+      "scope": "Chỉ áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong ranh giới quy chuẩn; không mặc nhiên áp dụng toàn nhà máy điện/cảng ngoài ranh giới",
+      "status": "verified",
+      "url": "https://ninhbinh.dms.gov.vn/documents/20182/22561/_VB_1680744041423_VB_TT%2Bban%2Bhanh%2BQuy%2Bchuan%2BKTQG%2Bve%2BLNG.pdf/1d1b78f0-3b64-46cc-822a-cad8e86d3b2f?t=1680744041425&version=1.0",
+      "proof": "Operating manual, ERP, training matrix, as-built dossier",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q18_2417",
+      "sourceId": "Q18",
+      "code": "QCVN 18:2021/BXD",
+      "clause": "Mục 2.4.1.7",
+      "summary": "Thiết bị nâng phải neo/giữ chắc chắn; khả năng chịu tải nền/móng đặt thiết bị nâng phải được khảo sát, tính toán và đảm bảo an toàn.",
+      "application": "Khi witness critical lift, yêu cầu lifting engineer xác nhận bearing check & mats trước phép nâng.",
+      "scope": "Chỉ khi có thiết bị nâng/lắp đặt tại công trường, là nghĩa vụ chuyên môn của đơn vị thực hiện; BQLDA giám sát",
+      "status": "verified",
+      "url": "https://thuvienphapluat.vn/tcvn/Xay-dung/National-technical-regulation-QCVN18-2021-BXD-Safety-in-construction-919996.aspx",
+      "proof": "Ground bearing check, lifting plan, crane setup inspection",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "Q18_2419",
+      "sourceId": "Q18",
+      "code": "QCVN 18:2021/BXD",
+      "clause": "Mục 2.4.1.9.1–2.4.1.9.4",
+      "summary": "Các yêu cầu kiểm tra, thử nghiệm và kiểm định an toàn thiết bị nâng và phụ kiện theo các mốc tương ứng.",
+      "application": "Kiểm chứng chứng thư/biên bản kiểm định và nhật ký trước khi cho công tác nâng vào mốc kiểm tra.",
+      "scope": "Áp dụng đối tượng thiết bị nâng theo quy chuẩn và yêu cầu kiểm định",
+      "status": "verified",
+      "url": "https://thuvienphapluat.vn/tcvn/Xay-dung/National-technical-regulation-QCVN18-2021-BXD-Safety-in-construction-919996.aspx",
+      "proof": "Inspection certificates, rigging register, equipment log",
+      "verifiedAt": "2026-11-23"
+    },
+    {
+      "id": "AT18",
+      "sourceId": "AT",
+      "code": "Luật 84/2015/QH13",
+      "clause": "Điều 18 khoản 1 – Luật ATVSLĐ 84/2015/QH13",
+      "summary": "Người sử dụng lao động có nghĩa vụ đánh giá, kiểm soát yếu tố nguy hiểm/yếu tố có hại nơi làm việc.",
+      "application": "Kiểm tra EPC đã đánh giá nguy cơ cho NLĐ, có biện pháp và nguồn lực thực thi; không chuyển toàn bộ nghĩa vụ của nhà thầu sang chủ đầu tư.",
+      "scope": "Áp dụng từng người sử dụng lao động theo hợp đồng lao động và phạm vi thi công",
+      "status": "verified",
+      "url": "https://vbpl.moj.gov.vn/vanphongchinhphu/Pages/vbpq-toanvan.aspx?ItemID=70811",
+      "proof": "Risk assessment / JSA / toolbox evidence",
+      "verifiedAt": "2026-11-23"
+    }
+  ],
+  "release": {
+    "name": "4.0",
+    "asOf": "2026-11-23",
+    "roleConfirmed": "Phía chủ đầu tư qua cuộc gọi HR",
+    "interviewExamples": 91,
+    "ownerDrillExamples": 12,
+    "legalClauses": 36,
+    "tasksWithPins": 35
   }
 }

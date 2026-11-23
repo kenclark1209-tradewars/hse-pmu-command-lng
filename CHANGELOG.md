@@ -1,5 +1,16 @@
 # Changelog
 
+## v4.0.0 — 2026-11-23
+
+- Tích hợp 4 nguồn tham chiếu Trung Nam với mốc thời gian, URL, và suy luận có điều kiện cho HSE chủ đầu tư (không phải JD LNG Nghi Sơn).
+- Bổ sung **ví dụ giả định riêng cho cả 91 câu phỏng vấn** và **12 phiên mock** (quyết định, đầu mối kỹ thuật, escalation, bằng chứng).
+- Gắn **36 nhóm trích dẫn điều/khoản/mục cụ thể** vào **35 quy trình** ở mục ⑥, kèm ý chính, điều kiện áp dụng và minh chứng cần kiểm tra.
+- Chú thích phân biệt quy định luật bắt buộc với thông lệ dự án/các tài liệu IFC–IOGP và hạn chế phạm vi QCVN 19 cho kho LNG trên bờ.
+- Duy trì khóa localStorage v1, giữ dữ liệu cũ, bố cục/luồng bài luyện v3.
+- Kiểm thử dữ liệu cấu trúc, cú pháp JS và mock DOM cho vai trò owner, legal refs, case interview, mock drill, checklist.
+
+
+
 ## v3.0.0 — 2026-11-23
 
 - Ưu tiên hoàn toàn **HSE phía chủ đầu tư** theo xác nhận ứng viên từ nhân sự. Chưa suy đoán pháp nhân dự án, JD, quyền ký và tình trạng lựa chọn nhà đầu tư.

@@ -1,4 +1,4 @@
-# HSE PMU COMMAND · LNG — Bản V3
+# HSE PMU COMMAND · LNG — Bản V4
 
 **Webapp offline tiếng Việt để học và thực hành tư duy HSE Manager phía Ban Quản lý dự án (chủ đầu tư) LNG.** Đây là một ứng dụng độc lập, không sử dụng backend, AI API, tài khoản hoặc thư viện bên ngoài.
 
@@ -14,15 +14,15 @@
 
 | Phần | Mô tả |
 | --- | --- |
-| Vai trò chủ đầu tư (mới v3) | Đã xác nhận tuyển phía chủ đầu tư; giải thích rõ dữ kiện chưa xác minh, 5 ưu tiên và 11 tình huống phân quyền owner–EPC–Legal–Engineering–Operations. |
-| Phỏng vấn 27/11 (mới v3) | Lộ trình 4 ngày, 24 câu trọng điểm, 12 phiên phỏng vấn mô phỏng cấp giám đốc/HR, mẫu trả lời, câu hỏi xoáy, bằng chứng cần dùng và tự chấm. |
+| Vai trò chủ đầu tư (nâng cấp v4) | Xác nhận tuyển phía chủ đầu tư; 11 tình huống phân quyền + **4 hồ sơ tham chiếu Trung Nam** (Cà Ná, Thuận Nam, Nghi Sơn) phân biệt nguồn công khai với nhận định. |
+| Phỏng vấn 27/11 (mới v3) | Lộ trình 4 ngày, 24 câu trọng điểm, 12 phiên phỏng vấn mô phỏng cấp giám đốc/HR, **12 ví dụ điều phối và quyết định cụ thể**, mẫu trả lời, câu hỏi xoáy, bằng chứng cần dùng và tự chấm. |
 | Nhận việc 30–60–90 (mới v3) | Kế hoạch 5 ngày đầu, 5 mốc triển khai, deliverables, nhóm phối hợp, quyết định trình PM và nhịp quản trị tuần/tháng; lưu bằng chứng. |
 | Pháp lý theo mốc (mới v3) | 7 nhóm nghĩa vụ theo điều kiện kích hoạt, văn bản/nguồn chính thức, owner và bằng chứng cần xác minh; không mặc định mọi nghĩa vụ đều áp dụng. |
-| Playbooks | 35 quy trình 5 giai đoạn, 28 nguồn pháp luật/tiêu chuẩn để tra cứu, đầu vào → cách làm → đầu ra → tiêu chí kiểm chứng → cảnh báo |
+| Quy trình / Playbooks (nâng cấp v4) | 35 quy trình, **36 nhóm viện dẫn điều/khoản/mục có cấu trúc**, mỗi quy trình có 2–4 căn cứ, diễn giải liên hệ công việc, điều kiện áp dụng, minh chứng cần kiểm tra, liên kết tới văn bản. Bên cạnh còn 28 nguồn thư viện mở rộng. |
 | Tình huống | **50 ca** giả định sát BQLDA: tiền đầu tư, FEED/đấu thầu, giám sát nhiều EPC, thi công, first gas, ESD, môi trường, khủng hoảng, bàn giao O&M. Mỗi ca có đáp án, **các bước xử lý**, **bằng chứng**, **khi cần escalation**, bẫy phỏng vấn và nguồn liên quan. Có tìm kiếm/lọc/làm lại. |
-| Luyện phỏng vấn | **91 câu hỏi** trong **9 chủ đề**, gồm góc nhìn nhà tuyển dụng, trả lời mẫu theo tư duy quản trị, câu hỏi xoáy, sai lầm, nguồn tham chiếu và playbook liên quan. Viết câu trả lời thật, tự chấm 4 tiêu chí + điểm 1–5, lọc câu cần ôn và luyện ngẫu nhiên. |
+| Luyện phỏng vấn | **91 câu hỏi** trong **9 chủ đề**, gồm góc nhìn nhà tuyển dụng, trả lời mẫu **kèm ví dụ xử lý riêng cho cả 91 câu**, câu hỏi xoáy, sai lầm, nguồn tham chiếu và playbook liên quan. Viết câu trả lời thật, tự chấm 4 tiêu chí + điểm 1–5, lọc câu cần ôn và luyện ngẫu nhiên. |
 | Biểu mẫu | **10 mẫu CSV** và **100 tiêu chí review chi tiết**: cách kiểm, bằng chứng mong đợi, trọng yếu/thông thường, trạng thái Đạt/Chưa đạt/N/A/Chưa kiểm; xuất **checklist CSV**. |
-| Tiến độ | Giữ nguyên `hse_owner_pmu_playbook_v1` để bảo toàn tiến độ bản trước; bản xuất JSON dùng phiên bản 3 và nhập được dữ liệu phiên bản 2/cũ. |
+| Tiến độ | Giữ nguyên `hse_owner_pmu_playbook_v1` để bảo toàn tiến độ bản trước; bản xuất JSON giữ schema hiện hành và nhập được dữ liệu phiên bản 2/cũ. |
 
 ### Cách học trước phỏng vấn
 
@@ -50,7 +50,7 @@
 - `source/content.json`: nội dung cấu trúc; đây là nguồn dữ liệu chính, không sửa trực tiếp nội dung trong `index.html`.
 - `source/template.html`: giao diện, CSS, JavaScript, có một placeholder `__DATA__`.
 - `source/build.py`: tạo `index.html` từ JSON + template.
-- `source/validate_content.py`: kiểm tra ID, tham chiếu pháp lý, logic tình huống và độ đầy đủ.
+- `source/validate_content.py`: kiểm tra toàn bộ playbooks gắn legalPins, phân loại nguồn, 91 ví dụ, 12 ví dụ mock, và đủ mã căn cứ.
 - `source/test_app.js`: test render logic, tương tác tình huống, form checklist, phỏng vấn, lưu trạng thái và các luồng cũ.
 
 ```bash
@@ -67,6 +67,18 @@ Script không thay thế kiểm thử thực tế trên Chrome/Edge và điện 
 - **EPC/nhà thầu:** tổ chức thực thi công việc an toàn, quản lý nhân lực, công việc, thầu phụ và biện pháp thi công trong phạm vi hợp đồng.
 - **Technical Authority/Design/Operations:** các kết luận chuyên ngành về thiết kế, an toàn quy trình, thiết bị, PSSR/first gas theo năng lực và phân quyền; HSE không tự ký thay.
 - **Legal/Environmental/PCCC:** kiểm tra thủ tục, điều kiện, chủ thể nghĩa vụ và thẩm quyền theo hồ sơ thực tế; app không tự cấp giấy phép.
+
+### Tra cứu chính xác đến điều khoản (mới v4)
+
+Trong **Quy trình công việc**, mục **⑥ Căn cứ pháp lý tới đúng điều / khoản / mục** có 2–4 thẻ dẫn nguồn gốc cho mỗi quy trình. Mỗi thẻ có:
+
+- Mã và Điều/Khoản/Điểm hoặc Phần/Mục chính xác (VD: **NĐ 207/2026 Điều 5 khoản 1 điểm a,b**; **Điều 16 khoản 20 điểm a,b,c**; **QCVN 19:2022/BCT phần II mục 12.2**).
+- Diễn giải *ý chính* (không giả làm nguyên văn luật), cách áp dụng vào nghiệp vụ HSE BQLDA, phạm vi điều kiện, hồ sơ/bằng chứng kiểm tra.
+- Link văn bản để tự kiểm tra, cùng thư viện tài liệu mở rộng cho các chuẩn vận hành/thiết kế có bản quyền hoặc yêu cầu hợp đồng riêng.
+
+**Lưu ý:** Dẫn chiếu một điều khoản tới quy trình quản trị không có nghĩa luật bắt buộc đúng tên biểu mẫu/HAZOP/IOGP. QCVN 19 áp dụng cho **kho LNG cố định trên bờ sức chứa trên 200 tấn** trong ranh giới được quy định; không tự động cho mọi hạng mục nhà máy/cảng. Trong chính quy chuẩn này viện dẫn TCVN 8611/8612/8613:2010; nếu dự án muốn áp dụng bản 2023 phải được kỹ thuật/pháp lý xác nhận tiêu chuẩn đang có hiệu lực và hồ sơ thiết kế/hợp đồng tương ứng. Phần diễn giải được đối chiếu tại 23/11/2026, có thể phải rà lại sau thời điểm đó.
+
+**Ví dụ phỏng vấn:** Các tình huống đều **giả định**, không mặc nhiên coi là kinh nghiệm anh đã thực hiện; việc LILAMA đạt 7 triệu giờ an toàn là kết quả **của tập thể**, không phải thành tích cá nhân.
 
 Cơ sở tham khảo nổi bật: [Nghị định 207/2026/NĐ-CP – Điều 16 (trách nhiệm chủ đầu tư)](https://vanban.org/van-ban/nghi-dinh-207-2026-nd-cp-luat-xay-dung-quan-ly-chat-luong-thi-cong-xay-dung/dieu-16), [QCVN 19:2022/BCT](https://tieuchuanxaydung.vsqi.gov.vn/quychuan/view?sohieu=QCVN+19%3A2022%2FBCT), [IOGP Report 423](https://idms.iogp.org/Documents/485), [hướng dẫn PCCC của Cục Cảnh sát PCCC](https://canhsatpccc.gov.vn/vi/news/nghien-cuu-trao-doi/huong-dan-thuc-hien-tham-dinh-thiet-ke-kiem-tra-cong-tac-nghiem-thu-ve-phong-chay-va-chua-chay-doi-voi-du-an-dau-tu-xay-dung-cong-trinh-cong-trinh-4742). Đây chỉ là nguồn tham khảo ban đầu, không thay rà soát hồ sơ thực tế và nguồn chính thức khi áp dụng.
 
