@@ -91,3 +91,8 @@ Xem [`OWNER_HSE_BRIEF_27-11.md`](OWNER_HSE_BRIEF_27-11.md). Tóm tắt phạm vi
 ## Đánh giá pháp lý theo dự án LNG Nghi Sơn – bổ sung 25/11/2026
 
 Trong **Pháp lý theo mốc**, mỗi nhóm hiện có phần đánh giá phương án vị trí mới dựa trên Kế hoạch 408/KH-UBND Thanh Hóa và thông tin phương án Trung Nam công khai. Bao gồm phân nhóm dự án, cấp công trình, nhóm môi trường, trigger/ngoại lệ ĐTM, thẩm quyền và thời điểm ĐTM/GPMT theo NQ 66.19/2026/NQ-CP, thẩm định PCCC và nghiệm thu theo thay đổi năm 2026, khởi công, kho LNG, EPC, commissioning/bàn giao. Mỗi đánh giá tách điều khoản và nội dung diễn giải, cơ quan có thẩm quyền, công việc HSE, hồ sơ chứng minh và liên kết. NQ 66.19 chỉ có hiệu lực đến hết 28/02/2027; kiểm tra lại tại ngày nộp hồ sơ. Không coi diện tích vị trí cũ, công suất toàn nhà máy hay công suất nhập LNG hàng năm là dữ liệu để chốt nhóm/cấp của phương án mới. Giữ nguyên bảy nhóm, ID và localStorage.
+
+ 
+## Critical Risk – bổ sung 25/11/2026
+ 
+Menu **Critical Risk** có 28 kịch bản rủi ro trọng yếu, 84 biện pháp kiểm soát trọng yếu đề xuất, theo 5 giai đoạn và 4 nhóm nghiệp vụ. Mỗi kịch bản có mối nguy, top event, nguyên nhân, hậu quả, đánh giá 5×5 minh họa trước/sau, control owner, tiêu chuẩn hiệu suất, bằng chứng, tần suất, Stop Work/Hold, điều kiện xem xét tiếp tục và liên kết playbook/căn cứ. Có tìm kiếm/lọc, tự đánh giá S/L và kiểm chứng mô phỏng từng control; không lưu điểm residual nếu control chưa đạt/chưa có bằng chứng. Điểm thấp không đồng nghĩa rủi ro được chấp nhận. Xuất CSV theo hàng rào, và JSON tiến độ phiên bản 4 (nhập được v3/cũ; cùng khóa localStorage). Thư viện là đầu vào học tập/HAZID, không phải risk register chính thức, QRA, biện pháp thi công hoặc permit dự án.

@@ -1,5 +1,11 @@
 # Changelog
 
+## Critical Risk Management — 2026-11-25
+
+- Thêm menu Critical Risk: 28 rủi ro, 84 critical controls, nhận diện top event và hậu quả, điểm 5×5 minh họa, owner/assurance, stop/hold, link playbook và nguồn.
+- Thêm lọc, tự đánh giá và bằng chứng, khóa điểm residual khi critical control chưa được tự kiểm đạt, xuất CSV; lưu/nhập/xuất JSON tiến độ tương thích v3.
+- Giữ nguyên toàn bộ module và khóa localStorage cũ. Nội dung là mô phỏng, không chấp thuận hoạt động thực tế.
+
 ## Bổ sung pháp lý theo dự án — 2026-11-25
 
 - Thêm bối cảnh phương án LNG Nghi Sơn vị trí mới và đánh giá theo 7 nhóm legal gates; các kết luận chưa đủ hồ sơ được ghi rõ có điều kiện.

@@ -92,3 +92,18 @@ for gate in O["legalGates"]:
         assert all(f[k] for k in ("topic","status","conclusion","authority","when","work","evidence","clauses"))
         assert all(c["locator"] and c["content"] and c["url"].startswith("https://") for c in f["clauses"])
 print("PASS v4.1 project-specific legal gates")
+
+# Critical Risk library (training only)
+R=D["criticalRisks"]
+assert len(R)==28 and len({x["id"] for x in R})==28
+assert sum(len(r["controls"]) for r in R)==84
+for r in R:
+    assert set(r["refs"]).issubset(source_ids)
+    assert set(r["tasks"]).issubset(task_ids)
+    assert set(r["phases"]).issubset(phase_ids)
+    assert all(r[k] for k in ("activity","hazard","event","causes","consequence","stop","restart","assurance","basis"))
+    assert all(1<=r["example"][k]<=5 for k in ("s","l","rs","rl"))
+    assert r["example"]["s"]>=4
+    assert len({c["id"] for c in r["controls"]})==len(r["controls"])
+    assert all(all(c[k] for k in ("name","type","criterion","owner","evidence","frequency")) for c in r["controls"])
+print("PASS critical risk:",len(R),"risks and",sum(len(r["controls"]) for r in R),"critical controls")

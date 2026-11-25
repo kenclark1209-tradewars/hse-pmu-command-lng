@@ -113,3 +113,22 @@ for(let i=0;i<7;i++){click({ownerLegal:String(i)});assert(elements['#app'].inner
 click({ownerLegal:'1'});assert(elements['#app'].innerHTML.includes('28/02/2027'));assert(elements['#app'].innerHTML.includes('300 ha'));
 click({ownerLegal:'2'});assert(elements['#app'].innerHTML.includes('Điều 8 TT62'));assert(elements['#app'].innerHTML.includes('15/09/2026'));
 console.log("PASS v4.1 project legal gates");
+
+ // Critical risk: identification, rating, controls, hold, evidence and filtering.
+assert.strictEqual(data.criticalRisks.length,28);
+assert.strictEqual(data.criticalRisks.reduce((n,r)=>n+r.controls.length,0),84);
+click({view:'criticalrisk'});assert(elements['#app'].innerHTML.includes('Critical Risk – 28'));
+click({risk:'CR04'});assert(elements['#app'].innerHTML.includes('Nâng hạ thiết bị nặng'));assert(elements['#app'].innerHTML.includes('khả năng chịu tải nền'));assert(elements['#app'].innerHTML.includes('STOP WORK / HOLD GATE'));
+mk('#riskS').value='5';mk('#riskL').value='4';mk('#riskRS').value='5';mk('#riskRL').value='1';mk('#riskNote').value='Bài tập giả định lifting, cần xác minh thiết kế và nền.';
+const risk4=data.criticalRisks.find(x=>x.id==='CR04');
+for(let c of risk4.controls){mk('#risk-status-'+c.id).value='pass';mk('#risk-evidence-'+c.id).value=''}
+click({action:'save-risk'});assert(alerts.some(s=>s.includes('CR04-CC1 phải có bằng chứng')));
+for(let c of risk4.controls){mk('#risk-status-'+c.id).value='pass';mk('#risk-evidence-'+c.id).value='SYNTHETIC-'+c.id}
+mk('#risk-status-'+risk4.controls[0].id).value='fail';
+click({action:'save-risk'});let rr=JSON.parse(store.hse_owner_pmu_playbook_v1).riskPractice.CR04;assert.strictEqual(rr.rl,null);assert(elements['#app'].innerHTML.includes('HOLD/STOP'));
+mk('#risk-status-'+risk4.controls[0].id).value='pass';
+click({action:'save-risk'});rr=JSON.parse(store.hse_owner_pmu_playbook_v1).riskPractice.CR04;assert.strictEqual(rr.rl,1);assert(elements['#app'].innerHTML.includes('không đồng nghĩa được phép làm việc'));
+change('riskPhase','P0');assert(!elements['#app'].innerHTML.includes('data-risk="CR04"'));
+change('riskPhase','all');click({risk:'CR14'});assert(elements['#app'].innerHTML.includes('Rò rỉ LNG'));
+click({action:'export-risk'});click({view:'dashboard'});assert(elements['#app'].innerHTML.includes('Critical Risk'));
+console.log("PASS critical risk: 28 risk records, 84 controls, filters, evidence guard, residual gating, CSV and existing navigation");
