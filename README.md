@@ -1,10 +1,14 @@
 # HSE PMU COMMAND · LNG — Khung quản trị HSE chủ đầu tư
 
-Ứng dụng tham chiếu và quản trị HSE phía Ban Quản lý dự án LNG, xây dựng theo vòng đời dự án và dữ liệu công khai về LNG Nghi Sơn. **Phiên bản 5.0 · 25/11/2026**.
+Ứng dụng tham chiếu và quản trị HSE phía Ban Quản lý dự án LNG, xây dựng theo vòng đời dự án và dữ liệu công khai về LNG Nghi Sơn. **Phiên bản giao diện 5.1 · 25/11/2026**.
 
 Đây là khung quản trị đề xuất độc lập, chưa phải hệ thống, quy trình hoặc hồ sơ đã được Trung Nam hay chủ đầu tư phê duyệt. Cần đối chiếu hồ sơ dự án, luật hiện hành, thiết kế, hợp đồng và phân quyền trước khi áp dụng. Không nhập dữ liệu mật vào bản công khai.
 
-## Giao diện V5.0
+## Giao diện V5.1
+
+Nâng cấp 11 màn hình nghiệp vụ theo đặc thù từng module: sơ đồ vai trò, timeline, stage gate, RACI focus, phân bố Critical Risk, thư viện phân loại, document assurance master/detail, phương án tình huống tham chiếu không ghi tiến độ và chỉ mục A–Z. Giữ nguyên dashboard V5.0, 12 màn hình, dữ liệu nguồn và khóa localStorage. Số liệu là phạm vi thư viện, không phải trạng thái dự án.
+
+## Giao diện nền V5.0
 
 Mặc định mở chế độ Trình chiếu với dashboard phạm vi hệ thống, sơ đồ khái niệm LNG–điện, vòng đời P0–P5 và nhóm điều hướng nghiệp vụ. Chuyển nút Trình chiếu/Làm việc để mở phần nhập dữ liệu, ghi chú, checklist và theo dõi tiến độ; không xóa dữ liệu hiện có. Tìm nhanh toàn hệ thống qua nút tìm kiếm hoặc phím `/`, Esc để đóng. Có giao diện sáng/tối, toàn màn hình khi trình duyệt hỗ trợ. Số liệu dashboard là số lượng nội dung tham chiếu, không phải dữ liệu thực tế hoặc mức tuân thủ dự án. Sơ đồ chuỗi LNG chỉ là sơ đồ khái niệm.
 

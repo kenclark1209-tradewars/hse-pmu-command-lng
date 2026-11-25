@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.1 — 2026-11-25
+- Nâng cấp 11 màn hình con theo nghiệp vụ, giữ nguyên dashboard V5.0 và source/content.json.
+- Thêm chỉ mục nội dung, sơ đồ vai trò, timeline, phân bố risk có lọc, cấu trúc critical controls, phase map, gate register, RACI focus, phân nhóm nguồn, document assurance workspace, phương án tình huống tham chiếu không ghi tiến độ, chỉ mục thuật ngữ.
+- Giữ nguyên ID nghiệp vụ, guard bằng chứng, CSV/JSON và dữ liệu cục bộ.
+
 ## 5.0.0 — 2026-11-25
 - Thiết kế lại command center: dashboard phạm vi hệ thống, sơ đồ LNG–điện khái niệm, bản đồ vòng đời P0–P5, sidebar nhóm nghiệp vụ, giao diện sáng/tối và responsive.
 - Thêm chế độ Trình chiếu/Làm việc, tìm kiếm toàn hệ thống và liên kết sâu vào quy trình, pháp lý, risk, biểu mẫu và tình huống; cải tiến cấu trúc Critical Risk và điều khoản pháp lý, thanh điều hướng nội dung.
