@@ -1,57 +1,34 @@
-# HSE PMU COMMAND · LNG — Bản V4
+# HSE PMU COMMAND · LNG — Khung quản trị HSE chủ đầu tư
 
-**Webapp offline tiếng Việt để học và thực hành tư duy HSE Manager phía Ban Quản lý dự án (chủ đầu tư) LNG.** Đây là một ứng dụng độc lập, không sử dụng backend, AI API, tài khoản hoặc thư viện bên ngoài.
+Ứng dụng tham chiếu và quản trị HSE phía Ban Quản lý dự án LNG, xây dựng theo vòng đời dự án và dữ liệu công khai về LNG Nghi Sơn. **Phiên bản 4.3 · 25/11/2026**.
 
-> **Quan trọng:** Tài liệu này là **mô phỏng/học tập**, không phải JD, phân quyền hoặc quy trình được Trung Nam hay một chủ đầu tư cụ thể ban hành. Không dùng lựa chọn tình huống, kết quả tự chấm hoặc checklist của ứng dụng làm quyết định pháp lý, nghiệm thu hay giấy phép trên công trường thật. Nội dung pháp luật/tiêu chuẩn cần kiểm tra **phiên bản, điều khoản, hiệu lực, phạm vi và quy định chuyển tiếp** trước khi áp dụng.
+Đây là khung quản trị đề xuất độc lập, chưa phải hệ thống, quy trình hoặc hồ sơ đã được Trung Nam hay chủ đầu tư phê duyệt. Cần đối chiếu hồ sơ dự án, luật hiện hành, thiết kế, hợp đồng và phân quyền trước khi áp dụng. Không nhập dữ liệu mật vào bản công khai.
 
-## Mở ứng dụng
+## Chức năng
 
-- **Offline:** tải hoặc clone repo, mở `index.html` bằng Chrome/Edge. Không cần cài đặt.
-- **Online:** nếu chủ repo bật GitHub Pages, sử dụng đường dẫn Pages tương ứng (chưa tự động bật bởi mã nguồn).
-- **Sao lưu:** ở góc trên, chọn `Xuất tiến độ` để lưu JSON chứa tiến độ, bài phỏng vấn và đánh giá biểu mẫu; `Nhập dữ liệu` để phục hồi trên thiết bị khác. Dữ liệu mặc định lưu **localStorage của trình duyệt đang dùng**. Không đưa bí mật công ty hoặc dữ liệu cá nhân vào ứng dụng/repo công khai.
+- Tổng quan và bản đồ vòng đời P0–P4.
+- Vai trò chủ đầu tư: 11 tình huống phân quyền, 7 nội dung thống nhất với Project Director, 4 hồ sơ tham chiếu công khai.
+- Kế hoạch triển khai 30–60–90 ngày: đầu vào, hành động, đầu ra và nhịp quản trị.
+- Pháp lý theo mốc: 7 nhóm, 16 đánh giá có điều kiện, 36 lượt viện dẫn; phân loại dự án, ĐTM/GPMT, PCCC, xây dựng, LNG, EPC, chạy thử. Kiểm tra lại hiệu lực tại thời điểm thực hiện thủ tục.
+- Critical Risk: 28 rủi ro và 84 hàng rào đề xuất, đánh giá tham chiếu 5×5, tiêu chuẩn hiệu suất, control owner, kiểm chứng, STOP/HOLD, điều kiện xem xét tiếp tục và xuất CSV. Điểm giả định không phải kết quả QRA hay chấp thuận hoạt động.
+- 35 quy trình, 36 nhóm viện dẫn điều khoản, 28 nguồn tham chiếu, 7 mốc quyết định, 12 dòng RACI.
+- 10 biểu mẫu CSV và 100 tiêu chí kiểm chứng, yêu cầu bằng chứng khi đánh dấu đạt.
+- 50 tình huống quản trị xuyên suốt 5 giai đoạn, hướng xử lý, bằng chứng, escalation và sai lầm cần tránh.
+- Thuật ngữ HSE/LNG, sao lưu và khôi phục JSON.
 
-## Tính năng
+## Sử dụng
 
-| Phần | Mô tả |
-| --- | --- |
-| Vai trò chủ đầu tư (nâng cấp v4) | Xác nhận tuyển phía chủ đầu tư; 11 tình huống phân quyền + **4 hồ sơ tham chiếu Trung Nam** (Cà Ná, Thuận Nam, Nghi Sơn) phân biệt nguồn công khai với nhận định. |
-| Phỏng vấn 27/11 (mới v3) | Lộ trình 4 ngày, 24 câu trọng điểm, 12 phiên phỏng vấn mô phỏng cấp giám đốc/HR, **12 ví dụ điều phối và quyết định cụ thể**, mẫu trả lời, câu hỏi xoáy, bằng chứng cần dùng và tự chấm. |
-| Nhận việc 30–60–90 (mới v3) | Kế hoạch 5 ngày đầu, 5 mốc triển khai, deliverables, nhóm phối hợp, quyết định trình PM và nhịp quản trị tuần/tháng; lưu bằng chứng. |
-| Pháp lý theo mốc (mới v3) | 7 nhóm nghĩa vụ theo điều kiện kích hoạt, văn bản/nguồn chính thức, owner và bằng chứng cần xác minh; không mặc định mọi nghĩa vụ đều áp dụng. |
-| Quy trình / Playbooks (nâng cấp v4) | 35 quy trình, **36 nhóm viện dẫn điều/khoản/mục có cấu trúc**, mỗi quy trình có 2–4 căn cứ, diễn giải liên hệ công việc, điều kiện áp dụng, minh chứng cần kiểm tra, liên kết tới văn bản. Bên cạnh còn 28 nguồn thư viện mở rộng. |
-| Tình huống | **50 ca** giả định sát BQLDA: tiền đầu tư, FEED/đấu thầu, giám sát nhiều EPC, thi công, first gas, ESD, môi trường, khủng hoảng, bàn giao O&M. Mỗi ca có đáp án, **các bước xử lý**, **bằng chứng**, **khi cần escalation**, bẫy phỏng vấn và nguồn liên quan. Có tìm kiếm/lọc/làm lại. |
-| Luyện phỏng vấn | **91 câu hỏi** trong **9 chủ đề**, gồm góc nhìn nhà tuyển dụng, trả lời mẫu **kèm ví dụ xử lý riêng cho cả 91 câu**, câu hỏi xoáy, sai lầm, nguồn tham chiếu và playbook liên quan. Viết câu trả lời thật, tự chấm 4 tiêu chí + điểm 1–5, lọc câu cần ôn và luyện ngẫu nhiên. |
-| Biểu mẫu | **10 mẫu CSV** và **100 tiêu chí review chi tiết**: cách kiểm, bằng chứng mong đợi, trọng yếu/thông thường, trạng thái Đạt/Chưa đạt/N/A/Chưa kiểm; xuất **checklist CSV**. |
-| Tiến độ | Giữ nguyên `hse_owner_pmu_playbook_v1` để bảo toàn tiến độ bản trước; bản xuất JSON giữ schema hiện hành và nhập được dữ liệu phiên bản 2/cũ. |
+Mở `index.html` bằng trình duyệt để chạy offline. Bản trực tuyến: https://kenclark1209-tradewars.github.io/hse-pmu-command-lng/ nếu GitHub Pages đã triển khai nhánh main.
 
-### Cách học trước phỏng vấn
+Dữ liệu quản trị lưu cục bộ trong trình duyệt, cùng khóa localStorage phiên bản trước. Xuất JSON để sao lưu. Nhập dữ liệu sẽ thay thế dữ liệu quản trị hiện tại; chỉ nhập dữ liệu tin cậy. Không coi trạng thái tự đánh dấu trong app là xác nhận pháp lý, phê duyệt thiết kế hoặc cấp phép công việc.
 
-1. Vào **Phỏng vấn 27/11**, chọn các mốc 23, 24, 25, 26/11. Tự trả lời 12 mock cấp quản lý và 24 câu trọng điểm; chỉ mở gợi ý sau khi nói thành tiếng.
-2. Vào **Vai trò chủ đầu tư**, học 11 tình huống phân quyền trước khi luyện bất kỳ câu hỏi HSE EPC nào.
-3. Vào **Nhận việc 30–60–90**, lấy riêng 5 ngày đầu làm khung trả lời “anh làm gì từ hôm đầu tiên?”.
-4. Vào **Pháp lý theo mốc**, học trigger/owner/evidence với từng luật/tiêu chuẩn, đặc biệt ĐTM/GPMT, PCCC, NĐ 207 và QCVN 19 cho kho LNG trên bờ.
-5. Vào **Quy trình**, đọc `P0-01`, `P0-03`, `P0-04`, `P0-05`, `P0-10` và `P1-01` để hiểu pháp nhân, legal matrix, EIA/PCCC, LNG và Employer HSE Requirements.
-6. Vào **Tình huống**, lọc `P0` và `P1` trước, tự chọn phương án rồi đọc kỹ phần *việc phải tổ chức*, *bằng chứng* và *escalation*. Sau đó luyện `P2–P4`.
-7. Vào **Luyện phỏng vấn**: ẩn đáp án, nói thành tiếng 60–120 giây, ghi dàn ý của chính anh, tự chấm, rồi mới bật đáp án và tự phản biện câu hỏi xoáy.
-8. Vào **Biểu mẫu**, tải mẫu `Legal / Permit Register`, mở 10 tiêu chí review và ghi bằng chứng; học cách nhận ra hồ sơ chưa đạt, đừng chỉ đánh dấu checkbox.
-9. Xuất JSON sau mỗi buổi học để dự phòng. Không nhập dữ liệu dự án mật lên một trang web công khai.
+## Mã nguồn
 
-## Cách dùng phần checklist biểu mẫu
-
-- `Chưa kiểm`: chưa có kết luận.
-- `Đạt`: **bắt buộc có mã/link bằng chứng** (ứng dụng không tự xác minh tính hợp lệ của bằng chứng).
-- `Chưa đạt`: phải ghi lý do và hướng khắc phục.
-- `Không áp dụng`: phải có lý do, không được dùng để lách việc phải kiểm.
-- App chỉ báo *đã tự rà đủ* nếu không còn mục chưa kiểm/chưa đạt và mọi mục đạt/N/A có chứng cứ/lý do; **không đồng nghĩa được phép phê duyệt hoặc đưa hệ thống vào sử dụng**.
-- Tải `Checklist CSV` để in/nhập vào Excel; bản CSV có cả cột cách kiểm và bằng chứng mong đợi.
-
-## Mã nguồn và kiểm thử
-
-- `source/content.json`: nội dung cấu trúc; đây là nguồn dữ liệu chính, không sửa trực tiếp nội dung trong `index.html`.
-- `source/template.html`: giao diện, CSS, JavaScript, có một placeholder `__DATA__`.
-- `source/build.py`: tạo `index.html` từ JSON + template.
-- `source/validate_content.py`: kiểm tra toàn bộ playbooks gắn legalPins, phân loại nguồn, 91 ví dụ, 12 ví dụ mock, và đủ mã căn cứ.
-- `source/test_app.js`: test render logic, tương tác tình huống, form checklist, phỏng vấn, lưu trạng thái và các luồng cũ.
+- `source/content.json`: dữ liệu nghiệp vụ.
+- `source/template.html`: giao diện, CSS và JavaScript.
+- `source/build.py`: đóng gói HTML độc lập.
+- `source/validate_content.py`: kiểm tra cấu trúc và liên kết dữ liệu.
+- `source/test_app.js`: smoke test logic và DOM mô phỏng.
 
 ```bash
 python source/validate_content.py
@@ -59,40 +36,4 @@ python source/build.py
 node source/test_app.js
 ```
 
-Script không thay thế kiểm thử thực tế trên Chrome/Edge và điện thoại. **Không xác nhận nội dung là tư vấn pháp lý**, và không đảm bảo kết quả thực tế chỉ từ các test tĩnh.
-
-## Cách đọc trách nhiệm HSE phía BQLDA
-
-- **BQLDA/chủ đầu tư:** đặt yêu cầu, giám sát, đánh giá hiệu lực thực hiện, điều phối giao diện và quản trị các rủi ro cấp dự án theo phân quyền.
-- **EPC/nhà thầu:** tổ chức thực thi công việc an toàn, quản lý nhân lực, công việc, thầu phụ và biện pháp thi công trong phạm vi hợp đồng.
-- **Technical Authority/Design/Operations:** các kết luận chuyên ngành về thiết kế, an toàn quy trình, thiết bị, PSSR/first gas theo năng lực và phân quyền; HSE không tự ký thay.
-- **Legal/Environmental/PCCC:** kiểm tra thủ tục, điều kiện, chủ thể nghĩa vụ và thẩm quyền theo hồ sơ thực tế; app không tự cấp giấy phép.
-
-### Tra cứu chính xác đến điều khoản (mới v4)
-
-Trong **Quy trình công việc**, mục **⑥ Căn cứ pháp lý tới đúng điều / khoản / mục** có 2–4 thẻ dẫn nguồn gốc cho mỗi quy trình. Mỗi thẻ có:
-
-- Mã và Điều/Khoản/Điểm hoặc Phần/Mục chính xác (VD: **NĐ 207/2026 Điều 5 khoản 1 điểm a,b**; **Điều 16 khoản 20 điểm a,b,c**; **QCVN 19:2022/BCT phần II mục 12.2**).
-- Diễn giải *ý chính* (không giả làm nguyên văn luật), cách áp dụng vào nghiệp vụ HSE BQLDA, phạm vi điều kiện, hồ sơ/bằng chứng kiểm tra.
-- Link văn bản để tự kiểm tra, cùng thư viện tài liệu mở rộng cho các chuẩn vận hành/thiết kế có bản quyền hoặc yêu cầu hợp đồng riêng.
-
-**Lưu ý:** Dẫn chiếu một điều khoản tới quy trình quản trị không có nghĩa luật bắt buộc đúng tên biểu mẫu/HAZOP/IOGP. QCVN 19 áp dụng cho **kho LNG cố định trên bờ sức chứa trên 200 tấn** trong ranh giới được quy định; không tự động cho mọi hạng mục nhà máy/cảng. Trong chính quy chuẩn này viện dẫn TCVN 8611/8612/8613:2010; nếu dự án muốn áp dụng bản 2023 phải được kỹ thuật/pháp lý xác nhận tiêu chuẩn đang có hiệu lực và hồ sơ thiết kế/hợp đồng tương ứng. Phần diễn giải được đối chiếu tại 23/11/2026, có thể phải rà lại sau thời điểm đó.
-
-**Ví dụ phỏng vấn:** Các tình huống đều **giả định**, không mặc nhiên coi là kinh nghiệm anh đã thực hiện; việc LILAMA đạt 7 triệu giờ an toàn là kết quả **của tập thể**, không phải thành tích cá nhân.
-
-Cơ sở tham khảo nổi bật: [Nghị định 207/2026/NĐ-CP – Điều 16 (trách nhiệm chủ đầu tư)](https://vanban.org/van-ban/nghi-dinh-207-2026-nd-cp-luat-xay-dung-quan-ly-chat-luong-thi-cong-xay-dung/dieu-16), [QCVN 19:2022/BCT](https://tieuchuanxaydung.vsqi.gov.vn/quychuan/view?sohieu=QCVN+19%3A2022%2FBCT), [IOGP Report 423](https://idms.iogp.org/Documents/485), [hướng dẫn PCCC của Cục Cảnh sát PCCC](https://canhsatpccc.gov.vn/vi/news/nghien-cuu-trao-doi/huong-dan-thuc-hien-tham-dinh-thiet-ke-kiem-tra-cong-tac-nghiem-thu-ve-phong-chay-va-chua-chay-doi-voi-du-an-dau-tu-xay-dung-cong-trinh-cong-trinh-4742). Đây chỉ là nguồn tham khảo ban đầu, không thay rà soát hồ sơ thực tế và nguồn chính thức khi áp dụng.
-
-## Bản tóm tắt ôn tập phỏng vấn
-
-Xem [`OWNER_HSE_BRIEF_27-11.md`](OWNER_HSE_BRIEF_27-11.md). Tóm tắt phạm vi công việc owner-side, đầu ra 5 ngày đầu, 12 câu trọng điểm và ví dụ báo cáo giám đốc. Các ghi chú về tình trạng tuyển dụng là thông tin ứng viên cung cấp, chưa phải JD/hồ sơ dự án được Trung Nam công bố.
-
-**Riêng tư:** Repository hiện đặt public. Nội dung học tập giả định có nhắc tới thời điểm phỏng vấn và bối cảnh kinh nghiệm ứng viên; nếu không muốn công khai, đổi repository sang private trong Settings của GitHub trước khi tiếp tục chia sẻ. Không commit CV, hợp đồng lao động, email tuyển dụng, bằng chứng dự án hay dữ liệu bảo mật.
-
-## Đánh giá pháp lý theo dự án LNG Nghi Sơn – bổ sung 25/11/2026
-
-Trong **Pháp lý theo mốc**, mỗi nhóm hiện có phần đánh giá phương án vị trí mới dựa trên Kế hoạch 408/KH-UBND Thanh Hóa và thông tin phương án Trung Nam công khai. Bao gồm phân nhóm dự án, cấp công trình, nhóm môi trường, trigger/ngoại lệ ĐTM, thẩm quyền và thời điểm ĐTM/GPMT theo NQ 66.19/2026/NQ-CP, thẩm định PCCC và nghiệm thu theo thay đổi năm 2026, khởi công, kho LNG, EPC, commissioning/bàn giao. Mỗi đánh giá tách điều khoản và nội dung diễn giải, cơ quan có thẩm quyền, công việc HSE, hồ sơ chứng minh và liên kết. NQ 66.19 chỉ có hiệu lực đến hết 28/02/2027; kiểm tra lại tại ngày nộp hồ sơ. Không coi diện tích vị trí cũ, công suất toàn nhà máy hay công suất nhập LNG hàng năm là dữ liệu để chốt nhóm/cấp của phương án mới. Giữ nguyên bảy nhóm, ID và localStorage.
-
- 
-## Critical Risk – bổ sung 25/11/2026
- 
-Menu **Critical Risk** có 28 kịch bản rủi ro trọng yếu, 84 biện pháp kiểm soát trọng yếu đề xuất, theo 5 giai đoạn và 4 nhóm nghiệp vụ. Mỗi kịch bản có mối nguy, top event, nguyên nhân, hậu quả, đánh giá 5×5 minh họa trước/sau, control owner, tiêu chuẩn hiệu suất, bằng chứng, tần suất, Stop Work/Hold, điều kiện xem xét tiếp tục và liên kết playbook/căn cứ. Có tìm kiếm/lọc, tự đánh giá S/L và kiểm chứng mô phỏng từng control; không lưu điểm residual nếu control chưa đạt/chưa có bằng chứng. Điểm thấp không đồng nghĩa rủi ro được chấp nhận. Xuất CSV theo hàng rào, và JSON tiến độ phiên bản 4 (nhập được v3/cũ; cùng khóa localStorage). Thư viện là đầu vào học tập/HAZID, không phải risk register chính thức, QRA, biện pháp thi công hoặc permit dự án.
+Kiểm thử logic không thay thế kiểm thử trình duyệt, kiểm chứng nguồn pháp lý hay thẩm định chuyên môn. Repository công khai: không đưa hồ sơ nội bộ, dữ liệu cá nhân hoặc hồ sơ dự án mật vào đây.

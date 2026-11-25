@@ -4,17 +4,14 @@ const html=fs.readFileSync(__dirname+'/../index.html','utf8');
 const m=html.match(/<script id="app-data" type="application\/json">([\s\S]*?)<\/script>/);
 assert(m,'Embedded source JSON missing');const data=JSON.parse(m[1]);
 assert.strictEqual(data.tasks.length,35);assert.strictEqual(data.sources.length,28);
-assert.strictEqual(data.scenarios.length,50);assert.strictEqual(data.interview.length,91);
+assert.strictEqual(data.scenarios.length,50);assert(!('interview' in data));
 assert.strictEqual(data.templates.length,10);
-assert.strictEqual(data.ownerFocus.practiceDrills.length,12);
-assert.strictEqual(data.ownerFocus.priorityQuestions.length,24);
 assert.strictEqual(data.templates.reduce((a,t)=>a+t.checklist.length,0),100);
 assert(data.scenarios.every(x=>x.actions?.length>=3&&x.evidence?.length>=2));
-assert(data.interview.every(x=>x.model&&x.followup&&x.pitfall&&x.category));
 assert(data.templates.every(x=>x.checklist.every(c=>c.how&&c.evidence&&c.question)));
 assert(data.tasks.every(x=>Array.isArray(x.steps)&&x.steps.length>0));
 const sourceIds=new Set(data.sources.map(x=>x.id));
-for(let g of [data.scenarios,data.interview,data.templates,data.tasks]) for(let r of g) for(let id of r.refs||[])assert(sourceIds.has(id),`Invalid source ID ${id}`);
+for(let g of [data.scenarios,data.templates,data.tasks]) for(let r of g) for(let id of r.refs||[])assert(sourceIds.has(id),`Invalid source ID ${id}`);
 const scripts=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];assert(scripts.length);
 scripts.forEach(s=>new vm.Script(s[1]));
 const elements={};function mk(id){return elements[id]||(elements[id]={innerHTML:'',textContent:'',value:'',dataset:{},checked:false,addEventListener:(name,fn)=>{elements[id][name]=fn},focus(){},setSelectionRange(){},scrollIntoView(){},click(){},style:{}})}
@@ -27,20 +24,11 @@ function click(dataset){handlers.click({target:{closest(){return{dataset}}}})}
 function change(id,value){handlers.change({target:{id,value}})}
 click({view:'ownerstart'});assert(elements['#app'].innerHTML.includes('11 quyết định trọng yếu'));
 click({ownerDecision:'4'});assert(elements['#app'].innerHTML.includes('Đưa HSE vào đấu thầu EPC'));
-click({view:'ownerinterview'});assert(elements['#app'].innerHTML.includes('24 câu ưu tiên'));
-click({ownerDay:'2'});assert(elements['#app'].innerHTML.includes('Thiết kế – đấu thầu EPC'));
-click({ownerDrill:'1'});assert(elements['#app'].innerHTML.includes('chưa làm HSE chủ đầu tư từ FEED'));
-mk('#ownerAnswer').value='Tôi sẽ nhận diện khoảng trống và điều phối chuyên gia kỹ thuật đúng chuyên môn.';
-mk('#ownerScore').value='4';mk('#ownerEvidence').value='Bằng chứng đã từng thực hiện tại công trường';
-click({action:'save-owner-drill'});
-let own=JSON.parse(store.hse_owner_pmu_playbook_v1);assert.strictEqual(own.ownerPractice.OD02.score,4);
-click({action:'toggle-owner-answer'});assert(elements['#app'].innerHTML.includes('ĐÁP ÁN THAM KHẢO'));
-click({ownerOpenQ:'Q018'});assert(elements['#app'].innerHTML.includes('Legal/Permit Register'));
 click({view:'ownerplan'});assert(elements['#app'].innerHTML.includes('5 ngày đầu'));
 click({ownerStage:'1'});assert(elements['#app'].innerHTML.includes('Tuần 2: pháp lý'));
 mk('#ownerPlanStatus').value='verified';mk('#ownerPlanEvidence').value='TRIGGER-MATRIX-V1';
 click({action:'save-owner-stage'});
-own=JSON.parse(store.hse_owner_pmu_playbook_v1);assert.strictEqual(own.ownerMilestones['D6–D15'].status,'verified');
+let own=JSON.parse(store.hse_owner_pmu_playbook_v1);assert.strictEqual(own.ownerMilestones['D6–D15'].status,'verified');
 click({view:'ownerlegal'});assert(elements['#app'].innerHTML.includes('Pháp lý'));
 click({ownerLegal:'2'});assert(elements['#app'].innerHTML.includes('PCCC &amp; CNCH'));
 click({view:'playbooks'});assert(elements['#app'].innerHTML.includes('P0-01'));
@@ -49,7 +37,7 @@ click({view:'legal'});assert(elements['#app'].innerHTML.includes('NĐ 207/2026/N
 click({view:'scenarios'});assert(elements['#app'].innerHTML.includes('50 tình huống'));
 assert(elements['#app'].innerHTML.includes('ĐTM chưa hoàn tất'));
 click({choice:'S1:1'});assert(elements['#app'].innerHTML.includes('Đúng hướng quản trị'));
-assert(elements['#app'].innerHTML.includes('Việc anh phải tổ chức thực hiện'));
+assert(elements['#app'].innerHTML.includes('Hành động quản trị cần tổ chức'));
 click({case:'S40'});assert(elements['#app'].innerHTML.includes('Gói')||elements['#app'].innerHTML.includes('báo'));
 change('casePhase','P3');assert(elements['#app'].innerHTML.includes('Còn')||elements['#app'].innerHTML.includes('First gas')||elements['#app'].innerHTML.includes('ESD'));
 change('casePhase','all');click({action:'retry-case'});
@@ -66,44 +54,21 @@ let progress=JSON.parse(store.hse_owner_pmu_playbook_v1);
 assert.strictEqual(progress.templateChecks.pssr[first].status,'pass');
 assert.strictEqual(progress.templateChecks.pssr[first].evidence,'PSSR-EV-01');
 click({downloadChecklist:'pssr'});
-click({ownerOpenQ:'Q001'});assert(elements['#app'].innerHTML.includes('91 câu hỏi'));
-assert(!elements['#app'].innerHTML.includes('GÓC NHÌN HỘI ĐỒNG'));
-mk('#interviewAnswer').value='Tôi xác định đúng scope và phân công, yêu cầu evidence và báo cáo PM.';
-mk('#interviewRating').value='4';mk('#interviewCheck0').checked=true;
-click({action:'save-interview'});
-progress=JSON.parse(store.hse_owner_pmu_playbook_v1);
-assert.strictEqual(progress.interviews.Q001.score,4);assert(progress.interviews.Q001.answer.includes('evidence'));
-click({action:'toggle-answer'});assert(elements['#app'].innerHTML.includes('GÓC NHÌN HỘI ĐỒNG'));
-assert(elements['#app'].innerHTML.includes('Câu hỏi xoáy'));
-click({nextInterview:'0'});assert(!elements['#app'].innerHTML.includes('GÓC NHÌN HỘI ĐỒNG'));
-change('interviewCategory','LNG & process safety');assert(elements['#app'].innerHTML.includes('LNG'));
-change('interviewCategory','all');click({action:'random-interview'});
 click({view:'glossary'});assert(elements['#app'].innerHTML.includes('HAZOP'));
 click({task:'P0-01'});mk('#progressStatus').value='verified';mk('#progressOwner').value='HSE BQLDA';mk('#progressEvidence').value='DOC-PMU-001';mk('#progressNote').value='Đã đối chiếu';mk('#progressDue').value='2026-12-01';click({action:'save-progress'});
 progress=JSON.parse(store.hse_owner_pmu_playbook_v1);assert.strictEqual(progress.tasks['P0-01'].status,'verified');
-click({view:'dashboard'});assert(elements['#app'].innerHTML.includes('90 ngày đầu'));
-console.log(JSON.stringify({pass:true,procedures:data.tasks.length,sources:data.sources.length,scenarios:data.scenarios.length,interview:data.interview.length,checklist_controls:data.templates.reduce((a,x)=>a+x.checklist.length,0),navigation:true,scenario_explanation:true,checklist_validation:true,interview_save:true,progress_backward_compatibility:true},null,2));
+click({view:'dashboard'});assert(elements['#app'].innerHTML.includes('Kế hoạch triển khai 90 ngày'));
+console.log(JSON.stringify({pass:true,procedures:data.tasks.length,sources:data.sources.length,scenarios:data.scenarios.length,checklist_controls:data.templates.reduce((a,x)=>a+x.checklist.length,0),navigation:true,scenario_explanation:true,checklist_validation:true,progress_backward_compatibility:true},null,2));
 
 assert.strictEqual(data.legalClauses.length,36,"legal clause citations");
 assert(data.tasks.every(t=>t.legalPins.length>=2),"every playbook has clause-level citations");
-assert(data.interview.every(q=>q.caseExample?.length>=90),"91 interview examples");
-assert(data.ownerFocus.practiceDrills.every(d=>d.caseExample?.length>=90),"12 executive drill examples");
 click({view:'playbooks'});
 assert(elements['#app'].innerHTML.includes('Điều 5 khoản 1 điểm a, b'),"exact cited clause in playbook");
 click({task:'P0-04'});
 assert(elements['#app'].innerHTML.includes('Điều 31 khoản 1–2'),"environmental exact article");
 click({view:'ownerstart'});
 assert(elements['#app'].innerHTML.includes('LNG Cà Ná – phát triển trước EPC'),"Trung Nam example");
-click({view:'interview'});
-click({action:'toggle-answer'});
-assert(elements['#app'].innerHTML.includes('Ví dụ giả định sát LNG Nghi Sơn'),"interview examples displayed");
-click({view:'ownerinterview'});
-// Ensure the retained drill answer is open instead of blindly toggling it.
-if(!elements['#app'].innerHTML.includes('Ví dụ đi sâu'))click({action:'toggle-owner-answer'});
-assert(elements['#app'].innerHTML.includes('Ví dụ đi sâu'),"executive drill example displayed");
-console.log("PASS v4 UI mocks: 35 legal playbooks, 91 specific examples, 12 executive examples");
-
- // v4.1: project-specific legal gates (offline content + source locators)
+// v4.1: project-specific legal gates (offline content + source locators)
 assert(data.ownerFocus.projectLegal.asOf==="25/11/2026");
 assert.strictEqual(data.ownerFocus.legalGates.length,7);
 assert(data.ownerFocus.legalGates.every(g=>g.assessment.findings.length>0&&g.assessment.findings.every(f=>f.authority&&f.when&&f.evidence&&f.clauses.every(c=>c.locator&&c.content&&c.url.startsWith('https://')))));
@@ -132,3 +97,13 @@ change('riskPhase','P0');assert(!elements['#app'].innerHTML.includes('data-risk=
 change('riskPhase','all');click({risk:'CR14'});assert(elements['#app'].innerHTML.includes('Rò rỉ LNG'));
 click({action:'export-risk'});click({view:'dashboard'});assert(elements['#app'].innerHTML.includes('Critical Risk'));
 console.log("PASS critical risk: 28 risk records, 84 controls, filters, evidence guard, residual gating, CSV and existing navigation");
+
+const excluded=/phỏng vấn|ứng viên|tuyển dụng|cuộc gọi nhân sự|LILAMA|27\/11|data-view="(?:ownerinterview|interview)"/i;
+assert(!excluded.test(html),'No recruitment material in packaged app');
+assert.strictEqual(data.scenarios.length,50);
+assert.strictEqual(data.ownerFocus.decisions.length,11);
+assert(!('practiceDrills' in data.ownerFocus));
+const screens=['dashboard','ownerstart','ownerplan','ownerlegal','criticalrisk','playbooks','gates','raci','legal','templates','scenarios','glossary'];
+for(let view of screens){click({view});assert(!excluded.test(elements['#app'].innerHTML),'No recruitment copy in '+view);assert(!excluded.test(elements['#nav'].innerHTML),'No legacy menu');}
+click({view:'scenarios'});change('casePhase','all');click({case:'S2'});assert(elements['#app'].innerHTML.includes('Tư vấn đề nghị HSE chủ đầu tư phê duyệt báo cáo QRA'));click({choice:'S2:2'});assert(elements['#app'].innerHTML.includes('Sai lầm cần tránh'));
+console.log("PASS professional presentation: 12 retained screens, 50 scenarios, no recruitment content");
