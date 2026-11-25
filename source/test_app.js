@@ -153,3 +153,8 @@ click({view:'scenarios'});change('casePhase','all');click({case:'S2'});click({ac
 click({view:'glossary'});click({action:'glossary-letter-H'});assert(elements['#app'].innerHTML.includes('HAZOP'));assert(!elements['#app'].innerHTML.includes('term-code">PMU/BQLDA'));click({action:'glossary-letter-all'});handlers.input({target:{id:'glossarySearch',value:'hazop'}});assert(elements['#app'].innerHTML.includes('HAZOP'));
 assert(JSON.parse(store.hse_owner_pmu_playbook_v1).riskPractice.CR04,'Existing risk record still present');
 console.log("PASS V5.1: 11 workspace headers, governance, timeline, gate map, RACI focus, library filters, template workspace, read-only scenario reference and glossary index");
+
+// Author credit is visible in the full sidebar and compact topbar.
+assert(html.includes('<span class="brand-credit">Created by: <strong>Nguyễn Thắng</strong></span>'));
+assert(html.includes('<span class="brand-credit compact-credit">Created by: <strong>Nguyễn Thắng</strong></span>'));
+console.log("PASS author attribution: desktop and compact branding");
