@@ -344,6 +344,83 @@
       "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/58-vbhn-vpqh.pdf",
       "use": "Theo dõi thẩm định thiết kế, trách nhiệm của các chủ thể và sửa đổi của Luật 118/2025 và Luật Xây dựng 135/2025.",
       "note": "Bản hợp nhất để tra cứu; kiểm tra văn bản gốc và văn bản sửa đổi có hiệu lực khi kết luận."
+    },
+    {
+      "id": "Q25",
+      "code": "QCVN 25:2025/BCT",
+      "title": "An toàn điện (TT 41/2025/TT-BCT)",
+      "domain": "Điện lực / O&M",
+      "kind": "Quy chuẩn VN",
+      "date": "08/08/2025",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=214163&orggroupid=4&pageid=27160",
+      "use": "Phần II mục 4–10: biện pháp an toàn điện trước công việc, liên động, xác minh hết điện, chống cấp ngược.",
+      "note": "Thay QCVN 01:2020/BCT; rà đối tượng và hiệu lực khi áp dụng."
+    },
+    {
+      "id": "ND62",
+      "code": "NĐ 62/2025/NĐ-CP",
+      "title": "Bảo vệ công trình điện lực và an toàn trong lĩnh vực điện lực",
+      "domain": "Điện lực / O&M",
+      "kind": "Pháp luật VN",
+      "date": "04/03/2025",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=213050&orggroupid=2&pageid=27160",
+      "use": "Đối chiếu nghĩa vụ an toàn điện của đơn vị quản lý vận hành.",
+      "note": "Rà sửa đổi, phạm vi và phân quyền."
+    },
+    {
+      "id": "IFCPOWER",
+      "code": "IFC EHS Thermal Power (2008)",
+      "title": "Hướng dẫn EHS nhà máy nhiệt điện",
+      "domain": "Điện lực / O&M",
+      "kind": "Hướng dẫn quốc tế",
+      "date": "2008",
+      "url": "https://www.ifc.org/en/insights-reports/general-environmental-health-and-safety-guidelines/ehs-guidelines-power",
+      "use": "An toàn, môi trường, sức khỏe liên quan turbine khí, lò hơi, điện và thiết bị phụ trợ.",
+      "note": "Hướng dẫn quốc tế tham chiếu, không mặc nhiên là nghĩa vụ pháp luật Việt Nam; đối chiếu phạm vi, thiết kế và hợp đồng."
+    },
+    {
+      "id": "IOGPPSF",
+      "code": "IOGP Process Safety Fundamentals (Report 638)",
+      "title": "Nguyên tắc an toàn quá trình trong vận hành và bảo trì",
+      "domain": "LNG / PSM",
+      "kind": "Hướng dẫn quốc tế",
+      "date": "Tra cứu 25/11/2026",
+      "url": "https://www.iogp.org/workstreams/safety/safety/process-safety/fundamentals/",
+      "use": "Giới hạn vận hành, duy trì barrier, cô lập, MOC, tín hiệu bất thường.",
+      "note": "Hướng dẫn quốc tế tham chiếu, không mặc nhiên là nghĩa vụ pháp luật Việt Nam; đối chiếu phạm vi, thiết kế và hợp đồng."
+    },
+    {
+      "id": "GIIGNLROLL",
+      "code": "GIIGNL – Rollover in LNG Storage Tanks",
+      "title": "Quản lý nguy cơ phân lớp LNG và rollover",
+      "domain": "LNG / PSM",
+      "kind": "Hướng dẫn quốc tế",
+      "date": "2012–2015",
+      "url": "https://www.giignl.org/resources/rollover-in-lng-storage-tanks",
+      "use": "Đánh giá tương thích lô LNG và nguy cơ phân lớp trong bồn.",
+      "note": "Hướng dẫn quốc tế tham chiếu, không mặc nhiên là nghĩa vụ pháp luật Việt Nam; đối chiếu phạm vi, thiết kế và hợp đồng."
+    },
+    {
+      "id": "HSG253",
+      "code": "UK HSE HSG253",
+      "title": "The safe isolation of plant and equipment",
+      "domain": "O&M / PTW",
+      "kind": "Hướng dẫn quốc tế",
+      "date": "2006",
+      "url": "https://www.hse.gov.uk/pubns/books/hsg253.htm",
+      "use": "Cô lập thiết bị, xác minh, line breaking, bàn giao và khôi phục.",
+      "note": "Hướng dẫn quốc tế tham chiếu, không mặc nhiên là nghĩa vụ pháp luật Việt Nam; đối chiếu phạm vi, thiết kế và hợp đồng."
+    },
+    {
+      "id": "HSEHAND",
+      "code": "UK HSE – Shift handover",
+      "title": "Giao ca an toàn",
+      "domain": "O&M / PTW",
+      "kind": "Hướng dẫn quốc tế",
+      "date": "Tra cứu 25/11/2026",
+      "url": "https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm",
+      "use": "Bàn giao trạng thái hệ, permit, bảo trì, bất thường và trách nhiệm giữa các ca.",
+      "note": "Hướng dẫn quốc tế tham chiếu, không mặc nhiên là nghĩa vụ pháp luật Việt Nam; đối chiếu phạm vi, thiết kế và hợp đồng."
     }
   ],
   "gates": [
@@ -7002,18 +7079,19 @@
     }
   ],
   "release": {
-    "name": "4.3.0",
+    "name": "4.4.0",
     "asOf": "2026-11-25",
     "scope": "Khung quản trị HSE phía chủ đầu tư/BQLDA – LNG",
     "legalClauses": 36,
     "tasksWithPins": 35,
-    "criticalRisks": 28,
-    "criticalControls": 84
+    "criticalRisks": 44,
+    "criticalControls": 132,
+    "operationalRisks": 16
   },
   "criticalRiskGuide": {
     "asOf": "25/11/2026",
     "title": "Critical Risk & Critical Control Management",
-    "disclaimer": "Thư viện HAZID/CCM ban đầu dùng làm khung tham chiếu và chuẩn bị workshop, không phải risk assessment, QRA, JSA, thiết kế, PTW hay chấp thuận rủi ro của LNG Nghi Sơn. Các điểm là ví dụ giả định, không dùng quyết định thi công/first gas. Xác nhận scope, luật, tiêu chuẩn, dữ liệu và thẩm quyền dự án thật. Các rủi ro có hậu quả tử vong/thảm họa vẫn là critical dù điểm còn lại thấp.",
+    "disclaimer": "Thư viện HAZID/CCM ban đầu dùng làm khung tham chiếu và chuẩn bị workshop, không phải risk assessment, QRA, JSA, thiết kế, PTW hay chấp thuận rủi ro của LNG Nghi Sơn. Các điểm là ví dụ giả định, không dùng quyết định thi công/first gas/vận hành thương mại. Xác nhận scope, luật, tiêu chuẩn, dữ liệu và thẩm quyền dự án thật. Các rủi ro có hậu quả tử vong/thảm họa vẫn là critical dù điểm còn lại thấp.",
     "severity": [
       "1 · Nhẹ: sơ cứu/tác động nhỏ",
       "2 · Vừa: điều trị y tế/tác động cục bộ",
@@ -7061,8 +7139,62 @@
       {
         "label": "QCVN 18:2021/BXD – an toàn thi công xây dựng",
         "url": "https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Thong-tu-16-2021-TT-BXD-Quy-chuan-ky-thuat-An-toan-trong-thi-cong-xay-dung-499054.aspx"
+      },
+      {
+        "label": "IFC EHS Thermal Power (2008)",
+        "url": "https://www.ifc.org/en/insights-reports/general-environmental-health-and-safety-guidelines/ehs-guidelines-power"
+      },
+      {
+        "label": "QCVN 25:2025/BCT",
+        "url": "https://vanban.chinhphu.vn/?classid=1&docid=214163&orggroupid=4&pageid=27160"
+      },
+      {
+        "label": "GIIGNL – Rollover in LNG Storage Tanks",
+        "url": "https://www.giignl.org/resources/rollover-in-lng-storage-tanks"
+      },
+      {
+        "label": "UK HSE HSG253",
+        "url": "https://www.hse.gov.uk/pubns/books/hsg253.htm"
+      },
+      {
+        "label": "UK HSE – Shift handover",
+        "url": "https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm"
       }
-    ]
+    ],
+    "operation": {
+      "phase": {
+        "id": "P5",
+        "short": "Vận hành & bảo trì (O&M)"
+      },
+      "scope": "P5 là phạm vi vận hành thương mại bổ sung riêng trong Critical Risk; giữ nguyên 5 giai đoạn P0–P4 của BQLDA. Xác minh cấu hình terminal, regas, turbine/HRSG, máy phát hydrogen và hóa chất theo FS/FEED, thiết kế, OEM, giấy phép. Sau bàn giao, O&M trực tiếp quản lý an toàn theo pháp nhân/phân quyền; HSE kiểm chứng và tham mưu, không tự điều khiển hoặc phê duyệt kỹ thuật.",
+      "rhythm": [
+        {
+          "when": "Mỗi ca",
+          "work": "Giao ca, trạng thái process, operating limits, permit/isolation, alarm và impairment.",
+          "owner": "Shift Manager / Area Authority",
+          "evidence": "Shift log, exception report, permit register"
+        },
+        {
+          "when": "Hằng ngày",
+          "work": "Rà impairment, critical defects, SIMOPS và kế hoạch công việc.",
+          "owner": "Operations + Maintenance + HSE",
+          "evidence": "Daily action log, barrier status, kế hoạch ca"
+        },
+        {
+          "when": "Hằng tuần/tháng",
+          "work": "Review critical maintenance, MOC, overdue inspection, LOPC/near miss, compliance, alarm trends.",
+          "owner": "Plant Manager / TA / Process Safety / HSE",
+          "evidence": "Process safety dashboard, CMMS, action log"
+        },
+        {
+          "when": "Trước startup/restart/outage",
+          "work": "Kiểm chứng system readiness, cấu hình, barrier, critical punch, hồ sơ và bàn giao.",
+          "owner": "Operations / TA / Maintenance",
+          "evidence": "Readiness review, test records, approved release"
+        }
+      ],
+      "kpiNote": "KPI là chỉ báo đề xuất: thống nhất định nghĩa, mẫu số, tần suất, ngưỡng theo thiết kế/pháp luật. Không dùng LTI=0 hoặc tỷ lệ checklist đạt để kết luận Process Safety an toàn."
+    }
   },
   "criticalRisks": [
     {
@@ -7141,7 +7273,8 @@
         "P0",
         "P1",
         "P2",
-        "P3"
+        "P3",
+        "P5"
       ],
       "activity": "Khảo sát địa chất, san nền, bờ biển, nền bồn và công trình tạm",
       "hazard": "Địa chất yếu, bão, triều cường, ngập, mưa lớn",
@@ -7201,7 +7334,8 @@
         "P0-06",
         "P0-08",
         "P2-03"
-      ]
+      ],
+      "omNote": "Giám sát thiên tai, nền/móng và kết cấu theo integrity; xem CR31. Owner O&M: Civil/Tank TA, Operations."
     },
     {
       "id": "CR03",
@@ -7275,7 +7409,8 @@
       "group": "An toàn thi công",
       "phases": [
         "P2",
-        "P3"
+        "P3",
+        "P5"
       ],
       "activity": "Lắp bồn, turbine, module, đường ống và thiết bị siêu trường siêu trọng",
       "hazard": "Tải treo, cần cẩu, tải nền, vùng xoay",
@@ -7334,7 +7469,8 @@
       "tasks": [
         "P2-03",
         "P2-05"
-      ]
+      ],
+      "omNote": "Nâng hạ đại tu: lifting authority O&M xác minh phương án, tải nền, vùng cấm và nhà thầu."
     },
     {
       "id": "CR05",
@@ -7343,7 +7479,8 @@
       "phases": [
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Lắp kết cấu, giàn giáo, sàn thao tác, mái, thang và bảo trì",
       "hazard": "Chênh cao và mép hở",
@@ -7401,7 +7538,8 @@
       "tasks": [
         "P2-03",
         "P2-07"
-      ]
+      ],
+      "omNote": "Bảo trì trên cao: Area Authority quản lý permit, tiếp cận, chống ngã và rescue."
     },
     {
       "id": "CR06",
@@ -7409,7 +7547,8 @@
       "group": "An toàn thi công",
       "phases": [
         "P2",
-        "P3"
+        "P3",
+        "P5"
       ],
       "activity": "Lắp dựng nhiều tầng, vận chuyển vật tư, thi công trên đầu người",
       "hazard": "Vật thể, dụng cụ, chi tiết chưa cố định",
@@ -7467,14 +7606,16 @@
       "tasks": [
         "P2-03",
         "P2-04"
-      ]
+      ],
+      "omNote": "Bảo trì chồng tầng: giữ vật, phân vùng và SIMOPS do O&M điều phối."
     },
     {
       "id": "CR07",
       "title": "Sập hố đào / vùi lấp",
       "group": "An toàn thi công",
       "phases": [
-        "P2"
+        "P2",
+        "P5"
       ],
       "activity": "Đào móng, tuyến ống, hào kỹ thuật",
       "hazard": "Khối đất, nước ngầm, tải gần mép hố",
@@ -7532,14 +7673,16 @@
       "tasks": [
         "P0-06",
         "P2-03"
-      ]
+      ],
+      "omNote": "Đào sửa tuyến: xác minh hạ tầng đang hoạt động, chống sập và permit O&M."
     },
     {
       "id": "CR08",
       "title": "Sập kết cấu tạm, giàn giáo hoặc cấu kiện",
       "group": "An toàn thi công",
       "phases": [
-        "P2"
+        "P2",
+        "P5"
       ],
       "activity": "Lắp dựng thép, cốp pha, đổ bê tông, kết cấu chống đỡ tạm",
       "hazard": "Tải trọng tạm và mất ổn định khi chưa hoàn thiện",
@@ -7597,7 +7740,8 @@
       "tasks": [
         "P2-03",
         "P2-05"
-      ]
+      ],
+      "omNote": "Kết cấu tạm/giàn giáo đại tu cần người có năng lực xác nhận và O&M tiếp nhận."
     },
     {
       "id": "CR09",
@@ -7607,7 +7751,8 @@
         "P0",
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Vận chuyển đất đá, thiết bị, xe tải và máy thi công",
       "hazard": "Phương tiện di động, điểm mù, giao thông nội bộ/cộng đồng",
@@ -7666,7 +7811,8 @@
       "tasks": [
         "P0-06",
         "P2-03"
-      ]
+      ],
+      "omNote": "Duy trì phân luồng xe/người và kiểm soát vận chuyển thiết bị/hóa chất."
     },
     {
       "id": "CR10",
@@ -7675,7 +7821,8 @@
       "phases": [
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Điện tạm, lắp đặt trạm, thử nghiệm, đóng điện và bảo trì",
       "hazard": "Năng lượng điện, nguồn cấp ngược, hồ quang",
@@ -7735,7 +7882,8 @@
         "P2-03",
         "P3-01",
         "P3-05"
-      ]
+      ],
+      "omNote": "Dùng QCVN 25:2025/BCT và quy trình điện O&M; xem CR38 về cấp ngược và quyền thao tác."
     },
     {
       "id": "CR11",
@@ -7744,7 +7892,8 @@
       "phases": [
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Vào bồn, hố, khoang kín, đường ống lớn",
       "hazard": "Thiếu oxy, khí độc/cháy, mắc kẹt, dòng vật chất",
@@ -7804,7 +7953,8 @@
         "P2-03",
         "P2-04",
         "P3-05"
-      ]
+      ],
+      "omNote": "Cô lập hệ chứa khí/hóa chất, khí quyển, permit và rescue do O&M quản lý."
     },
     {
       "id": "CR12",
@@ -7813,7 +7963,8 @@
       "phases": [
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Hàn, cắt, mài gần vật liệu cháy hoặc hệ thống có hydrocarbon",
       "hazard": "Nguồn nhiệt/tia lửa và khí/vật liệu cháy",
@@ -7872,7 +8023,8 @@
       "tasks": [
         "P2-04",
         "P3-05"
-      ]
+      ],
+      "omNote": "Hot work gần hydrocarbon: cô lập, kiểm soát khí/nguồn đánh lửa và SIMOPS."
     },
     {
       "id": "CR13",
@@ -7880,7 +8032,8 @@
       "group": "An toàn thi công",
       "phases": [
         "P2",
-        "P3"
+        "P3",
+        "P5"
       ],
       "activity": "Hydrotest, pneumatic test, thử kín thiết bị và đường ống",
       "hazard": "Năng lượng áp suất, bộ phận chịu áp",
@@ -7939,7 +8092,8 @@
       "tasks": [
         "P2-03",
         "P3-01"
-      ]
+      ],
+      "omNote": "Thử áp sau sửa chữa: test pack và chứng cứ readiness theo quy trình bảo trì."
     },
     {
       "id": "CR14",
@@ -7948,7 +8102,8 @@
       "phases": [
         "P1",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Tồn chứa, bơm, tái hóa khí, đường ống và giao nhận",
       "hazard": "LNG và khí thiên nhiên dễ cháy",
@@ -8009,7 +8164,8 @@
         "P1-04",
         "P3-01",
         "P3-03"
-      ]
+      ],
+      "omNote": "Theo dõi LOPC, F&G/ESD, integrity, alarm, ERP; xem CR40, CR43."
     },
     {
       "id": "CR15",
@@ -8018,7 +8174,8 @@
       "phases": [
         "P1",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Giao nhận, cooldown, lấy mẫu và vận hành hệ LNG",
       "hazard": "Chất lỏng lạnh sâu, ứng suất nhiệt",
@@ -8077,7 +8234,8 @@
         "P1-07",
         "P3-01",
         "P3-03"
-      ]
+      ],
+      "omNote": "Duy trì tương thích lạnh sâu và chống tiếp xúc khi chuyển hàng/bảo trì."
     },
     {
       "id": "CR16",
@@ -8086,7 +8244,8 @@
       "phases": [
         "P1",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Thiết kế và vận hành bồn LNG, hệ xử lý hơi và hóa khí",
       "hazard": "Áp suất, nhiệt xâm nhập, khí bay hơi",
@@ -8146,7 +8305,8 @@
         "P1-04",
         "P3-01",
         "P3-03"
-      ]
+      ],
+      "omNote": "Theo dõi áp suất, mức, BOG, tiện ích và bảo vệ; xem CR29–CR30, CR33."
     },
     {
       "id": "CR17",
@@ -8155,7 +8315,8 @@
       "phases": [
         "P1",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Tiếp nhận tàu, cập bến và giao nhận LNG (nếu có cảng)",
       "hazard": "Tàu di chuyển, kết nối tàu–bờ, hàng LNG",
@@ -8214,7 +8375,8 @@
         "P1-07",
         "P3-04",
         "P3-06"
-      ]
+      ],
+      "omNote": "Ship-shore checklist và ESD/ERS theo terminal procedure; phân vai tàu–cảng–terminal."
     },
     {
       "id": "CR18",
@@ -8223,7 +8385,8 @@
       "phases": [
         "P1",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Hệ regas, đường ống khí cao áp, đấu nối turbine",
       "hazard": "Khí dễ cháy áp suất cao",
@@ -8283,7 +8446,8 @@
         "P1-04",
         "P3-01",
         "P3-03"
-      ]
+      ],
+      "omNote": "Duy trì operating envelope, integrity tuyến khí, giao diện terminal/điện; xem CR32, CR40."
     },
     {
       "id": "CR19",
@@ -8292,7 +8456,8 @@
       "phases": [
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Purging, inerting, commissioning và bảo dưỡng",
       "hazard": "Nitrogen/khí trơ thay thế oxy",
@@ -8352,7 +8517,8 @@
         "P2-04",
         "P3-03",
         "P3-05"
-      ]
+      ],
+      "omNote": "Purging/inerting bảo trì: permit, vùng thiếu oxy, giám sát và cứu hộ."
     },
     {
       "id": "CR20",
@@ -8360,7 +8526,8 @@
       "group": "Process Safety & LNG",
       "phases": [
         "P2",
-        "P3"
+        "P3",
+        "P5"
       ],
       "activity": "Thi công nhiều EPC, thử điện/áp, đưa khí khi khu vực khác vẫn xây lắp",
       "hazard": "Năng lượng nguy hiểm và hoạt động chồng lấn",
@@ -8419,7 +8586,8 @@
       "tasks": [
         "P2-04",
         "P3-05"
-      ]
+      ],
+      "omNote": "SIMOPS giữa hệ đang chạy và outage/bảo trì; xem CR41. Area Authority điều phối."
     },
     {
       "id": "CR21",
@@ -8428,7 +8596,8 @@
       "phases": [
         "P1",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Thiết kế, commissioning, vận hành thử và bảo trì SIS/ESD/FGS",
       "hazard": "Mất chức năng bảo vệ hoặc thay đổi điều kiện công nghệ",
@@ -8489,7 +8658,8 @@
         "P3-01",
         "P3-02",
         "P3-03"
-      ]
+      ],
+      "omNote": "MOC, bypass/override, proof test và barrier health; xem CR43."
     },
     {
       "id": "CR22",
@@ -8567,7 +8737,8 @@
         "P0",
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Khảo sát biển, thi công bến, công tác trên mặt nước và giao nhận",
       "hazard": "Mặt nước, sóng gió, bề mặt trơn, tàu/thiết bị nổi",
@@ -8626,7 +8797,8 @@
         "P0-06",
         "P1-07",
         "P3-06"
-      ]
+      ],
+      "omNote": "Giao nhận và bảo trì cảng: kiểm soát tiếp cận nước, điều kiện biển và cứu người."
     },
     {
       "id": "CR24",
@@ -8637,7 +8809,8 @@
         "P1",
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "San lấp/nạo vét nếu có, thi công cảng, hệ nước làm mát và xử lý nước thải",
       "hazard": "Bùn đất, nhiên liệu, chất thải và nguồn xả",
@@ -8697,7 +8870,8 @@
         "P0-04",
         "P1-05",
         "P2-06"
-      ]
+      ],
+      "omNote": "Đối chiếu GPMT, nước làm mát, khí thải, chất thải, quan trắc và điều kiện xả."
     },
     {
       "id": "CR25",
@@ -8708,7 +8882,8 @@
         "P1",
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Thiết kế, thi công, chạy thử và bàn giao hệ ứng cứu đa bên",
       "hazard": "Cháy, nổ, rò LNG, thiên tai và tai nạn hàng hải",
@@ -8768,7 +8943,8 @@
         "P0-05",
         "P2-09",
         "P3-04"
-      ]
+      ],
+      "omNote": "Duy trì ERP đa bên, diễn tập cháy/rò LNG, mất điện, hàng hải."
     },
     {
       "id": "CR26",
@@ -8846,7 +9022,8 @@
         "P1",
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Lưu trữ, vận chuyển và sử dụng hóa chất xử lý nước, bảo trì, thử nghiệm",
       "hazard": "Hóa chất ăn mòn, độc, phản ứng hoặc dễ cháy theo SDS",
@@ -8905,7 +9082,8 @@
       "tasks": [
         "P2-07",
         "P3-01"
-      ]
+      ],
+      "omNote": "Kiểm soát hóa chất tiện ích và bảo trì theo inventory, SDS, ngưỡng; xem CR44."
     },
     {
       "id": "CR28",
@@ -8914,7 +9092,8 @@
       "phases": [
         "P2",
         "P3",
-        "P4"
+        "P4",
+        "P5"
       ],
       "activity": "Lắp đặt, cân chỉnh, chạy thử và bảo trì thiết bị quay",
       "hazard": "Bộ phận chuyển động, thủy lực, khí nén, trọng lực và năng lượng tích trữ",
@@ -8974,6 +9153,1182 @@
         "P2-03",
         "P3-01",
         "P3-05"
+      ],
+      "omNote": "Cô lập năng lượng, che chắn máy quay và bàn giao sau bảo trì theo permit O&M."
+    },
+    {
+      "id": "CR29",
+      "title": "Tràn bồn LNG do nạp vượt mức / sai tuyến",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Kho & cảng LNG",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Tiếp nhận tàu, chuyển LNG và tồn chứa",
+      "hazard": "LNG lạnh sâu, sức chứa hữu hạn",
+      "event": "Mức LNG vượt giới hạn hoặc đi vào hệ không dự kiến",
+      "causes": [
+        "Sức chứa khả dụng hoặc số liệu mức không tin cậy",
+        "Sai tuyến nhận/kế hoạch nạp",
+        "Bảo vệ mức cao suy giảm"
+      ],
+      "consequence": "Tràn LNG, bỏng lạnh, cháy lớn và nhiều thương vong",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Kế hoạch nhận và xác nhận sức chứa",
+          "type": "Phòng ngừa",
+          "criterion": "Terminal và phòng điều khiển xác nhận sức chứa, tuyến nhận và giới hạn theo thiết kế; có đối chiếu độc lập.",
+          "owner": "Terminal shift manager",
+          "evidence": "Cargo plan, inventory reconciliation, line-up check",
+          "frequency": "Mỗi lô và khi đổi tuyến",
+          "id": "CR29-CC1"
+        },
+        {
+          "name": "Bảo vệ mức cao theo thiết kế",
+          "type": "Phòng ngừa",
+          "criterion": "Đo mức, báo động và chức năng dừng nhận có chứng cứ hiệu suất và thử định kỳ.",
+          "owner": "Instrument / Process TA",
+          "evidence": "Functional test, impairment log, trend mức",
+          "frequency": "Trước nhận và theo lịch thử",
+          "id": "CR29-CC2"
+        },
+        {
+          "name": "Kiểm soát tràn và ứng cứu",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Containment, giao diện thông báo tàu–bờ, chức năng dừng và nguồn lực ứng cứu phù hợp thiết kế.",
+          "owner": "Terminal / Emergency lead",
+          "evidence": "Ship-shore readiness, F&G test, drill",
+          "frequency": "Mỗi lần nhận; diễn tập theo lịch",
+          "id": "CR29-CC3"
+        }
+      ],
+      "stop": "Chưa xác nhận sức chứa/tuyến, mức bất thường hoặc bảo vệ chống tràn chưa chứng minh hiệu lực.",
+      "restart": "Ca trưởng đưa hệ về trạng thái an toàn theo SOP; TA xác minh nguyên nhân, chức năng và điều kiện nhận tiếp.",
+      "assurance": "HSE O&M kiểm chứng cargo plan, sai lệch tồn chứa và trạng thái bảo vệ; không thay quyền điều khiển terminal.",
+      "refs": [
+        "Q19",
+        "IFCLNG",
+        "IOGPPSF"
+      ],
+      "basis": "QCVN 19:2022/BCT Phần II mục 13.2: duy trì mức, áp suất, nhiệt độ và lưu lượng trong giới hạn thiết kế; 13.4.1: giám sát liên tục.",
+      "kpi": [
+        "Số lần vượt giới hạn mức",
+        "Quá hạn thử bảo vệ chống tràn",
+        "Sai lệch tồn chứa chưa xử lý"
+      ],
+      "tasks": [
+        "P1-07",
+        "P3-06",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR30",
+      "title": "Phân lớp LNG và rollover trong bồn",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Kho & cảng LNG",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Tồn trữ LNG khác nguồn/thành phần",
+      "hazard": "Chênh lệch khối lượng riêng, nhiệt độ, thành phần; BOG",
+      "event": "Lớp LNG mất ổn định, lượng hơi tăng đột biến",
+      "causes": [
+        "Lô LNG có tính chất khác nhau",
+        "Biến động nhiệt độ/khối lượng riêng",
+        "Đánh giá tương thích hoặc khả năng xử lý BOG chưa đủ"
+      ],
+      "consequence": "Tăng áp nhanh, mất khả năng kiểm soát hơi, sự cố LNG nghiêm trọng",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Đánh giá tương thích lô LNG",
+          "type": "Phòng ngừa",
+          "criterion": "Chuyên gia xác nhận chất lượng LNG, trạng thái tồn bồn và phương án nhận phù hợp thiết kế.",
+          "owner": "Terminal Process TA",
+          "evidence": "Cargo quality, tank inventory, compatibility review",
+          "frequency": "Trước mỗi lô",
+          "id": "CR30-CC1"
+        },
+        {
+          "name": "Giám sát phân lớp và BOG",
+          "type": "Phòng ngừa",
+          "criterion": "Theo dõi mức, áp suất, BOG và dữ liệu nhiệt độ/khối lượng riêng nếu có; tiêu chí bất thường được kỹ thuật xác lập.",
+          "owner": "Control room / Process engineer",
+          "evidence": "Trends, alarm response SOP, monitoring log",
+          "frequency": "Liên tục; review ca",
+          "id": "CR30-CC2"
+        },
+        {
+          "name": "Bảo vệ áp suất và đáp ứng bất thường",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Hệ BOG, bảo vệ quá áp và phương án chuyển trạng thái an toàn được chứng minh theo thiết kế.",
+          "owner": "Process TA / Terminal manager",
+          "evidence": "HAZOP, relief review, functional test, abnormal SOP",
+          "frequency": "Theo lịch và khi thay đổi",
+          "id": "CR30-CC3"
+        }
+      ],
+      "stop": "Thiếu đánh giá tương thích hoặc BOG có xu hướng bất thường chưa giải thích.",
+      "restart": "TA xác minh dữ liệu, trạng thái hệ và điều kiện tiếp tục; Operations thực hiện theo phương án được duyệt.",
+      "assurance": "HSE kiểm chứng quy trình rollover và action kỹ thuật, không tự chọn phương án xử lý bồn.",
+      "refs": [
+        "Q19",
+        "GIIGNLROLL",
+        "IFCLNG"
+      ],
+      "basis": "QCVN 19:2022/BCT Phần II mục 13.2 về thông số công nghệ và BOG trong giới hạn thiết kế; GIIGNL là hướng dẫn chuyên ngành về rollover.",
+      "kpi": [
+        "BOG bất thường chưa đóng",
+        "Lô LNG chưa đánh giá tương thích",
+        "Bảo vệ áp suất quá hạn"
+      ],
+      "tasks": [
+        "P0-07",
+        "P1-04",
+        "P3-06"
+      ]
+    },
+    {
+      "id": "CR31",
+      "title": "Suy giảm nền bồn LNG / hệ sưởi móng",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Kho & cảng LNG",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Giám sát nền móng, hệ sưởi nếu có và vùng nhiệt độ thấp",
+      "hazard": "Lạnh sâu, lún, biến dạng",
+      "event": "Nền bồn hoặc kết cấu mất ổn định",
+      "causes": [
+        "Hệ sưởi nền bị suy giảm",
+        "Lún vượt dự báo",
+        "Địa chấn hoặc vùng lạnh bất thường chưa đánh giá"
+      ],
+      "consequence": "Hư hại bồn, mất kín LNG và hậu quả ngoài hàng rào",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Giám sát hệ sưởi nền nếu lắp đặt",
+          "type": "Phòng ngừa",
+          "criterion": "Theo dõi hoạt động hằng ngày; sai lệch được kỹ sư đánh giá theo thiết kế.",
+          "owner": "Tank integrity / Shift lead",
+          "evidence": "Heating status, temperature log",
+          "frequency": "Hằng ngày nếu có",
+          "id": "CR31-CC1"
+        },
+        {
+          "name": "Quan trắc lún",
+          "type": "Phòng ngừa",
+          "criterion": "Khảo sát theo quy chuẩn và thiết kế; điều tra lún vượt dự báo, sau OBE hoặc xuất hiện vùng nhiệt độ thấp bất thường.",
+          "owner": "Civil / Tank TA",
+          "evidence": "Settlement survey, trend, engineering disposition",
+          "frequency": "Mỗi 3 năm và sau sự kiện tại mục 13.4.2",
+          "id": "CR31-CC2"
+        },
+        {
+          "name": "Quyết định hạn chế khai thác",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "TA và người quản lý vận hành đánh giá, quyết định điều kiện an toàn khi nền/móng suy giảm.",
+          "owner": "Terminal manager / TA",
+          "evidence": "Integrity action log, restriction decision",
+          "frequency": "Khi phát hiện bất thường",
+          "id": "CR31-CC3"
+        }
+      ],
+      "stop": "Hệ sưởi lỗi chưa đánh giá hoặc lún/nhiệt độ ngoài giới hạn được duyệt.",
+      "restart": "Kỹ thuật đánh giá kết cấu/địa kỹ thuật, xác nhận biện pháp và điều kiện vận hành.",
+      "assurance": "HSE theo dõi lịch khảo sát, action nghiêm trọng và quyết định hạn chế.",
+      "refs": [
+        "Q19",
+        "IFCLNG"
+      ],
+      "basis": "QCVN 19:2022/BCT Phần II mục 13.4.2: theo dõi hệ sưởi hằng ngày nếu lắp đặt; quan trắc lún mỗi 3 năm và sau OBE/vùng nhiệt độ thấp bất thường; điều tra khi vượt dự báo.",
+      "kpi": [
+        "Quá hạn quan trắc lún",
+        "Bất thường nền chưa xử lý",
+        "Hệ sưởi suy giảm chưa có quyết định"
+      ],
+      "tasks": [
+        "P0-08",
+        "P1-07",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR32",
+      "title": "Tái hóa khí không đạt / khí quá lạnh xuống hạ nguồn",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Tái hóa khí & cấp khí",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Vaporizer, điều áp và cấp khí cho nhà máy điện",
+      "hazard": "LNG lạnh sâu, áp suất và nhiệt",
+      "event": "Thông số khí ra ngoài giới hạn thiết kế của hệ hạ nguồn",
+      "causes": [
+        "Mất môi chất gia nhiệt",
+        "Lỗi điều khiển/đo lường",
+        "Thay đổi tải làm mất cân bằng"
+      ],
+      "consequence": "Giòn hóa, hỏng thiết bị, mất kín khí cháy",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Operating envelope và giao diện khí–điện",
+          "type": "Phòng ngừa",
+          "criterion": "Hai đơn vị thống nhất giới hạn, yêu cầu chất lượng khí và điều kiện thay đổi tải theo thiết kế.",
+          "owner": "Process TA / Gas supply coordinator",
+          "evidence": "Operating limits register, interface agreement, SOP",
+          "frequency": "Trước vận hành; mỗi thay đổi",
+          "id": "CR32-CC1"
+        },
+        {
+          "name": "Đo lường và bảo vệ thông số",
+          "type": "Phòng ngừa",
+          "criterion": "Phát hiện và chức năng bảo vệ nhiệt độ, áp suất, lưu lượng được thử theo thiết kế.",
+          "owner": "Instrument / Process TA",
+          "evidence": "Cause & effect, proof tests, trends",
+          "frequency": "Giám sát liên tục; theo lịch thử",
+          "id": "CR32-CC2"
+        },
+        {
+          "name": "Đáp ứng mất gia nhiệt/cấp khí",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Phương án phối hợp hai đơn vị khi bất thường được duyệt và diễn tập.",
+          "owner": "Terminal / Power shift managers",
+          "evidence": "Abnormal SOP, communication/drill",
+          "frequency": "Mỗi ca; theo lịch",
+          "id": "CR32-CC3"
+        }
+      ],
+      "stop": "Không duy trì giới hạn hoặc chưa chứng minh bảo vệ.",
+      "restart": "Hai bên xác minh nguyên nhân, integrity và chức năng bảo vệ; release theo SOP.",
+      "assurance": "HSE rà giao diện, alarm response và action sau trip.",
+      "refs": [
+        "Q19",
+        "IFCLNG",
+        "IOGPPSF"
+      ],
+      "basis": "QCVN 19:2022/BCT Phần II mục 13.2: vận hành trong giới hạn thiết kế, kiểm soát BOG, thiết bị hóa khí và tuyến hạ nguồn; ngoài kho rà cơ sở riêng.",
+      "kpi": [
+        "Vượt operating envelope",
+        "Trip do gia nhiệt/cấp khí",
+        "Action giao diện quá hạn"
+      ],
+      "tasks": [
+        "P1-04",
+        "P3-01",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR33",
+      "title": "Mất tiện ích / blackout ảnh hưởng hàng rào an toàn",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Tái hóa khí & cấp khí",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Mất điện phụ trợ, khí điều khiển, nước làm mát hoặc firewater theo cấu hình",
+      "hazard": "Phụ thuộc chung của hệ bảo vệ",
+      "event": "Nhiều hàng rào mất chức năng đồng thời",
+      "causes": [
+        "Mất điện/UPS hoặc nguồn dự phòng",
+        "Mất tiện ích chung",
+        "Fail-safe và khả năng duy trì chưa chứng minh"
+      ],
+      "consequence": "Mất kiểm soát LNG/khí, cháy nổ hoặc mất an toàn tổ máy",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Phân tích phụ thuộc và fail-safe",
+          "type": "Phòng ngừa",
+          "criterion": "Xác định safety-critical utilities, tải ưu tiên và trạng thái an toàn theo thiết kế.",
+          "owner": "Electrical / Process / Instrument TA",
+          "evidence": "Dependency matrix, cause & effect, study",
+          "frequency": "Trước vận hành; khi MOC",
+          "id": "CR33-CC1"
+        },
+        {
+          "name": "Sẵn sàng tiện ích dự phòng",
+          "type": "Phòng ngừa",
+          "criterion": "Kiểm tra nguồn dự phòng và các tiện ích thiết yếu theo thiết kế/OEM.",
+          "owner": "Maintenance / Electrical lead",
+          "evidence": "Functional tests, CMMS, defect log",
+          "frequency": "Theo lịch",
+          "id": "CR33-CC2"
+        },
+        {
+          "name": "Ứng phó mất tiện ích",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Diễn tập chuyển trạng thái an toàn, liên lạc và quản lý công việc đang mở.",
+          "owner": "Operations / Emergency lead",
+          "evidence": "Blackout scenario, drill, shift log",
+          "frequency": "Theo kế hoạch; sau thay đổi",
+          "id": "CR33-CC3"
+        }
+      ],
+      "stop": "Barrier phụ thuộc tiện ích suy giảm mà không chứng minh điều kiện vận hành.",
+      "restart": "Khôi phục tiện ích và thử các chức năng bị ảnh hưởng; Operations/TA quyết định.",
+      "assurance": "HSE kiểm chứng common cause và tình trạng test dự phòng.",
+      "refs": [
+        "Q19",
+        "IFCLNG",
+        "IFCPOWER",
+        "IOGPPSF"
+      ],
+      "basis": "QCVN 19:2022/BCT Phần II mục 13.2–13.3 và 14.2; IFC/IOGP tham chiếu an toàn tiện ích và barrier.",
+      "kpi": [
+        "Utility impairment trọng yếu",
+        "Overdue test nguồn dự phòng",
+        "Barrier mất chức năng do tiện ích"
+      ],
+      "tasks": [
+        "P3-01",
+        "P3-03",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR34",
+      "title": "Cháy nổ buồng đốt turbine khí / khởi động thất bại",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Nhà máy điện",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Khởi động, dừng, thay đổi tải và restart sau trip",
+      "hazard": "Khí nhiên liệu, đánh lửa, khí nóng",
+      "event": "Nhiên liệu tích tụ hoặc cháy ngoài điều kiện thiết kế",
+      "causes": [
+        "Trạng thái hệ nhiên liệu chưa xác minh",
+        "Bảo vệ hoặc điều kiện khởi động suy giảm",
+        "Restart khi nguyên nhân trip chưa rõ"
+      ],
+      "consequence": "Cháy nổ, hỏng turbine/HRSG, tử vong",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Điều kiện khởi động/dừng theo OEM",
+          "type": "Phòng ngừa",
+          "criterion": "Ca trưởng xác nhận permissive, hệ nhiên liệu và trình tự SOP/OEM được phê duyệt.",
+          "owner": "Power shift manager / Turbine TA",
+          "evidence": "Startup checklist, SOP, trip log",
+          "frequency": "Mỗi startup/shutdown",
+          "id": "CR34-CC1"
+        },
+        {
+          "name": "Bảo vệ nhiên liệu và cháy",
+          "type": "Phòng ngừa",
+          "criterion": "Chức năng phát hiện, cô lập nhiên liệu, liên động và trip được kiểm chứng theo thiết kế.",
+          "owner": "Turbine / Instrument lead",
+          "evidence": "Cause & effect, test, impairment log",
+          "frequency": "Theo lịch; sau can thiệp",
+          "id": "CR34-CC2"
+        },
+        {
+          "name": "Quản lý trip và ứng cứu",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Đánh giá nguyên nhân trước restart; phương án ứng cứu khu vực tổ máy sẵn sàng.",
+          "owner": "Operations / Emergency lead",
+          "evidence": "Trip investigation, approved release, drill",
+          "frequency": "Mỗi trip bất thường; theo lịch",
+          "id": "CR34-CC3"
+        }
+      ],
+      "stop": "Permissive/protection không đạt hoặc nguyên nhân trip chưa được giải quyết theo procedure.",
+      "restart": "TA/OEM xác nhận điều kiện restart; trưởng ca thực hiện đúng phân quyền.",
+      "assurance": "HSE rà trip investigation và chứng cứ barrier, không điều khiển turbine.",
+      "refs": [
+        "IFCPOWER",
+        "IOGPPSF",
+        "PCCC"
+      ],
+      "basis": "IFC Thermal Power và IOGP PSF là GIIP; Luật PCCC, thiết kế được phê duyệt và SOP/OEM theo phạm vi.",
+      "kpi": [
+        "Startup thất bại/trip lặp",
+        "Protection quá hạn thử",
+        "Restart còn action critical"
+      ],
+      "tasks": [
+        "P1-04",
+        "P3-01",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR35",
+      "title": "Vỡ ống hơi / quá áp HRSG và hệ hơi nước",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Nhà máy điện",
+      "phases": [
+        "P5"
+      ],
+      "activity": "HRSG, tuyến hơi và steam turbine nếu thuộc cấu hình",
+      "hazard": "Hơi áp suất/nhiệt độ cao",
+      "event": "Vỡ thiết bị chịu áp hoặc giải phóng hơi nóng",
+      "causes": [
+        "Mỏi nhiệt, suy giảm vật liệu hoặc chất lượng nước kém",
+        "Thông số vượt giới hạn",
+        "Bảo vệ quá áp không sẵn sàng"
+      ],
+      "consequence": "Bỏng, tử vong, hư hỏng tổ máy",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Giới hạn vận hành và hóa nước",
+          "type": "Phòng ngừa",
+          "criterion": "Theo dõi thông số và chất lượng nước theo chương trình OEM; phản ứng bất thường có thẩm quyền.",
+          "owner": "Boiler / Water chemistry lead",
+          "evidence": "Operating log, chemistry results, SOP",
+          "frequency": "Liên tục và theo chương trình",
+          "id": "CR35-CC1"
+        },
+        {
+          "name": "Integrity và bảo vệ áp suất",
+          "type": "Phòng ngừa",
+          "criterion": "Kiểm định thiết bị thuộc diện, kiểm tra vật liệu và chức năng bảo vệ đúng luật/OEM.",
+          "owner": "Inspection / Boiler TA",
+          "evidence": "Inspection, certificates, protection tests",
+          "frequency": "Theo lịch luật/OEM; sau can thiệp",
+          "id": "CR35-CC2"
+        },
+        {
+          "name": "Cô lập vùng và ứng cứu hơi nóng",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Kiểm soát tiếp cận, cách nhiệt, kế hoạch cô lập và ứng cứu theo đánh giá.",
+          "owner": "Operations / Maintenance / ERP lead",
+          "evidence": "Walkdown, PTW, emergency procedure",
+          "frequency": "Mỗi ca; trước bảo trì",
+          "id": "CR35-CC3"
+        }
+      ],
+      "stop": "Mất chứng cứ bảo vệ, thông số ngoài giới hạn hoặc nghi rò hơi nguy hiểm.",
+      "restart": "Chuyển trạng thái an toàn, đánh giá integrity và chứng minh điều kiện restart.",
+      "assurance": "HSE kiểm chứng danh mục thiết bị nghiêm ngặt, kiểm định và overdue inspection.",
+      "refs": [
+        "IFCPOWER",
+        "AT",
+        "ND44",
+        "IOGPPSF"
+      ],
+      "basis": "Luật ATVSLĐ Điều 30–31 và NĐ 44/2016, các sửa đổi về thiết bị thuộc diện kiểm định; IFC Thermal Power tham khảo. Xác minh cấu hình HRSG.",
+      "kpi": [
+        "Quá hạn kiểm định",
+        "Sai lệch hóa nước chưa xử lý",
+        "Overdue test bảo vệ"
+      ],
+      "tasks": [
+        "P2-07",
+        "P3-01",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR36",
+      "title": "Cháy dầu bôi trơn, dầu điều khiển và bề mặt nóng",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Nhà máy điện",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Vận hành turbine, bơm và hệ dầu",
+      "hazard": "Dầu cháy, nguồn nhiệt",
+      "event": "Dầu rò tiếp xúc nguồn nhiệt và bắt cháy",
+      "causes": [
+        "Rò đường dầu",
+        "Che chắn/cách nhiệt không đạt",
+        "Bảo vệ cháy không sẵn sàng"
+      ],
+      "consequence": "Cháy thiết bị, bỏng, tử vong, mất tổ máy",
+      "example": {
+        "s": 4,
+        "l": 3,
+        "rs": 4,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Integrity hệ dầu",
+          "type": "Phòng ngừa",
+          "criterion": "Kiểm tra dấu hiệu rò và suy giảm, sửa theo phương án OEM/TA.",
+          "owner": "Mechanical / Turbine lead",
+          "evidence": "Inspection, leak log, CMMS",
+          "frequency": "Mỗi ca; theo lịch",
+          "id": "CR36-CC1"
+        },
+        {
+          "name": "Ngăn tiếp xúc dầu với bề mặt nóng",
+          "type": "Phòng ngừa",
+          "criterion": "Kiểm chứng che chắn, cách nhiệt, thu gom và quản lý thay đổi.",
+          "owner": "Operations / Mechanical TA",
+          "evidence": "Walkdown, design review, MOC",
+          "frequency": "Mỗi ca; sau sửa chữa",
+          "id": "CR36-CC2"
+        },
+        {
+          "name": "Phát hiện và bảo vệ cháy",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Hệ phát hiện/cô lập/chữa cháy có kiểm tra chức năng theo thiết kế và luật.",
+          "owner": "Fire protection / Operations",
+          "evidence": "Functional tests, impairment log, drill",
+          "frequency": "Theo lịch",
+          "id": "CR36-CC3"
+        }
+      ],
+      "stop": "Rò dầu vùng nóng hoặc mất bảo vệ chưa được đánh giá.",
+      "restart": "Cô lập, sửa chữa, xác minh không rò và khôi phục bảo vệ; Ops release.",
+      "assurance": "HSE theo dõi rò lặp, backlog và impairment PCCC.",
+      "refs": [
+        "IFCPOWER",
+        "PCCC",
+        "IOGPPSF"
+      ],
+      "basis": "Luật PCCC & CNCH, thiết kế PCCC theo phạm vi; IFC Thermal Power và IOGP PSF tham khảo.",
+      "kpi": [
+        "Rò dầu chưa đóng",
+        "Suy giảm hệ PCCC",
+        "Overdue maintenance hệ dầu"
+      ],
+      "tasks": [
+        "P3-01",
+        "P3-04",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR37",
+      "title": "Hydrogen làm mát máy phát (nếu sử dụng)",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Nhà máy điện",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Máy phát làm mát hydrogen nếu cấu hình có hệ này",
+      "hazard": "Hydrogen dễ cháy và hỗn hợp khí nguy hiểm",
+      "event": "Mất kín hoặc thành phần khí ngoài giới hạn thiết kế",
+      "causes": [
+        "Rò hệ làm kín/đường khí",
+        "Chuyển trạng thái không đạt",
+        "Đo lường hoặc bảo vệ suy giảm"
+      ],
+      "consequence": "Cháy nổ, tử vong, hỏng máy phát",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Xác định cấu hình và SOP OEM",
+          "type": "Phòng ngừa",
+          "criterion": "Xác minh máy phát có dùng hydrogen; giới hạn, quy trình do TA/OEM xác nhận.",
+          "owner": "Generator TA / Operations",
+          "evidence": "OEM manuals, P&ID, training",
+          "frequency": "Trước vận hành; khi đổi",
+          "id": "CR37-CC1"
+        },
+        {
+          "name": "Integrity, giám sát khí và bảo vệ",
+          "type": "Phòng ngừa",
+          "criterion": "Kiểm chứng làm kín, đo lường, thông gió và bảo vệ theo thiết kế.",
+          "owner": "Generator / Instrument lead",
+          "evidence": "Seal records, functional tests, inspection",
+          "frequency": "Theo OEM và kế hoạch",
+          "id": "CR37-CC2"
+        },
+        {
+          "name": "Ứng cứu và chuyển trạng thái an toàn",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Phương án rò/cháy và liên lạc điều khiển–hiện trường theo OEM/ERP.",
+          "owner": "Shift manager / Emergency lead",
+          "evidence": "Abnormal SOP, drill",
+          "frequency": "Theo kế hoạch",
+          "id": "CR37-CC3"
+        }
+      ],
+      "stop": "Nghi rò hydrogen, mất bảo vệ hoặc chưa chứng minh cấu hình áp dụng.",
+      "restart": "TA/OEM xác minh nguyên nhân và điều kiện vận hành lại.",
+      "assurance": "HSE rà phạm vi, quản lý khí, readiness; không giả định công nghệ máy phát.",
+      "refs": [
+        "IFCPOWER",
+        "AT",
+        "PCCC",
+        "IOGPPSF"
+      ],
+      "basis": "Luật ATVSLĐ Điều 18, PCCC theo phạm vi; IFC Thermal Power và OEM là cơ sở tham chiếu. Chưa xác minh công nghệ máy phát.",
+      "kpi": [
+        "Cảnh báo khí/làm kín chưa xử lý",
+        "Overdue bảo vệ",
+        "Action bất thường chưa đóng"
+      ],
+      "tasks": [
+        "P1-04",
+        "P3-01",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR38",
+      "title": "Sự cố máy biến áp, đóng cắt cao áp và hồ quang",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Nhà máy điện",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Switchyard, trạm biến áp, máy phát, bảo trì điện",
+      "hazard": "Điện áp cao, hồ quang, nguồn cấp ngược",
+      "event": "Điện giật, hồ quang hoặc cháy thiết bị",
+      "causes": [
+        "Nguồn cấp ngược/cảm ứng chưa xác định",
+        "Sai thiết bị hoặc quyền thao tác",
+        "Bảo vệ/tiếp địa suy giảm"
+      ],
+      "consequence": "Tử vong, bỏng, cháy trạm, mất điện",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Quyền thao tác và sơ đồ điện",
+          "type": "Phòng ngừa",
+          "criterion": "Sơ đồ hiện hành, quyền thao tác, giao diện điều độ và phiếu/lệnh được quản lý.",
+          "owner": "Electrical authorized person",
+          "evidence": "Single-line diagram, authorization, permit",
+          "frequency": "Mỗi công việc; khi đổi",
+          "id": "CR38-CC1"
+        },
+        {
+          "name": "Cô lập điện và xác minh trạng thái",
+          "type": "Phòng ngừa",
+          "criterion": "Biện pháp an toàn trước công việc, ngăn cấp điện lại, kiểm tra hết điện, nối đất và rào chắn được xác minh theo quy chuẩn.",
+          "owner": "Electrical operations / Work leader",
+          "evidence": "Isolation, earthing, permit handover",
+          "frequency": "Mỗi công việc thuộc diện",
+          "id": "CR38-CC2"
+        },
+        {
+          "name": "Bảo vệ điện và cứu hộ",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Kiểm tra bảo vệ, phòng cháy, PPE và ứng cứu theo đánh giá kỹ thuật.",
+          "owner": "Electrical TA / Fire Safety",
+          "evidence": "Protection test, arc hazard review, drill",
+          "frequency": "Theo lịch",
+          "id": "CR38-CC3"
+        }
+      ],
+      "stop": "Chưa rõ thiết bị/nguồn, chưa xác minh an toàn hoặc mất bảo vệ trọng yếu.",
+      "restart": "Người được phân quyền điện xác nhận điều kiện release đúng quy trình.",
+      "assurance": "HSE audit quyền thao tác, phiếu công tác và bằng chứng an toàn, không tự thao tác.",
+      "refs": [
+        "Q25",
+        "ND62",
+        "IFCPOWER"
+      ],
+      "basis": "QCVN 25:2025/BCT Phần II mục 4–10: biện pháp trước công việc, liên động, kiểm tra hết điện và chống cấp ngược; NĐ62/2025 về an toàn điện lực.",
+      "kpi": [
+        "Sai lệch phiếu/cô lập điện",
+        "Overdue test bảo vệ",
+        "High-potential điện/hồ quang"
+      ],
+      "tasks": [
+        "P3-01",
+        "P3-05",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR39",
+      "title": "Mở đường ống/thiết bị – Line Breaking",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Bảo trì & tính toàn vẹn",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Bảo trì hệ LNG, khí, hơi, hóa chất",
+      "hazard": "Năng lượng và chất nguy hiểm còn tồn",
+      "event": "Mở containment khi chưa chứng minh cô lập",
+      "causes": [
+        "Sai ranh giới/P&ID",
+        "Tồn áp hoặc chất chưa xác minh",
+        "Giao ca hoặc reinstatement thiếu"
+      ],
+      "consequence": "Bỏng, ngạt, cháy nổ, tử vong nhiều người",
+      "example": {
+        "s": 5,
+        "l": 4,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Phương án cô lập theo công việc",
+          "type": "Phòng ngừa",
+          "criterion": "Người có thẩm quyền xác định nguồn năng lượng, ranh giới, phương pháp theo thiết kế và hiện trường.",
+          "owner": "Area authority / Process TA",
+          "evidence": "Isolation plan, P&ID, certificate",
+          "frequency": "Mỗi can thiệp và thay đổi",
+          "id": "CR39-CC1"
+        },
+        {
+          "name": "Xác minh và duy trì cô lập",
+          "type": "Phòng ngừa",
+          "criterion": "Kiểm chứng trạng thái, tồn năng lượng và phụ thuộc theo procedure; quản lý giao ca.",
+          "owner": "Permit / Isolation authority",
+          "evidence": "Independent check khi cần, PTW, shift log",
+          "frequency": "Trước mở containment; trong công việc",
+          "id": "CR39-CC2"
+        },
+        {
+          "name": "Khôi phục có kiểm soát",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Xác minh lắp lại, tính kín, chức năng và giao diện trước tái cấp năng lượng; ứng cứu sẵn sàng.",
+          "owner": "Maintenance / Operations",
+          "evidence": "Reinstatement checklist, test, sign-off",
+          "frequency": "Mỗi release",
+          "id": "CR39-CC3"
+        }
+      ],
+      "stop": "Không chứng minh cô lập, nghi tồn năng lượng hoặc thay đổi ranh giới.",
+      "restart": "Dừng, đánh giá lại với isolation authority; cấp phép lại khi cần.",
+      "assurance": "HSE lấy mẫu line breaking đối chiếu hiện trường; không tự quyết cấu hình cô lập.",
+      "refs": [
+        "Q19",
+        "HSG253",
+        "IOGPPSF",
+        "AT"
+      ],
+      "basis": "QCVN 19:2022/BCT Phần II mục 14.1 yêu cầu thiết bị/đường ống an toàn trước bảo dưỡng và vận hành lại; HSG253/IOGP tham khảo.",
+      "kpi": [
+        "Sai lệch isolation certificate",
+        "Mở containment ngoài kiểm soát",
+        "Cô lập chung chưa rà"
+      ],
+      "tasks": [
+        "P2-04",
+        "P3-02",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR40",
+      "title": "Ăn mòn, mỏi, suy giảm vật liệu và quá hạn kiểm định",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Bảo trì & tính toàn vẹn",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Vận hành dài hạn bồn, đường ống, thiết bị áp lực vùng biển",
+      "hazard": "Ăn mòn, tải chu kỳ, tuổi thọ vật liệu",
+      "event": "Integrity suy giảm vượt tiêu chí an toàn",
+      "causes": [
+        "Cơ chế hư hỏng chưa nhận diện",
+        "Quá hạn inspection/kiểm định",
+        "Sửa tạm hoặc MOC thiếu"
+      ],
+      "consequence": "Mất kín, cháy nổ, thương vong",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Asset integrity và kế hoạch kiểm định",
+          "type": "Phòng ngừa",
+          "criterion": "Danh mục tài sản, damage mechanisms, kiểm tra/kiểm định theo luật/OEM/thiết kế, criticality rõ.",
+          "owner": "Mechanical integrity / Inspection",
+          "evidence": "Register, inspection plan, CMMS",
+          "frequency": "Theo lịch; khi đổi",
+          "id": "CR40-CC1"
+        },
+        {
+          "name": "Đánh giá suy giảm",
+          "type": "Phòng ngừa",
+          "criterion": "TA đánh giá kết quả, quyết định sửa/thay hoặc điều kiện sử dụng có căn cứ; không tự gia hạn kiểm định bắt buộc.",
+          "owner": "TA / Inspection lead",
+          "evidence": "NDT, disposition, repair/MOC",
+          "frequency": "Mỗi bất thường",
+          "id": "CR40-CC2"
+        },
+        {
+          "name": "Kiểm soát khuyết tật critical",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Hạn chế/dừng khi không chứng minh integrity; thử và xác nhận trước khôi phục.",
+          "owner": "Operations manager / TA",
+          "evidence": "Defect register, release evidence",
+          "frequency": "Mỗi defect critical",
+          "id": "CR40-CC3"
+        }
+      ],
+      "stop": "Khuyết tật critical, quá hạn kiểm định bắt buộc hoặc không chứng minh integrity.",
+      "restart": "TA xác nhận khắc phục phù hợp luật và thiết kế; thử lại.",
+      "assurance": "HSE theo dõi overdue statutory inspection, safety-critical backlog và sửa tạm.",
+      "refs": [
+        "Q19",
+        "AT",
+        "ND44",
+        "IFCLNG",
+        "IOGPPSF"
+      ],
+      "basis": "QCVN 19:2022/BCT Phần II mục 14.2 về bảo dưỡng/kiểm tra/kiểm định, mục 14.3 về chống ăn mòn. RBI bình chịu áp thuộc phạm vi đối chiếu QCVN 13:2021/BCT.",
+      "kpi": [
+        "Quá hạn kiểm định bắt buộc",
+        "Overdue critical maintenance",
+        "Sửa tạm hết hạn"
+      ],
+      "tasks": [
+        "P1-07",
+        "P2-07",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR41",
+      "title": "Bảo trì lớn / turnaround – SIMOPS trong nhà máy đang chạy",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Bảo trì & tính toàn vẹn",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Đại tu tổ máy, sửa kho LNG, nhà thầu trong khu đang hoạt động",
+      "hazard": "Nhiều công việc và năng lượng vận hành",
+      "event": "Công việc bảo trì xâm phạm hệ đang hoạt động/hàng rào khác",
+      "causes": [
+        "Bàn giao vùng không rõ",
+        "Permit/cô lập chung xung đột",
+        "Lịch hoặc nhân sự thay đổi"
+      ],
+      "consequence": "Tai nạn tập thể, cháy nổ, mất tổ máy",
+      "example": {
+        "s": 5,
+        "l": 4,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Outage scope và phân vùng",
+          "type": "Phòng ngừa",
+          "criterion": "O&M xác định ranh giới, area authority, các hoạt động xung đột trước huy động.",
+          "owner": "Outage manager / Area authority",
+          "evidence": "Outage plan, handover, SIMOPS matrix",
+          "frequency": "Trước outage; khi đổi",
+          "id": "CR41-CC1"
+        },
+        {
+          "name": "PTW, cô lập và năng lực nhà thầu",
+          "type": "Phòng ngừa",
+          "criterion": "Các permit nhất quán, có kiểm tra năng lực và giao diện công việc.",
+          "owner": "Permit issuer / Contractor supervisor",
+          "evidence": "PTW register, isolation, competency",
+          "frequency": "Mỗi ca/công việc",
+          "id": "CR41-CC2"
+        },
+        {
+          "name": "Readiness sau bảo trì",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Kiểm tra cấu hình, hồ sơ sửa chữa, critical punch và chức năng bảo vệ trước restart.",
+          "owner": "Operations / Maintenance / TA",
+          "evidence": "Completion pack, readiness review",
+          "frequency": "Mỗi system release",
+          "id": "CR41-CC3"
+        }
+      ],
+      "stop": "PTW xung đột, mất area ownership, cô lập chưa rõ hoặc còn critical punch.",
+      "restart": "Điều phối lại, xác minh và release đúng thẩm quyền.",
+      "assurance": "HSE review outage hằng ngày, assurance nhà thầu và báo cáo Plant Manager.",
+      "refs": [
+        "Q19",
+        "HSG253",
+        "IOGPPSF",
+        "IFCPOWER"
+      ],
+      "basis": "QCVN 19:2022/BCT Phần II mục 14.1–14.2; HSG253/IOGP/IFC tham khảo. Nếu công việc thuộc xây dựng, áp dụng quy định xây dựng tương ứng.",
+      "kpi": [
+        "SIMOPS conflict chưa xử lý",
+        "Critical punch trước restart",
+        "Nhà thầu chưa đủ điều kiện"
+      ],
+      "tasks": [
+        "P2-04",
+        "P2-07",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR42",
+      "title": "Giao ca thiếu thông tin / quá tải cảnh báo",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Quản trị vận hành",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Vận hành 24/7, phòng điều khiển và hiện trường",
+      "hazard": "Sai lệch thông tin, alarm, mệt mỏi",
+      "event": "Ca nhận không hiểu trạng thái hoặc không đáp ứng kịp bất thường",
+      "causes": [
+        "Thiếu trạng thái permit/isolation/override",
+        "Alarm flood",
+        "Thiếu năng lực, nguồn lực hoặc nghỉ ngơi"
+      ],
+      "consequence": "Mất kiểm soát quá trình, thao tác sai, sự cố nghiêm trọng",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Giao ca hai chiều và đối chiếu",
+          "type": "Phòng ngừa",
+          "criterion": "Ca giao/nhận xác nhận trạng thái, thông số, permit, cô lập, impairment và action mở.",
+          "owner": "Shift manager / Control room supervisor",
+          "evidence": "Shift log, checklist, acknowledgement",
+          "frequency": "Mỗi giao ca",
+          "id": "CR42-CC1"
+        },
+        {
+          "name": "Quản trị alarm và năng lực",
+          "type": "Phòng ngừa",
+          "criterion": "Cảnh báo có ưu tiên, hành động rõ; quản lý overload và đào tạo theo đánh giá.",
+          "owner": "Control / Process TA",
+          "evidence": "Alarm philosophy, performance review, drill",
+          "frequency": "Liên tục; review định kỳ",
+          "id": "CR42-CC2"
+        },
+        {
+          "name": "Nguồn lực và escalation",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Bố trí nhân sự, nghỉ ngơi, hỗ trợ và quyền chuyển trạng thái an toàn.",
+          "owner": "Operations manager / HSE",
+          "evidence": "Roster, competency, escalation records",
+          "frequency": "Mỗi ca",
+          "id": "CR42-CC3"
+        }
+      ],
+      "stop": "Chưa bàn giao trạng thái trọng yếu hoặc ca không chứng minh đủ khả năng ứng phó.",
+      "restart": "Ca trưởng xác minh trạng thái, bổ sung nguồn lực và xử lý theo SOP.",
+      "assurance": "HSE lấy mẫu handover, alarm trends, thời giờ làm việc và escalation.",
+      "refs": [
+        "Q19",
+        "HSEHAND",
+        "IOGPPSF"
+      ],
+      "basis": "QCVN 19:2022/BCT Phần II mục 13.1–13.2 về quy trình/đào tạo; 13.4.1 về giám sát liên tục và truyền thông cảnh báo; UK HSE giao ca là GIIP.",
+      "kpi": [
+        "Giao ca thiếu mục critical",
+        "Alarm critical tồn đọng",
+        "Sai lệch năng lực/thời giờ ca"
+      ],
+      "tasks": [
+        "P3-05",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR43",
+      "title": "Suy giảm hàng rào an toàn trong vận hành dài hạn",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Quản trị vận hành",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Giám sát F&G, ESD/SIS, relief, firewater, MOC",
+      "hazard": "Chức năng bảo vệ không còn đáp ứng thiết kế",
+      "event": "Vận hành khi critical barrier suy giảm chưa kiểm soát",
+      "causes": [
+        "Proof test/maintenance quá hạn",
+        "Bypass hoặc MOC tạm kéo dài",
+        "Không xét lỗi chung/tổ hợp impairment"
+      ],
+      "consequence": "Sự cố phát triển thành thảm họa",
+      "example": {
+        "s": 5,
+        "l": 3,
+        "rs": 5,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Barrier register và tiêu chuẩn hiệu suất",
+          "type": "Phòng ngừa",
+          "criterion": "Chức năng, tiêu chí, owner, lịch thử, trạng thái và phụ thuộc được xác lập từ design/HAZOP.",
+          "owner": "Process Safety / TA / Asset owner",
+          "evidence": "Barrier register, CMMS, cause & effect",
+          "frequency": "Theo dõi ca/ngày; theo lịch thử",
+          "id": "CR43-CC1"
+        },
+        {
+          "name": "Impairment, MOC và quyết định",
+          "type": "Phòng ngừa",
+          "criterion": "Ghi nhận, đánh giá và trình đúng thẩm quyền; không vận hành ngoài luật/thiết kế hoặc tự gia hạn.",
+          "owner": "Plant manager / Operations / TA",
+          "evidence": "Impairment log, MOC, action owner",
+          "frequency": "Mỗi impairment; review ngày",
+          "id": "CR43-CC2"
+        },
+        {
+          "name": "Khôi phục và kiểm chứng",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Thử chức năng sau sửa chữa, đánh giá phụ thuộc và cập nhật trạng thái.",
+          "owner": "Maintenance / Instrument TA / Ops",
+          "evidence": "Restoration test, closeout, status",
+          "frequency": "Mỗi lần khôi phục",
+          "id": "CR43-CC3"
+        }
+      ],
+      "stop": "Barrier mất chức năng hoặc quá hạn chưa đánh giá; chưa chứng minh điều kiện an toàn.",
+      "restart": "Ops đưa hệ về trạng thái an toàn theo SOP/ERP khi cần; TA xác minh khôi phục, release đúng thẩm quyền.",
+      "assurance": "HSE báo cáo barrier health và action quá hạn; không dùng LTI=0 thay bằng chứng.",
+      "refs": [
+        "Q19",
+        "IOGPPSF",
+        "IFCLNG",
+        "IFCPOWER"
+      ],
+      "basis": "QCVN 19:2022/BCT Phần II mục 13.1–13.2 về quy trình, giới hạn; 14.2 về kiểm tra/bảo dưỡng; IOGP PSF về barrier và MOC.",
+      "kpi": [
+        "Safety-critical impairment mở và tuổi tồn",
+        "Overdue proof test/maintenance",
+        "MOC tạm/action HAZOP quá hạn"
+      ],
+      "tasks": [
+        "P1-04",
+        "P3-02",
+        "P4-01"
+      ]
+    },
+    {
+      "id": "CR44",
+      "title": "Hóa chất xử lý nước và phơi nhiễm cấp tính",
+      "group": "An toàn vận hành & bảo trì (O&M)",
+      "system": "Quản trị vận hành",
+      "phases": [
+        "P5"
+      ],
+      "activity": "Hệ hóa nước HRSG/nước làm mát/nước thải; hóa chất cụ thể nếu có",
+      "hazard": "Chất độc, ăn mòn, phản ứng không tương thích",
+      "event": "Rò hoặc phơi nhiễm ngoài kiểm soát",
+      "causes": [
+        "Sai chất/đấu nối, thiếu SDS",
+        "Lưu chứa không tương thích",
+        "Thu gom, thông gió, ứng cứu không đạt"
+      ],
+      "consequence": "Bỏng, ngộ độc, tử vong, ô nhiễm",
+      "example": {
+        "s": 4,
+        "l": 3,
+        "rs": 4,
+        "rl": 1,
+        "why": "Điểm tham chiếu giả định khi tất cả hàng rào phù hợp thiết kế được chứng minh hiệu lực; hậu quả nghiêm trọng không thay đổi. Không phải đánh giá rủi ro thực tế."
+      },
+      "controls": [
+        {
+          "name": "Inventory, SDS và tương thích",
+          "type": "Phòng ngừa",
+          "criterion": "Xác định hóa chất, lượng tồn, cơ hội thay thế và nghĩa vụ theo danh mục/ngưỡng.",
+          "owner": "Chemical owner / HSE",
+          "evidence": "Inventory, SDS, legal trigger check",
+          "frequency": "Trước nhập; khi đổi",
+          "id": "CR44-CC1"
+        },
+        {
+          "name": "Lưu chứa/chuyển rót và tiếp xúc",
+          "type": "Phòng ngừa",
+          "criterion": "Xác minh phân cách, nhận diện, thu gom/thông gió và thủ tục nhận hàng theo đánh giá.",
+          "owner": "Water treatment / Chemical TA",
+          "evidence": "Storage walkdown, delivery checklist, tests",
+          "frequency": "Mỗi lô; theo lịch",
+          "id": "CR44-CC2"
+        },
+        {
+          "name": "Ứng cứu, y tế và kiểm soát phát tán",
+          "type": "Giảm nhẹ hậu quả",
+          "criterion": "Nguồn lực ứng cứu, sơ cứu và phối hợp báo cáo phù hợp SDS/pháp luật.",
+          "owner": "Emergency / Health / Environment",
+          "evidence": "Drill, readiness, reporting plan",
+          "frequency": "Trước sử dụng; theo lịch",
+          "id": "CR44-CC3"
+        }
+      ],
+      "stop": "Không rõ hóa chất/tương thích, nghi phát tán hoặc mất hàng rào ứng cứu.",
+      "restart": "Dừng, cô lập theo procedure, chuyên gia xác minh trước release.",
+      "assurance": "HSE rà nghĩa vụ hóa chất theo khối lượng, điều kiện kho và nhà thầu.",
+      "refs": [
+        "AT",
+        "MT",
+        "IFCPOWER",
+        "IFCGEN"
+      ],
+      "basis": "Luật ATVSLĐ Điều 18; Luật BVMT theo nguồn thải; đối chiếu Luật Hóa chất 69/2025/QH15 và hướng dẫn theo danh mục/ngưỡng. Không giả định hóa chất cụ thể.",
+      "kpi": [
+        "Sai lệch SDS/inventory",
+        "Rò hóa chất high-potential",
+        "Ứng cứu chưa đạt"
+      ],
+      "tasks": [
+        "P2-07",
+        "P2-06",
+        "P4-01"
       ]
     }
   ]

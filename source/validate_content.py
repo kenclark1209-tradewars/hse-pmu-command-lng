@@ -6,7 +6,7 @@ D=json.loads((Path(__file__).resolve().parent/'content.json').read_text(encoding
 
 for key in ('phases','sources','gates','tasks','raci','templates','scenarios','glossary'):
     assert key in D, key
-assert len(D['tasks'])==35 and len(D['sources'])==28
+assert len(D['tasks'])==35 and len(D['sources'])==35
 assert len(D['scenarios'])==50 and 'interview' not in D
 assert len(D['templates'])==10
 assert sum(len(t['checklist']) for t in D['templates'])==100
@@ -75,12 +75,12 @@ print("PASS v4.1 project-specific legal gates")
 
 # Critical Risk library (training only)
 R=D["criticalRisks"]
-assert len(R)==28 and len({x["id"] for x in R})==28
-assert sum(len(r["controls"]) for r in R)==84
+assert len(R)==44 and len({x["id"] for x in R})==44
+assert sum(len(r["controls"]) for r in R)==132
 for r in R:
     assert set(r["refs"]).issubset(source_ids)
     assert set(r["tasks"]).issubset(task_ids)
-    assert set(r["phases"]).issubset(phase_ids)
+    assert set(r["phases"]).issubset(phase_ids | {D["criticalRiskGuide"]["operation"]["phase"]["id"]})
     assert all(r[k] for k in ("activity","hazard","event","causes","consequence","stop","restart","assurance","basis"))
     assert all(1<=r["example"][k]<=5 for k in ("s","l","rs","rl"))
     assert r["example"]["s"]>=4
@@ -91,3 +91,10 @@ print("PASS critical risk:",len(R),"risks and",sum(len(r["controls"]) for r in R
 import re
 assert not re.search(r'phỏng vấn|ứng viên|tuyển dụng|cuộc gọi nhân sự|LILAMA|27/11', json.dumps(D,ensure_ascii=False), re.I)
 print("PASS professional presentation")
+
+OP=[r for r in R if r.get("system")]
+assert len(OP)==16 and len([r for r in R if "P5" in r["phases"]])==40
+assert len(set(r["system"] for r in OP))==5
+assert all(len(r["kpi"])>=3 and r["phases"]==["P5"] for r in OP)
+assert all(r.get("omNote") for r in R if "P5" in r["phases"] and not r.get("system"))
+print("PASS O&M:",len(OP),"new operational risks and 40 related risks")

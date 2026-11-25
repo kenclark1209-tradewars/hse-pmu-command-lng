@@ -3,7 +3,7 @@ const vm=require('vm'),fs=require('fs'),assert=require('assert');
 const html=fs.readFileSync(__dirname+'/../index.html','utf8');
 const m=html.match(/<script id="app-data" type="application\/json">([\s\S]*?)<\/script>/);
 assert(m,'Embedded source JSON missing');const data=JSON.parse(m[1]);
-assert.strictEqual(data.tasks.length,35);assert.strictEqual(data.sources.length,28);
+assert.strictEqual(data.tasks.length,35);assert.strictEqual(data.sources.length,35);
 assert.strictEqual(data.scenarios.length,50);assert(!('interview' in data));
 assert.strictEqual(data.templates.length,10);
 assert.strictEqual(data.templates.reduce((a,t)=>a+t.checklist.length,0),100);
@@ -80,9 +80,9 @@ click({ownerLegal:'2'});assert(elements['#app'].innerHTML.includes('Điều 8 TT
 console.log("PASS v4.1 project legal gates");
 
  // Critical risk: identification, rating, controls, hold, evidence and filtering.
-assert.strictEqual(data.criticalRisks.length,28);
-assert.strictEqual(data.criticalRisks.reduce((n,r)=>n+r.controls.length,0),84);
-click({view:'criticalrisk'});assert(elements['#app'].innerHTML.includes('Critical Risk – 28'));
+assert.strictEqual(data.criticalRisks.length,44);
+assert.strictEqual(data.criticalRisks.reduce((n,r)=>n+r.controls.length,0),132);
+click({view:'criticalrisk'});assert(elements['#app'].innerHTML.includes('Critical Risk – 44'));
 click({risk:'CR04'});assert(elements['#app'].innerHTML.includes('Nâng hạ thiết bị nặng'));assert(elements['#app'].innerHTML.includes('khả năng chịu tải nền'));assert(elements['#app'].innerHTML.includes('STOP WORK / HOLD GATE'));
 mk('#riskS').value='5';mk('#riskL').value='4';mk('#riskRS').value='5';mk('#riskRL').value='1';mk('#riskNote').value='Bài tập giả định lifting, cần xác minh thiết kế và nền.';
 const risk4=data.criticalRisks.find(x=>x.id==='CR04');
@@ -96,7 +96,7 @@ click({action:'save-risk'});rr=JSON.parse(store.hse_owner_pmu_playbook_v1).riskP
 change('riskPhase','P0');assert(!elements['#app'].innerHTML.includes('data-risk="CR04"'));
 change('riskPhase','all');click({risk:'CR14'});assert(elements['#app'].innerHTML.includes('Rò rỉ LNG'));
 click({action:'export-risk'});click({view:'dashboard'});assert(elements['#app'].innerHTML.includes('Critical Risk'));
-console.log("PASS critical risk: 28 risk records, 84 controls, filters, evidence guard, residual gating, CSV and existing navigation");
+console.log("PASS critical risk: 44 risk records, 132 controls, filters, evidence guard, residual gating, CSV and existing navigation");
 
 const excluded=/phỏng vấn|ứng viên|tuyển dụng|cuộc gọi nhân sự|LILAMA|27\/11|data-view="(?:ownerinterview|interview)"/i;
 assert(!excluded.test(html),'No recruitment material in packaged app');
@@ -107,3 +107,19 @@ const screens=['dashboard','ownerstart','ownerplan','ownerlegal','criticalrisk',
 for(let view of screens){click({view});assert(!excluded.test(elements['#app'].innerHTML),'No recruitment copy in '+view);assert(!excluded.test(elements['#nav'].innerHTML),'No legacy menu');}
 click({view:'scenarios'});change('casePhase','all');click({case:'S2'});assert(elements['#app'].innerHTML.includes('Tư vấn đề nghị HSE chủ đầu tư phê duyệt báo cáo QRA'));click({choice:'S2:2'});assert(elements['#app'].innerHTML.includes('Sai lầm cần tránh'));
 console.log("PASS professional presentation: 12 retained screens, 50 scenarios, no recruitment content");
+
+const ops=data.criticalRisks.filter(r=>r.system);assert.strictEqual(ops.length,16);
+assert.strictEqual(data.criticalRisks.filter(r=>r.phases.includes('P5')).length,40);
+assert(ops.every(r=>r.kpi.length>=3&&r.phases.includes('P5')&&r.controls.length===3&&r.refs.every(id=>sourceIds.has(id))));
+click({view:'criticalrisk'});click({action:'risk-ops-new'});assert(elements['#app'].innerHTML.includes('16/44 rủi ro'));assert(elements['#app'].innerHTML.includes('data-risk="CR29"'));assert(!elements['#app'].innerHTML.includes('data-risk="CR04"'));
+click({risk:'CR38'});assert(elements['#app'].innerHTML.includes('QCVN 25:2025/BCT'));assert(elements['#app'].innerHTML.includes('Vai trò HSE O&amp;M')||elements['#app'].innerHTML.includes('Vai trò HSE O&M'));assert(elements['#app'].innerHTML.includes('KPI đề xuất'));
+click({action:'risk-system-0'});assert(elements['#app'].innerHTML.includes('3/44 rủi ro'));assert(!elements['#app'].innerHTML.includes('data-risk="CR38"'));
+click({action:'risk-ops-all'});assert(elements['#app'].innerHTML.includes('40/44 rủi ro'));click({risk:'CR14'});assert(elements['#app'].innerHTML.includes('Liên hệ O&M'));
+click({action:'risk-reset'});assert(elements['#app'].innerHTML.includes('44/44 rủi ro'));assert(elements['#app'].innerHTML.includes('data-risk="CR01"'));
+change('riskPhase','P5');assert(elements['#app'].innerHTML.includes('40/44 rủi ro'));change('riskSystem','Nhà máy điện');assert(elements['#app'].innerHTML.includes('5/44 rủi ro'));
+click({risk:'CR34'});assert(elements['#app'].innerHTML.includes('buồng đốt turbine khí'));
+mk('#riskS').value='5';mk('#riskL').value='3';mk('#riskRS').value='5';mk('#riskRL').value='1';mk('#riskNote').value='Đánh giá tham chiếu synthetic cho vận hành turbine.';
+for(let c of data.criticalRisks.find(x=>x.id==='CR34').controls){mk('#risk-status-'+c.id).value='pending';mk('#risk-evidence-'+c.id).value=''}
+click({action:'save-risk'});let op=JSON.parse(store.hse_owner_pmu_playbook_v1);assert.strictEqual(op.riskPractice.CR34.rl,null);assert(op.riskPractice.CR04);
+click({action:'export-risk'});click({action:'export'});click({action:'risk-reset'});
+console.log("PASS O&M: 16 new risks, 40 operationally relevant, 5 system filters, KPI, legal references, residual gating, prior progress and exports");
