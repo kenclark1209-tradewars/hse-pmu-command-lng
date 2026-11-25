@@ -8603,7 +8603,7 @@
               "topic": "Cấp công trình và thẩm định FS",
               "status": "Cần chốt cấu hình tổ máy và bồn",
               "conclusion": "Nhà máy 1.500 MW không tự động là cấp đặc biệt. Nếu tổ máy ≥750 MW thì thuộc cấp đặc biệt theo tiêu chí công suất tổ máy; 450 đến dưới 750 MW là cấp I. Kho khí hóa lỏng có tổng dung tích >100.000 m³ thuộc cấp đặc biệt theo bảng; 5.000–100.000 m³ là cấp I. Phân cấp riêng cảng, đường ống, đường dây và hạng mục khác theo tiêu chí tương ứng.",
-              "authority": "Nếu có công trình cấp đặc biệt, dự kiến cơ quan chuyên môn về xây dựng thuộc Bộ Công Thương thẩm định FS công trình năng lượng/dầu khí theo chuyên ngành; hàng hải đối chiếu Bộ Xây dựng và ngoại lệ; trường hợp khác xác định theo Điều 32–33 NĐ217.",
+              "authority": "Nếu dự án có công trình cấp đặc biệt và thuộc diện thẩm định FS, cơ quan chuyên môn về xây dựng thuộc bộ quản lý công trình xây dựng chuyên ngành thẩm định; xác định theo công trình chính/công trình chính cấp cao nhất (Điều 32–33 NĐ217). Nếu thuộc diện thẩm định nhưng không thuộc khoản 2 Điều 32, Ban Quản lý KKT Nghi Sơn và các KCN có thể thẩm định trong địa bàn và phạm vi được giao theo khoản 3 Điều 32, khoản 5–6 Điều 73; còn lại cơ quan chuyên môn cấp tỉnh theo khoản 5. Xác minh phân cấp hiện hành và phạm vi tách dự án.",
               "when": "Trước phê duyệt dự án/FS, trước chốt cơ sở thiết kế và thẩm quyền PCCC.",
               "work": "Engineering phát hành bảng phân cấp công trình có công suất từng tổ máy, dung tích tĩnh, bản vẽ ranh giới; Legal xác định tuyến thẩm định cho mỗi dự án/gói.",
               "evidence": "FS/FEED, equipment list, công suất tổ máy, dung tích bồn, drawing battery limits, văn bản thẩm định.",
@@ -8614,9 +8614,9 @@
                   "url": "https://vanban.org/van-ban/thong-tu-34-2026-tt-bxd-cap-cong-trinh-xay-dung-phuc-vu-quan-ly-hoat-dong"
                 },
                 {
-                  "locator": "NĐ 217/2026/NĐ-CP – Điều 32 khoản 1, 2, 5; Điều 33 khoản 1",
-                  "content": "Thẩm định FS theo đối tượng và chuyên ngành; công trình cấp đặc biệt thường thuộc cơ quan chuyên môn cấp Bộ, nhưng phải xét ngoại lệ.",
-                  "url": "https://bim.gxd.vn/van-ban/qlda/nghi-dinh-217-2026"
+                  "locator": "NĐ 217/2026/NĐ-CP – Điều 32 khoản 1–3, 5; Điều 33 khoản 1, 3–5; Điều 73 khoản 5–6",
+                  "content": "Thẩm định FS theo loại dự án, cấp và chuyên ngành; cấp Bộ nếu dự án có công trình cấp đặc biệt, Ban Quản lý KKT nếu thuộc địa bàn được giao và không thuộc thẩm quyền cấp Bộ. Nếu tách dự án độc lập hoặc nhiều công trình chính, áp dụng cách xác định riêng tại Điều 33.",
+                  "url": "https://vanban.org/van-ban/nghi-dinh-217-2026-nd-cp-luat-xay-dung-quan-ly-hoat-dong-xay-dung/dieu-32"
                 }
               ]
             },
@@ -8679,7 +8679,7 @@
                 {
                   "locator": "NĐ 48/2026/NĐ-CP – Phụ lục II mục 8, Phụ lục III STT 5, 6(a), Phụ lục IV STT 4(a)",
                   "content": "Nhóm I/II căn cứ loại hình, quy mô sử dụng đất/biển và yếu tố nhạy cảm, không chỉ số MW.",
-                  "url": "https://lawplayer.com/vn/act/vn-vbpl-187432"
+                  "url": "https://vbpl.moj.gov.vn/bonongnghiep/Pages/vbpq-toanvan.aspx?ItemID=187432&dvid=319"
                 }
               ]
             },
@@ -8695,7 +8695,7 @@
                 {
                   "locator": "NQ 66.19/2026/NQ-CP – Phần A Mục VI khoản 1, điểm b, c, d và các ngoại lệ",
                   "content": "Xác định đối tượng ĐTM trong thời gian NQ có hiệu lực: có lấn biển; đạt ngưỡng đất/biển; hoặc các điều kiện khác nêu tại Mục VI.",
-                  "url": "https://lawplayer.com/vn/act/vn-congbao-469586"
+                  "url": "https://thuvienphapluat.vn/van-ban/bo-may-hanh-chinh/nghi-quyet-66-19-2026-nq-cp-cat-giam-phan-quyen-don-gian-hoa-thu-tuc-hanh-chinh-706060.aspx"
                 },
                 {
                   "locator": "Luật BVMT – Điều 31–33",
@@ -8774,16 +8774,16 @@
             {
               "topic": "Đối tượng và nội dung thiết kế PCCC",
               "status": "Xác định được theo loại công trình",
-              "conclusion": "Nhà máy điện và kho chứa khí hóa lỏng thuộc danh mục thẩm định thiết kế PCCC (không cần dùng số MW để chứng minh đối tượng). Rà riêng trạm biến áp ≥110 kV, các hạng mục khác và cảng theo danh mục, thiết kế thực tế.",
+              "conclusion": "Nhà máy điện và kho chứa khí hóa lỏng thuộc danh mục thẩm định thiết kế PCCC (không cần dùng số MW để chứng minh đối tượng). Trạm biến áp từ 110 kV và bến cảng biển từ cấp III trở lên cũng có trong danh mục; xác định phạm vi và cấp cảng theo hồ sơ.",
               "authority": "Chủ đầu tư tổ chức thiết kế/thẩm định phần thuộc trách nhiệm mình; cơ quan chuyên môn xây dựng và Công an thẩm định theo nội dung được phân công.",
               "when": "FS/FEED và thiết kế triển khai sau khi dự án được phê duyệt, trước thi công hạng mục thuộc diện.",
               "work": "Engineering/Fire Safety lập PCCC design basis; bảng a–đ (khoảng cách, giao thông tiếp cận, thoát nạn, chịu lửa/ngăn cháy, chống khói) và e–g (điện phục vụ PCCC, phương tiện/hệ thống PCCC); rà điều khoản gốc trước chốt thiết kế.",
               "evidence": "PCCC applicability matrix, site plan, phân khu cháy nổ, fire & gas philosophy, firewater design, bản vẽ và thuyết minh.",
               "clauses": [
                 {
-                  "locator": "NĐ 347/2026/NĐ-CP – Phụ lục III mục 9(a), 9(b)",
-                  "content": "Kho khí hóa lỏng, nhà máy chế biến khí, nhà máy điện và trạm biến áp từ 110 kV nằm trong danh mục thẩm định.",
-                  "url": "https://thuvienphapluat.vn/van-ban/Cong-nghe-thong-tin/Nghi-dinh-347-2026-ND-CP-sua-doi-Nghi-dinh-169-2025-ND-CP-105-2025-ND-CP-106-2025-ND-CP-724038.aspx?tab=3"
+                  "locator": "NĐ 347/2026/NĐ-CP – Phụ lục III mục 9(a), 9(b) và 13",
+                  "content": "Kho khí hóa lỏng, nhà máy chế biến khí, nhà máy điện, trạm biến áp từ 110 kV và bến cảng biển từ cấp III trở lên nằm trong danh mục thẩm định thiết kế PCCC.",
+                  "url": "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/120733/danh-muc-cong-trinh-thuoc-dien-tham-dinh-thiet-ve-pccc-theo-nghi-dinh-347-2026-nd-cp-ra-sao"
                 },
                 {
                   "locator": "Luật PCCC & CNCH 55/2024/QH15 (bản đã sửa) – Điều 16 khoản 1, Điều 17 khoản 1",
@@ -8795,15 +8795,15 @@
             {
               "topic": "Ai thẩm định thiết kế và khi nào?",
               "status": "Thẩm quyền cụ thể có điều kiện",
-              "conclusion": "Bước FS: cơ quan chuyên môn xây dựng thẩm định nhóm nội dung Điều 16 khoản 1(a–đ) nếu FS thuộc diện thẩm định, lồng ghép với FS. Bước thiết kế sau phê duyệt dự án: chủ đầu tư tổ chức thẩm định phần a–đ theo quy định và cơ quan Công an thẩm định phần e, g đối với công trình thuộc danh mục. Nếu dự án có công trình cấp đặc biệt thì dự kiến Cục Cảnh sát PCCC & CNCH; nếu không thuộc các tiêu chí Cục thì Phòng Cảnh sát PCCC & CNCH Công an tỉnh Thanh Hóa. Không tự chọn cấp Cục chỉ vì 1.500 MW.",
+              "conclusion": "Bước FS: cơ quan chuyên môn xây dựng thẩm định nhóm nội dung Điều 16 khoản 1(a–đ) khi thẩm định FS thuộc diện; nếu FS không thuộc diện thẩm định tại cơ quan chuyên môn nhưng thuộc diện PCCC, người quyết định đầu tư tổ chức thẩm định theo điểm a khoản 1 Điều 17. Bước thiết kế triển khai sau phê duyệt: điểm đ khoản 1 Điều 17 giao chủ đầu tư thẩm định phần a–đ nếu thiết kế không thuộc diện cơ quan chuyên môn xây dựng thẩm định nhưng thuộc diện Công an thẩm định; thẩm định phần e, g nếu không thuộc diện Công an thẩm định. Cơ quan Công an thẩm định phần e, g đối với đối tượng thuộc danh mục theo điểm d. Nếu có công trình cấp đặc biệt, dự kiến Cục Cảnh sát PCCC & CNCH; nếu không thuộc tiêu chí khoản 1 Điều 9 TT36 sửa đổi bởi TT62, Phòng Cảnh sát PCCC & CNCH Công an tỉnh Thanh Hóa. Kiểm tra thêm tiêu chí công trình quy mô lớn, kỹ thuật phức tạp hoặc cấp I có đề nghị; không chọn Cục chỉ vì 1.500 MW.",
               "authority": "Cơ quan chuyên môn xây dựng theo NĐ217 Điều 32–33; Công an theo Điều 9 TT36 đã được Điều 8 TT62/2026 sửa đổi; chủ đầu tư chịu trách nhiệm thiết kế, phê duyệt theo phân quyền.",
               "when": "Trước khởi công hạng mục phải thẩm định; thiết kế thay đổi ảnh hưởng yêu cầu PCCC thì rà thẩm định điều chỉnh trước tiếp tục thi công.",
               "work": "Lập authority matrix theo từng hạng mục; chốt cấp tổ máy/kho, soát hồ sơ, lấy ý kiến và văn bản thẩm định; nối từng ý kiến với thiết kế đã phê duyệt.",
               "evidence": "FS và kết quả thẩm định, bộ hồ sơ thiết kế sau phê duyệt, văn bản thẩm định Công an, hồ sơ đóng ý kiến và thay đổi.",
               "clauses": [
                 {
-                  "locator": "Luật PCCC – Điều 17 khoản 1 điểm b,d,đ; khoản 2–3 (đã sửa bởi Luật 135/2025/QH15)",
-                  "content": "Tách nhóm nội dung FS, thiết kế sau phê duyệt và trách nhiệm chủ đầu tư; cần văn bản thẩm định trước khi thi công thuộc diện.",
+                  "locator": "Luật PCCC – Điều 17 khoản 1 điểm a,b,d,đ; khoản 2–3 (đã sửa bởi Luật 135/2025/QH15)",
+                  "content": "Phân định thẩm định FS thuộc/không thuộc cơ quan chuyên môn xây dựng; Công an thẩm định phần e,g nếu thuộc diện; chủ đầu tư thẩm định theo điều kiện cụ thể tại điểm đ. Điều chỉnh thiết kế nếu thay đổi yêu cầu PCCC; phải có văn bản thẩm định của cơ quan quản lý chuyên ngành trước thi công thuộc diện.",
                   "url": "https://vanban.org/van-ban/luat-phong-chay-chua-chay-va-cuu-nan-cuu-ho-2024-55-2024-qh15/dieu-17"
                 },
                 {
@@ -8814,7 +8814,7 @@
                 {
                   "locator": "TT 62/2026/TT-BCA – Điều 8 sửa Điều 9 TT36/2025/TT-BCA",
                   "content": "Cục thẩm định công trình thuộc dự án có công trình cấp đặc biệt và trường hợp liệt kê tại khoản 1; cấp tỉnh thực hiện phần thuộc thẩm quyền còn lại.",
-                  "url": "https://vanban.org/van-ban/thong-tu-62-2026-tt-bca-phan-cap-cat-giam-don-gian-hoa-thu-tuc-hanh-chinh-bo/dieu-8"
+                  "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Thong-tu-62-2026-TT-BCA-quy-dinh-phan-cap-cat-giam-don-gian-hoa-thu-tuc-hanh-chinh-706184.aspx?tab=7"
                 }
               ]
             },

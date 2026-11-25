@@ -98,7 +98,8 @@ click({view:'interview'});
 click({action:'toggle-answer'});
 assert(elements['#app'].innerHTML.includes('Ví dụ giả định sát LNG Nghi Sơn'),"interview examples displayed");
 click({view:'ownerinterview'});
-click({action:'toggle-owner-answer'});
+// Ensure the retained drill answer is open instead of blindly toggling it.
+if(!elements['#app'].innerHTML.includes('Ví dụ đi sâu'))click({action:'toggle-owner-answer'});
 assert(elements['#app'].innerHTML.includes('Ví dụ đi sâu'),"executive drill example displayed");
 console.log("PASS v4 UI mocks: 35 legal playbooks, 91 specific examples, 12 executive examples");
 
