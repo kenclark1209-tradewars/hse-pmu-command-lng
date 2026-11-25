@@ -81,3 +81,14 @@ assert all(len(q.get("caseExample","")) >= 90 for q in D["interview"])
 assert all(len(drill.get("caseExample","")) >= 90 for drill in O["practiceDrills"])
 assert len(O.get("trungNamPractice", [])) == 4
 print("PASS v4:",len(clause_ids),"clauses,",len(D["interview"]),"interview examples, owner drills and Trung Nam reference cards")
+
+# v4.1: project-specific research, with conditional assessments
+assert O["projectLegal"]["asOf"] == "25/11/2026"
+assert len(O["projectLegal"]["links"]) >= 2
+for gate in O["legalGates"]:
+    a = gate["assessment"]
+    assert a["status"] and a["findings"]
+    for f in a["findings"]:
+        assert all(f[k] for k in ("topic","status","conclusion","authority","when","work","evidence","clauses"))
+        assert all(c["locator"] and c["content"] and c["url"].startswith("https://") for c in f["clauses"])
+print("PASS v4.1 project-specific legal gates")

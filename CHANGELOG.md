@@ -1,5 +1,11 @@
 # Changelog
 
+## Bổ sung pháp lý theo dự án — 2026-11-25
+
+- Thêm bối cảnh phương án LNG Nghi Sơn vị trí mới và đánh giá theo 7 nhóm legal gates; các kết luận chưa đủ hồ sơ được ghi rõ có điều kiện.
+- Cập nhật phân quyền ĐTM/GPMT theo NQ 66.19 có thời hạn, phân cấp công trình TT34, thẩm định/ nghiệm thu PCCC theo sửa đổi 2026; trình bày điều khoản, diễn giải, thẩm quyền, mốc, hồ sơ.
+- Giữ nguyên localStorage và các luồng trước; thêm kiểm tra dữ liệu và smoke test cho đánh giá mới.
+
 ## v4.0.0 — 2026-11-23
 
 - Tích hợp 4 nguồn tham chiếu Trung Nam với mốc thời gian, URL, và suy luận có điều kiện cho HSE chủ đầu tư (không phải JD LNG Nghi Sơn).

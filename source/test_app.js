@@ -101,3 +101,14 @@ click({view:'ownerinterview'});
 click({action:'toggle-owner-answer'});
 assert(elements['#app'].innerHTML.includes('Ví dụ đi sâu'),"executive drill example displayed");
 console.log("PASS v4 UI mocks: 35 legal playbooks, 91 specific examples, 12 executive examples");
+
+ // v4.1: project-specific legal gates (offline content + source locators)
+assert(data.ownerFocus.projectLegal.asOf==="25/11/2026");
+assert.strictEqual(data.ownerFocus.legalGates.length,7);
+assert(data.ownerFocus.legalGates.every(g=>g.assessment.findings.length>0&&g.assessment.findings.every(f=>f.authority&&f.when&&f.evidence&&f.clauses.every(c=>c.locator&&c.content&&c.url.startsWith('https://')))));
+click({view:'ownerlegal'});
+assert(elements['#app'].innerHTML.includes('NGHIÊN CỨU DỰ ÁN'));
+for(let i=0;i<7;i++){click({ownerLegal:String(i)});assert(elements['#app'].innerHTML.includes('Đánh giá áp dụng LNG Nghi Sơn'));assert(elements['#app'].innerHTML.includes('Điều khoản và nội dung quy định'));}
+click({ownerLegal:'1'});assert(elements['#app'].innerHTML.includes('28/02/2027'));assert(elements['#app'].innerHTML.includes('300 ha'));
+click({ownerLegal:'2'});assert(elements['#app'].innerHTML.includes('Điều 8 TT62'));assert(elements['#app'].innerHTML.includes('15/09/2026'));
+console.log("PASS v4.1 project legal gates");

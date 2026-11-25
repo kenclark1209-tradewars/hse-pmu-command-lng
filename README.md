@@ -87,3 +87,7 @@ Cơ sở tham khảo nổi bật: [Nghị định 207/2026/NĐ-CP – Điều 16
 Xem [`OWNER_HSE_BRIEF_27-11.md`](OWNER_HSE_BRIEF_27-11.md). Tóm tắt phạm vi công việc owner-side, đầu ra 5 ngày đầu, 12 câu trọng điểm và ví dụ báo cáo giám đốc. Các ghi chú về tình trạng tuyển dụng là thông tin ứng viên cung cấp, chưa phải JD/hồ sơ dự án được Trung Nam công bố.
 
 **Riêng tư:** Repository hiện đặt public. Nội dung học tập giả định có nhắc tới thời điểm phỏng vấn và bối cảnh kinh nghiệm ứng viên; nếu không muốn công khai, đổi repository sang private trong Settings của GitHub trước khi tiếp tục chia sẻ. Không commit CV, hợp đồng lao động, email tuyển dụng, bằng chứng dự án hay dữ liệu bảo mật.
+
+## Đánh giá pháp lý theo dự án LNG Nghi Sơn – bổ sung 25/11/2026
+
+Trong **Pháp lý theo mốc**, mỗi nhóm hiện có phần đánh giá phương án vị trí mới dựa trên Kế hoạch 408/KH-UBND Thanh Hóa và thông tin phương án Trung Nam công khai. Bao gồm phân nhóm dự án, cấp công trình, nhóm môi trường, trigger/ngoại lệ ĐTM, thẩm quyền và thời điểm ĐTM/GPMT theo NQ 66.19/2026/NQ-CP, thẩm định PCCC và nghiệm thu theo thay đổi năm 2026, khởi công, kho LNG, EPC, commissioning/bàn giao. Mỗi đánh giá tách điều khoản và nội dung diễn giải, cơ quan có thẩm quyền, công việc HSE, hồ sơ chứng minh và liên kết. NQ 66.19 chỉ có hiệu lực đến hết 28/02/2027; kiểm tra lại tại ngày nộp hồ sơ. Không coi diện tích vị trí cũ, công suất toàn nhà máy hay công suất nhập LNG hàng năm là dữ liệu để chốt nhóm/cấp của phương án mới. Giữ nguyên bảy nhóm, ID và localStorage.

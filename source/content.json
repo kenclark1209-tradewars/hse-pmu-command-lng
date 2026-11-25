@@ -8569,7 +8569,80 @@
         "refs": [
           "XD",
           "ND207"
-        ]
+        ],
+        "assessment": {
+          "status": "Ưu tiên ngay · chưa chốt pháp nhân và phạm vi",
+          "findings": [
+            {
+              "topic": "Phân loại dự án theo hình thức và quy mô",
+              "status": "Kết luận sơ bộ",
+              "conclusion": "Phương án 45.000 tỷ đồng thuộc lĩnh vực điện, vượt ngưỡng nhóm A 4.600 tỷ đồng. Áp dụng tiêu chí quy mô xây dựng, không suy ra đây là dự án đầu tư công; rà điều kiện dự án quan trọng quốc gia trước khi chốt. Việc nằm trong danh mục năng lượng trọng điểm không đồng nghĩa đã được chấp thuận đầu tư.",
+              "authority": "Cơ quan có thẩm quyền về đầu tư theo hồ sơ thực tế; Ban Quản lý KKT Nghi Sơn và các KCN chủ trì nhiệm vụ chuẩn bị/chấp thuận/lựa chọn theo kế hoạch tỉnh; chưa kết luận người ký.",
+              "when": "Giai đoạn chuẩn bị đầu tư; mục tiêu tháng 12/2026, không phải đã hoàn thành.",
+              "work": "Legal/PMO lập bản ghi phân loại nguồn vốn, căn cứ lựa chọn nhà đầu tư, phạm vi từng dự án thành phần; HSE lập register theo pháp nhân và phạm vi, báo các điều kiện chưa chứng minh.",
+              "evidence": "Quyết định chấp thuận chủ trương mới, quyết định lựa chọn/chấp thuận nhà đầu tư, hồ sơ pháp nhân, văn bản thành lập/giao nhiệm vụ BQLDA và sơ đồ phân quyền.",
+              "clauses": [
+                {
+                  "locator": "Luật Xây dựng 135/2025/QH15 – Điều 16 khoản 1–3; Điều 17 khoản 1(d), 2(b), 3",
+                  "content": "Dự án được phân loại theo hình thức đầu tư, quy mô và công năng; việc phân kỳ hoặc tách dự án do cấp có thẩm quyền quyết định.",
+                  "url": "https://vanban.org/van-ban/luat-xay-dung-2025-135-2025-qh15/dieu-17"
+                },
+                {
+                  "locator": "Luật Đầu tư công 58/2024/QH15 (đã sửa đổi) – Điều 8; Điều 9 khoản 2 điểm b",
+                  "content": "Ngành công nghiệp điện có tổng mức đầu tư từ 4.600 tỷ đồng thuộc tiêu chí nhóm A, trừ dự án quan trọng quốc gia.",
+                  "url": "https://congluatviet.vn/van-ban/luat-dau-tu-cong-58-2024-qh15?at=2026-07-01"
+                },
+                {
+                  "locator": "Kế hoạch 408/KH-UBND – Phụ lục I, mục 5",
+                  "content": "Vị trí cũ đã chấm dứt chủ trương; đang hoàn thiện phương án mới, liên danh là nhà đầu tư quan tâm, chưa phải quyết định lựa chọn.",
+                  "url": "https://luatvietnam.vn/dien-luc/ke-hoach-408-kh-ubnd-thanh-hoa-2026-theo-doi-tien-do-du-an-nguon-dien-luoi-dien-451990-d2.html"
+                }
+              ]
+            },
+            {
+              "topic": "Cấp công trình và thẩm định FS",
+              "status": "Cần chốt cấu hình tổ máy và bồn",
+              "conclusion": "Nhà máy 1.500 MW không tự động là cấp đặc biệt. Nếu tổ máy ≥750 MW thì thuộc cấp đặc biệt theo tiêu chí công suất tổ máy; 450 đến dưới 750 MW là cấp I. Kho khí hóa lỏng có tổng dung tích >100.000 m³ thuộc cấp đặc biệt theo bảng; 5.000–100.000 m³ là cấp I. Phân cấp riêng cảng, đường ống, đường dây và hạng mục khác theo tiêu chí tương ứng.",
+              "authority": "Nếu có công trình cấp đặc biệt, dự kiến cơ quan chuyên môn về xây dựng thuộc Bộ Công Thương thẩm định FS công trình năng lượng/dầu khí theo chuyên ngành; hàng hải đối chiếu Bộ Xây dựng và ngoại lệ; trường hợp khác xác định theo Điều 32–33 NĐ217.",
+              "when": "Trước phê duyệt dự án/FS, trước chốt cơ sở thiết kế và thẩm quyền PCCC.",
+              "work": "Engineering phát hành bảng phân cấp công trình có công suất từng tổ máy, dung tích tĩnh, bản vẽ ranh giới; Legal xác định tuyến thẩm định cho mỗi dự án/gói.",
+              "evidence": "FS/FEED, equipment list, công suất tổ máy, dung tích bồn, drawing battery limits, văn bản thẩm định.",
+              "clauses": [
+                {
+                  "locator": "TT 34/2026/TT-BXD – Phụ lục I, Bảng 1.2, mục 1.2.5.1(b) và 1.2.4.6",
+                  "content": "Phân cấp nhiệt điện khí theo công suất từng tổ máy; phân cấp kho chứa khí hóa lỏng theo tổng dung tích chứa, không theo lượng LNG nhập mỗi năm.",
+                  "url": "https://vanban.org/van-ban/thong-tu-34-2026-tt-bxd-cap-cong-trinh-xay-dung-phuc-vu-quan-ly-hoat-dong"
+                },
+                {
+                  "locator": "NĐ 217/2026/NĐ-CP – Điều 32 khoản 1, 2, 5; Điều 33 khoản 1",
+                  "content": "Thẩm định FS theo đối tượng và chuyên ngành; công trình cấp đặc biệt thường thuộc cơ quan chuyên môn cấp Bộ, nhưng phải xét ngoại lệ.",
+                  "url": "https://bim.gxd.vn/van-ban/qlda/nghi-dinh-217-2026"
+                }
+              ]
+            },
+            {
+              "topic": "Đất, biển và giao diện dự án",
+              "status": "Điều kiện chưa xác minh",
+              "conclusion": "Cảng/kho và nhà máy có thể chung hoặc tách dự án. Kiểm tra sử dụng đất/biển, lấn biển, nạo vét/nhận chìm nếu có, nước làm mát và nguồn cấp nước. Không mặc định có tất cả các thủ tục này.",
+              "authority": "Legal + Land/Marine/Environment xác định cơ quan có thẩm quyền theo địa bàn, quy mô, loại nguồn nước và phạm vi; BQL KKT phối hợp theo kế hoạch tỉnh.",
+              "when": "Trước chốt địa điểm, FS, mặt bằng, nạo vét/thi công liên quan.",
+              "work": "Lập bản đồ ranh giới đất/biển, hiện trạng rừng và dân cư, cảng luồng tàu, nguồn nước, thỏa thuận đấu nối; rà từng trigger và người ký riêng.",
+              "evidence": "Bản đồ tọa độ, chỉ tiêu sử dụng đất, quy hoạch cảng, hồ sơ đất/biển, water balance, phương án nạo vét và nhận chìm nếu phát sinh.",
+              "clauses": [
+                {
+                  "locator": "Luật Đất đai – Điều 190 khoản 2, 3",
+                  "content": "Lấn biển phải phù hợp quy hoạch, đánh giá tác động, có dự án/hạng mục; một số khu vực nhạy cảm cần cấp có thẩm quyền cao hơn theo khoản 3.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Bat-dong-san/Van-ban-hop-nhat-44-VBHN-VPQH-2026-Luat-Dat-dai-699655.aspx"
+                },
+                {
+                  "locator": "Luật Tài nguyên nước – Điều 52 khoản 1–5",
+                  "content": "Khai thác tài nguyên nước cho sản xuất phải đối chiếu loại giấy phép, đăng ký hoặc ngoại lệ theo nguồn nước và quy mô.",
+                  "url": "https://lawplayer.com/vn/act/vn-congbao-470647"
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "name": "ĐTM, giấy phép môi trường, nghĩa vụ sau phê duyệt",
@@ -8585,7 +8658,101 @@
           "ND05",
           "ND48",
           "L146"
-        ]
+        ],
+        "assessment": {
+          "status": "Rủi ro critical path · phân loại và thẩm quyền cần hồ sơ",
+          "findings": [
+            {
+              "topic": "Phân nhóm môi trường I/II và đánh giá sơ bộ ĐTM",
+              "status": "Có điều kiện",
+              "conclusion": "Điện khí không đồng nhất với nhiệt điện than tại mục 8 Phụ lục II NĐ48. Nếu dự án nhóm A có cấu phần xây dựng ngoài loại hình ô nhiễm và có yếu tố nhạy cảm, có căn cứ nhóm I (Phụ lục III STT 5). Theo STT 6(a), diện tích đất/đất có mặt nước từ 300 ha hoặc 50–dưới 300 ha kèm nhạy cảm cũng là tiêu chí nhóm I; 50–dưới 300 ha không thuộc nhóm I có thể thuộc nhóm II (Phụ lục IV STT 4). Rà các tiêu chí biển, rừng, di dân, nguồn nước khác. Chưa đủ số liệu mới để chốt I/II.",
+              "authority": "Chủ dự án chịu trách nhiệm phân loại; Legal/Environment lập ý kiến chuyên môn, trao đổi cơ quan môi trường có thẩm quyền nếu chưa rõ.",
+              "when": "Trước hồ sơ chủ trương đầu tư; nếu thuộc đối tượng Điều 29 thì đánh giá sơ bộ đồng thời với đề xuất chủ trương.",
+              "work": "Xin địa chính, phạm vi dự án, diện tích biển, kiểm tra yếu tố nhạy cảm Điều 25 khoản 4; lập bảng từng tiêu chí, dữ liệu đầu vào, kết luận và người review.",
+              "evidence": "Classification memo, bản đồ GIS, hồ sơ phân kỳ, công suất/dung tích, tài liệu hạ tầng môi trường KCN nếu có.",
+              "clauses": [
+                {
+                  "locator": "Luật BVMT – Điều 28 khoản 3–4; Điều 29; Điều 30",
+                  "content": "Phân loại theo nguy cơ môi trường; đánh giá sơ bộ và ĐTM là hai bước có điều kiện riêng.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx"
+                },
+                {
+                  "locator": "NĐ 48/2026/NĐ-CP – Phụ lục II mục 8, Phụ lục III STT 5, 6(a), Phụ lục IV STT 4(a)",
+                  "content": "Nhóm I/II căn cứ loại hình, quy mô sử dụng đất/biển và yếu tố nhạy cảm, không chỉ số MW.",
+                  "url": "https://lawplayer.com/vn/act/vn-vbpl-187432"
+                }
+              ]
+            },
+            {
+              "topic": "Có phải lập ĐTM không?",
+              "status": "Khả năng cao · chưa đủ dữ kiện chốt",
+              "conclusion": "NQ 66.19 đang áp dụng: hoạt động lấn biển, đất/đất có mặt nước ≥50 ha hoặc khu vực biển ≥10 ha là các trigger đáng chú ý. Với tổ hợp cảng–kho–điện, lập kế hoạch ĐTM dự phòng là hợp lý; kiểm tra đầy đủ ngoại lệ, đặc biệt dự án trong khu sản xuất kinh doanh dịch vụ tập trung đã có ĐTM/GPMT hạ tầng. KKT không tự động là trường hợp miễn.",
+              "authority": "Chủ dự án tổ chức lập, chịu trách nhiệm nội dung; đơn vị tư vấn đủ năng lực hỗ trợ. Cơ quan thẩm định xác định theo nhánh bên dưới.",
+              "when": "NQ 66.19 hiệu lực 18/05/2026–28/02/2027; sau đó đối chiếu văn bản mới hoặc quy định gốc và chuyển tiếp.",
+              "work": "Chốt ranh giới, kiểm tra điều kiện miễn, đánh giá hiện trạng biển/đất, khí thải, nước làm mát, dân cư, sự cố và tác động tích lũy; không chia nhỏ để né nghĩa vụ.",
+              "evidence": "Bản ghi trigger, hồ sơ môi trường hạ tầng nếu đề nghị miễn, TOR tư vấn, kế hoạch khảo sát, thư trao đổi cơ quan.",
+              "clauses": [
+                {
+                  "locator": "NQ 66.19/2026/NQ-CP – Phần A Mục VI khoản 1, điểm b, c, d và các ngoại lệ",
+                  "content": "Xác định đối tượng ĐTM trong thời gian NQ có hiệu lực: có lấn biển; đạt ngưỡng đất/biển; hoặc các điều kiện khác nêu tại Mục VI.",
+                  "url": "https://lawplayer.com/vn/act/vn-congbao-469586"
+                },
+                {
+                  "locator": "Luật BVMT – Điều 31–33",
+                  "content": "Chủ dự án tổ chức ĐTM; báo cáo bao gồm đánh giá tác động, giải pháp, giám sát và tham vấn theo quy định.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx"
+                }
+              ]
+            },
+            {
+              "topic": "Ai thẩm định và phê duyệt kết quả ĐTM?",
+              "status": "Thẩm quyền theo nhánh",
+              "conclusion": "Trong thời hạn NQ 66.19: nếu diện tích đất/đất có mặt nước ≥300 ha hoặc khu vực biển ≥60 ha (và không thuộc ngoại lệ tương ứng), Bộ Nông nghiệp và Môi trường thẩm định; Bộ cũng giữ các nhóm trường hợp khác tại điểm a,b,d. Nếu không thuộc Bộ/quốc phòng/công an và dự án trên địa bàn tỉnh, Chủ tịch UBND Thanh Hóa thẩm định. Hồ sơ liên tỉnh/vùng biển chưa phân định rà Điều 27b NĐ08 đã sửa. Chưa thể chốt cơ quan cho phương án mới.",
+              "authority": "Cơ quan/người có thẩm quyền thẩm định cũng là cơ quan/người có thẩm quyền phê duyệt kết quả thẩm định theo Điều 34 khoản 1; tư vấn và HSE không ký thay.",
+              "when": "NQ: tối đa 30 ngày cấp Bộ hoặc 20 ngày cấp tỉnh từ hồ sơ hợp lệ, không tính toàn bộ thời gian lập/sửa hồ sơ. ĐTM (nếu thuộc diện) phải có quyết định trước phê duyệt/quyết định đầu tư xây dựng theo Điều 34 khoản 2.",
+              "work": "Tư vấn chuẩn bị hồ sơ theo mẫu, tham vấn, trình thẩm định cùng FS nếu phù hợp, theo dõi giải trình, cập nhật thiết kế và cam kết theo quyết định. Legal cập nhật lại thẩm quyền sau 28/02/2027.",
+              "evidence": "Diện tích đất/biển, bảng áp điểm a–d, giấy tiếp nhận, báo cáo ĐTM, biên bản tham vấn, quyết định phê duyệt kết quả thẩm định, commitment register.",
+              "clauses": [
+                {
+                  "locator": "NQ 66.19/2026/NQ-CP – Phần B Mục I khoản 1–2, 4–5; hiệu lực đến 28/02/2027",
+                  "content": "Phân quyền thẩm định và thời hạn 30/20 ngày; Bộ giữ các trường hợp nêu tại khoản 1, còn lại cấp tỉnh theo khoản 2.",
+                  "url": "https://xaydungchinhsach.chinhphu.vn/phan-quyen-tham-dinh-bao-cao-danh-gia-tac-dong-moi-truong-119260520165823805.htm"
+                },
+                {
+                  "locator": "Luật BVMT – Điều 34 khoản 1–2; Điều 35; Điều 37",
+                  "content": "Thẩm định và phê duyệt kết quả; đồng thời FS có điều kiện; thực hiện nghĩa vụ và rà thay đổi sau phê duyệt.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx"
+                },
+                {
+                  "locator": "Hồ sơ thủ tục ĐTM – Điều 4 TT09/2026/TT-BNNMT, mẫu theo TT22/2026/TT-BNNMT",
+                  "content": "Cổng dịch vụ công công bố văn bản đề nghị, báo cáo ĐTM và thành phần hồ sơ; kiểm đúng thủ tục theo cơ quan nhận.",
+                  "url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-tthc-thu-tuc-hanh-chinh-chi-tiet.html?ma_thu_tuc=295834"
+                }
+              ]
+            },
+            {
+              "topic": "Giấy phép môi trường (GPMT) và vận hành thử",
+              "status": "Khả năng thuộc diện · xác nhận nguồn thải",
+              "conclusion": "Dự án nhóm I/II/III phát sinh nước thải hoặc bụi, khí thải xả ra môi trường phải xử lý khi vận hành chính thức, hoặc trường hợp khác ở Điều 39, thuộc diện GPMT nếu không có ngoại lệ. Với điện khí, xác minh nước thải, khí thải tổ máy, nước làm mát và các công trình xử lý; chưa có hồ sơ dự án để xác nhận.",
+              "authority": "Theo NQ 66.19 Phần B Mục II đang có hiệu lực, Chủ tịch UBND tỉnh cấp GPMT cho đối tượng không thuộc các trường hợp Bộ giữ lại (nhập phế liệu, dịch vụ xử lý CTNH liên tỉnh, quốc phòng/an ninh). Dự kiến cấp tỉnh nếu hồ sơ thuộc diện và không có ngoại lệ; phải xác minh lại thời điểm nộp thực tế.",
+              "when": "Nếu phải ĐTM và phải GPMT: có GPMT trước vận hành thử công trình xử lý chất thải theo Điều 42 khoản 2(a); không đồng nhất với mốc khởi công. Rà Điều 46 cho vận hành thử.",
+              "work": "HSE/Environment lập water balance, emission inventory, discharge points, giới hạn, monitoring plan; làm hồ sơ theo phạm vi thiết kế cuối; đối chiếu GPMT với commissioning schedule.",
+              "evidence": "Báo cáo đề xuất GPMT, ĐTM (nếu có), thiết kế xử lý, kết quả thẩm định/cấp phép, test plan và kết quả quan trắc.",
+              "clauses": [
+                {
+                  "locator": "Luật BVMT – Điều 39 khoản 1,3; Điều 42 khoản 2(a); Điều 46 khoản 2–3",
+                  "content": "Đối tượng, mốc cấp phép trước thử nghiệm công trình xử lý và trách nhiệm tuân thủ trong vận hành thử.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx"
+                },
+                {
+                  "locator": "NQ 66.19/2026/NQ-CP – Phần B Mục II khoản 1–2 và chuyển tiếp",
+                  "content": "Phân quyền cấp GPMT về cấp tỉnh, Bộ giữ một số trường hợp; hiệu lực đến 28/02/2027.",
+                  "url": "https://xaydungchinhsach.chinhphu.vn/phan-quyen-cap-giay-phep-moi-truong-119260521093254292.htm"
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "name": "PCCC & CNCH trong từng bước thiết kế",
@@ -8600,7 +8767,80 @@
           "PCCCVBHN26",
           "ND105",
           "XD"
-        ]
+        ],
+        "assessment": {
+          "status": "Thuộc danh mục PCCC · cần chốt cấp công trình và tuyến thẩm định",
+          "findings": [
+            {
+              "topic": "Đối tượng và nội dung thiết kế PCCC",
+              "status": "Xác định được theo loại công trình",
+              "conclusion": "Nhà máy điện và kho chứa khí hóa lỏng thuộc danh mục thẩm định thiết kế PCCC (không cần dùng số MW để chứng minh đối tượng). Rà riêng trạm biến áp ≥110 kV, các hạng mục khác và cảng theo danh mục, thiết kế thực tế.",
+              "authority": "Chủ đầu tư tổ chức thiết kế/thẩm định phần thuộc trách nhiệm mình; cơ quan chuyên môn xây dựng và Công an thẩm định theo nội dung được phân công.",
+              "when": "FS/FEED và thiết kế triển khai sau khi dự án được phê duyệt, trước thi công hạng mục thuộc diện.",
+              "work": "Engineering/Fire Safety lập PCCC design basis; bảng a–đ (khoảng cách, giao thông tiếp cận, thoát nạn, chịu lửa/ngăn cháy, chống khói) và e–g (điện phục vụ PCCC, phương tiện/hệ thống PCCC); rà điều khoản gốc trước chốt thiết kế.",
+              "evidence": "PCCC applicability matrix, site plan, phân khu cháy nổ, fire & gas philosophy, firewater design, bản vẽ và thuyết minh.",
+              "clauses": [
+                {
+                  "locator": "NĐ 347/2026/NĐ-CP – Phụ lục III mục 9(a), 9(b)",
+                  "content": "Kho khí hóa lỏng, nhà máy chế biến khí, nhà máy điện và trạm biến áp từ 110 kV nằm trong danh mục thẩm định.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Cong-nghe-thong-tin/Nghi-dinh-347-2026-ND-CP-sua-doi-Nghi-dinh-169-2025-ND-CP-105-2025-ND-CP-106-2025-ND-CP-724038.aspx?tab=3"
+                },
+                {
+                  "locator": "Luật PCCC & CNCH 55/2024/QH15 (bản đã sửa) – Điều 16 khoản 1, Điều 17 khoản 1",
+                  "content": "Yêu cầu thiết kế theo công năng và phân công cơ quan thẩm định theo từng nhóm nội dung.",
+                  "url": "https://qlda.gxd.vn/van-ban/pccc/vbhn-58-2026-vpqh"
+                }
+              ]
+            },
+            {
+              "topic": "Ai thẩm định thiết kế và khi nào?",
+              "status": "Thẩm quyền cụ thể có điều kiện",
+              "conclusion": "Bước FS: cơ quan chuyên môn xây dựng thẩm định nhóm nội dung Điều 16 khoản 1(a–đ) nếu FS thuộc diện thẩm định, lồng ghép với FS. Bước thiết kế sau phê duyệt dự án: chủ đầu tư tổ chức thẩm định phần a–đ theo quy định và cơ quan Công an thẩm định phần e, g đối với công trình thuộc danh mục. Nếu dự án có công trình cấp đặc biệt thì dự kiến Cục Cảnh sát PCCC & CNCH; nếu không thuộc các tiêu chí Cục thì Phòng Cảnh sát PCCC & CNCH Công an tỉnh Thanh Hóa. Không tự chọn cấp Cục chỉ vì 1.500 MW.",
+              "authority": "Cơ quan chuyên môn xây dựng theo NĐ217 Điều 32–33; Công an theo Điều 9 TT36 đã được Điều 8 TT62/2026 sửa đổi; chủ đầu tư chịu trách nhiệm thiết kế, phê duyệt theo phân quyền.",
+              "when": "Trước khởi công hạng mục phải thẩm định; thiết kế thay đổi ảnh hưởng yêu cầu PCCC thì rà thẩm định điều chỉnh trước tiếp tục thi công.",
+              "work": "Lập authority matrix theo từng hạng mục; chốt cấp tổ máy/kho, soát hồ sơ, lấy ý kiến và văn bản thẩm định; nối từng ý kiến với thiết kế đã phê duyệt.",
+              "evidence": "FS và kết quả thẩm định, bộ hồ sơ thiết kế sau phê duyệt, văn bản thẩm định Công an, hồ sơ đóng ý kiến và thay đổi.",
+              "clauses": [
+                {
+                  "locator": "Luật PCCC – Điều 17 khoản 1 điểm b,d,đ; khoản 2–3 (đã sửa bởi Luật 135/2025/QH15)",
+                  "content": "Tách nhóm nội dung FS, thiết kế sau phê duyệt và trách nhiệm chủ đầu tư; cần văn bản thẩm định trước khi thi công thuộc diện.",
+                  "url": "https://vanban.org/van-ban/luat-phong-chay-chua-chay-va-cuu-nan-cuu-ho-2024-55-2024-qh15/dieu-17"
+                },
+                {
+                  "locator": "NĐ 217/2026/NĐ-CP – Điều 74; NĐ105 Điều 6 khoản 1, đã sửa tiếp bởi NĐ347",
+                  "content": "Lồng ghép thẩm định thiết kế PCCC của cơ quan chuyên môn xây dựng trong thẩm định FS.",
+                  "url": "https://m.thuvienphapluat.vn/van-ban/xay-dung-do-thi/Nghi-dinh-217-2026-ND-CP-huong-dan-Luat-Xay-dung-quan-ly-hoat-dong-xay-dung-696494.aspx"
+                },
+                {
+                  "locator": "TT 62/2026/TT-BCA – Điều 8 sửa Điều 9 TT36/2025/TT-BCA",
+                  "content": "Cục thẩm định công trình thuộc dự án có công trình cấp đặc biệt và trường hợp liệt kê tại khoản 1; cấp tỉnh thực hiện phần thuộc thẩm quyền còn lại.",
+                  "url": "https://vanban.org/van-ban/thong-tu-62-2026-tt-bca-phan-cap-cat-giam-don-gian-hoa-thu-tuc-hanh-chinh-bo/dieu-8"
+                }
+              ]
+            },
+            {
+              "topic": "Nghiệm thu PCCC trước vận hành",
+              "status": "Quy định mới từ 15/09/2026",
+              "conclusion": "Không áp nguyên quy trình xin văn bản chấp thuận kết quả nghiệm thu PCCC của Công an như trước. NĐ347 bãi bỏ Điều 10 NĐ105 và sửa Điều 12 khoản 1 điểm đ: chủ đầu tư tổ chức nghiệm thu, chịu trách nhiệm, khai báo trên hệ thống dữ liệu PCCC/CNCH và truyền tin báo cháy trước hoạt động. Vẫn phải thực hiện nghiệm thu công trình và kiểm tra nghiệm thu xây dựng nếu thuộc diện.",
+              "authority": "Chủ đầu tư/chủ sở hữu tổ chức nghiệm thu theo hồ sơ; Engineering và nhà thầu chứng minh kết quả; cơ quan xây dựng kiểm tra nghiệm thu xây dựng riêng nếu thuộc diện.",
+              "when": "Trước đưa hạng mục/công trình vào hoạt động; kiểm lại quy định hiện hành khi commissioning năm 2030.",
+              "work": "Lập test plan, kiểm định/test, biên bản nghiệm thu hệ thống, kiểm soát punch list, chuẩn bị khai báo dữ liệu, chứng minh điều kiện PCCC và xây dựng.",
+              "evidence": "Biên bản nghiệm thu PCCC, test records, hồ sơ hoàn công, bằng chứng khai báo/truyền tin, kết quả kiểm tra nghiệm thu xây dựng nếu thuộc diện.",
+              "clauses": [
+                {
+                  "locator": "NĐ 105/2025/NĐ-CP – Điều 12 khoản 1 điểm đ (sửa bởi NĐ 347/2026/NĐ-CP); Điều 10 bị bãi bỏ",
+                  "content": "Chủ đầu tư nghiệm thu, chịu trách nhiệm và khai báo trước hoạt động; bỏ thủ tục kiểm tra nghiệm thu PCCC theo Điều 10 cũ.",
+                  "url": "https://hocvienpccc.bocongan.gov.vn/blog/quy-dinh-moi-ve-tham-dinh-thiet-ke-nghiem-thu-ve-pccc-theo-nghi-dinh-so-347-2026-nd-cp_7648"
+                },
+                {
+                  "locator": "NĐ 207/2026/NĐ-CP – Điều 25–27",
+                  "content": "Kiểm tra công tác nghiệm thu xây dựng là thủ tục khác, xác định theo loại/cấp công trình.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Nghi-dinh-207-2026-ND-CP-huong-dan-Luat-Xay-dung-quan-ly-chat-luong-thi-cong-xay-dung-701883.aspx?tab=1"
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "name": "Thi công và công tác chủ đầu tư",
@@ -8614,7 +8854,59 @@
           "ND207",
           "Q18",
           "XD"
-        ]
+        ],
+        "assessment": {
+          "status": "Mục tiêu khởi công QII/2027 · chưa chứng minh đủ điều kiện",
+          "findings": [
+            {
+              "topic": "Điều kiện khởi công và giấy phép xây dựng",
+              "status": "Phải kiểm chứng theo từng hạng mục",
+              "conclusion": "Không đồng nhất chấp thuận chủ trương với quyền san lấp/khởi công. Công trình thuộc diện thẩm định tại cơ quan chuyên môn xây dựng có thể được miễn giấy phép theo Điều 43; rà đầy đủ điều kiện miễn, thông báo và hồ sơ riêng. Không mặc định mọi gói đều được miễn.",
+              "authority": "Chủ đầu tư chịu trách nhiệm điều kiện khởi công; Legal/Construction xác định cơ quan quản lý xây dựng và giấy phép theo từng hạng mục; HSE rà điều kiện an toàn và môi trường.",
+              "when": "Trước bàn giao mặt bằng và khởi công từng phần; mục tiêu QII/2027 phụ thuộc hồ sơ thật.",
+              "work": "Tổ chức pre-mobilization gate: đất/mặt bằng, thiết kế đã phê duyệt, hợp đồng, thông báo khởi công, hồ sơ môi trường, PCCC nếu thuộc diện, kiểm soát rủi ro thi công; không cho tiến độ thay bằng chứng.",
+              "evidence": "Legal/Permit Register, giấy phép hoặc căn cứ miễn, bản vẽ đã duyệt, hợp đồng, thông báo khởi công, biên bản bàn giao và điều kiện ĐTM/PCCC.",
+              "clauses": [
+                {
+                  "locator": "Luật Xây dựng 135/2025/QH15 – Điều 43 và Điều 48 khoản 1 điểm a–đ",
+                  "content": "Điều kiện khởi công gồm mặt bằng, giấy phép khi thuộc diện, thiết kế được duyệt, hợp đồng và thông báo khởi công.",
+                  "url": "https://lawplayer.com/vn/act/vn-vbpl-185659"
+                },
+                {
+                  "locator": "NĐ 207/2026/NĐ-CP – Điều 12 khoản 1; Luật Xây dựng Điều 43",
+                  "content": "Đối chiếu điều kiện khởi công theo luật, căn cứ miễn cấp phép phải kiểm theo từng công trình.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Nghi-dinh-207-2026-ND-CP-huong-dan-Luat-Xay-dung-quan-ly-chat-luong-thi-cong-xay-dung-701883.aspx?tab=1"
+                },
+                {
+                  "locator": "Luật PCCC – Điều 17 khoản 3",
+                  "content": "Công trình/hạng mục thuộc diện thẩm định phải có văn bản thẩm định PCCC của cơ quan quản lý chuyên ngành trước thi công.",
+                  "url": "https://vanban.org/van-ban/luat-phong-chay-chua-chay-va-cuu-nan-cuu-ho-2024-55-2024-qh15/dieu-17"
+                }
+              ]
+            },
+            {
+              "topic": "Trách nhiệm HSE chủ đầu tư trong thi công",
+              "status": "Áp dụng khi thi công",
+              "conclusion": "Quản lý an toàn owner-side không thay công việc của EPC. Chủ đầu tư bố trí hệ thống giám sát, điều phối giao diện, can thiệp khi phát hiện dấu hiệu vi phạm; EPC tổ chức thực hiện an toàn công việc.",
+              "authority": "Người quản lý an toàn của chủ đầu tư được giao nhiệm vụ; EPC chịu trách nhiệm biện pháp và tổ chức thi công; Project Director phê duyệt phân quyền và cơ chế escalation.",
+              "when": "Trước huy động nhà thầu và xuyên suốt thi công.",
+              "work": "RACI/authority matrix; kế hoạch assurance theo rủi ro, critical controls, SIMOPS, PTW, NCR/CAPA, escalation; chỉ cho mở lại theo quy trình và đúng người có thẩm quyền.",
+              "evidence": "Quyết định giao nhiệm vụ, contractor HSE plan, hồ sơ giám sát, biên bản dừng việc, CAPA và chứng cứ đóng.",
+              "clauses": [
+                {
+                  "locator": "NĐ 207/2026/NĐ-CP – Điều 16 khoản 2,3,20(a,b,c)",
+                  "content": "Giám sát việc tuân thủ của nhà thầu; phối hợp giữa nhà thầu và xử lý vấn đề; tạm dừng hoặc đình chỉ nếu phát hiện dấu hiệu vi phạm an toàn.",
+                  "url": "https://vanban.org/van-ban/nghi-dinh-207-2026-nd-cp-luat-xay-dung-quan-ly-chat-luong-thi-cong-xay-dung/dieu-16"
+                },
+                {
+                  "locator": "NĐ 207/2026/NĐ-CP – Điều 15 và Điều 20 khoản 1",
+                  "content": "Trách nhiệm nhà thầu thi công và nội dung giám sát xây dựng cần được kiểm theo từng hợp đồng.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Nghi-dinh-207-2026-ND-CP-huong-dan-Luat-Xay-dung-quan-ly-chat-luong-thi-cong-xay-dung-701883.aspx?tab=1"
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "name": "Kho LNG trên bờ & design safety",
@@ -8630,7 +8922,33 @@
           "TC8612",
           "TC8613",
           "IFCLNG"
-        ]
+        ],
+        "assessment": {
+          "status": "Khả năng áp dụng cao · xác nhận kho LNG trên bờ và sức chứa",
+          "findings": [
+            {
+              "topic": "Kho LNG: xác định phạm vi QCVN",
+              "status": "Có điều kiện theo thiết kế",
+              "conclusion": "Phương án đề xuất có kho/cảng LNG, nhưng 3–3,6 triệu tấn/năm là năng lực tiếp nhận, không phải sức chứa tĩnh. QCVN19 áp dụng kho LNG cố định trên bờ sức chứa trên 200 tấn trong phạm vi quy chuẩn. Cảng/đường ống/nhà máy điện cần riêng compliance basis.",
+              "authority": "Chủ đầu tư kho, thiết kế/Technical Authority và EPC thực hiện; cơ quan có thẩm quyền xác định theo hồ sơ chuyên ngành. HSE điều phối, không phê duyệt thay chuyên gia.",
+              "when": "Ngay FEED/FS, khóa design basis trước đặt thiết bị/award EPC.",
+              "work": "Xác minh sức chứa, battery limits, plot plan, tiêu chuẩn thiết kế và version. Review địa kỹ thuật, khí tượng, tác động cộng đồng, phân khu, khoảng cách, ngăn lan, ứng cứu, interface cảng–kho–nhà máy.",
+              "evidence": "Tank data sheet, PFD/P&ID, plot plan, hazard assessment, design compliance matrix, action closure.",
+              "clauses": [
+                {
+                  "locator": "QCVN 19:2022/BCT – Phần I mục 1–2; Phần II mục 2.1–2.3",
+                  "content": "Giới hạn phạm vi quy chuẩn và yêu cầu khảo sát, đánh giá nguy cơ, bố trí an toàn kho LNG.",
+                  "url": "https://vanban.chinhphu.vn/?docid=207203&pageid=27160"
+                },
+                {
+                  "locator": "QCVN 19:2022/BCT – Phần II mục 12.1",
+                  "content": "Chương trình kiểm soát chất lượng phải bao phủ từ thiết kế, chế tạo, thi công, lắp đặt đến chạy thử và nghiệm thu.",
+                  "url": "https://thuvienphapluat.vn/TCVN/Tai-nguyen-Moi-truong/QCVN-19-2022-BCT-An-toan-kho-chua-khi-thien-nhien-hoa-long-LNG-tren-bo-919882.aspx"
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "name": "Hợp đồng EPC, capability và bridging",
@@ -8644,7 +8962,33 @@
           "IOGP",
           "ND210",
           "ND207"
-        ]
+        ],
+        "assessment": {
+          "status": "Chuẩn bị trước HSMT và hợp đồng EPC",
+          "findings": [
+            {
+              "topic": "Ràng buộc HSE trong EPC",
+              "status": "Cần chuẩn bị ngay · mô hình EPC chưa chốt",
+              "conclusion": "Nhà máy, kho/cảng, đường ống, đấu nối có thể chia nhiều gói; phân định trách nhiệm và giao diện trước award. NĐ210 yêu cầu quản lý an toàn, môi trường, cháy nổ theo hợp đồng; IOGP 423 là thông lệ tham khảo, không phải luật bắt buộc.",
+              "authority": "Chủ đầu tư/Procurement/Legal tổ chức yêu cầu hợp đồng, người có thẩm quyền ký; EPC chịu trách nhiệm trong phạm vi được giao; HSE xây yêu cầu và tham gia đánh giá.",
+              "when": "Trước phát hành HSMT/ký hợp đồng; kiểm trước huy động EPC.",
+              "work": "Soạn Employer HSE Requirements, ma trận nghĩa vụ pháp lý chuyển vào EPC, KPI và deliverable, hold points, audit, capability, quyền dừng việc, cơ chế thay đổi; đánh giá năng lực và bridging trước huy động.",
+              "evidence": "HSE contract annex, evaluation matrix, approved design basis, schedule, authority matrix, mobilization readiness.",
+              "clauses": [
+                {
+                  "locator": "NĐ 210/2026/NĐ-CP – Điều 4 khoản 1(b,c), khoản 2(d), khoản 5(a,b)",
+                  "content": "Đồng bộ phạm vi nhiều nhà thầu; quản lý ATLĐ, môi trường và cháy nổ; bên giao thầu kiểm soát các mốc EPC, bên nhận thầu chịu trách nhiệm về thiết kế/thiết bị/công nghệ.",
+                  "url": "https://vanban.org/van-ban/nghi-dinh-210-2026-nd-cp-luat-xay-dung-hop-dong-xay-dung/dieu-4"
+                },
+                {
+                  "locator": "NĐ 207/2026/NĐ-CP – Điều 16 khoản 3,20",
+                  "content": "Thiết lập hệ thống quản lý và giám sát an toàn phía chủ đầu tư; không chuyển hết trách nhiệm cho EPC.",
+                  "url": "https://vanban.org/van-ban/nghi-dinh-207-2026-nd-cp-luat-xay-dung-quan-ly-chat-luong-thi-cong-xay-dung/dieu-16"
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "name": "PSSR / nạp khí lần đầu",
@@ -8658,7 +9002,54 @@
           "IFCLNG",
           "Q19",
           "IOGP"
-        ]
+        ],
+        "assessment": {
+          "status": "Mốc commissioning/first gas và bàn giao · không tự cấp phép",
+          "findings": [
+            {
+              "topic": "PSSR, chạy thử kho LNG và nạp khí lần đầu",
+              "status": "Cần xác định theo hệ thống và phạm vi",
+              "conclusion": "QCVN19 yêu cầu kiểm tra an toàn trước chạy thử/nghiệm thu kho và có kế hoạch thử theo tiêu chuẩn. PSSR là phương pháp quản trị sẵn sàng hữu ích, không mặc định tên thủ tục pháp lý. First gas không đồng nghĩa đã đủ điều kiện vận hành thương mại.",
+              "authority": "Technical Authority, Commissioning Manager, Operations và người có thẩm quyền theo phân quyền chịu quyết định kỹ thuật; HSE kiểm chứng readiness và báo Project Director.",
+              "when": "Trước đưa LNG/năng lượng nguy hiểm vào từng hệ thống, sau khi hoàn thành điều kiện pháp lý và kỹ thuật phù hợp.",
+              "work": "Thiết lập system boundaries, PSSR checklist, kiểm barrier, test chứng minh, MOC, critical punch list, SOP/đào tạo/ứng cứu; xác minh GPMT trước vận hành thử xử lý chất thải nếu thuộc diện, nghiệm thu PCCC theo quy định hiện hành.",
+              "evidence": "PSSR dossier, test records, technical sign-off, emergency drill, permit matrix, giấy phép và điều kiện mở gate.",
+              "clauses": [
+                {
+                  "locator": "QCVN 19:2022/BCT – Phần II mục 12.2–12.3, 13.1",
+                  "content": "Kiểm tra hồ sơ, điều kiện hiện trường và sẵn sàng an toàn trước chạy thử; thử nghiệm theo tiêu chuẩn thiết kế, vận hành theo quy trình và đào tạo.",
+                  "url": "https://thuvienphapluat.vn/TCVN/Tai-nguyen-Moi-truong/QCVN-19-2022-BCT-An-toan-kho-chua-khi-thien-nhien-hoa-long-LNG-tren-bo-919882.aspx"
+                },
+                {
+                  "locator": "Luật BVMT – Điều 42 khoản 2(a), Điều 46 khoản 2–3",
+                  "content": "Nếu thuộc diện, phải có GPMT trước thử nghiệm công trình xử lý chất thải và tuân thủ điều kiện giấy phép.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Van-ban-hop-nhat-98-VBHN-VPQH-2026-Luat-Bao-ve-moi-truong-703759.aspx"
+                },
+                {
+                  "locator": "NĐ105 Điều 12 khoản 1 điểm đ, sửa bởi NĐ347/2026",
+                  "content": "Nghiệm thu PCCC và khai báo theo quy định trước hoạt động; rà luật áp dụng ở thời điểm thực hiện.",
+                  "url": "https://hocvienpccc.bocongan.gov.vn/blog/quy-dinh-moi-ve-tham-dinh-thiet-ke-nghiem-thu-ve-pccc-theo-nghi-dinh-so-347-2026-nd-cp_7648"
+                }
+              ]
+            },
+            {
+              "topic": "Nghiệm thu xây dựng và bàn giao O&M",
+              "status": "Điều kiện theo cấp và đối tượng",
+              "conclusion": "Công trình phải kiểm tra nghiệm thu nhà nước nếu thuộc diện Điều 25 NĐ207. Nếu cấp đặc biệt, thường là cơ quan chuyên môn bộ quản lý chuyên ngành; cảng hàng hải và các ngoại lệ Điều 26 phải tách riêng. Không đồng nhất nghiệm thu PCCC với kiểm tra nghiệm thu xây dựng hoặc giấy phép vận hành điện lực.",
+              "authority": "Chủ đầu tư tổ chức nghiệm thu và bàn giao; cơ quan kiểm tra theo Điều 26 nếu thuộc diện; operator tiếp nhận và thực hiện trách nhiệm chuyên ngành.",
+              "when": "Trước đưa công trình vào khai thác, theo từng hạng mục và phân kỳ.",
+              "work": "Kiểm tra hoàn công, hồ sơ thử nghiệm, thiết bị kiểm định, HSE handover dossier, CAPA, giấy phép chuyên ngành còn thiếu; Legal rà thêm giấy phép hoạt động điện lực, điều kiện cảng, hóa chất và bảo hiểm theo phạm vi thực tế.",
+              "evidence": "Báo cáo hoàn thành, biên bản nghiệm thu, văn bản kiểm tra/chấp thuận nếu thuộc diện, hồ sơ O&M, permit register và trách nhiệm vận hành.",
+              "clauses": [
+                {
+                  "locator": "NĐ 207/2026/NĐ-CP – Điều 25–27 (Điều 26 khoản 1,2)",
+                  "content": "Đối tượng, phân cấp thẩm quyền và trình tự kiểm tra công tác nghiệm thu; cơ quan cấp Bộ kiểm công trình cấp đặc biệt thuộc chuyên ngành, có ngoại lệ.",
+                  "url": "https://thuvienphapluat.vn/van-ban/Xay-dung-Do-thi/Nghi-dinh-207-2026-ND-CP-huong-dan-Luat-Xay-dung-quan-ly-chat-luong-thi-cong-xay-dung-701883.aspx?tab=1"
+                }
+              ]
+            }
+          ]
+        }
       }
     ],
     "practiceDrills": [
@@ -8913,7 +9304,28 @@
         "link": "https://luatvietnam.vn/dien-luc/ke-hoach-408-kh-ubnd-thanh-hoa-2026-theo-doi-tien-do-du-an-nguon-dien-luoi-dien-451990-d2.html",
         "impact": "Nhân sự đã xác nhận tuyển phía nhà đầu tư/chủ đầu tư; vẫn cần hỏi giai đoạn thực tế, pháp nhân ký hợp đồng và phạm vi quyền hạn HSE."
       }
-    ]
+    ],
+    "projectLegal": {
+      "asOf": "25/11/2026",
+      "title": "LNG Nghi Sơn · đánh giá theo phương án vị trí mới",
+      "snapshot": [
+        "Kế hoạch 408/KH-UBND năm 2026, Phụ lục I, mục 5: 1.500 MW, 45.000 tỷ đồng dự kiến; liên danh Xuân Cầu Holdings – Trung Nam được ghi là nhà đầu tư quan tâm. Chủ trương đầu tư tại vị trí cũ đã chấm dứt.",
+        "Phương án Trung Nam trình bày tại KKT Nghi Sơn: núi Chuột Chù, tổ hợp điện khí, kho và cảng LNG, hạ tầng phụ trợ; năng lực tiếp nhận đề xuất 3–3,6 triệu tấn LNG/năm. Không phải dung tích bồn chứa.",
+        "Mốc mục tiêu theo kế hoạch tỉnh: chấp thuận chủ trương/lựa chọn nhà đầu tư tháng 12/2026; khởi công quý II/2027; vận hành dự kiến tháng 12/2030. Mở rộng lên 4.500 MW là kiến nghị, chưa coi là phạm vi đã phê duyệt.",
+        "Chưa xác minh được quyết định đầu tư tại vị trí mới, tọa độ/diện tích đất và biển, công suất từng tổ máy, dung tích bồn, ranh giới dự án cảng/kho/đường ống, pháp nhân được giao và hồ sơ ĐTM/PCCC/GPMT. Không chuyển số liệu địa điểm cũ sang phương án mới."
+      ],
+      "links": [
+        {
+          "label": "Kế hoạch 408/KH-UBND – Phụ lục I, mục 5",
+          "url": "https://luatvietnam.vn/dien-luc/ke-hoach-408-kh-ubnd-thanh-hoa-2026-theo-doi-tien-do-du-an-nguon-dien-luoi-dien-451990-d2.html"
+        },
+        {
+          "label": "Cục Đầu tư nước ngoài – phương án Trung Nam tại núi Chuột Chù",
+          "url": "https://via.gov.vn//tin-tuc/t13612/thanh-hoa-xem-xet-cac-phuong-an-bo-tri-nha-may-dien-khi-lng-nghi-son"
+        }
+      ],
+      "warning": "Đánh giá nghiên cứu từ nguồn công khai, không phải xác nhận pháp lý hoặc trạng thái permit của dự án. Các mốc 2027 phải rà lại văn bản vào ngày nộp hồ sơ; NQ 66.19 có thời hạn đến hết 28/02/2027."
+    }
   },
   "legalClauses": [
     {
