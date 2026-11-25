@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.0.0 — 2026-11-25
+- Thiết kế lại command center: dashboard phạm vi hệ thống, sơ đồ LNG–điện khái niệm, bản đồ vòng đời P0–P5, sidebar nhóm nghiệp vụ, giao diện sáng/tối và responsive.
+- Thêm chế độ Trình chiếu/Làm việc, tìm kiếm toàn hệ thống và liên kết sâu vào quy trình, pháp lý, risk, biểu mẫu và tình huống; cải tiến cấu trúc Critical Risk và điều khoản pháp lý, thanh điều hướng nội dung.
+- Giữ nguyên dữ liệu nghiệp vụ, chức năng và localStorage; không sử dụng KPI giả định như trạng thái vận hành thực tế.
+
 ## 4.4.0 — 2026-11-25
 - Thêm P5 O&M trong Critical Risk: 16 rủi ro mới, 48 critical controls mới, 24 liên hệ O&M với rủi ro gốc. Tổng 44 rủi ro, 132 controls, 35 nguồn.
 - Lọc vận hành theo 5 hệ thống, KPI và nhịp quản trị vận hành; bổ sung QCVN 19 mục 13–14, QCVN 25:2025/BCT, IOGP PSF, IFC Thermal Power, GIIGNL và HSE.
