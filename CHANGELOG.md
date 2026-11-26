@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2 — 2026-11-26
+- Thêm Legal Roadmap có luồng song song; nâng cấp Bow-tie với hàng rào bấm tới chi tiết; process flow 35 quy trình; nhánh GO/HOLD 7 gate; sơ đồ 12 dòng RACI; assurance loop liên kết quy trình.
+- Sơ đồ chỉ đọc, không thay đổi nội dung nguồn, dashboard, NAV, phân quyền hay localStorage. Kiểm thử DOM mô phỏng toàn bộ dữ liệu và luồng điều hướng.
+
 ## 5.1 — 2026-11-25
 - Nâng cấp 11 màn hình con theo nghiệp vụ, giữ nguyên dashboard V5.0 và source/content.json.
 - Thêm chỉ mục nội dung, sơ đồ vai trò, timeline, phân bố risk có lọc, cấu trúc critical controls, phase map, gate register, RACI focus, phân nhóm nguồn, document assurance workspace, phương án tình huống tham chiếu không ghi tiến độ, chỉ mục thuật ngữ.

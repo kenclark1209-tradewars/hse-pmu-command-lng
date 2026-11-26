@@ -158,3 +158,20 @@ console.log("PASS V5.1: 11 workspace headers, governance, timeline, gate map, RA
 assert(html.includes('<span class="brand-credit">Created by: <strong>Nguyễn Thắng</strong></span>'));
 assert(html.includes('<span class="brand-credit compact-credit">Created by: <strong>Nguyễn Thắng</strong></span>'));
 console.log("PASS author attribution: desktop and compact branding");
+
+// V5.2 visual diagrams and links; read-only navigation does not alter local records.
+const vizSaved=store.hse_owner_pmu_playbook_v1;
+click({view:'ownerstart'});assert(elements['#app'].innerHTML.includes('viz-assurance-grid'));assert(elements['#app'].innerHTML.includes('data-jump="task:P2-03"'));
+click({jump:'task:P2-03'});assert(elements['#app'].innerHTML.includes('viz-task-flow'));assert(elements['#app'].innerHTML.includes('id="task-accept"'));assert(elements['#app'].innerHTML.includes('id="task-escalate"'));
+for(const row of data.tasks){click({jump:'task:'+row.id});const s=elements['#app'].innerHTML;assert(s.includes('viz-task-flow'),row.id);assert(s.includes('id="task-step-'+row.steps.length+'"'),row.id);assert.strictEqual((s.match(/class="viz-step-pill"/g)||[]).length,row.steps.length,row.id);}
+click({view:'ownerlegal'});assert.strictEqual((elements['#app'].innerHTML.match(/data-viz-legal="true"/g)||[]).length,7);assert(elements['#app'].innerHTML.includes('SONG SONG'));
+for(let i=0;i<7;i++){click({ownerLegal:String(i),vizLegal:'true'});assert(elements['#app'].innerHTML.includes('mod-legal-assessment'));assert(elements['#app'].innerHTML.includes('LEGAL GATE '+String(i+1).padStart(2,'0')));}
+click({view:'criticalrisk'});click({action:'risk-reset'});
+for(const row of data.criticalRisks){click({risk:row.id});const s=elements['#app'].innerHTML;assert(s.includes('viz-bowtie-layout'),row.id);assert.strictEqual((s.match(/class="viz-barrier"/g)||[]).length,row.controls.length,row.id);for(const c of row.controls){const id='risk-cc-'+c.id.toLowerCase();assert(s.includes('data-scroll="'+id+'"'),id);assert(s.includes('id="'+id+'"'),id);}}
+click({risk:'CR04'});assert(elements['#app'].innerHTML.includes('Chưa có hàng rào giảm nhẹ riêng'));click({risk:'CR14'});assert(elements['#app'].innerHTML.includes('mitigation'));
+click({view:'gates'});assert.strictEqual((elements['#app'].innerHTML.match(/class="viz-decision-core"/g)||[]).length,data.gates.length);assert.strictEqual((elements['#app'].innerHTML.match(/HOLD · CHƯA ĐỦ CĂN CỨ/g)||[]).length,data.gates.length);
+click({view:'raci'});assert(elements['#app'].innerHTML.includes('viz-raci-grid'));
+for(let i=0;i<data.raci.length;i++){change('visualRaciWork',String(i));const s=elements['#app'].innerHTML;assert(s.includes('class="viz-raci-core"'));const expected=['owner','hse','legal','design','epc'].reduce((n,k)=>n+String(data.raci[i][k]).split('/').length,0);assert.strictEqual((s.match(/class="viz-raci-actor /g)||[]).length,expected,String(i));}
+assert.strictEqual(store.hse_owner_pmu_playbook_v1,vizSaved,'Diagrams must not change saved records');
+click({view:'dashboard'});assert(!elements['#app'].innerHTML.includes('viz-panel'));assert(elements['#app'].innerHTML.includes('SYSTEM COVERAGE'));
+console.log("PASS V5.2: 7 legal groups, 44 Bow-tie diagrams/132 linked controls, 35 procedure flows, 7 gate branches, 12 RACI work diagrams, read-only assurance loop, unchanged saved state");
