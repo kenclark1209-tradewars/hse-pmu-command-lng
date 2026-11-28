@@ -5716,6 +5716,81 @@
       "Go/No-go",
       "Quyết định cho phép / chưa cho phép",
       "Quyết định quản trị tại các mốc sẵn sàng, không thay thế giấy phép pháp lý."
+    ],
+    [
+      "BOG",
+      "Boil-off gas",
+      "Khí bay hơi do LNG nhận nhiệt; xem LNG08."
+    ],
+    [
+      "LOPC",
+      "Loss of primary containment",
+      "Mất kín chứa ban đầu của hệ thống công nghệ; xem LNG01."
+    ],
+    [
+      "RPT",
+      "Rapid phase transition / transformation",
+      "Chuyển pha nhanh có thể sinh sóng áp suất khi LNG tiếp xúc nước; xem LNG02."
+    ],
+    [
+      "BLEVE",
+      "Boiling liquid expanding vapor explosion",
+      "Phá hủy cơ học và giãn nở nhanh của chất lỏng đang sôi; xem LNG07."
+    ],
+    [
+      "Geysering",
+      "Dòng hai pha dạng phun/dao động",
+      "Dòng lỏng gián đoạn do LNG đọng nhận nhiệt và sinh hơi; xem LNG05."
+    ],
+    [
+      "Water hammer",
+      "Hydraulic surge / búa thủy lực",
+      "Sóng áp suất quá độ trong hệ thống chất lỏng, không chỉ nước; xem LNG04."
+    ],
+    [
+      "Cooldown",
+      "Làm lạnh có kiểm soát",
+      "Đưa thiết bị về nhiệt độ lạnh sâu theo giới hạn thiết kế; xem LNG06."
+    ],
+    [
+      "TESV",
+      "Thermal expansion safety valve",
+      "Thiết bị bảo vệ quá áp do giãn nở nhiệt của chất lỏng bị giữ kín; xem LNG07."
+    ],
+    [
+      "Rollover",
+      "Mất ổn định phân lớp LNG",
+      "Trộn nhanh các lớp có thể làm BOG tăng mạnh; xem LNG08."
+    ],
+    [
+      "SIS / SIF",
+      "Safety instrumented system / function",
+      "Hệ/chức năng an toàn thiết bị đo thực hiện tác động an toàn theo thiết kế; xem LNG10."
+    ],
+    [
+      "ESD",
+      "Emergency shutdown",
+      "Chức năng dừng khẩn cấp; xem LNG10."
+    ],
+    [
+      "F&G",
+      "Fire and gas detection system",
+      "Hệ thống phát hiện cháy và khí; xem LNG10/LNG13."
+    ],
+    [
+      "ERS / ERC",
+      "Emergency release system / coupling",
+      "Hệ/khớp tách khẩn cấp khi giao nhận; xem LNG12."
+    ],
+    [
+      "LEL·m",
+      "Lower explosive limit × metre",
+      "Đơn vị tích phân theo chiều dài đường đo open-path; không phải nồng độ tại một điểm; xem LNG13."
+    ],
+    [
+      "Purging",
+      "Thổi đuổi môi chất",
+      "Thay thế môi chất theo phương án được duyệt, cần xác minh hiệu quả tại vị trí đại diện; xem LNG03."
     ]
   ],
   "ownerFocus": {
@@ -10331,5 +10406,370 @@
         "P4-01"
       ]
     }
-  ]
+  ],
+  "lngTechnical": {
+    "version": "1.0",
+    "source": {
+      "code": "P09-004",
+      "title": "Liquefied Natural Gas Safety",
+      "author": "Steven Vitale, Ph.D., P.E.",
+      "year": 2025,
+      "publisher": "CED Engineering",
+      "url": "https://www.cedengineering.com/courses/liquefied-natural-gas-safety",
+      "pdfUrl": "https://www.cedengineering.com/userfiles/P09-004%20-%20Liquefied%20Natural%20Gas%20Safety%20-%20US.pdf",
+      "note": "Tài liệu đào tạo kỹ thuật trong bối cảnh Hoa Kỳ; không phải luật Việt Nam, thiết kế, SOP hoặc kết luận đánh giá của LNG Nghi Sơn. Số trang là số in trong tài liệu. Cơ chế là diễn giải chọn lọc; dấu hiệu, câu hỏi assurance, bằng chứng và HOLD là đề xuất tham chiếu của app, cần TA/O&M xác minh."
+    },
+    "notes": [
+      {
+        "id": "LNG01",
+        "title": "Tính chất LNG và đám mây hơi lạnh",
+        "section": "6.1–6.4",
+        "pages": "11–24",
+        "risks": [
+          "CR14",
+          "CR15",
+          "CR19"
+        ],
+        "tasks": [
+          "P0-07",
+          "P1-04",
+          "P3-04"
+        ],
+        "mechanism": "Hơi LNG mới thoát ra có thể lan sát đất do nhiệt độ thấp; khi ấm lên, methane nhẹ hơn không khí. Sương trắng là nước ngưng tụ, không xác định chính xác ranh giới khí cháy. Hơi LNG không có mùi đáng tin để phát hiện.",
+        "signals": "Sương lạnh, báo khí/oxy bất thường hoặc điểm lạnh ngoài dự kiến.",
+        "assurance": "Yêu cầu chuyên gia xác minh phân tán khí, vùng nguy hiểm, độ bao phủ đầu dò và đường thoát nạn.",
+        "evidence": "Dispersion study, QRA, F&G mapping, ERP và diễn tập.",
+        "limit": "Không coi vùng ngoài sương là an toàn; xử lý theo ERP và người có thẩm quyền.",
+        "terms": "vapor cloud cryogenic methane LEL asphyxiation"
+      },
+      {
+        "id": "LNG02",
+        "title": "RPT – chuyển pha nhanh LNG và nước",
+        "section": "6.3.2.1–6.3.2.2",
+        "pages": "13–15",
+        "risks": [
+          "CR14",
+          "CR17",
+          "CR25"
+        ],
+        "tasks": [
+          "P1-07",
+          "P3-04",
+          "P3-06"
+        ],
+        "mechanism": "Nước truyền nhiệt mạnh cho LNG, có thể gây bốc hơi đột ngột và sóng áp suất cơ học. RPT khác với nổ do cháy; không xảy ra trong mọi lần tiếp xúc.",
+        "signals": "Khả năng LNG tràn vào nước tại cầu cảng hoặc tiếp xúc nước trong khu thu gom.",
+        "assurance": "Yêu cầu TA rà kịch bản LNG–nước, thu gom tràn, bảo vệ kết cấu và phương án ứng cứu.",
+        "evidence": "Spill study, impoundment/drainage design, ERP tàu–bờ.",
+        "limit": "Không dùng nước trực tiếp vào vũng LNG; biện pháp ứng cứu theo thiết kế và ERP được duyệt.",
+        "terms": "rapid phase transition transformation RPT"
+      },
+      {
+        "id": "LNG03",
+        "title": "Purging / inerting – khí tồn dư và thiếu oxy",
+        "section": "6.3.3; 6.8",
+        "pages": "22–23; 27–30",
+        "risks": [
+          "CR11",
+          "CR19",
+          "CR22",
+          "CR39"
+        ],
+        "tasks": [
+          "P3-01",
+          "P3-03",
+          "P2-04"
+        ],
+        "mechanism": "Khí thổi đuổi có thể đi theo đường dòng ưu tiên, để lại túi khí trong vùng khó tiếp cận hoặc vật liệu hạt. Nitrogen gây nguy cơ thiếu oxy; mẫu tại một điểm không chứng minh toàn bộ thể tích an toàn.",
+        "signals": "Kết quả đo không đại diện, dead leg hoặc không rõ trạng thái cô lập.",
+        "assurance": "Yêu cầu phương án purge được TA duyệt; xác minh điểm đo, cô lập, hiệu lực kiểm tra khí và cứu hộ.",
+        "evidence": "Purge plan, isolation register, gas-test record, hiệu chuẩn, PTW/PSSR.",
+        "limit": "Không dùng nồng độ minh họa của tài liệu làm ngưỡng release; chỉ người được phân quyền quyết định.",
+        "terms": "purging inerting channeling nitrogen oxygen gas free"
+      },
+      {
+        "id": "LNG04",
+        "title": "Hydraulic surge / water hammer",
+        "section": "6.9.1–6.9.2",
+        "pages": "31–34",
+        "risks": [
+          "CR13",
+          "CR17",
+          "CR18",
+          "CR40"
+        ],
+        "tasks": [
+          "P1-04",
+          "P1-07",
+          "P3-01",
+          "P3-06"
+        ],
+        "mechanism": "Thay đổi lưu lượng đột ngột hoặc sự hình thành và sụp khoang hơi có thể sinh sóng áp suất và tải động lên đường ống, van và gối đỡ. Hiện tượng không chỉ xảy ra với nước.",
+        "signals": "Áp suất quá độ, rung hoặc biến dạng gối đỡ sau sự kiện chuyển trạng thái hệ thống.",
+        "assurance": "Yêu cầu Engineering xác minh phân tích surge, tải động và tương thích chức năng dừng khẩn cấp với bảo vệ cơ khí.",
+        "evidence": "Hydraulic transient study, pipe stress/support review, C&E, hồ sơ thử chức năng.",
+        "limit": "Không sao chép công thức đơn giản hay thời gian đóng van ví dụ để đặt thông số; mọi thay đổi do TA đánh giá.",
+        "terms": "water hammer hydraulic surge condensation hammer"
+      },
+      {
+        "id": "LNG05",
+        "title": "Geysering – dòng hai pha dao động",
+        "section": "6.9.4",
+        "pages": "44",
+        "risks": [
+          "CR16",
+          "CR18",
+          "CR40"
+        ],
+        "tasks": [
+          "P1-04",
+          "P3-01",
+          "P4-01"
+        ],
+        "mechanism": "LNG đọng trong một số cấu hình ống nhận nhiệt và sinh hơi, tạo dòng lỏng gián đoạn; tải động lặp lại có thể làm hư khớp giãn nở và liên kết.",
+        "signals": "Dao động áp suất/lưu lượng, rung hoặc tiếng động bất thường ở nhánh ống lạnh sâu.",
+        "assurance": "Yêu cầu Engineering rà hình học, trạng thái lưu chất, tải động, support/bellows và các trường hợp dừng lâu.",
+        "evidence": "P&ID/isometric, two-phase assessment nếu cần, stress report, trend và inspection.",
+        "limit": "Không chẩn đoán chỉ bằng tiếng động; đưa bất thường tới O&M/TA theo SOP.",
+        "terms": "geysering two phase slug vibration bellows"
+      },
+      {
+        "id": "LNG06",
+        "title": "Cooldown, giòn hóa và quản lý băng",
+        "section": "6.9.5–6.9.7",
+        "pages": "45–47",
+        "risks": [
+          "CR15",
+          "CR17",
+          "CR31",
+          "CR32",
+          "CR40"
+        ],
+        "tasks": [
+          "P1-07",
+          "P3-01",
+          "P3-03",
+          "P3-06",
+          "P4-01"
+        ],
+        "mechanism": "Lạnh sâu có thể làm vật liệu không phù hợp mất độ dai; làm lạnh không đều gây biến dạng và tải cơ học. Băng có thể cản chuyển động các bộ phận hoặc rơi gây thương tích.",
+        "signals": "Nhiệt độ lệch, điểm lạnh hoặc băng bất thường, support bị kẹt hay dịch chuyển.",
+        "assurance": "Yêu cầu TA xác minh vật liệu, ứng suất nhiệt, quy trình cooldown và điều kiện chuyển động của support/arms; quản lý vùng có nguy cơ băng rơi.",
+        "evidence": "Material traceability, stress report, cooldown procedure/trend, support inspection.",
+        "limit": "Không dùng tốc độ cooldown hoặc trình tự mẫu làm điều kiện vận hành dự án.",
+        "terms": "cooldown embrittlement thermal stress ice management"
+      },
+      {
+        "id": "LNG07",
+        "title": "Quá áp, chân không và LNG bị giữ kín",
+        "section": "6.7; 6.10",
+        "pages": "25–27; 47–49",
+        "risks": [
+          "CR16",
+          "CR18",
+          "CR29",
+          "CR39"
+        ],
+        "tasks": [
+          "P1-04",
+          "P3-01",
+          "P3-03"
+        ],
+        "mechanism": "Lỏng bị giữ kín có thể tăng áp khi nhận nhiệt; thiết bị chứa còn cần bảo vệ chênh áp âm theo thiết kế. BLEVE là phá hủy cơ học và giãn nở nhanh của chất lỏng sôi, không đồng nhất cháy nổ hơi; tài liệu lưu ý BLEVE bồn LNG lớn rất khó xảy ra.",
+        "signals": "Tuyến có khả năng giữ lỏng, relief không sẵn sàng hoặc áp suất vượt giới hạn.",
+        "assurance": "Yêu cầu TA rà tình huống blocked-in, thermal expansion, vacuum protection và kiểm soát trạng thái van theo thiết kế.",
+        "evidence": "Relief study, P&ID, PSV/TESV register, valve position control, test record.",
+        "limit": "Không tự chỉnh setpoint, đổi trạng thái van hoặc bypass; HOLD hoạt động phụ thuộc bảo vệ chưa được chứng minh.",
+        "terms": "thermal expansion TESV PSV vacuum BLEVE lock open lock closed"
+      },
+      {
+        "id": "LNG08",
+        "title": "Rollover – phân lớp và tín hiệu BOG",
+        "section": "6.9.3; 6.36",
+        "pages": "34–44; 73",
+        "risks": [
+          "CR16",
+          "CR29",
+          "CR30"
+        ],
+        "tasks": [
+          "P1-07",
+          "P3-01",
+          "P4-01"
+        ],
+        "mechanism": "Các lớp LNG khác mật độ có thể lưu giữ nhiệt khác nhau. Khi mất ổn định phân lớp, sự trộn nhanh giải phóng lượng hơi lớn; nitrogen và weathering cũng có thể liên quan. BOG thấp bất thường là một dấu hiệu cần xem xét, không tự chứng minh phân lớp.",
+        "signals": "BOG lệch baseline, profile mật độ/nhiệt độ bất thường, thay đổi chất lượng lô.",
+        "assurance": "Yêu cầu Terminal/TA xác minh tương thích cargo–inventory, trend, khả năng xử lý BOG và bảo vệ quá áp; đối chiếu GIIGNL.",
+        "evidence": "Cargo quality, compatibility review, tank profiling, BOG trend, relief design basis.",
+        "limit": "Không dùng ngưỡng trong giáo trình làm setpoint hoặc tự điều chỉnh tồn chứa.",
+        "terms": "rollover stratification weathering nitrogen boil off BOG"
+      },
+      {
+        "id": "LNG09",
+        "title": "Chẩn đoán bất thường bồn LNG",
+        "section": "6.2; 6.5–6.6",
+        "pages": "12; 24–25",
+        "risks": [
+          "CR16",
+          "CR30",
+          "CR31",
+          "CR40"
+        ],
+        "tasks": [
+          "P3-01",
+          "P4-01"
+        ],
+        "mechanism": "Tài liệu sử dụng các tình huống bất thường của bồn để nhấn mạnh năng lực nhận biết và xem xét nguyên nhân. Không suy ra nguyên nhân duy nhất từ một chỉ báo như áp suất hay vùng băng.",
+        "signals": "Áp suất hoặc BOG lệch xu hướng; điểm lạnh bất thường ngoài dự kiến.",
+        "assurance": "Đề nghị O&M/TA rà trend, điều kiện thiết kế, cách nhiệt và integrity; đánh giá nguyên nhân có hệ thống.",
+        "evidence": "DCS/BOG trends, tank inspection, design documents, investigation log.",
+        "limit": "Không tiếp cận vị trí nghi rò để xác minh khi chưa đánh giá an toàn; tuân thủ ERP.",
+        "terms": "cold spot tank pressure abnormal integrity"
+      },
+      {
+        "id": "LNG10",
+        "title": "DCS, SIS, F&G và ESD",
+        "section": "6.15–6.16; 6.20",
+        "pages": "53–57; 61–62",
+        "risks": [
+          "CR14",
+          "CR21",
+          "CR22",
+          "CR33",
+          "CR43"
+        ],
+        "tasks": [
+          "P1-04",
+          "P3-01",
+          "P3-02",
+          "P3-03",
+          "P4-01"
+        ],
+        "mechanism": "DCS phục vụ điều khiển quá trình; SIS thực hiện chức năng an toàn theo thiết kế. F&G, ESD, voting và trạng thái an toàn của van phụ thuộc kiến trúc cụ thể. Sơ đồ trong giáo trình chỉ là ví dụ.",
+        "signals": "Alarm/trip, lỗi tín hiệu, bypass, van không đạt trạng thái thiết kế hoặc quá hạn thử.",
+        "assurance": "Yêu cầu TA xác minh SRS, cause & effect, phụ thuộc giữa hệ, fail position, proof test và impairment.",
+        "evidence": "SRS, SIL/LOPA nếu áp dụng, C&E, functional/proof test, bypass register, PSSR.",
+        "limit": "Không dùng số hiệu ESD, voting hoặc logic minh họa làm cấu hình thật; không vô hiệu hóa interlock.",
+        "terms": "DCS BPCS SIS SIF ESD F&G fail safe voting"
+      },
+      {
+        "id": "LNG11",
+        "title": "Mất điện và phụ thuộc tiện ích",
+        "section": "6.16.5–6.17",
+        "pages": "57–59",
+        "risks": [
+          "CR21",
+          "CR33",
+          "CR43"
+        ],
+        "tasks": [
+          "P1-04",
+          "P3-01",
+          "P3-03",
+          "P4-01"
+        ],
+        "mechanism": "Mất nguồn và sự phục hồi điện có thể tác động đến hệ công nghệ và nhu cầu khí. Tài liệu minh họa rủi ro mất nguồn khẩn cấp; khả năng duy trì chức năng phải được kiểm chứng theo thiết kế thực.",
+        "signals": "Nguồn dự phòng lỗi, nhiều hệ mất nguồn, chức năng thiết yếu chưa được thử tích hợp.",
+        "assurance": "Yêu cầu phân tích phụ thuộc chung, danh mục tải thiết yếu, nguồn dự phòng và điều kiện restart.",
+        "evidence": "Utility failure study, single-line diagram, UPS/emergency power test, integrated C&E.",
+        "limit": "Không coi có UPS/máy phát là đủ bằng chứng; restart theo phân quyền và SOP.",
+        "terms": "blackout UPS essential loads common cause"
+      },
+      {
+        "id": "LNG12",
+        "title": "Giao nhận tàu–bờ: ERC/ERS, ESD và neo buộc",
+        "section": "6.18–6.19",
+        "pages": "59–61",
+        "risks": [
+          "CR17",
+          "CR23",
+          "CR25"
+        ],
+        "tasks": [
+          "P1-07",
+          "P3-04",
+          "P3-06"
+        ],
+        "mechanism": "Dừng/cô lập giao nhận và tách khẩn cấp là các chức năng khác nhau. Giáo trình mô tả một quan hệ ERC–ESD cụ thể; không mặc định logic đó cho mọi terminal. Giám sát neo và vị trí tàu hỗ trợ kiểm soát giao diện.",
+        "signals": "Dịch chuyển tàu, tải neo bất thường, mất liên lạc hoặc lỗi chức năng bảo vệ.",
+        "assurance": "Yêu cầu Marine/Terminal/TA xác minh compatibility, giới hạn môi trường, giao diện C&E và thử chức năng.",
+        "evidence": "Ship-shore interface, mooring assessment, pre-transfer checklist, ESD/ERS test.",
+        "limit": "Không sử dụng sơ đồ mẫu thay quy trình giao nhận và tách khẩn cấp đã phê duyệt.",
+        "terms": "ERC PERC ERS ESD ship shore mooring"
+      },
+      {
+        "id": "LNG13",
+        "title": "Phát hiện khí: point detector, open-path và oxy",
+        "section": "6.23–6.24; 6.27",
+        "pages": "64–67; 69–70",
+        "risks": [
+          "CR14",
+          "CR19",
+          "CR21",
+          "CR43"
+        ],
+        "tasks": [
+          "P1-04",
+          "P3-01",
+          "P3-03"
+        ],
+        "mechanism": "Đầu dò điểm phản ánh điều kiện tại vị trí đo; đầu dò open-path tích hợp tín hiệu dọc đường truyền. Một số công nghệ đầu dò phụ thuộc oxy. Đơn vị tích phân không thể đọc như nồng độ tại một điểm.",
+        "signals": "Detector fault, beam bị che, hiệu chuẩn quá hạn hoặc nhầm đơn vị.",
+        "assurance": "Yêu cầu F&G coverage study, kiểm tra lựa chọn công nghệ, fault/alarm, hiệu chuẩn và đáp ứng với khí mục tiêu.",
+        "evidence": "F&G mapping, datasheet, calibration/functional test, fault log, approved alarm matrix.",
+        "limit": "Không lấy setpoint mẫu hoặc việc không có báo động để xác nhận gas-free.",
+        "terms": "open path point detector pellistor IR LEL meter oxygen"
+      },
+      {
+        "id": "LNG14",
+        "title": "Fire protection – phân biệt chức năng bảo vệ",
+        "section": "6.31–6.35",
+        "pages": "72–73",
+        "risks": [
+          "CR14",
+          "CR17",
+          "CR25"
+        ],
+        "tasks": [
+          "P1-04",
+          "P1-07",
+          "P3-04",
+          "P3-06"
+        ],
+        "mechanism": "Tài liệu phân biệt nước làm mát/bảo vệ, foam phù hợp hạn chế truyền nhiệt vào LNG và bột chữa cháy theo kịch bản thiết kế. Nước tiếp xúc trực tiếp vũng LNG có thể làm tăng bốc hơi.",
+        "signals": "Hệ bảo vệ suy giảm, tác nhân không phù hợp hoặc khả năng nước vào vùng tràn.",
+        "assurance": "Yêu cầu Fire Safety/TA xác minh fire scenario, chức năng và phạm vi từng hệ, thử nghiệm, drainage và ERP.",
+        "evidence": "Fire protection philosophy, design/test, impairment register, drill.",
+        "limit": "Không suy diễn phương án dập lửa cho mọi đám cháy; thực hiện ERP và đội ứng cứu chuyên trách.",
+        "terms": "high expansion foam water spray dry chemical fire protection"
+      },
+      {
+        "id": "LNG15",
+        "title": "MOC, quy trình, giao tiếp và kỷ luật cô lập",
+        "section": "6.9; 6.13–6.15; 6.37",
+        "pages": "30–31; 51–54; 73–74",
+        "risks": [
+          "CR19",
+          "CR21",
+          "CR39",
+          "CR41",
+          "CR42",
+          "CR43"
+        ],
+        "tasks": [
+          "P2-04",
+          "P2-07",
+          "P3-02",
+          "P3-03",
+          "P4-01"
+        ],
+        "mechanism": "Tài liệu nhấn mạnh quy trình bình thường/khẩn cấp, bảo trì đúng giấy phép, quản lý thay đổi và giao tiếp không mơ hồ. Năng lực nhận biết bất thường và kỷ luật thực hiện là thành phần an toàn.",
+        "signals": "Thông tin giao ca thiếu, công việc ngoài SOP, thay đổi chưa review hoặc cô lập không rõ.",
+        "assurance": "Rà năng lực, handover, MOC, PTW/LOTO, review alarm và điều kiện khôi phục theo phân quyền.",
+        "evidence": "Training matrix, shift log, MOC/action log, isolation evidence, drill.",
+        "limit": "Không làm tắt vì đã từng an toàn; xác minh hàng rào và quyền release trước tiếp tục.",
+        "terms": "human factors alarm management shift handover MOC LOTO PTW"
+      }
+    ]
+  }
 }

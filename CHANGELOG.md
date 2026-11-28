@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.3 — 2026-11-28
+- Bổ sung 15 chuyên đề kỹ thuật LNG P09-004 có dẫn mục/trang in và liên kết risk/playbook, tìm nhanh, 15 thuật ngữ mới. Phân biệt nội dung giáo trình và đề xuất assurance.
+- Giữ nguyên các bản ghi cũ, dashboard, NAV, scoring, control criteria, nguồn pháp lý, localStorage; nội dung tham khảo không thay thiết kế/SOP/pháp luật.
+
 ## 5.2 — 2026-11-26
 - Thêm Legal Roadmap có luồng song song; nâng cấp Bow-tie với hàng rào bấm tới chi tiết; process flow 35 quy trình; nhánh GO/HOLD 7 gate; sơ đồ 12 dòng RACI; assurance loop liên kết quy trình.
 - Sơ đồ chỉ đọc, không thay đổi nội dung nguồn, dashboard, NAV, phân quyền hay localStorage. Kiểm thử DOM mô phỏng toàn bộ dữ liệu và luồng điều hướng.

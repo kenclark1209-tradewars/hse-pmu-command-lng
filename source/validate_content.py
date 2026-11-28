@@ -98,3 +98,16 @@ assert len(set(r["system"] for r in OP))==5
 assert all(len(r["kpi"])>=3 and r["phases"]==["P5"] for r in OP)
 assert all(r.get("omNote") for r in R if "P5" in r["phases"] and not r.get("system"))
 print("PASS O&M:",len(OP),"new operational risks and 40 related risks")
+
+# V5.3 independent educational reference layer
+T=D["lngTechnical"]
+assert T["source"]["code"]=="P09-004" and T["source"]["year"]==2025
+assert len(T["notes"])==15 and len(D["glossary"])==45
+unique(T["notes"],"id")
+risk_ids={r["id"] for r in R}
+for n in T["notes"]:
+    assert all(n[k] for k in ("title","section","pages","mechanism","signals","assurance","evidence","limit","terms"))
+    assert n["risks"] and set(n["risks"]).issubset(risk_ids)
+    assert n["tasks"] and set(n["tasks"]).issubset(task_ids)
+assert len({g[0] for g in D["glossary"]})==len(D["glossary"])
+print("PASS 15 educational LNG topics, glossary and references")

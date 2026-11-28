@@ -175,3 +175,19 @@ for(let i=0;i<data.raci.length;i++){change('visualRaciWork',String(i));const s=e
 assert.strictEqual(store.hse_owner_pmu_playbook_v1,vizSaved,'Diagrams must not change saved records');
 click({view:'dashboard'});assert(!elements['#app'].innerHTML.includes('viz-panel'));assert(elements['#app'].innerHTML.includes('SYSTEM COVERAGE'));
 console.log("PASS V5.2: 7 legal groups, 44 Bow-tie diagrams/132 linked controls, 35 procedure flows, 7 gate branches, 12 RACI work diagrams, read-only assurance loop, unchanged saved state");
+
+// V5.3 additive education: every cross-link, search and old local records.
+assert.strictEqual(data.lngTechnical.notes.length,15);assert.strictEqual(data.glossary.length,45);
+const lngSaved=store.hse_owner_pmu_playbook_v1;
+for(const n of data.lngTechnical.notes){
+ const target='id="mod-tech-'+n.id.toLowerCase()+'"';
+ for(const rid of n.risks){click({jump:'risk:'+rid});assert(elements['#app'].innerHTML.includes(target),n.id+' '+rid);}
+ for(const tid of n.tasks){click({jump:'task:'+tid});assert(elements['#app'].innerHTML.includes(target),n.id+' '+tid);}
+ click({jump:'tech:'+n.id});assert(elements['#app'].innerHTML.includes(target+' open'),n.id+' search jump');
+}
+click({action:'global-search'});handlers.input({target:{id:'globalSearchInput',value:'geysering'}});assert(elements['#globalSearchResults'].innerHTML.includes('LNG05'));
+click({jump:'tech:LNG05'});assert(elements['#app'].innerHTML.includes('Kiến thức kỹ thuật LNG chuyên sâu'));
+click({view:'glossary'});click({action:'glossary-letter-all'});handlers.input({target:{id:'glossarySearch',value:'geysering'}});assert(elements['#app'].innerHTML.includes('term-code">Geysering'));
+assert.strictEqual(store.hse_owner_pmu_playbook_v1,lngSaved,'Technical references must not alter stored progress');
+click({view:'dashboard'});assert(!elements['#app'].innerHTML.includes('lng-tech-panel'));
+console.log("PASS V5.3: 15 topics, 45 glossary entries, cross-links/search, local state preserved");
